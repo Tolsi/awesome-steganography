@@ -51,6 +51,8 @@
 - [HiddenWave](#hiddenwave)
 - [Audio-Steganography-CLI](#audio-steganography-cli)
 - [stegpy](#stegpy)
+- [steganography-js](#steganography-js)
+- [Steganography-Online](#steganography-online)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1162,5 +1164,29 @@
 **Note:** Multi-format steganography supporting images and WAV audio.
 
 **Star count:** ⭐ 131
+
+---
+
+### steganography-js
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography-js](https://github.com/thavixt/steganography-js) | JavaScript | Browser-based steganography |
+
+**Note:** JavaScript library for web-based image steganography.
+
+**Star count:** ⭐ 12
+
+---
+
+### Steganography-Online
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-Online](https://github.com/StuffJackMakes/Steganography-Online) | JavaScript | Web-based steganography tool |
+
+**Note:** Online steganography tool running in the browser.
+
+**Star count:** ⭐ 4
 
 ---
