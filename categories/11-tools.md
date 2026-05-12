@@ -72,6 +72,9 @@
 - [The-A-Files](#the-a-files)
 - [invisible-watermark-tool](#invisible-watermark-tool)
 - [steganography (subc)](#steganography-subc)
+- [steganos](#steganos)
+- [LSB_Steganography](#lsb_steganography)
+- [steg (surg0r)](#steg-surg0r)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1435,5 +1438,41 @@
 **Note:** Python library for steganography in images and other media.
 
 **Star count:** ⭐ 46
+
+---
+
+### steganos
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganos](https://github.com/fastforwardlabs/steganos) | Python | Early Python steganography library |
+
+**Note:** One of the early Python steganography libraries.
+
+**Star count:** ⭐ 84
+
+---
+
+### LSB_Steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB_Steganography](https://github.com/rahulsinghinfosec/LSB_Steganography) | Python | LSB steganography implementation |
+
+**Note:** Simple LSB steganography tool.
+
+**Star count:** ⭐ 12
+
+---
+
+### steg (surg0r)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steg](https://github.com/surg0r/steg) | Python | Simple steganography tool [archived] |
+
+**Note:** Basic steganography tool for hiding data in images.
+
+**Star count:** ⭐ 10
 
 ---
