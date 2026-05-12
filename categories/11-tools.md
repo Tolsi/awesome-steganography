@@ -57,6 +57,7 @@
 - [image-steganography (goelashwin36)](#image-steganography-goelashwin36)
 - [emimg-GUI](#emimg-gui)
 - [stegosaurus](#stegosaurus)
+- [steganography (gunjannandy)](#steganography-gunjannandy)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1240,5 +1241,17 @@
 **Note:** Modern Python steganography tool with GUI.
 
 **Star count:** —
+
+---
+
+### steganography (gunjannandy)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/gunjannandy/steganography) | Python | LSB steganography with encoding/decoding |
+
+**Note:** Simple Python steganography for hiding messages in images.
+
+**Star count:** ⭐ 61
 
 ---
