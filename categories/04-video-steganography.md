@@ -27,15 +27,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Frame LSB/DCT** | 2000 | Treat each frame as image | Low robustness |
+| **Frame LSB/DCT** | 1999 | Treat each frame as image, apply LSB/DCT embedding | Low robustness [[1]](https://ieeexplore.ieee.org/document/7361355/) |
 
-**State of the art:** Simple but destroyed by video re-encoding.
+**State of the art:** Simple but destroyed by video re-encoding; Chae & Manjunath (1999) is the foundational reference for frame-based video data hiding.
 
 **Production readiness:** Deprecated
+Superseded by codec-domain methods; destroyed by any re-encoding.
 
 **Security status:** Broken — Destroyed by compression
+Any video transcoding or re-encoding removes the hidden data entirely.
 
 **Community acceptance:** Niche
+Historical baseline only; no longer used in practice.
 
 ---
 
@@ -45,15 +48,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Motion Vector** | 2005 | MPEG/H.264/H.265 MV | Medium robustness |
+| **Motion Vector** | 2001 | Modify MV components with minimum distortion | Medium robustness [[1]](https://ieeexplore.ieee.org/document/963053/) [[2]](https://onlinelibrary.wiley.com/doi/10.1155/2022/2946812) |
 
-**State of the art:** More robust than frame-based.
+**State of the art:** More robust than frame-based; Zhang et al. 2001 is foundational; local optimality-based methods (2021+) improve security against steganalysis.
 
 **Production readiness:** Experimental
+Multiple published implementations for H.264/AVC and H.265/HEVC.
 
 **Security status:** Caution
+Motion vector reversion-based steganalysis (arXiv:2310.07121) can detect MV modifications.
 
 **Community acceptance:** Emerging
+Active research area; dozens of papers on MV steganography and steganalysis published annually.
 
 ---
 
@@ -67,15 +73,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Intra Prediction Mode** | 2015 | HEVC 33→35 directions | High robustness |
+| **Intra Prediction Mode** | 2015 | Modify HEVC 35 intra prediction directions | High robustness [[1]](https://ieeexplore.ieee.org/document/10433022/) [[2]](https://www.mdpi.com/1424-8220/20/18/5242) |
 
-**State of the art:** High robustness to re-encoding.
+**State of the art:** High robustness to re-encoding; cover-selection variant (MDPI Sensors 2020) improves security; multi-sized prediction block variant (Springer 2019) increases capacity.
 
 **Production readiness:** Experimental
+Multiple published H.264/H.265 implementations; no production deployments.
 
 **Security status:** Secure
+Survives video re-encoding; IPM-shift steganalysis (IEEE 2024) is the main detection threat.
 
 **Community acceptance:** Emerging
+Growing body of work since 2015; dedicated steganalysis methods now exist.
 
 ---
 
@@ -85,15 +94,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **QP Modulation** | 2010 | Quantization parameter | High robustness |
+| **QP Modulation** | 2010 | Encode bits by selecting QP values at macroblock/CU level | High robustness [[1]](https://link.springer.com/article/10.1007/s00530-021-00763-z) |
 
-**State of the art:** Good resistance to compression.
+**State of the art:** Good resistance to compression; QP choices survive re-encoding in same codec; surveyed in comprehensive video steganography review (Springer Multimedia Systems 2021).
 
 **Production readiness:** Experimental
+Described in research prototypes; no known production implementations.
 
 **Security status:** Secure
+QP-level decisions persist through re-encoding in same codec and bitrate settings.
 
 **Community acceptance:** Emerging
+Covered in video steganography surveys; less studied than MV or IPM-based methods.
 
 ---
 
@@ -103,15 +115,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **CABAC** | 2015 | Entropy coding order | High robustness |
+| **CABAC** | 2015 | Exploit constant-bitrate info bits in MVD codewords | High robustness, no bitrate increase [[1]](https://www.researchgate.net/publication/281717146_A_CABAC_based_HEVCc_video_steganography_algorithm_without_bitrate_increase) |
 
-**State of the art:** Very high robustness.
+**State of the art:** Very high robustness; no bitrate increase by exploiting constant-bitrate information bits (CBIB) in CABAC syntax; operates at entropy coding stage without RDO or full decoding.
 
 **Production readiness:** Experimental
+Research prototype published 2015; no open-source release known.
 
 **Security status:** Secure
+Bitstream-compliant embedding; no bitrate anomaly to detect; operates at the last compression stage.
 
 **Community acceptance:** Niche
+Technically elegant but narrow focus on HEVC CABAC; limited follow-on work compared to MV/IPM methods.
 
 ---
 
@@ -121,15 +136,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **HEVC PU Partition** | 2017 | Partition pattern selection | High robustness |
+| **HEVC PU Partition** | 2018 | Encode bits in P-frame PU partition mode selection | High robustness [[1]](https://www.semanticscholar.org/paper/An-Information-Hiding-Algorithm-for-HEVC-Videos-on-Xie-Yang/65339ef59daa8137ce125eff265ab5318c8f658b) [[2]](https://ieeexplore.ieee.org/document/9672694/) |
 
-**State of the art:** Modern approach with good robustness.
+**State of the art:** Modern approach with good robustness; CNN-based variant (IEEE 2022) improves anti-steganalysis performance; diamond-coded PU variant (IEEE 2021) increases capacity.
 
 **Production readiness:** Experimental
+Multiple published implementations; active research area with annual improvements.
 
 **Security status:** Secure
+PU partition decisions persist through re-encoding; combined-feature steganalysis (Springer 2020) is the main detection threat.
 
 **Community acceptance:** Niche
+Growing sub-field of HEVC steganography since 2018; dedicated steganalysis now exists.
 
 ---
 
@@ -139,17 +157,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **CU Block Steganography** | 2026 | CU split flags, depth selection | High compression robustness |
+| **CU Block Steganography** | 2026 | Multiple CU size + block structure distortion minimization | High compression robustness [[1]](https://arxiv.org/abs/2603.22850) |
 
-**State of the art:** Exploits H.265/HEVC quadtree structure by modifying CU split decisions; maintains video quality while achieving high embedding capacity.
+**State of the art:** Exploits H.265/HEVC quadtree structure by modifying CU split decisions; addresses poor anti-steganalysis of prior CU-based methods via block structure distortion minimization; submitted April 2026.
 
 **Production readiness:** Research
+arXiv preprint only (March/April 2026); no implementation released.
 
-**Implementations:** Academic prototype
-
-**Security status:** Emerging
+**Security status:** Caution
+Improves over prior CU-based methods against steganalysis but dedicated detectors (arXiv:2602.11547) exist for this class.
 
 **Community acceptance:** Niche
+Very recent; builds on emerging CU block structure steganography sub-field.
 
 ---
 
@@ -159,17 +178,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **SemCovert** | 2025 | Semantic-level hiding via deep learning | Robust to semantic transformations |
+| **SemCovert** | 2025 | Deep semantic-level hiding robust to semantic-level transformations | Robust to semantic transformations [[1]](https://arxiv.org/abs/2512.22233) |
 
-**State of the art:** Novel approach leveraging semantic communication for covert transmission.
+**State of the art:** Novel approach leveraging semantic communication for covert transmission; addresses privacy leakage in video semantic communication systems; robust to semantic-level abstractions that defeat traditional steganography.
 
 **Production readiness:** Research
+arXiv preprint (December 2025); academic prototype only.
 
-**Implementations:** Academic prototypes only
-
-**Security status:** Emerging
+**Security status:** Caution
+Novel attack surface; traditional steganalysis tools not applicable but semantic-level analysis may reveal anomalies.
 
 **Community acceptance:** Emerging
+First paper to address steganography at the semantic communication layer; too recent for broad adoption.
 
 ---
 

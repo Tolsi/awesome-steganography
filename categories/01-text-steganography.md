@@ -55,15 +55,21 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **ASCII Art** | 2010 | Character density | Survives printing |
+| **ASCII Art** | 2010 | Character density | Survives printing [[1]](https://wayner.org/node/43) [[2]](https://arxiv.org/abs/1003.1470) |
 
-**State of the art:** Novel approach surviving print.
+**State of the art:** Novel approach surviving print. Peter Wayner's description at wayner.org remains the key reference; the 2010 arXiv survey provides broader context.
 
 **Production readiness:** Experimental
+Works as a proof-of-concept; no mainstream tooling or library support.
+
+**Implementations:**
+- [ascii-steganography](https://github.com/vgmoose/ascii-steganography) ⭐ 18 — Python, hides data in plain ASCII art
 
 **Security status:** Caution
+Visually convincing but detectable by automated density-analysis; printing reduces capacity significantly.
 
-**Community acceptance:** Emerging
+**Community acceptance:** Niche
+Interesting novelty, cited in surveys but rarely used in practice.
 
 ---
 
@@ -73,15 +79,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Change Tracking** | 2007 | Deliberate errors | Word docs |
+| **Change Tracking** | 2007 | Deliberate errors | Word docs [[1]](https://people.cs.nycu.edu.tw/~whtsai/Journal%20Paper%20PDFs/Liu_&_Tsai_IEEE_T_IFS_2007.pdf) |
 
-**State of the art:** Uses Word change tracking.
+**State of the art:** Liu & Tsai (IEEE T-IFS 2007) propose hiding data by introducing synonym-based degradations in a document and tracking the revisions; the change-tracking metadata encodes the payload.
 
 **Production readiness:** Experimental
+Academic prototype; requires Microsoft Word and collaborative editing context.
 
 **Security status:** Caution
+Detectable if an adversary inspects revision metadata or compares against the clean document.
 
 **Community acceptance:** Niche
+Cited in text-steganography surveys but not adopted beyond academic settings.
 
 ---
 
@@ -91,15 +100,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Bacon's Cipher** | 1605 | Bold/italic encode 0/1 | 5 bits/letter |
+| **Bacon's Cipher** | 1605 | Bold/italic encode 0/1 | 5 bits/letter [[1]](https://en.wikipedia.org/wiki/Bacon%27s_cipher) [[2]](https://pi.math.cornell.edu/~morris/135/Bacon.pdf) |
 
-**State of the art:** Classic historical method, still used in puzzles.
+**State of the art:** Classic historical method described by Francis Bacon in *De Augmentis Scientiarum* (1623); still used in CTF puzzles and historical cryptography courses.
 
 **Production readiness:** Deprecated
+Superseded by every modern method; retained only for educational and puzzle contexts.
 
-**Security status:** Broken — Easily detected visually
+**Security status:** Broken
+Trivially detected by visual inspection or font-analysis tools; no practical security.
 
-**Community acceptance:** Niche — Historical importance
+**Community acceptance:** Niche
+Historically significant as an early binary encoding scheme; not used in modern steganography.
 
 ---
 
@@ -109,15 +121,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Null Cipher** | 1901 | Acrostic/first letters | Requires long cover |
+| **Null Cipher** | 1901 | Acrostic/first letters | Requires long cover [[1]](https://en.wikipedia.org/wiki/Null_cipher) [[2]](https://www.garykessler.net/library/steganography.html) |
 
-**State of the art:** Simple but requires careful cover text selection.
+**State of the art:** Ancient acrostic technique; the Wikipedia article and Kessler's steganography overview are the canonical modern references.
 
 **Production readiness:** Deprecated
+Requires careful, labour-intensive cover-text construction; no automated tooling.
 
-**Security status:** Broken — Detectable by statistical analysis
+**Security status:** Broken
+Detectable by statistical analysis of first-letter frequency distributions.
 
 **Community acceptance:** Niche
+Historically notable (used in WWI/WWII messages); purely educational today.
 
 ---
 
@@ -127,9 +142,21 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Whitespace coding** | 1998 | Trailing spaces (1=0, 2=1) | 1 bit/line |
+| **Whitespace coding (SNOW)** | 1998 | Trailing spaces/tabs at end of lines | ~3 bits per 8 columns [[1]](https://darkside.com.au/snow/) |
 
-**State of the art:** Simple but easily detectable. Limited capacity but works in any text format.
+**State of the art:** SNOW (Steganographic Nature Of Whitespace) by Matthew Kwan (1998) is the canonical implementation; simple but easily detectable. Limited capacity but works in any plain-text format.
+
+**Production readiness:** Mature
+SNOW is a stable, long-standing tool available on most Unix systems as `stegsnow`.
+
+**Implementations:**
+- [snow](https://github.com/mattkwan-zz/snow) ⭐ 50 — C, original SNOW by Matthew Kwan
+
+**Security status:** Caution
+Invisible to human readers but trivially detected by checking trailing whitespace; any text editor or diff tool reveals it.
+
+**Community acceptance:** Widely trusted
+One of the oldest and best-known text steganography tools; standard CTF challenge technique.
 
 ---
 
@@ -139,9 +166,21 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Zero-width Unicode** | 2005 | U+200B, U+200C, U+200D, U+FEFF | ~2-3 bit/char |
+| **Zero-width Unicode** | 2005 | U+200B, U+200C, U+200D, U+FEFF | ~2-3 bit/char [[1]](https://330k.github.io/misc_tools/unicode_steganography.html) |
 
-**State of the art:** Popular for CTF challenges. Easily detected by regex.
+**State of the art:** Popular for CTF challenges and document fingerprinting. Easily detected by regex or Unicode inspection tools.
+
+**Production readiness:** Experimental
+Widely used for document watermarking and leak detection; no formal standard.
+
+**Implementations:**
+- [zwsp-steg-js](https://github.com/offdev/zwsp-steg-js) ⭐ 153 — JavaScript, encode/decode hidden messages using zero-width spaces
+
+**Security status:** Caution
+Invisible to readers but trivially detected with a Unicode code-point dump or simple regex filter.
+
+**Community acceptance:** Widely trusted
+Standard technique in CTF competitions and document-leak tracking; broadly understood.
 
 ---
 
@@ -151,9 +190,21 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Homoglyphs** | 2000 | Cyrillic а→a, Greek ο→o | 1 bit/char |
+| **Homoglyphs** | 2000 | Cyrillic а→a, Greek ο→o | 1 bit/char [[1]](https://link.springer.com/chapter/10.1007/978-3-319-22915-7_26) |
 
-**State of the art:** Visually indistinguishable but detectable via script analysis.
+**State of the art:** "Dual Stage Text Steganography Using Unicode Homoglyphs" (SSCC 2015, Hosmani et al.) is the key academic reference. Visually indistinguishable but detectable via Unicode script analysis.
+
+**Production readiness:** Experimental
+Used for document fingerprinting and leak detection in practice; no standardised library.
+
+**Implementations:**
+- [stegtext](https://github.com/btimby/stegtext) ⭐ 3 — Python, homoglyph substitution steganography
+
+**Security status:** Caution
+Detected by Unicode normalization, script-mixing analysis, or copy-paste into an ASCII-only context.
+
+**Community acceptance:** Niche
+Recognised in security research and CTF; practical use is mainly document watermarking.
 
 ---
 
@@ -167,15 +218,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Chaffing** | 1998 | MAC authentication | Rivest |
+| **Chaffing** | 1998 | MAC authentication | Rivest [[1]](https://people.csail.mit.edu/rivest/pubs/Riv98a.prepub.txt) |
 
-**State of the art:** Unique authentication-based approach.
+**State of the art:** Ron Rivest's 1998 paper "Chaffing and Winnowing: Confidentiality without Encryption" remains the definitive reference. Unique authentication-based approach that achieves confidentiality without traditional encryption.
 
 **Production readiness:** Mature
+Well-studied theoretical technique; practical implementations exist but niche.
 
 **Security status:** Secure
+Security rests on the MAC; an attacker without the key cannot distinguish wheat from chaff.
 
 **Community acceptance:** Widely trusted
+Peer-reviewed, broadly cited in cryptography literature; recognised by Bruce Schneier and others.
 
 ---
 
@@ -185,15 +239,21 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Mimic Functions** | 1992 | CFG where generated text encodes bits | Wayner |
+| **Mimic Functions** | 1992 | CFG where generated text encodes bits | Wayner [[1]](https://www.tandfonline.com/doi/abs/10.1080/0161-119291866883) |
 
-**State of the art:** Early approach, text often sounds unnatural.
+**State of the art:** Peter Wayner's 1992 Cryptologia paper is the canonical reference. SpamMimic (spammimic.com) is the best-known practical demonstration. Text often sounds unnatural; largely superseded by LLM-based methods.
 
 **Production readiness:** Deprecated
+Superseded by neural generative methods; SpamMimic is still online but purely for demonstration.
 
-**Security status:** Low — Detectable as machine-generated
+**Implementations:**
+- [SpamMimic](https://www.spammimic.com/) — online demo, encodes messages as spam-like text (original Wayner CFG approach)
 
-**Community acceptance:** Low — Historical importance only
+**Security status:** Broken
+Generated text is statistically detectable as machine-generated; structural patterns are obvious to modern classifiers.
+
+**Community acceptance:** Niche
+Historically important as the first generative steganography approach; cited in every linguistic steganography survey.
 
 ---
 
@@ -246,15 +306,18 @@
 
 | Algorithm | Year | Description |
 |-----------|------|-------------|
-| **ChatStega** | 2024 | Sampling with different top-p/temperature in ChatGPT |
+| **ChatStega** | 2024 | Sampling with different top-p/temperature in ChatGPT [[1]](https://dl.acm.org/doi/10.1145/3664476.3670930) |
 
-**State of the art:** Simple but depends on LLM sampling randomness.
+**State of the art:** "Natural Language Steganography by ChatGPT" (ARES 2024, Steinebach) demonstrates using ChatGPT 4.0 to generate stego covers. Simple but depends on LLM sampling randomness.
 
 **Production readiness:** Experimental
+Demonstrated in academic paper; no production tooling.
 
-**Security status:** Caution — Detectable with access to sampling seed
+**Security status:** Caution
+Detectable with access to the sampling seed or when stego covers are compared statistically against normal ChatGPT output.
 
-**Community acceptance:** Emerging — Growing interest in practical LLM steganography
+**Community acceptance:** Emerging
+Growing interest in practical LLM steganography; limited peer review so far.
 
 ---
 
@@ -264,15 +327,18 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Blog-Stego** | 2011 | Fractionalized + blog selection | Key = blog set |
+| **Blog-Stego** | 2011 | Fractionalized + blog selection | Key = blog set [[1]](https://en.wikipedia.org/wiki/List_of_steganography_techniques) [[2]](https://cacm.acm.org/magazines/2014/3/172511-trends-in-steganography/fulltext) |
 
-**State of the art:** Uses blogosphere as carrier.
+**State of the art:** Described in the steganography techniques literature and surveyed in "Trends in Steganography" (CACM 2014); encrypted message fragments are posted as comments on pre-agreed orphaned blogs, with the set of blogs acting as the symmetric key.
 
 **Production readiness:** Experimental
+No known production implementation; described as a concept in surveys.
 
-**Security status:** Secure — Distributed
+**Security status:** Secure
+Distributed nature makes traffic analysis hard; security relies on key (blog set) secrecy and encryption of payload.
 
 **Community acceptance:** Niche
+Mentioned in academic surveys; no tooling or adoption beyond conceptual description.
 
 ---
 
