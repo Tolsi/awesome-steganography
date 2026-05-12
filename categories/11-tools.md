@@ -58,6 +58,9 @@
 - [emimg-GUI](#emimg-gui)
 - [stegosaurus](#stegosaurus)
 - [steganography (gunjannandy)](#steganography-gunjannandy)
+- [zwsp-steg-py](#zwsp-steg-py)
+- [steganography-png-decoder](#steganography-png-decoder)
+- [steganography (atbuy)](#steganography-atbuy)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1253,5 +1256,41 @@
 **Note:** Simple Python steganography for hiding messages in images.
 
 **Star count:** ⭐ 61
+
+---
+
+### zwsp-steg-py
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [zwsp-steg-py](https://github.com/enodari/zwsp-steg-py) | Python | Zero-width character steganography |
+
+**Note:** Python implementation of zero-width character steganography.
+
+**Star count:** ⭐ 39
+
+---
+
+### steganography-png-decoder
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography-png-decoder](https://github.com/s373r/steganography-png-decoder) | Python | PNG steganography decoder |
+
+**Note:** Tool specifically for decoding PNG steganography.
+
+**Star count:** ⭐ 17
+
+---
+
+### steganography (atbuy)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/atbuy/steganography) | Python | Basic steganography encoder/decoder |
+
+**Note:** Simple steganography tool for encoding and decoding messages.
+
+**Star count:** ⭐ 6
 
 ---
