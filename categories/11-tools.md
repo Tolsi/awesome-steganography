@@ -75,6 +75,7 @@
 - [steganos](#steganos)
 - [LSB_Steganography](#lsb_steganography)
 - [steg (surg0r)](#steg-surg0r)
+- [fractal-image-steganography](#fractal-image-steganography)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1474,5 +1475,17 @@
 **Note:** Basic steganography tool for hiding data in images.
 
 **Star count:** ⭐ 10
+
+---
+
+### fractal-image-steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [fractal-image-steganography](https://github.com/supremepanda/fractal-image-steganography) | Python | Fractal-based image steganography |
+
+**Note:** Uses fractal algorithms for image steganography.
+
+**Star count:** ⭐ 3
 
 ---
