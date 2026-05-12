@@ -109,6 +109,8 @@
 - [iodine](#iodine)
 - [dnscat2](#dnscat2)
 - [dns2tcp](#dns2tcp)
+- [covertovert](#covertovert)
+- [covert-tube](#covert-tube)
 
 **[Filesystem & OS](#filesystem--os)**
 - [bmap](#bmap)
@@ -951,6 +953,30 @@
 **Note:** TCP tunneling through DNS with 10-50 KB/s.
 
 **Star count:** ⭐ 289
+
+---
+
+### covertovert
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [covertovert](https://github.com/cengwins/covertovert) | Python | Covert channel framework |
+
+**Note:** Framework for creating and detecting covert channels.
+
+**Star count:** ⭐ 1
+
+---
+
+### covert-tube
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [covert-tube](https://github.com/ricardojoserf/covert-tube) | Python | YouTube-based covert channel |
+
+**Note:** Covert channel implementation using YouTube.
+
+**Star count:** ⭐ 105
 
 ---
 
