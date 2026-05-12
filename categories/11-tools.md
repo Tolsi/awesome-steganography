@@ -34,6 +34,8 @@
 - [steganography (mykeels)](#steganography-mykeels)
 - [steganography (arjunsr)](#steganography-arjunsr)
 - [Steganography (hktaskin)](#steganography-hktaskin)
+- [emocrypt](#emocrypt)
+- [StegoDisk](#stegodisk)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -545,6 +547,30 @@
 **Note:** Simple steganography implementation.
 
 **Star count:** —
+
+---
+
+### emocrypt
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [emocrypt](https://github.com/degaart/emocrypt) | Python | Emoji-based steganography (2022) |
+
+**Note:** Steganography using emojis to hide messages.
+
+**Star count:** ⭐ 37
+
+---
+
+### StegoDisk
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegoDisk](https://github.com/MatusKysel/StegoDisk) | Go | Go steganography library (2026) |
+
+**Note:** Steganography library for disk files.
+
+**Star count:** ⭐ 8
 
 ---
 
