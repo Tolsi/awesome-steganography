@@ -2547,3 +2547,51 @@
 **Star count:** ⭐ 89
 
 ---
+
+### Bramble (marcrowProject)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Bramble](https://github.com/marcrowProject/Bramble) | Python | Steganography tool for image processing |
+
+**Note:** Image steganography using various techniques.
+
+**Star count:** ⭐ 84
+
+---
+
+### Final-year-Project-steganography (Vatshayan)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Final-year-Project-steganography](https://github.com/Vatshayan/Final-year-Project-steganography) | Python | Academic steganography project |
+
+**Note:** Educational steganography implementation.
+
+**Star count:** ⭐ 82
+
+---
+
+### ultrasonic (ruvnet)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ultrasonic](https://github.com/ruvnet/ultrasonic) | Python | Ultrasonic steganography for data exfiltration |
+
+**Note:** Steganography using ultrasonic sound frequencies.
+
+**Star count:** ⭐ 83
+
+---
+
+### NativePayload_Image (DamonMohammadbagher)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [NativePayload_Image](https://github.com/DamonMohammadbagher/NativePayload_Image) | PowerShell | Image-based payload delivery via steganography |
+
+**Note:** Steganography for red team operations.
+
+**Star count:** ⭐ 81
+
+---
