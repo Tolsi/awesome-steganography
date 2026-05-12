@@ -114,6 +114,8 @@
 - [Ectoplasm-Steganography](#ectoplasm-steganography)
 - [stegator](#stegator)
 - [PacketWhisper](#packetwhisper)
+- [Dissembling-Ferret](#dissembling-ferret)
+- [StegoAuth](#stegoauth)
 
 **[Filesystem & OS](#filesystem--os)**
 - [bmap](#bmap)
@@ -1016,6 +1018,30 @@
 **Note:** Transforms data into packet timing patterns for covert communication.
 
 **Star count:** ⭐ 650
+
+---
+
+### Dissembling-Ferret
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Dissembling-Ferret](https://github.com/clayball/Dissembling-Ferret) | Python | Protocol steganography tool |
+
+**Note:** Tool for steganography in network protocols.
+
+**Star count:** ⭐ 12
+
+---
+
+### StegoAuth
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegoAuth](https://github.com/LabunskyA/StegoAuth) | Python | Authentication protocol steganography |
+
+**Note:** Proof-of-concept for steganography-based authentication.
+
+**Star count:** ⭐ 4
 
 ---
 
