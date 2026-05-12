@@ -11,6 +11,8 @@
 - [ASCII Art Steganography](01-text-steganography.md#ascii-art-steganography)
 - [Auto-Stega](01-text-steganography.md#auto-stega)
 - [Addressing Tokenization Inconsistency](01-text-steganography.md#addressing-tokenization-inconsistency)
+- [Aletheia](10-steganalysis.md#aletheia)
+- [audio-steganography-algorithms](03-audio-steganography.md#audio-steganography-algorithms)
 
 ## B
 - [BPCS](02-image-steganography.md#bpcs)
@@ -64,6 +66,7 @@
 - [File Slack](06-filesystem-os.md#file-slack)
 - [FuzzyStego](02-image-steganography.md#fuzzystego)
 - [Foveation Steganography](02-image-steganography.md#foveation-steganography)
+- [fraud-bridge](05-network-steganography.md#fraud-bridge)
 
 ## G
 - [GIFDL](02-image-steganography.md#gifdl-generated-image-fluctuation-distortion-learning)
@@ -87,6 +90,7 @@
 - [HHO-Optimized Audio Steganography](03-audio-steganography.md#hho-optimized-audio-steganography)
 - [HUGO](02-image-steganography.md#hugo)
 - [Hydan](06-filesystem-os.md#control-flow-steganography)
+- [hans](05-network-steganography.md#hans)
 - [Hysteria 2](08-traffic-obfuscation.md#hysteria-2)
 
 ## I
@@ -100,7 +104,9 @@
 - [iodine](05-network-steganography.md#iodine)
 - [IPD Encoding](05-network-steganography.md#ipd-encoding)
 - [IPv4/IPv6 Headers](05-network-steganography.md#ipv4ipv6-headers)
+- [icmptunnel](05-network-steganography.md#icmptunnel)
 - [Intelligent Carrier Allocation](02-image-steganography.md#intelligent-carrier-allocation)
+- [invisible-watermark](02-image-steganography.md#invisible-watermark)
 
 ## J
 - [JSteg](02-image-steganography.md#jsteg)
@@ -119,6 +125,7 @@
 - [LSB Audio](03-audio-steganography.md#lsb-audio)
 - [LSB Matching](02-image-steganography.md#lsb-matching)
 - [LSB Replacement](02-image-steganography.md#lsb-replacement)
+- [LSB Steganography (ragibson)](02-image-steganography.md#lsb-steganography-ragibson)
 
 ## M
 - [MDCT-domain](03-audio-steganography.md#mdct-domain)
@@ -147,6 +154,7 @@
 - [obfs4](08-traffic-obfuscation.md#obfs4)
 - [OD-Stega](01-text-steganography.md#od-stega)
 - [Opus-stego](03-audio-steganography.md#opus-stego)
+- [OpenStego](02-image-steganography.md#openstego)
 - [OutGuess](02-image-steganography.md#outguess)
 - [On the Possible Detectability of Image-in-Image Steganography](02-image-steganography.md#on-the-possible-detectability-of-image-in-image-steganography)
 - [Optimizing Region of Interest Selection](04-video-steganography.md#optimizing-region-of-interest-selection)
@@ -162,6 +170,7 @@
 - [PVD](02-image-steganography.md#pvd)
 - [Prediction Error Expansion](02-image-steganography.md#prediction-error-expansion)
 - [Printer Steganography](09-physical-social.md#printer-steganography)
+- [ptunnel-ng](05-network-steganography.md#ptunnel-ng)
 
 ## Q
 - [QIM](02-image-steganography.md#qim)
@@ -221,6 +230,11 @@
 - [SVD](02-image-steganography.md#svd)
 - [Secure Audio Embedding in Images](02-image-steganography.md#secure-audio-embedding-in-images)
 - [Splats in Splats++](07-coverless-generative.md#splats-in-splats)
+- [Stegano](02-image-steganography.md#stegano)
+- [Stegdetect](10-steganalysis.md#stegdetect)
+- [StegExpose](10-steganalysis.md#stegexpose)
+- [Stegify](02-image-steganography.md#stegify)
+- [StegoForge](10-steganalysis.md#stegoforge)
 - [Structural Attack](10-steganalysis.md#structural-attack)
 - [Training-Free Coverless Multi-Image Steganography](07-coverless-generative.md#training-free-coverless-multi-image-steganography)
 

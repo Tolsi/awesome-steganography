@@ -1,7 +1,7 @@
 # Network Steganography
 
 <!-- TOC -->
-## Contents (63 algorithms)
+## Contents (67 algorithms)
 
 **[Header Fields](#header-fields)**
 - [IPv4/IPv6 Headers](#ipv4ipv6-headers)
@@ -1372,6 +1372,102 @@ DPI and behavioral analysis can detect covert channels; encrypted payload adds c
 
 **Community acceptance:** Emerging
 Rapidly growing interest since 2024 release; not yet peer-reviewed.
+
+---
+
+### icmptunnel
+
+**Goal:** Tunnel IP traffic transparently over ICMP echo/reply packets to bypass firewalls that block all traffic except ping.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **icmptunnel** | 2015 | IP-in-ICMP payload encapsulation | Creates TUN interface; fully transparent TCP/UDP over ping [[1]](https://github.com/DhavalKapil/icmptunnel) |
+
+**State of the art:** Most widely referenced open-source ICMP tunnel. Encapsulates full IP packets inside ICMP payload. Requires root on both ends; works across strict firewalls that permit ping.
+
+**Production readiness:** Mature
+Stable C implementation; well-documented setup; used in penetration testing.
+
+**Implementations:**
+- [DhavalKapil/icmptunnel](https://github.com/DhavalKapil/icmptunnel) ⭐ 3.3k — C
+
+**Security status:** Caution
+Detectable by DPI inspecting ICMP payload size and rate anomalies. Not encrypted by default — combine with VPN payload.
+
+**Community acceptance:** Widely trusted
+Most-starred open-source ICMP tunnel; referenced in network steganography research and pentesting courses.
+
+---
+
+### ptunnel-ng
+
+**Goal:** Tunnel reliable TCP connections through ICMP echo/reply packets with password authentication and reverse tunneling support.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **ptunnel-ng** | 2017 | TCP-over-ICMP with HMAC authentication | Password protection; reverse tunnel mode; successor to original ptunnel [[1]](https://github.com/utoni/ptunnel-ng) |
+
+**State of the art:** Modernized successor to the original ptunnel (2004). Adds HMAC-MD5 authentication and reverse tunneling. Widely used in penetration testing engagements.
+
+**Production readiness:** Mature
+Actively maintained; packaged in Kali Linux.
+
+**Implementations:**
+- [utoni/ptunnel-ng](https://github.com/utoni/ptunnel-ng) ⭐ 576 — C
+
+**Security status:** Caution
+ICMP traffic pattern detectable by DPI; payload not encrypted (use with SSH forwarding over the tunnel).
+
+**Community acceptance:** Widely trusted
+Included in Kali Linux; standard tool for ICMP covert channel demonstrations.
+
+---
+
+### hans
+
+**Goal:** Tunnel IP over ICMP (like icmptunnel) with client/server mode, multiple simultaneous clients, and optional password authentication.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **hans** | 2009 | IP-over-ICMP with multi-client server mode | Handles multiple clients; password auth; Linux and macOS support [[1]](https://github.com/friedrich/hans) |
+
+**State of the art:** Alternative to icmptunnel with multi-client support. Creates TUN/TAP interface. Useful where icmptunnel's single-client limitation is a constraint.
+
+**Production readiness:** Mature
+Stable; no active development since 2014 but well-tested.
+
+**Implementations:**
+- [friedrich/hans](https://github.com/friedrich/hans) ⭐ 472 — C++
+
+**Security status:** Caution
+Same ICMP covert channel detectability as icmptunnel; password auth prevents unauthorized use.
+
+**Community acceptance:** Niche
+Alternative to icmptunnel; used in scenarios requiring multi-client ICMP tunneling.
+
+---
+
+### fraud-bridge
+
+**Goal:** Covert tunnel over ICMP, DNS, or NTP protocols supporting both IPv4 and IPv6, designed for bypassing restrictive firewalls.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **fraud-bridge** | 2019 | Multi-protocol covert relay (ICMP/DNS/NTP over IPv4/IPv6) | Protocol agnostic; swap transport without changing endpoints [[1]](https://github.com/stealth/fraud-bridge) |
+
+**State of the art:** Unique multi-protocol approach — use ICMP, DNS, or NTP as covert transport interchangeably. IPv6 support differentiates it from icmptunnel/hans. Designed for adversarial bypass scenarios.
+
+**Production readiness:** Experimental
+Active development; targeted at advanced users and security researchers.
+
+**Implementations:**
+- [stealth/fraud-bridge](https://github.com/stealth/fraud-bridge) ⭐ 233 — C++
+
+**Security status:** Caution
+Protocol diversity makes it harder to block; each transport detectable by dedicated DPI signatures.
+
+**Community acceptance:** Niche
+Used in offensive security research; less mainstream than icmptunnel but covers more protocols.
 
 ---
 

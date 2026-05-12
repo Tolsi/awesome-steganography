@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (227 algorithms)
+## Contents (232 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -5032,6 +5032,126 @@ Detectable by stegdetect and stegbreak dictionary attacks; known detection finge
 
 **Community acceptance:** Niche
 Historical significance; used in CTF challenges as a known target format.
+
+---
+
+### OpenStego
+
+**Goal:** Java GUI and CLI tool for data hiding and invisible digital watermarking in PNG/BMP images.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **OpenStego** | 2006 | LSB substitution + random seed scattering | GUI + CLI; supports watermark verification mode [[1]](https://github.com/syvaidya/openstego) |
+
+**State of the art:** Most popular open-source Java stego tool. Supports two modes: data hiding and watermarking. Active development; PNG output.
+
+**Production readiness:** Mature
+Stable; widely referenced in tutorials and CTF write-ups.
+
+**Implementations:**
+- [syvaidya/openstego](https://github.com/syvaidya/openstego) ⭐ 1.4k — Java, GUI + CLI
+
+**Security status:** Caution
+LSB-based; detectable by RS analysis and stegoVeritas. Watermark mode fragile against recompression.
+
+**Community acceptance:** Widely trusted
+Longest-running open-source image stego tool; included in stego-toolkit Docker container.
+
+---
+
+### invisible-watermark
+
+**Goal:** Embed and extract invisible watermarks in images using frequency-domain transforms (DWT-DCT and RivaGAN).
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **invisible-watermark** | 2020 | DWT-DCT and RivaGAN blind watermarking | Robust to JPEG compression, resize, and noise [[1]](https://github.com/ShieldMnt/invisible-watermark) |
+
+**State of the art:** Leading Python library for production-grade invisible watermarking. Supports dwtDct (fragile) and RivaGAN (robust) backends. Used by Stable Diffusion and other generative AI pipelines.
+
+**Production readiness:** Production
+Used in production AI image pipelines for provenance tracking.
+
+**Implementations:**
+- [ShieldMnt/invisible-watermark](https://github.com/ShieldMnt/invisible-watermark) ⭐ 1.9k — Python, `pip install invisible-watermark`
+
+**Security status:** Caution
+RivaGAN robust to common transforms but removable via adversarial attacks. dwtDct mode is fragile.
+
+**Community acceptance:** Widely trusted
+Adopted by major generative AI tools; most widely used Python watermarking library.
+
+---
+
+### Stegify
+
+**Goal:** CLI tool to hide any file inside an image using LSB steganography, written in Go with zero dependencies.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Stegify** | 2019 | LSB encoding across all three RGB channels | Single binary; encode/decode in one command [[1]](https://github.com/DimitarPetrov/stegify) |
+
+**State of the art:** Lightweight Go CLI for basic LSB image stego. Supports PNG, JPEG, GIF. Library API also available.
+
+**Production readiness:** Mature
+Stable; no external dependencies; cross-platform binary.
+
+**Implementations:**
+- [DimitarPetrov/stegify](https://github.com/DimitarPetrov/stegify) ⭐ 1.3k — Go, `go install github.com/DimitarPetrov/stegify@latest`
+
+**Security status:** Caution
+Standard LSB; detectable by statistical analysis tools.
+
+**Community acceptance:** Niche
+Popular in Go community; frequently cited in stego tutorials.
+
+---
+
+### Stegano
+
+**Goal:** Pure Python library for LSB image steganography with multiple pixel-selection patterns including prime scatter (Sieve of Eratosthenes).
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Stegano** | 2010 | LSB with configurable scatter: sequential, primes, Fermat, Fibonacci | Non-sequential embedding raises detectability bar [[1]](https://github.com/cedricbonhomme/Stegano) |
+
+**State of the art:** Most feature-rich pure-Python stego library. Supports multiple scatter generators beyond sequential LSB. Included in stego-toolkit Docker container as `stegano`.
+
+**Production readiness:** Mature
+Stable; actively maintained; pip-installable.
+
+**Implementations:**
+- [cedricbonhomme/Stegano](https://github.com/cedricbonhomme/Stegano) ⭐ 589 — Python, `pip install stegano`
+
+**Security status:** Caution
+Non-sequential scatter increases difficulty of capacity estimation but does not defeat statistical steganalysis.
+
+**Community acceptance:** Niche
+Included in stego-toolkit; widely used in academic demonstrations.
+
+---
+
+### LSB Steganography (ragibson)
+
+**Goal:** Python library for LSB steganography in BMP/PNG images and WAV audio, plus built-in LSB steganalysis extraction.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **LSB-Steganography** | 2015 | LSB in bitmap images and WAV samples | Includes steganalysis: LSB extraction brute-force [[1]](https://github.com/ragibson/Steganography) |
+
+**State of the art:** Clean reference implementation covering both hiding (BMP, PNG, WAV) and analysis. Useful as educational library with steganalysis primitives built in.
+
+**Production readiness:** Mature
+Stable; pip-installable; good test coverage.
+
+**Implementations:**
+- [ragibson/Steganography](https://github.com/ragibson/Steganography) ⭐ 649 — Python, `pip install steganography`
+
+**Security status:** Caution
+Standard LSB; steganalysis module demonstrates how easily LSB payloads are extracted without a key.
+
+**Community acceptance:** Niche
+Frequently used in academic and educational settings for demonstrating LSB concepts.
 
 ---
 

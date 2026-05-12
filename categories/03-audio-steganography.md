@@ -1,7 +1,7 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (40 algorithms)
+## Contents (41 algorithms)
 
 **[Time Domain](#time-domain)**
 - [LPC](#lpc-linear-predictive-coding)
@@ -932,6 +932,30 @@ Trivially revealed by any spectrogram viewer (Sonic Visualizer, Audacity).
 
 **Community acceptance:** Standard
 Standard CTF audio stego creation tool; spectrogram challenges are a CTF staple.
+
+---
+
+### audio-steganography-algorithms
+
+**Goal:** MATLAB/C reference library implementing classical audio steganography algorithms: LSB, phase coding, echo hiding, spread spectrum, and tone insertion.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **audio-steganography-algorithms** | 2018 | Multi-algorithm academic reference library | Covers 5 classical methods with unified evaluation framework [[1]](https://github.com/ktekeli/audio-steganography-algorithms) |
+
+**State of the art:** Most comprehensive open-source reference for classical audio stego algorithms. Each method implemented with capacity and SNR metrics. Useful for benchmarking and academic study.
+
+**Production readiness:** Research
+Academic library; no production CLI; MATLAB required.
+
+**Implementations:**
+- [ktekeli/audio-steganography-algorithms](https://github.com/ktekeli/audio-steganography-algorithms) ⭐ 287 — MATLAB/C
+
+**Security status:** Caution
+Classical methods (LSB, phase, echo) are all detectable by modern steganalysis; see [Classical Methods](#time-domain).
+
+**Community acceptance:** Niche
+Primary academic reference for comparing classical audio stego methods.
 
 ---
 

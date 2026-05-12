@@ -1,7 +1,7 @@
 # Steganalysis
 
 <!-- TOC -->
-## Contents (98 algorithms)
+## Contents (102 algorithms)
 
 **[Classical Methods](#classical-methods)**
 - [Visual Attack](#visual-attack)
@@ -2216,6 +2216,102 @@ Container with many tools; review individual tool security before use in sensiti
 
 **Community acceptance:** Standard
 Referenced in CTF tutorials and write-ups worldwide.
+
+---
+
+### Stegdetect
+
+**Goal:** Detect JPEG steganography from F5, JSteg, JPHide, and OutGuess using statistical signature analysis.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **stegdetect** | 2001 | Statistical JPEG stego detector | Simultaneously detects 4 major JPEG schemes; sensitivity tunable via `-t` flag [[1]](https://github.com/abeluck/stegdetect) |
+
+**State of the art:** Pioneering JPEG stego detection tool by Niels Provos. Targets the same methods as stegbreak but for detection (not cracking). Superseded by ML-based tools but historically significant and still functional.
+
+**Production readiness:** Deprecated
+Unmaintained since ~2004; archived on GitHub; functional on modern Linux with minor patches.
+
+**Implementations:**
+- [abeluck/stegdetect](https://github.com/abeluck/stegdetect) ⭐ 425 — C, archived mirror
+
+**Security status:** Caution
+Only covers F5/JSteg/JPHide/OutGuess; misses modern adaptive methods. Use Aletheia for broader coverage.
+
+**Community acceptance:** Niche
+Historical reference; paired with stegbreak for JPEG stego analysis in CTF contexts.
+
+---
+
+### StegExpose
+
+**Goal:** Batch-detect LSB steganography in PNG/BMP images using four statistical tests: Sample Pairs, RS analysis, Chi-Square, and Primary Sets.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **StegExpose** | 2014 | Multi-test LSB detector with threshold tuning | Combines 4 statistical tests; batch-processes entire directories [[1]](https://github.com/b3dk7/StegExpose) [[2]](https://arxiv.org/abs/1410.6656) |
+
+**State of the art:** Best standalone Java tool for LSB detection. Outperforms single-test approaches by fusing multiple statistical signals. Threshold adjustable for precision/recall tradeoff.
+
+**Production readiness:** Mature
+Stable Java JAR; runs on any JVM; no installation needed.
+
+**Implementations:**
+- [b3dk7/StegExpose](https://github.com/b3dk7/StegExpose) ⭐ 240 — Java, `java -jar StegExpose.jar <dir>`
+
+**Security status:** Secure
+Detector (not hider); designed to break LSB security assumptions.
+
+**Community acceptance:** Widely trusted
+Peer-reviewed paper; referenced in academic steganalysis literature; standard CTF analysis step.
+
+---
+
+### Aletheia
+
+**Goal:** Machine learning image steganalysis tool that detects steganography from F5, Steghide, LSB, J-UNIWARD, HUGO, WOW, and other modern adaptive methods.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Aletheia** | 2019 | ML-based steganalysis with ensemble classifiers and GAN-based calibration | Covers spatial and JPEG domain; includes training pipelines [[1]](https://github.com/daniellerch/aletheia) |
+
+**State of the art:** Most advanced open-source steganalysis tool. Uses SRM/DCTR features with ensemble classifiers. Supports detector training on custom datasets. Active research tool from Daniel Lerch-Hostalot.
+
+**Production readiness:** Experimental
+Research-grade; requires training data for best accuracy; not plug-and-play.
+
+**Implementations:**
+- [daniellerch/aletheia](https://github.com/daniellerch/aletheia) ⭐ 204 — Python, `pip install aletheia`
+
+**Security status:** Secure
+Detector; ML models can be fooled by adversarial adaptive stego but represents state of art in open-source steganalysis.
+
+**Community acceptance:** Emerging
+Academic recognition; active development; covers widest range of modern stego schemes of any open tool.
+
+---
+
+### StegoForge
+
+**Goal:** All-in-one Python steganography framework covering image, audio, video, documents, and network channels with 11 built-in detection engines.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **StegoForge** | 2024 | Multi-format stego + detection toolkit | Encode/decode + detect across 5 media types in one tool [[1]](https://github.com/Nour833/StegoForge) |
+
+**State of the art:** Broadest-coverage single-tool stego framework. Combines embedding and detection across image (PNG/JPEG/BMP), audio (WAV/MP3), video (MP4/AVI), documents (PDF/DOCX), and network (DNS/HTTP headers).
+
+**Production readiness:** Experimental
+Active 2024 development; growing feature set; API not yet stable.
+
+**Implementations:**
+- [Nour833/StegoForge](https://github.com/Nour833/StegoForge) ⭐ 336 — Python
+
+**Security status:** Caution
+Broad coverage but methods are classical; detectable by dedicated per-format analyzers.
+
+**Community acceptance:** Emerging
+Newest multi-format toolkit; growing interest for CTF and research use.
 
 ---
 
