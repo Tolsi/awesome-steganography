@@ -53,6 +53,10 @@
 - [stegpy](#stegpy)
 - [steganography-js](#steganography-js)
 - [Steganography-Online](#steganography-online)
+- [LSB-Steganography-Python](#lsb-steganography-python)
+- [image-steganography (goelashwin36)](#image-steganography-goelashwin36)
+- [emimg-GUI](#emimg-gui)
+- [stegosaurus](#stegosaurus)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1188,5 +1192,53 @@
 **Note:** Online steganography tool running in the browser.
 
 **Star count:** ⭐ 4
+
+---
+
+### LSB-Steganography-Python
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB-Steganography-Python](https://github.com/int-main/LSB-Steganography-Python) | Python | LSB steganography with GUI |
+
+**Note:** Simple LSB steganography with graphical interface.
+
+**Star count:** ⭐ 13
+
+---
+
+### image-steganography (goelashwin36)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [image-steganography](https://github.com/goelashwin36/image-steganography) | Python | Image steganography GUI tool |
+
+**Note:** GUI-based image steganography tool.
+
+**Star count:** ⭐ 10
+
+---
+
+### emimg-GUI
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [emimg-GUI](https://github.com/bysiber/emimg-GUI) | Python | Image steganography desktop GUI |
+
+**Note:** Desktop application for image steganography.
+
+**Star count:** ⭐ 7
+
+---
+
+### stegosaurus
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegosaurus](https://github.com/lemonyte/stegosaurus) | Python | Image steganography with GUI |
+
+**Note:** Modern Python steganography tool with GUI.
+
+**Star count:** —
 
 ---
