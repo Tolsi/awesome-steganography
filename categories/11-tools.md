@@ -43,6 +43,9 @@
 - [steganography-dotnet](#steganography-dotnet)
 - [brute-force-steganography-tool](#brute-force-steganography-tool)
 - [ImageStegano](#imagestegano)
+- [Picture-Video-Info-Hiding-EnDecryption](#picture-video-info-hiding-endecryption)
+- [Bit-Plane-Slicing-for-Information-Hiding](#bit-plane-slicing-for-information-hiding)
+- [Audio-Steganography (Bebra777228)](#audio-steganography-bebra777228)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -598,6 +601,42 @@
 **Note:** Simple image steganography implementation.
 
 **Star count:** ⭐ 0
+
+---
+
+### Picture-Video-Info-Hiding-EnDecryption
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Picture-Video-Info-Hiding-EnDecryption](https://github.com/HollowMan6/Picture-Video-Info-Hiding-EnDecryption) | Python | Multi-format info hiding for pictures and videos |
+
+**Note:** Tool for information hiding in pictures and videos.
+
+**Star count:** ⭐ 29
+
+---
+
+### Bit-Plane-Slicing-for-Information-Hiding
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Bit-Plane-Slicing-for-Information-Hiding](https://github.com/AbhishekPoojary/Bit-Plane-Slicing-for-Information-Hiding) | Python | Bit plane slicing technique for info hiding |
+
+**Note:** Implementation of bit plane slicing for information hiding.
+
+**Star count:** ⭐ 36
+
+---
+
+### Audio-Steganography (Bebra777228)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Audio-Steganography](https://github.com/Bebra777228/Audio-Steganography) | Python | Audio steganography implementation |
+
+**Note:** Simple audio steganography tool.
+
+**Star count:** ⭐ 5
 
 ---
 
