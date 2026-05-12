@@ -15,6 +15,7 @@
 
 **[Image Steganography](#image-steganography)**
 - [steghide](#steghide)
+- [steganography (kelvins)](#steganography-kelvins)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -298,6 +299,18 @@
 **Note:** One of the most well-known open-source steganography tools.
 
 **Star count:** ⭐ 1.8k
+
+---
+
+### steganography (kelvins)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/kelvins/steganography) | Python | Educational steganography library |
+
+**Note:** Comprehensive Python library for learning steganography.
+
+**Star count:** ⭐ 365
 
 ---
 
