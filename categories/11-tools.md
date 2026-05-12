@@ -2456,7 +2456,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [hackingtool](https://github.com/Z4nzu/hackingtool) | Python | All-in-one hacking tool with steganography modules |
+| [hackingtool](https://github.com/Z4nzu/hackingtool) | Python | All-in-one hacking tool with steganography modules (2026) |
 
 **Note:** Multi-purpose hacking framework with steganography capabilities.
 
@@ -2468,7 +2468,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [ST3GG](https://github.com/elder-plinius/ST3GG) | HTML | All-in-one steganography suite |
+| [ST3GG](https://github.com/elder-plinius/ST3GG) | HTML | All-in-one steganography suite (2026) |
 
 **Note:** Comprehensive steganography toolkit for various techniques.
 
@@ -2480,7 +2480,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [stegify](https://github.com/DimitarPetrov/stegify) | Go | Go tool for LSB steganography, capable of hiding any file within an image |
+| [stegify](https://github.com/DimitarPetrov/stegify) | Go | Go tool for LSB steganography, capable of hiding any file within an image (2023) |
 
 **Note:** LSB steganography tool written in Go.
 
@@ -2492,7 +2492,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [StegCracker](https://github.com/Paradoxis/StegCracker) | Python | Steganography brute-force utility to uncover hidden data inside files |
+| [StegCracker](https://github.com/Paradoxis/StegCracker) | Python | Steganography brute-force utility to uncover hidden data inside files (2020) |
 
 **Note:** Brute-force tool for cracking steganography passwords.
 
@@ -2504,7 +2504,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [covertchannels-steganography](https://github.com/mindcrypt/covertchannels-steganography) | Python | Covert channels and steganography research toolkit |
+| [covertchannels-steganography](https://github.com/mindcrypt/covertchannels-steganography) | Python | Covert channels and steganography research toolkit (2022) |
 
 **Note:** Research toolkit for covert channels and steganography.
 
@@ -2516,7 +2516,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Tomato](https://github.com/user1342/Tomato) | Python | Steganography tool with multiple techniques |
+| [Tomato](https://github.com/user1342/Tomato) | Python | Steganography tool with multiple techniques (2024) |
 
 **Note:** Multi-technique steganography tool.
 
@@ -2528,7 +2528,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [chess-steg](https://github.com/jes/chess-steg) | Python | Chess-based steganography using move notation |
+| [chess-steg](https://github.com/jes/chess-steg) | Python | Chess-based steganography using move notation (2021) |
 
 **Note:** Unique steganography using chess game moves to encode messages.
 
@@ -2540,7 +2540,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [PolyZip](https://github.com/InfoSecREDD/PolyZip) | Python | Steganography tool for hiding data in files |
+| [PolyZip](https://github.com/InfoSecREDD/PolyZip) | Python | Steganography tool for hiding data in files (2025) |
 
 **Note:** Data exfiltration tool using steganography.
 
@@ -2552,7 +2552,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Bramble](https://github.com/marcrowProject/Bramble) | Python | Steganography tool for image processing |
+| [Bramble](https://github.com/marcrowProject/Bramble) | Python | Steganography tool for image processing (2020) |
 
 **Note:** Image steganography using various techniques.
 
@@ -2564,7 +2564,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Final-year-Project-steganography](https://github.com/Vatshayan/Final-year-Project-steganography) | Python | Academic steganography project |
+| [Final-year-Project-steganography](https://github.com/Vatshayan/Final-year-Project-steganography) | Python | Academic steganography project (2022) |
 
 **Note:** Educational steganography implementation.
 
@@ -2576,7 +2576,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [ultrasonic](https://github.com/ruvnet/ultrasonic) | Python | Ultrasonic steganography for data exfiltration |
+| [ultrasonic](https://github.com/ruvnet/ultrasonic) | Python | Ultrasonic steganography for data exfiltration (2025) |
 
 **Note:** Steganography using ultrasonic sound frequencies.
 
@@ -2588,7 +2588,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [NativePayload_Image](https://github.com/DamonMohammadbagher/NativePayload_Image) | PowerShell | Image-based payload delivery via steganography |
+| [NativePayload_Image](https://github.com/DamonMohammadbagher/NativePayload_Image) | PowerShell | Image-based payload delivery via steganography (2023) |
 
 **Note:** Steganography for red team operations.
 
@@ -2600,7 +2600,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [steganography](https://github.com/raffg/steganography) | Python | General-purpose steganography library |
+| [steganography](https://github.com/raffg/steganography) | Python | General-purpose steganography library (2018) |
 
 **Note:** Python steganography library.
 
@@ -2612,7 +2612,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Image-Stegano](https://github.com/varunon9/Image-Stegano) | JavaScript | Image steganography in JavaScript |
+| [Image-Stegano](https://github.com/varunon9/Image-Stegano) | JavaScript | Image steganography in JavaScript (2017) |
 
 **Note:** Browser-based image steganography.
 
@@ -2624,7 +2624,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [markovTextStego](https://github.com/hmoraldo/markovTextStego) | Python | Text steganography using Markov chains |
+| [markovTextStego](https://github.com/hmoraldo/markovTextStego) | Python | Text steganography using Markov chains (2014) |
 
 **Note:** Linguistic steganography using Markov models.
 
@@ -2636,7 +2636,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [js-steg](https://github.com/owencm/js-steg) | JavaScript | JavaScript steganography library |
+| [js-steg](https://github.com/owencm/js-steg) | JavaScript | JavaScript steganography library (2014) |
 
 **Note:** Client-side steganography for web applications.
 
@@ -2648,7 +2648,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Linguistic-Steganography-and-Steganalysis](https://github.com/YangzlTHU/Linguistic-Steganography-and-Steganalysis) | Python | Research on linguistic steganography and steganalysis |
+| [Linguistic-Steganography-and-Steganalysis](https://github.com/YangzlTHU/Linguistic-Steganography-and-Steganalysis) | Python | Research on linguistic steganography and steganalysis (2022) |
 
 **Note:** Academic research toolkit for linguistic steganography.
 
@@ -2660,7 +2660,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Learning-Image-Steganography](https://github.com/TracyCuiq/Learning-Image-Steganography) | Python | Educational image steganography codebase |
+| [Learning-Image-Steganography](https://github.com/TracyCuiq/Learning-Image-Steganography) | Python | Educational image steganography codebase (2024) |
 
 **Note:** Learning resource for image steganography techniques.
 
@@ -2672,7 +2672,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [StegFormer](https://github.com/aoli-gei/StegFormer) | Python | Transformer-based steganography |
+| [StegFormer](https://github.com/aoli-gei/StegFormer) | Python | Transformer-based steganography (2024) |
 
 **Note:** Deep learning steganography using transformer architecture.
 
@@ -2684,7 +2684,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [timeshifter](https://github.com/anfractuosity/timeshifter) | Python | Temporal steganography tool |
+| [timeshifter](https://github.com/anfractuosity/timeshifter) | Python | Temporal steganography tool (2022) |
 
 **Note:** Time-based steganography techniques.
 
@@ -2696,7 +2696,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Cs-FNNS](https://github.com/albblgb/Cs-FNNS) | C# | .NET steganography library |
+| [Cs-FNNS](https://github.com/albblgb/Cs-FNNS) | C# | .NET steganography library (2024) |
 
 **Note:** C# steganography implementation.
 
@@ -2708,7 +2708,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [stegjs](https://github.com/andmev/stegjs) | JavaScript | JavaScript steganography library |
+| [stegjs](https://github.com/andmev/stegjs) | JavaScript | JavaScript steganography library (2024) |
 
 **Note:** Browser-based steganography in JavaScript.
 
@@ -2720,7 +2720,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [nanoboard](https://github.com/Karasiq/nanoboard) | Scala | Steganography toolkit in Scala |
+| [nanoboard](https://github.com/Karasiq/nanoboard) | Scala | Steganography toolkit in Scala (2020) |
 
 **Note:** Multi-format steganography in Scala.
 
@@ -2732,7 +2732,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Steganography-](https://github.com/BecauseY/Steganography-) | Python | Steganography tool |
+| [Steganography-](https://github.com/BecauseY/Steganography-) | Python | Steganography tool (2023) |
 
 **Note:** General steganography implementation.
 
@@ -2744,7 +2744,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [secretbook](https://github.com/owencm/secretbook) | JavaScript | Steganography for images |
+| [secretbook](https://github.com/owencm/secretbook) | JavaScript | Steganography for images (2018) |
 
 **Note:** Image steganography in JavaScript.
 
@@ -2756,7 +2756,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Explosive-Steganography](https://github.com/XlogicX/Explosive-Steganography) | Python | CTF steganography challenges |
+| [Explosive-Steganography](https://github.com/XlogicX/Explosive-Steganography) | Python | CTF steganography challenges (2014) |
 
 **Note:** Educational steganography for CTF practice.
 
@@ -2768,7 +2768,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [mr-hyde](https://github.com/rafael-santiago/mr-hyde) | Rust | Steganography in Rust |
+| [mr-hyde](https://github.com/rafael-santiago/mr-hyde) | Rust | Steganography in Rust (2020) |
 
 **Note:** Steganography tool written in Rust.
 
@@ -2780,7 +2780,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [advsteg](https://github.com/jhayes14/advsteg) | Python | Advanced steganography techniques |
+| [advsteg](https://github.com/jhayes14/advsteg) | Python | Advanced steganography techniques (2018) |
 
 **Note:** Advanced steganography implementation.
 
@@ -2792,7 +2792,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [image-steganography](https://github.com/subedigaurav/image-steganography) | Python | Image steganography tool |
+| [image-steganography](https://github.com/subedigaurav/image-steganography) | Python | Image steganography tool (2026) |
 
 **Note:** Simple image steganography.
 
@@ -2804,7 +2804,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [PictureCrypt](https://github.com/waleko/PictureCrypt) | Python | Picture-based encryption and steganography |
+| [PictureCrypt](https://github.com/waleko/PictureCrypt) | Python | Picture-based encryption and steganography (2022) |
 
 **Note:** Steganography with encryption.
 
@@ -2816,7 +2816,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [cryptographic_methods](https://github.com/podkidyshev/cryptographic_methods) | Python | Cryptography and steganography methods |
+| [cryptographic_methods](https://github.com/podkidyshev/cryptographic_methods) | Python | Cryptography and steganography methods (2018) |
 
 **Note:** Educational cryptography and steganography.
 
@@ -2828,7 +2828,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [stegasawus](https://github.com/rokkuran/stegasawus) | Python | Steganography tool |
+| [stegasawus](https://github.com/rokkuran/stegasawus) | Python | Steganography tool (2017) |
 
 **Note:** Python steganography utility.
 
@@ -2840,7 +2840,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Steganography](https://github.com/vvHacker007/Steganography) | Python | Python steganography tool |
+| [Steganography](https://github.com/vvHacker007/Steganography) | Python | Python steganography tool (2020) |
 
 **Note:** General steganography implementation.
 
@@ -2852,7 +2852,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [stega](https://github.com/sebleier/stega) | Python | Early Python steganography |
+| [stega](https://github.com/sebleier/stega) | Python | Early Python steganography (2011) |
 
 **Note:** Early steganography library for Python.
 
@@ -2864,7 +2864,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [ascii-to-midi](https://github.com/1j01/ascii-to-midi) | JavaScript | ASCII to MIDI steganography |
+| [ascii-to-midi](https://github.com/1j01/ascii-to-midi) | JavaScript | ASCII to MIDI steganography (2022) |
 
 **Note:** Text-to-audio steganography using MIDI.
 
@@ -2876,7 +2876,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Pool2020](https://github.com/PoCInnovation/Pool2020) | Python | Steganography research project |
+| [Pool2020](https://github.com/PoCInnovation/Pool2020) | Python | Steganography research project (2020) |
 
 **Note:** Research steganography techniques.
 
@@ -2888,7 +2888,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Enigma](https://github.com/AleksaMCode/Enigma) | Python | Cryptography and steganography tool |
+| [Enigma](https://github.com/AleksaMCode/Enigma) | Python | Cryptography and steganography tool (2024) |
 
 **Note:** Combined crypto and steganography.
 
@@ -2900,7 +2900,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [F5Android](https://github.com/harlo/F5Android) | Java | F5 steganography for Android |
+| [F5Android](https://github.com/harlo/F5Android) | Java | F5 steganography for Android (2018) |
 
 **Note:** F5 algorithm implementation for Android.
 
@@ -2912,7 +2912,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [strogonoff](https://github.com/jbochi/strogonoff) | Python | Early steganography tool |
+| [strogonoff](https://github.com/jbochi/strogonoff) | Python | Early steganography tool (2011) |
 
 **Note:** Early Python steganography implementation.
 
@@ -2924,7 +2924,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Steganography-App](https://github.com/lukefire5156/Steganography-App) | Python | GUI steganography application |
+| [Steganography-App](https://github.com/lukefire5156/Steganography-App) | Python | GUI steganography application (2024) |
 
 **Note:** Desktop steganography app.
 
@@ -2936,7 +2936,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [awesome-steganography](https://github.com/cristiancmoises/awesome-steganography) | Python | Steganography resources collection |
+| [awesome-steganography](https://github.com/cristiancmoises/awesome-steganography) | Python | Steganography resources collection (2025) |
 
 **Note:** Curated steganography resources.
 
@@ -2948,7 +2948,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [ImageSteganography](https://github.com/jokLiu/ImageSteganography) | C++ | C++ image steganography |
+| [ImageSteganography](https://github.com/jokLiu/ImageSteganography) | C++ | C++ image steganography (2018) |
 
 **Note:** C++ implementation of image steganography.
 
@@ -3037,5 +3037,101 @@
 **Note:** Basic steganography implementation.
 
 **Star count:** ⭐ 9
+
+---
+
+### StegMed (vaniseth)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegMed](https://github.com/vaniseth/StegMed) | Python | Medical image steganography (2023) |
+
+**Note:** Steganography for medical images.
+
+**Star count:** ⭐ 8
+
+---
+
+### stelf (Theldus)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stelf](https://github.com/Theldus/stelf) | C | C steganography library (2024) |
+
+**Note:** C library for steganography.
+
+**Star count:** ⭐ 8
+
+---
+
+### SteganoPNG-deprecated (Dola-Shuvi)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SteganoPNG-deprecated](https://github.com/Dola-Shuvi/SteganoPNG-deprecated) | Python | PNG steganography tool (2026) |
+
+**Note:** PNG steganography implementation.
+
+**Star count:** ⭐ 8
+
+---
+
+### byte (therealOri)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [byte](https://github.com/therealOri/byte) | Python | Data hiding tool (2023) |
+
+**Note:** Simple data hiding utility.
+
+**Star count:** ⭐ 8
+
+---
+
+### mds20_stega (profrodai)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [mds20_stega](https://github.com/profrodai/mds20_stega) | Python | Academic steganography research (2020) |
+
+**Note:** Research steganography implementation.
+
+**Star count:** ⭐ 8
+
+---
+
+### BSF24-CTF (0x1o1)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [BSF24-CTF](https://github.com/0x1o1/BSF24-CTF) | Python | CTF steganography challenges (2024) |
+
+**Note:** CTF practice challenges.
+
+**Star count:** ⭐ 8
+
+---
+
+### LiquidSnow-archive (ocluse)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LiquidSnow-archive](https://github.com/ocluse/LiquidSnow-archive) | Python | Steganography archive (2023) |
+
+**Note:** Archived steganography project.
+
+**Star count:** ⭐ 8
+
+---
+
+### mAshing (asimtarapathak)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [mAshing](https://github.com/asimtarapathak/mAshing) | Python | Image hashing steganography (2021) |
+
+**Note:** Hash-based image steganography.
+
+**Star count:** ⭐ 8
 
 ---
