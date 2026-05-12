@@ -266,3 +266,21 @@
 **Production readiness:** Production
 
 **Community acceptance:** Standard
+
+---
+
+### Stego Battlefield
+
+**Goal:** Evaluate image steganography attacks and steganalysis defenses.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Stego Battlefield** | 2026 | Comprehensive benchmark | Attack/defense evaluation |
+
+**State of the art:** Provides standardized evaluation framework.
+
+**Production readiness:** Research
+
+**Implementations:** Academic benchmark
+
+**Community acceptance:** Emerging

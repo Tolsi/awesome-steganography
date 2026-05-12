@@ -1,7 +1,7 @@
 # Video Steganography
 
 <!-- TOC -->
-## Contents (6 algorithms)
+## Contents (7 algorithms)
 
 **[Frame-based Methods](#frame-based-methods)**
 - [Frame LSB/DCT](#frame-lsbdct)
@@ -12,6 +12,7 @@
 - [QP Modulation](#qp-modulation)
 - [CABAC](#cabac)
 - [HEVC PU Partition](#hevc-pu-partition)
+- [H.265/HEVC CU Block Steganography](#h265hevc-cu-block-steganography)
 <!-- /TOC -->
 
 ## Frame-based Methods
@@ -127,3 +128,43 @@
 **Security status:** Secure
 
 **Community acceptance:** Niche
+
+---
+
+### H.265/HEVC CU Block Steganography
+
+**Goal:** Embed secret data in Coding Unit block structures and split decisions.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **CU Block Steganography** | 2026 | CU split flags, depth selection | High compression robustness |
+
+**State of the art:** Exploits H.265/HEVC quadtree structure by modifying CU split decisions; maintains video quality while achieving high embedding capacity.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototype
+
+**Security status:** Emerging
+
+**Community acceptance:** Niche
+
+---
+
+### SemCovert (Semantic Video Steganography)
+
+**Goal:** Embed secret information within semantic-level video features for covert communication.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **SemCovert** | 2025 | Semantic-level hiding via deep learning | Robust to semantic transformations |
+
+**State of the art:** Novel approach leveraging semantic communication for covert transmission.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging

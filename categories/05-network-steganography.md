@@ -33,6 +33,8 @@
 - [CYPRESS](#cypress)
 - [HICCUPS](#hiccups)
 - [Inter-protocol Steganography](#inter-protocol-steganography)
+- [Quantum Gatekeeper](#quantum-gatekeeper)
+- [Intellicise Wireless Network](#intellicise-wireless-network)
 <!-- /TOC -->
 
 ## Header Fields
@@ -440,5 +442,43 @@
 **Production readiness:** Research
 
 **Security status:** Secure — Cross-protocol correlation required
+
+**Community acceptance:** Emerging
+
+---
+
+### Quantum Gatekeeper
+
+**Goal:** Post-quantum secure network steganography against quantum-enabled detectors.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Quantum Gatekeeper** | 2025 | Lattice-based encoding + timing modulation | Quantum-resistant |
+
+**State of the art:** First quantum-resistant network steganography method.
+
+**Production readiness:** Research
+
+**Security status:** Secure — Lattice-based security assumptions
+
+**Community acceptance:** Emerging
+
+---
+
+### Intellicise Wireless Network
+
+**Goal:** Coverless semantic steganography for 6G intelligent wireless networks using Agentic AI.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Intellicise Wireless Network** | 2026 | Agentic AI + diffusion models + semantic codec | Coverless, no key required |
+
+**State of the art:** AgentSemSteCom scheme uses semantic extraction, digital token controlled reference image generation, and coverless steganography without requiring cover images or private semantic keys.
+
+**Production readiness:** Research
+
+**Implementations:** None found
+
+**Security status:** Secure — No cover images or keys to infer
 
 **Community acceptance:** Emerging

@@ -416,3 +416,57 @@
 **Security status:** Caution
 
 **Community acceptance:** Emerging
+
+---
+
+### FGAS
+
+**Goal:** Fixed decoder network-based audio steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **FGAS** | 2025 | Fixed decoder + adversarial perturbation | High fidelity audio |
+
+**State of the art:** Uses fixed decoder for consistency.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### SteganoSNN
+
+**Goal:** SNN-based audio-in-image steganography with encryption.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **SteganoSNN** | 2025 | Spiking neural network | Edge-AI, IoT efficient |
+
+**State of the art:** Neuromorphic approach for energy-efficient steganography.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging — Novel approach
+
+---
+
+### HHO-Optimized Audio Steganography
+
+**Goal:** Hide audio in images using Harris Hawks Optimization for pixel selection.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **HHO Audio Stego** | 2025 | Nature-inspired optimization | LSB enhancement |
+
+**State of the art:** Uses Harris Hawks Optimization for better pixel selection.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging

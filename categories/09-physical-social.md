@@ -9,10 +9,14 @@
 - [Printer Steganography](#printer-steganography)
 - [Microdots](#microdots)
 - [Invisible Ink](#invisible-ink)
+- [Cyber-Physical Steganography](#cyber-physical-steganography)
+- [Polarization Steganography](#polarization-steganography)
+- [POSERS](#posers-dna-molecular-tagging)
 
 **[Social Steganography](#social-steganography)**
 - [Cultural References](#cultural-references)
 - [Contextual Hiding](#contextual-hiding)
+- [Steganography in Game Actions](#steganography-in-game-actions)
 <!-- /TOC -->
 
 ## Physical Methods
@@ -112,6 +116,24 @@
 
 ---
 
+### Cyber-Physical Steganography
+
+**Goal:** Hide information in robotic motion control systems.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Cyber-Physical** | 2025 | Robotic motion encoding | New medium |
+
+**State of the art:** First steganography paradigm using robotic motion.
+
+**Production readiness:** Research
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
 ## Social Steganography
 
 ---
@@ -149,3 +171,63 @@
 **Security status:** Secure — No technical detection
 
 **Community acceptance:** Standard — Active in censored communities
+
+---
+
+### Polarization Steganography
+
+**Goal:** Hide information using polarization states of partially polarized vector beams.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Polarization Steganography** | 2026 | Vector beam polarization encoding | Physical layer security |
+
+**State of the art:** Novel approach using Poincaré sphere polarization engineering.
+
+**Production readiness:** Research
+
+**Implementations:** Laboratory prototypes
+
+**Security status:** Emerging
+
+---
+
+### POSERS (DNA Molecular Tagging)
+
+**Goal:** Molecular tagging using randomized DNA sequences for anti-counterfeiting.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **POSERS** | 2025 | Randomized DNA sequence encoding | Molecular steganography |
+
+**State of the art:** Uses random DNA sequences for enhanced security against sequencing attacks.
+
+**Production readiness:** Experimental
+
+**Implementations:** Research prototypes
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Steganography in Game Actions
+
+**Goal:** Hide information within video game actions and mechanics.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Game Actions** | 2025 | Gameplay mechanics encoding | New medium exploration |
+
+**State of the art:** Novel concept using video game actions as information carrier.
+
+**Production readiness:** Research
+
+**Implementations:** None yet
+
+**Security status:** N/A — New concept
+
+**Community acceptance:** Emerging
+
+**Community acceptance:** Emerging

@@ -1,7 +1,7 @@
 # Text Steganography
 
 <!-- TOC -->
-## Contents (3 algorithms)
+## Contents (16 algorithms)
 
 **[Structural Methods](#structural-methods)**
 - [ASCII Art Steganography](#ascii-art-steganography)
@@ -21,6 +21,27 @@
 - [Discop](#discop)
 - [ChatStega](#chatstega)
 - [Blog-Steganography](#blog-steganography)
+- [Range Coding](#range-coding)
+- [Anchored Sliding Window](#anchored-sliding-window-asw)
+- [ReTokSync](#retoksync)
+- [Entropy-Driven](#entropy-driven-rank-token-mapping)
+- [Auto-Stega](#auto-stega)
+- [Dynamic Codebook](#dynamic-codebook)
+- [OD-Stega](#od-stega)
+- [Shifting-Merging](#shifting-merging)
+- [Semantic Steganography](#semantic-steganography-llm)
+- [Content-Preserving Linguistic](#content-preserving-linguistic-steganography)
+- [Raster Domain Text](#raster-domain-text-steganography)
+- [Alkaid](#alkaid)
+- [SparSamp](#sparsamp)
+- [Kolmogorov Complexity Bounds](#kolmogorov-complexity-bounds)
+- [STEAD](#stead-robust-provably-secure-linguistic-steganography)
+- [Hide and Seek in Embedding Space](#hide-and-seek-in-embedding-space)
+- [StegoStylo](#stegastylo)
+- [Undetectable Conversations](#undetectable-conversations)
+- [TrojanStego](#trojanstego)
+- [GTSD](#gtsd-generative-text-steganography-via-diffusion)
+- [List Decoding](#provably-secure-steganography-based-on-list-decoding)
 <!-- /TOC -->
 
 ## Structural Methods
@@ -251,3 +272,387 @@
 **Security status:** Secure — Distributed
 
 **Community acceptance:** Niche
+
+---
+
+### Range Coding
+
+**Goal:** Provably secure linguistic steganography using range coding.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Range Coding** | 2025 | Efficient provably secure linguistic steganography via range coding [[1]](https://arxiv.org/abs/2604.08052) |
+
+**State of the art:** Combines theoretical security with practical efficiency.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure — Provably secure
+
+**Community acceptance:** Emerging — Active research
+
+---
+
+### Anchored Sliding Window (ASW)
+
+**Goal:** Robust linguistic steganography resistant to text modifications.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **ASW** | 2026 | Anchored sliding window for robustness against edits [[1]](https://arxiv.org/abs/2604.09066) |
+
+**State of the art:** Addresses fragility of previous methods to minor text modifications.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure — Robust to modifications
+
+**Community acceptance:** Emerging
+
+---
+
+### ReTokSync
+
+**Goal:** Solve tokenization disambiguation in generative linguistic steganography.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **ReTokSync** | 2026 | Self-synchronizing tokenization disambiguation [[1]](https://arxiv.org/abs/2604.25486) |
+
+**State of the art:** Fixes decoding failures from tokenization ambiguity.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Entropy-Driven Rank-Token Mapping
+
+**Goal:** High-capacity linguistic steganography.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Entropy-Driven** | 2025 | Entropy-driven rank-token mapping [[1]](https://arxiv.org/abs/2510.23035) |
+
+**State of the art:** Addresses capacity limitations in prior methods.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### Auto-Stega
+
+**Goal:** Agent-driven system for adaptive steganography strategy.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Auto-Stega** | 2025 | Agent-driven lifelong strategy evolution [[1]](https://arxiv.org/abs/2510.06565) |
+
+**State of the art:** Dynamic strategy selection for varying conditions.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Dynamic Codebook
+
+**Goal:** Text steganography with dynamic codebook using LLMs.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Dynamic Codebook** | 2026 | Text steganography with dynamic codebook [[1]](https://arxiv.org/abs/2604.20269) |
+
+**State of the art:** Addresses white-box paradigm limitations.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### OD-Stega
+
+**Goal:** Relatively secure steganography via optimized distributions.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **OD-Stega** | 2024 | LLM-based relatively secure steganography [[1]](https://arxiv.org/abs/2410.04328) |
+
+**State of the art:** Uses optimized distributions for better security.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Shifting-Merging
+
+**Goal:** Secure, high-capacity and efficient LLM-based steganography.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Shifting-Merging** | 2025 | Shifting-merging approach [[1]](https://arxiv.org/abs/2501.00786) |
+
+**State of the art:** Combines high capacity with efficiency.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Semantic Steganography (LLM)
+
+**Goal:** Robust and high-capacity information hiding using LLMs.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Semantic Stega** | 2025 | Semantic steganography framework [[1]](https://arxiv.org/abs/2412.11043) |
+
+**State of the art:** Bridges semantic richness with steganographic capacity.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Content-Preserving Linguistic Steganography
+
+**Goal:** Preserve original content while embedding secret messages.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Content-Preserving** | 2025 | Content-preserving secure linguistic steganography [[1]](https://arxiv.org/abs/2511.12565) |
+
+**State of the art:** Reduces detectable deviations between normal and stego text.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Raster Domain Text Steganography
+
+**Goal:** Embed heterogeneous data directly into pixel space of rendered textual glyphs.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Raster Domain Text** | 2025 | Unified framework for multimodal secure embedding into glyph bitmaps [[1]](https://arxiv.org/abs/2512.21698) |
+
+**State of the art:** Operates after font rasterization, treating each glyph as a cover.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Alkaid (Provably Secure Steganography)
+
+**Goal:** Resilience to edit errors via distance-constrained encoding.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Alkaid** | 2026 | Distance-constrained encoding for edit error resilience [[1]](https://arxiv.org/abs/2603.06169) |
+
+**State of the art:** Bridges gap between provably secure steganography and real-world edit errors.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### SparSamp (Sparse Sampling)
+
+**Goal:** Efficient provably secure steganography via sparse sampling.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **SparSamp** | 2025 | Sparse sampling for efficient provable security [[1]](https://arxiv.org/abs/2503.19499) |
+
+**State of the art:** Improves efficiency of provably secure steganography.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Kolmogorov Complexity Bounds
+
+**Goal:** Information-theoretic cost bounds for LLM steganography.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Kolmogorov Bounds** | 2026 | Theoretical framework for LLM steganography cost [[1]](https://arxiv.org/abs/2603.21567) |
+
+**State of the art:** First formal analysis of LLM steganography complexity.
+
+**Production readiness:** Research
+
+**Security status:** Theoretical foundation
+
+**Community acceptance:** Emerging
+
+---
+
+### STEAD (Robust Provably Secure Linguistic Steganography)
+
+**Goal:** Robust provably secure linguistic steganography with diffusion language models.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **STEAD** | 2026 | Diffusion LM-based robust PSLS [[1]](https://arxiv.org/abs/2601.14778) |
+
+**State of the art:** Combines provable security with diffusion model robustness.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Hide and Seek in Embedding Space
+
+**Goal:** Low-recoverability steganography using embedding-space geometry.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Embedding Space** | 2026 | Geometry-based steganography in LLM embeddings [[1]](https://arxiv.org/abs/2601.22818) |
+
+**State of the art:** Replaces arbitrary mappings with embedding-derived ones.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### StegoStylo
+
+**Goal:** Evade stylometric analysis through adversarial steganographic stitching.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **StegoStylo** | 2026 | Adversarial stylometry combined with steganography [[1]](https://arxiv.org/abs/2601.09056) |
+
+**State of the art:** Uses adversarial attack to confound stylometric analysis.
+
+**Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### Undetectable Conversations
+
+**Goal:** Covert communication between AI agents using pseudorandom noise-resilient key exchange.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Undetectable Conversations** | 2026 | Optimal-rate covert conversation with interaction-unique keys [[1]](https://arxiv.org/abs/2604.04757) |
+
+**State of the art:** Combines watermarking and steganography for hidden channel.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### TrojanStego
+
+**Goal:** LLM as steganographic channel for privacy leaking via fine-tuning.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **TrojanStego** | 2025 | Fine-tuned LLM embeds sensitive context into outputs [[1]](https://arxiv.org/abs/2505.20118) |
+
+**State of the art:** Compromised LLM maintains safety facade while leaking data.
+
+**Production readiness:** Research — Security threat model
+
+**Security status:** Caution
+
+**Community acceptance:** Controversial
+
+---
+
+### GTSD (Generative Text Steganography via Diffusion)
+
+**Goal:** Generative text steganography using diffusion language models.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **GTSD** | 2025 | Diffusion model-based text steganography addressing autoregressive limitations [[1]](https://arxiv.org/abs/2504.19433) |
+
+**State of the art:** Overcomes sequential generation limitations of autoregressive models.
+
+**Production readiness:** Research
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Provably Secure Steganography Based on List Decoding
+
+**Goal:** Theoretical foundation for steganography using list decoding.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **List Decoding** | 2026 | Provably secure steganography with theoretical guarantees [[1]](https://arxiv.org/abs/2604.21394) |
+
+**State of the art:** Provides mathematical security proofs for steganographic schemes.
+
+**Production readiness:** Research
+
+**Security status:** Secure — Provably secure
+
+**Community acceptance:** Emerging

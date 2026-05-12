@@ -49,6 +49,27 @@
 - [StegaStamp](#stegastamp)
 - [CRoSS](#cross)
 - [StegNet](#stegnet)
+- [SMILENet](#smilenet)
+- [StegoNGP](#stegongp)
+- [DTAMS](#dtams)
+- [PSyDUCK](#psyduck)
+- [CIF](#cif)
+- [STCL](#stcl)
+- [GIFDL](#gifdl)
+- [StegaFFD](#stegaffd)
+- [Arbitrary-Resolution Deep Image Steganography](#arbitrary-resolution-deep-image-steganography)
+- [Adaptive Fuzzy Logic Steganography](#adaptive-fuzzy-logic-steganography)
+- [Memristive In-Memory Image Steganography](#memristive-in-memory-image-steganography)
+- [StegaVision](#stegavision)
+- [Foveation Steganography](#foveation-steganography)
+- [StegaINR](#stegainr-steeganography-by-implicit-neural-representations)
+- [StegaINR4MIH](#stegainr4mih-inr-for-multi-image-hiding)
+- [DiffStega](#diffstega-training-free-diffusion-steganography)
+- [Stable Messenger](#stable-messenger)
+- [DKiS](#dkis-decay-weight-invertible-image-steganography)
+- [PRIS](#pris-practical-robust-invertible-network-for-image-steganography)
+- [Multi-User Multi-Key](#multi-user-multi-key-image-steganography)
+- [StegaPos](#stegapos)
 <!-- /TOC -->
 
 ## Spatial Domain
@@ -736,3 +757,409 @@
 **Security status:** Caution
 
 **Community acceptance:** Emerging — Research active
+
+---
+
+### SMILENet
+
+**Goal:** Extra-large capacity image steganography via synergistic mosaic.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **SMILENet** | 2025 | Synergistic mosaic invertible hiding | 25x image hiding |
+
+**State of the art:** Achieves 25x image hiding capacity.
+
+**Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### DTAMS
+
+**Goal:** High-capacity generative steganography via dynamic multi-timestep selection.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **DTAMS** | 2026 | Dynamic multi-timestep + adaptive deviation mapping | Latent diffusion |
+
+**State of the art:** High capacity with good security at higher rates.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Approximate Gaussian Mapping
+
+**Goal:** Generative image steganography using approximate Gaussian mapping.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Approximate Gaussian** | 2025 | ODE-based diffusion models | Deterministic synthesis |
+
+**State of the art:** Reduces numerical inversion errors.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### PSyDUCK
+
+**Goal:** Training-free steganography for latent diffusion models.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **PSyDUCK** | 2025 | Training-free latent diffusion | Message projection |
+
+**State of the art:** No training required.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### CIF
+
+**Goal:** Reliable message extraction in diffusion-based generative steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **CIF** | 2025 | Constrained inversion framework | High-capacity embedding |
+
+**State of the art:** Improves extraction accuracy in lossy scenarios.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### STCL (Spatial-Temporal Curriculum Learning)
+
+**Goal:** Improve image steganography quality through progressive multi-scale curriculum learning.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **STCL** | 2025 | Progressive multi-scale convolutional | Better convergence |
+
+**State of the art:** Addresses poor quality and slow convergence issues.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### GIFDL (Generated Image Fluctuation Distortion Learning)
+
+**Goal:** Enhance steganographic security through fluctuation distortion learning.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **GIFDL** | 2025 | Distortion learning framework | Enhanced security |
+
+**State of the art:** Improves minimum distortion steganography security.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### StegaFFD (Steganography-based Face Forgery Detection)
+
+**Goal:** Privacy-preserving face forgery detection via steganographic domain lifting.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StegaFFD** | 2026 | Steganography-based FFD framework | Privacy protection |
+
+**State of the art:** Protects privacy without raising suspicion.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Arbitrary-Resolution Deep Image Steganography
+
+**Goal:** Hide secret images with different resolutions than cover images.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Arb-Resolution DIS** | 2026 | Resolution-flexible framework | No resampling required |
+
+**State of the art:** Solves resolution mismatch problem in deep steganography.
+
+**Production readiness:** Research
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Adaptive Fuzzy Logic Steganography
+
+**Goal:** Adaptive embedding using fuzzy logic for better capacity-fidelity trade-off.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Fuzzy Logic Stego** | 2026 | Fuzzy logic-based embedding | Adaptive depth |
+
+**State of the art:** Better imperceptibility than fixed-depth LSB.
+
+**Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### Memristive In-Memory Image Steganography
+
+**Goal:** Hardware-based steganography using memristive circuits.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Memristive Stego** | 2026 | In-memory computing | 42-44% energy reduction |
+
+**State of the art:** First hardware implementation of steganography.
+
+**Production readiness:** Experimental
+
+**Implementations:** Custom circuit prototypes
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### StegaVision
+
+**Goal:** Enhance steganography using attention mechanisms for better capacity-quality balance.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StegaVision** | 2024 | Attention-based network | Improved capacity |
+
+**State of the art:** Uses attention to balance image quality and embedding capacity.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Foveation Steganography
+
+**Goal:** Improve payload capacity using foveated rendering and latent representations.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Foveation** | 2025 | Foveated rendering + latent | 100→500 bits capacity |
+
+**State of the art:** Achieves up to 500 bits with 1 failure bit out of 2000.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### StegaINR (Steganography by Implicit Neural Representations)
+
+**Goal:** Hide functions within functions using INR without additional extractors.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StegaINR** | 2023 | INR-based | No message extractor needed |
+
+**State of the art:** Uses implicit neural representations for hiding.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### StegaINR4MIH (INR for Multi-Image Hiding)
+
+**Goal:** Embed multiple secret images into a cover image with high quality recovery.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StegaINR4MIH** | 2024 | INR multi-image | High capacity |
+
+**State of the art:** Addresses contour shadowing and color distortion issues.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### DiffStega (Training-Free Diffusion Steganography)
+
+**Goal:** Training-free coverless image steganography using diffusion models.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **DiffStega** | 2024 | Diffusion-based | Training-free |
+
+**State of the art:** First training-free diffusion generative steganography.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Stable Messenger
+
+**Goal:** Message-concealed image generation with high message accuracy.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Stable Messenger** | 2023 | Message-driven generation | Full message recovery |
+
+**State of the art:** Evaluates entire message accuracy, not just bit accuracy.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### DKiS (Decay weight Invertible image Steganography)
+
+**Goal:** Private key-based image steganography with decay weight mechanism.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **DKiS** | 2023 | Invertible network | Private key security |
+
+**State of the art:** Uses decay weights for enhanced security.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### PRIS (Practical Robust Invertible Network for Image Steganography)
+
+**Goal:** Robust and invertible network for image steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **PRIS** | 2023 | Invertible network | Robust + invertible |
+
+**State of the art:** Combines robustness with reversibility.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Multi-User Multi-Key Image Steganography
+
+**Goal:** Image steganography with key isolation for multi-user scenarios.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Multi-User Multi-Key** | 2026 | Unified network with key isolation | Selective hidden content reveal |
+
+**State of the art:** Enables different authorized users to extract different hidden contents from the same stego image.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure — Key-based access control
+
+**Community acceptance:** Emerging
+
+---
+
+### StegaPos
+
+**Goal:** Prevent unwanted image crops and replacements by embedding imperceptible positional signatures.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StegaPos** | 2021 | Learned encoder/decoder CNN | Anti-tampering watermarking |
+
+**State of the art:** Embeds distinct positional signatures in every local image region. Detects crops, splices, and inpainting by identifying inconsistencies in hidden positional signatures.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototype (CVPR 2022 submission)
+
+**Security status:** Caution — Detects tampering but not traditional steganalysis
+
+**Community acceptance:** Emerging — Useful for image authentication

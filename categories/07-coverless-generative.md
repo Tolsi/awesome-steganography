@@ -13,6 +13,7 @@
 **[Diffusion-based](#diffusion-based)**
 - [CRoSS](#cross)
 - [MIDAS](#midas)
+- [Training-Free Coverless Multi-Image Steganography](#training-free-coverless-multi-image-steganography)
 
 **[3D/Neural Graphics](#3dneural-graphics)**
 - [StegoNGP](#stegongp)
@@ -127,6 +128,24 @@
 
 ---
 
+### Training-Free Coverless Multi-Image Steganography
+
+**Goal:** Access-controlled hidden content revelation for multiple users.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Coverless Multi-Image** | 2026 | Training-free multi-image hiding | Access control |
+
+**State of the art:** First training-free CIS with robust access control.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
 ## 3D/Neural Graphics
 
 ---
@@ -158,6 +177,96 @@
 | **3DGS Steganography** | 2026 | Gaussian Splatting | 3D/4D content |
 
 **State of the art:** Cutting-edge 3D steganography.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### SecureGS
+
+**Goal:** Boosting security and fidelity of 3D Gaussian Splatting steganography.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **SecureGS** | 2025 | 3DGS attribute protection | ICLR 2025 |
+
+**State of the art:** Improves both security and visual quality.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### GS-Hider
+
+**Goal:** Hide messages into 3D Gaussian Splatting.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **GS-Hider** | 2024 | 3DGS point cloud protection | NeurIPS 2024 |
+
+**State of the art:** Protects 3D asset privacy.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### SemSteDiff
+
+**Goal:** Coverless semantic steganography communication using diffusion models.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **SemSteDiff** | 2025 | Diffusion-based semantic | No pre-selected cover |
+
+**State of the art:** Uses semantic extraction for coverless communication.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### DDIM-Driven Coverless Steganography
+
+**Goal:** Generate stego images using DDIM inversion without modification.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **DDIM-Driven** | 2024 | DDIM inversion | Real key support |
+
+**State of the art:** Uses deterministic diffusion for coverless generation.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### INR-Based Generative Steganography
+
+**Goal:** Generate stego-media through secret message-driven generation using INR.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **INR-Based GS** | 2024 | Implicit neural representation | High capacity |
+
+**State of the art:** Higher hiding capacity than traditional methods.
 
 **Production readiness:** Research
 
