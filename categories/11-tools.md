@@ -51,6 +51,8 @@
 - [HiddenWave](#hiddenwave)
 - [Audio-Steganography-CLI](#audio-steganography-cli)
 - [stegpy](#stegpy)
+- [PixInWav](#pixinwav)
+- [PixInWav2](#pixinwav2)
 - [steganography-js](#steganography-js)
 - [Steganography-Online](#steganography-online)
 - [LSB-Steganography-Python](#lsb-steganography-python)
@@ -1172,6 +1174,30 @@
 **Note:** Multi-format steganography supporting images and WAV audio.
 
 **Star count:** ⭐ 131
+
+---
+
+### PixInWav
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PixInWav](https://github.com/margaritageleta/PixInWav) | PyTorch | Hide images in audio using deep learning |
+
+**Note:** Neural steganography for embedding images in audio signals.
+
+**Star count:** ⭐ 28
+
+---
+
+### PixInWav2
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PixInWav2](https://github.com/migamic/PixInWav2) | PyTorch | Improved version of PixInWav |
+
+**Note:** Enhanced neural audio steganography for hiding images.
+
+**Star count:** ⭐ 24
 
 ---
 
