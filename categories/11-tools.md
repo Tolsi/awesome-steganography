@@ -63,6 +63,7 @@
 - [zwsp-steg-py](#zwsp-steg-py)
 - [steganography-png-decoder](#steganography-png-decoder)
 - [steganography (atbuy)](#steganography-atbuy)
+- [StegsnowBruteForcer](#stegsnowbruteforcer)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1318,5 +1319,17 @@
 **Note:** Simple steganography tool for encoding and decoding messages.
 
 **Star count:** ⭐ 6
+
+---
+
+### StegsnowBruteForcer
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegsnowBruteForcer](https://github.com/0p5cur/StegsnowBruteForcer) | Python | Brute force tool for SNOW whitespace steganography |
+
+**Note:** Cracks passwords for SNOW steganography tool.
+
+**Star count:** ⭐ 15
 
 ---
