@@ -161,6 +161,8 @@
 - [f5-steganography](#f5-steganography)
 - [ch3r0](#ch3r0)
 - [ReconEXIF](#reconexif)
+- [Steganography-Software](#steganography-software)
+- [binary_steganography](#binary_steganography)
 <!-- /TOC -->
 
 ---
@@ -1890,5 +1892,29 @@
 **Note:** Tool for analyzing EXIF metadata for forensics.
 
 **Star count:** ⭐ 9
+
+---
+
+### Steganography-Software
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-Software](https://github.com/Shlok-crypto/Steganography-Software) | Python | Binary steganography tool |
+
+**Note:** Software for steganography using RGB values.
+
+**Star count:** ⭐ 29
+
+---
+
+### binary_steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [binary_steganography](https://github.com/dinex-dev/binary_steganography) | Python | Binary file steganography |
+
+**Note:** Tool for steganography in binary files.
+
+**Star count:** ⭐ 2
 
 ---
