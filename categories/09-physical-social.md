@@ -1,7 +1,7 @@
 # Physical & Social Steganography
 
 <!-- TOC -->
-## Contents (2 subcategories)
+## Contents (12 algorithms)
 
 **[Physical Methods](#physical-methods)**
 - [Morse Code Yarn](#morse-code-yarn)
@@ -17,6 +17,9 @@
 - [Cultural References](#cultural-references)
 - [Contextual Hiding](#contextual-hiding)
 - [Steganography in Game Actions](#steganography-in-game-actions)
+
+**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
+- [Pulsed Waveforms and Intermittently Nonlinear Filtering in S...](#pulsed-waveforms-and-intermittently-nonlinear-filtering-in-synthesis-of-low-snr-and-covert-communications)
 <!-- /TOC -->
 
 ## Physical Methods
@@ -241,3 +244,28 @@ IEEE Access 2025; concept demonstration only.
 **Security status:** Caution — Novel medium; no known detection methods yet, but also no formal security analysis
 
 **Community acceptance:** Emerging — Very recent; peer-reviewed IEEE Access publication
+
+## Recent arXiv Papers (2024–2026)
+
+---
+
+### Pulsed Waveforms and Intermittently Nonlinear Filtering in Synthesis of Low-SNR and Covert Communications
+
+**Goal:** signal (e.g. to reduce the burden on the power amplifier), and/or made statistically indistinguishable from Gaussian noise (e.g.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Pulsed Waveforms and Intermittently Nonlinear Filtering in S** | 2020 | eess.SP | Alexei V. Nikitin, Ruslan L. Davidchack [[1]](https://arxiv.org/abs/2008.06390) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Secure
+Provably secure construction with formal guarantees.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---

@@ -1,7 +1,7 @@
 # Network Steganography
 
 <!-- TOC -->
-## Contents (5 subcategories)
+## Contents (62 algorithms)
 
 **[Header Fields](#header-fields)**
 - [IPv4/IPv6 Headers](#ipv4ipv6-headers)
@@ -36,6 +36,46 @@
 - [Quantum Gatekeeper](#quantum-gatekeeper)
 - [Intellicise Wireless Network](#intellicise-wireless-network)
 - [VeriPHY](#veriphy)
+
+**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
+- [Combining Different Existing Methods for Describing Steganog...](#combining-different-existing-methods-for-describing-steganography-hiding-methods)
+- [Quantum Hilbert Transform](#quantum-hilbert-transform)
+- [RFNNS: Robust Fixed Neural Network Steganography with Univer...](#rfnns-robust-fixed-neural-network-steganography-with-universal-text-to-image-models)
+- [Multichannel Steganography: A Provably Secure Hybrid Stegano...](#multichannel-steganography-a-provably-secure-hybrid-steganographic-model-for-secure-communication)
+- [Cover-separable Fixed Neural Network Steganography via Deep ...](#cover-separable-fixed-neural-network-steganography-via-deep-generative-models)
+- [Synthetic Embedding of Hidden Information in Industrial Cont...](#synthetic-embedding-of-hidden-information-in-industrial-control-system-network-protocols-for-evaluation-of-steganographic-malware)
+- [Purified and Unified Steganographic Network](#purified-and-unified-steganographic-network)
+- [Towards Deep Network Steganography: From Networks to Network...](#towards-deep-network-steganography-from-networks-to-networks)
+- [DWT-GBT-SVD-based Robust Speech Steganography](#dwt-gbt-svd-based-robust-speech-steganography)
+- [A Lightweight Adaptable DNS Channel for Covert Data Transmis...](#a-lightweight-adaptable-dns-channel-for-covert-data-transmission)
+- [Deep Residual Neural Networks for Image in Speech Steganogra...](#deep-residual-neural-networks-for-image-in-speech-steganography)
+- [Hide and Speak: Towards Deep Neural Networks for Speech Steg...](#hide-and-speak-towards-deep-neural-networks-for-speech-steganography)
+- [Hiding Data in Plain Sight: Undetectable Wireless Communicat...](#hiding-data-in-plain-sight-undetectable-wireless-communications-through-pseudo-noise-asymmetric-shift-keying)
+- [AAG-Stega: Automatic Audio Generation-based Steganography](#aag-stega-automatic-audio-generation-based-steganography)
+- [Unified Description for Network Information Hiding Methods](#unified-description-for-network-information-hiding-methods)
+- [A Second Order Derivatives based Approach for Steganography](#a-second-order-derivatives-based-approach-for-steganography)
+- [Why Johnny Can't Use Stego: a Human-oriented Perspective on ...](#why-johnny-cant-use-stego-a-human-oriented-perspective-on-the-application-of-steganography)
+- [Trends toward real-time network data steganography](#trends-toward-real-time-network-data-steganography)
+- ["The Good, The Bad And The Ugly": Evaluation of Wi-Fi Stegan...](#the-good-the-bad-and-the-ugly-evaluation-of-wi-fi-steganography)
+- [StegBlocks: ensuring perfect undetectability of network steg...](#stegblocks-ensuring-perfect-undetectability-of-network-steganography)
+- [Micro protocol engineering for unstructured carriers: On the...](#micro-protocol-engineering-for-unstructured-carriers-on-the-embedding-of-steganographic-control-protocols-into-audio-transmissions)
+- [Hidden and Uncontrolled - On the Emergence of Network Stegan...](#hidden-and-uncontrolled-on-the-emergence-of-network-steganographic-threats)
+- [On Importance of Steganographic Cost For Network Steganograp...](#on-importance-of-steganographic-cost-for-network-steganography)
+- [Adaptive Software Radio Steganography](#adaptive-software-radio-steganography)
+- [Development Trends in Steganography](#development-trends-in-steganography)
+- [Principles and Overview of Network Steganography](#principles-and-overview-of-network-steganography)
+- [Dynamic Pattern Based Image Steganography](#dynamic-pattern-based-image-steganography)
+- [Direct Sequence Spread Spectrum Steganographic Scheme for IE...](#direct-sequence-spread-spectrum-steganographic-scheme-for-ieee-802154)
+- [How Hidden Can Be Even More Hidden?](#how-hidden-can-be-even-more-hidden)
+- [Sending Hidden Data via Google Suggest](#sending-hidden-data-via-google-suggest)
+- [Stegobot: construction of an unobservable communication netw...](#stegobot-construction-of-an-unobservable-communication-network-leveraging-social-behavior)
+- [Proposed System for data hiding using Cryptography and Stega...](#proposed-system-for-data-hiding-using-cryptography-and-steganography-proposed-system-for-data-hiding-using-cryptography-and-steganography)
+- [Retransmission Steganography Applied](#retransmission-steganography-applied)
+- [Stream Control Transmission Protocol Steganography](#stream-control-transmission-protocol-steganography)
+- [Information Hiding Using Improper Frame Padding](#information-hiding-using-improper-frame-padding)
+- [Perfect Z2Z4-linear codes in Steganography](#perfect-z2z4-linear-codes-in-steganography)
+- [Steganography in Handling Oversized IP Packets](#steganography-in-handling-oversized-ip-packets)
+- [SecMon: End-to-End Quality and Security Monitoring System](#secmon-end-to-end-quality-and-security-monitoring-system)
 <!-- /TOC -->
 
 ## Header Fields
@@ -501,3 +541,805 @@
 **Security status:** Secure — Unique per-device signatures
 
 **Community acceptance:** Emerging
+
+## Recent arXiv Papers (2024–2026)
+
+---
+
+### Combining Different Existing Methods for Describing Steganography Hiding Methods
+
+**Goal:** The proliferation of digital carriers that can be exploited to conceal arbitrary data has greatly increased the number of techniques for implementing network steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Combining Different Existing Methods for Describing Steganog** | 2025 | cs.CR, cs.NI | Steffen Wendzel et al. [[1]](https://arxiv.org/abs/2506.01700) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Quantum Hilbert Transform
+
+**Goal:** does not exist any quantum analogue for the Hilbert transform.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Quantum Hilbert Transform** | 2025 | cs.CR, cs.DM, cs.NI | Nitin Jha, Abhishek Parakh [[1]](https://arxiv.org/abs/2505.23581) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### RFNNS: Robust Fixed Neural Network Steganography with Universal Text-to-Image Models
+
+**Goal:** With the rapid development of generative AI, image steganography has garnered widespread attention due to its unique concealment.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **RFNNS: Robust Fixed Neural Network Steganography with Univer** | 2025 | cs.MM | Yu Cheng et al. [[1]](https://arxiv.org/abs/2505.04116) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Multichannel Steganography: A Provably Secure Hybrid Steganographic Model for Secure Communication
+
+**Goal:** purely distortion-free or invertible schemes fail under the same threat model, underscoring the necessity of hybrid designs.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Multichannel Steganography: A Provably Secure Hybrid Stegano** | 2025 | cs.CR, cs.MM | Obinna Omego, Michal Bosy [[1]](https://arxiv.org/abs/2501.04511) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Secure
+Provably secure construction with formal guarantees.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Cover-separable Fixed Neural Network Steganography via Deep Generative Models
+
+**Goal:** Image steganography is the process of hiding secret data in a cover image by subtle perturbation.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Cover-separable Fixed Neural Network Steganography via Deep ** | 2024 | cs.CR, cs.CV | Guobiao Li et al. [[1]](https://arxiv.org/abs/2407.11405) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Synthetic Embedding of Hidden Information in Industrial Control System Network Protocols for Evaluation of Steganographic Malware
+
+**Goal:** infrastructures have increased protection requirements.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Synthetic Embedding of Hidden Information in Industrial Cont** | 2024 | cs.CR | Tom Neubert et al. [[1]](https://arxiv.org/abs/2406.19338) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Purified and Unified Steganographic Network
+
+**Goal:** Steganography is the art of hiding secret data into the cover media for covert communication.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Purified and Unified Steganographic Network** | 2024 | cs.CR, cs.CV | Guobiao Li et al. [[1]](https://arxiv.org/abs/2402.17210) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Towards Deep Network Steganography: From Networks to Networks
+
+**Goal:** covertly transmit the DNN models in public channels brings us the attention, especially for those trained for secret-learning tasks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Towards Deep Network Steganography: From Networks to Network** | 2023 | cs.CR, cs.AI | Guobiao Li et al. [[1]](https://arxiv.org/abs/2307.03444) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### DWT-GBT-SVD-based Robust Speech Steganography
+
+**Goal:** Steganography is a method that can improve network security and make communications safer.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **DWT-GBT-SVD-based Robust Speech Steganography** | 2020 | cs.MM, cs.SD, eess.AS | Noshin Amiri, Iman Naderi [[1]](https://arxiv.org/abs/2004.12569) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### A Lightweight Adaptable DNS Channel for Covert Data Transmission
+
+**Goal:** secret data such as keys.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Lightweight Adaptable DNS Channel for Covert Data Transmis** | 2020 | cs.CR | Mahboubeh Nazari, Sousan Tarahomi, Sobhan Aliabady [[1]](https://arxiv.org/abs/2003.14094) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Deep Residual Neural Networks for Image in Speech Steganography
+
+**Goal:** Steganography is the art of hiding a secret message inside a publicly visible carrier message.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Deep Residual Neural Networks for Image in Speech Steganogra** | 2020 | cs.MM, cs.SD, eess.AS | Shivam Agarwal, Siddarth Venkatraman [[1]](https://arxiv.org/abs/2003.13217) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Hide and Speak: Towards Deep Neural Networks for Speech Steganography
+
+**Goal:** Steganography is the science of hiding a secret message within an ordinary public message, which is referred to as Carrier.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Hide and Speak: Towards Deep Neural Networks for Speech Steg** | 2020 | cs.SD, cs.CR, cs.LG | Felix Kreuk et al. [[1]](https://arxiv.org/abs/1902.03083) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Hiding Data in Plain Sight: Undetectable Wireless Communications Through Pseudo-Noise Asymmetric Shift Keying
+
+**Goal:** Undetectable wireless transmissions are fundamental to avoid eavesdroppers.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Hiding Data in Plain Sight: Undetectable Wireless Communicat** | 2019 | cs.CR, cs.NI, eess.SP | Salvatore D'Oro, Francesco Restuccia, Tommaso Melodia [[1]](https://arxiv.org/abs/1905.02250) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### AAG-Stega: Automatic Audio Generation-based Steganography
+
+**Goal:** Steganography, as one of the three basic information security systems, has long played an important role in safeguarding the privacy and confidentiality of data in cyberspace.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **AAG-Stega: Automatic Audio Generation-based Steganography** | 2018 | cs.CR | Zhongliang Yang et al. [[1]](https://arxiv.org/abs/1809.03463) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Unified Description for Network Information Hiding Methods
+
+**Goal:** Until now hiding methods in network steganography have been described in arbitrary ways, making them difficult to compare.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Unified Description for Network Information Hiding Methods** | 2017 | cs.CR | Steffen Wendzel, Wojciech Mazurczyk, Sebastian Zander [[1]](https://arxiv.org/abs/1512.07438) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### A Second Order Derivatives based Approach for Steganography
+
+**Goal:** Steganography schemes are designed with the objective of minimizing a defined distortion function.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Second Order Derivatives based Approach for Steganography** | 2016 | cs.MM | Jean-François Couchot et al. [[1]](https://arxiv.org/abs/1611.08397) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Why Johnny Can't Use Stego: a Human-oriented Perspective on the Application of Steganography
+
+**Goal:** Steganography is the discipline that deals with concealing the existence of secret communications.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Why Johnny Can't Use Stego: a Human-oriented Perspective on ** | 2016 | cs.CR | Steffen Wendzel [[1]](https://arxiv.org/abs/1609.06664) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Trends toward real-time network data steganography
+
+**Goal:** Network steganography has been a well-known covert data channeling method for over three decades.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Trends toward real-time network data steganography** | 2016 | cs.MM, cs.CR | James Collins, Sos Agaian [[1]](https://arxiv.org/abs/1604.02778) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### "The Good, The Bad And The Ugly": Evaluation of Wi-Fi Steganography
+
+**Goal:** In this paper we propose a new method for the evaluation of network steganography algorithms based on the new concept of "the moving observer".
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **"The Good, The Bad And The Ugly": Evaluation of Wi-Fi Stegan** | 2015 | cs.MM, cs.CR | Krzysztof Szczypiorski, Artur Janicki, Steffen Wendzel [[1]](https://arxiv.org/abs/1508.04978) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### StegBlocks: ensuring perfect undetectability of network steganography
+
+**Goal:** paper presents StegBlocks, which defines a new concept for performing undetectable hidden communication.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **StegBlocks: ensuring perfect undetectability of network steg** | 2015 | cs.MM, cs.CR | Wojciech Fraczek, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1506.02311) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Micro protocol engineering for unstructured carriers: On the embedding of steganographic control protocols into audio transmissions
+
+**Goal:** Network steganography conceals the transfer of sensitive information within unobtrusive data in computer networks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Micro protocol engineering for unstructured carriers: On the** | 2015 | cs.MM, cs.CY | Matthias Naumann et al. [[1]](https://arxiv.org/abs/1505.07757) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Hidden and Uncontrolled - On the Emergence of Network Steganographic Threats
+
+**Goal:** Network steganography is the art of hiding secret information within innocent network transmissions.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Hidden and Uncontrolled - On the Emergence of Network Stegan** | 2014 | cs.CR | Steffen Wendzel et al. [[1]](https://arxiv.org/abs/1407.2029) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### On Importance of Steganographic Cost For Network Steganography
+
+**Goal:** Network steganography encompasses the information hiding techniques that can be applied in communication network environments and that utilize hidden data carriers for this purpose.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **On Importance of Steganographic Cost For Network Steganograp** | 2014 | cs.MM, cs.CR | Wojciech Mazurczyk et al. [[1]](https://arxiv.org/abs/1406.2519) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Adaptive Software Radio Steganography
+
+**Goal:** This paper presents an adaptable steganography (information hiding) method for digital radio communication.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Adaptive Software Radio Steganography** | 2013 | cs.MM | David E. Robillard [[1]](https://arxiv.org/abs/1304.7324) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Development Trends in Steganography
+
+**Goal:** Steganography is a general term referring to all methods for the embedding of additional secret content into some form of carrier, with the aim of concealment of the introduced alterations.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Development Trends in Steganography** | 2013 | cs.MM | Elzbieta Zielinska, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1202.5289) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Principles and Overview of Network Steganography
+
+**Goal:** The paper presents basic principles of network steganography, which is a comparatively new research subject in the area of information hiding, followed by a concise overview and classification of n...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Principles and Overview of Network Steganography** | 2012 | cs.CR | Jozef Lubacz, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1207.0917) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint stage; community evaluation ongoing.
+
+---
+
+### Dynamic Pattern Based Image Steganography
+
+**Goal:** Steganography is the art of hiding secret information in media such as image, audio and video.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Dynamic Pattern Based Image Steganography** | 2012 | cs.CR | P. Thiyagarajan, G. Aghila, V. Prasanna Venkatesan [[1]](https://arxiv.org/abs/1206.2583) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Direct Sequence Spread Spectrum Steganographic Scheme for IEEE 802.15.4
+
+**Goal:** This work addresses the issues related to network steganography in IEEE 802.15.4 Wireless Personal Area Networks (WPAN).
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Direct Sequence Spread Spectrum Steganographic Scheme for IE** | 2011 | cs.CR | Elzbieta Zielinska, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1107.4230) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### How Hidden Can Be Even More Hidden?
+
+**Goal:** The paper presents Deep Hiding Techniques (DHTs) that define general techniques that can be applied to every network steganography method to improve its undetectability and make steganogram extract...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **How Hidden Can Be Even More Hidden?** | 2011 | cs.CR | Wojciech Fraczek, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1107.4065) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Sending Hidden Data via Google Suggest
+
+**Goal:** Google Web Search which was created to help user find the right search phrase by proposing the autocompleting popular phrases while typing.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Sending Hidden Data via Google Suggest** | 2011 | cs.CR | Piotr Bialczak, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1107.4062) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Stegobot: construction of an unobservable communication network leveraging social behavior
+
+**Goal:** using social networks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Stegobot: construction of an unobservable communication netw** | 2011 | cs.CR, cs.NI, cs.SI | Shishir Nagaraja et al. [[1]](https://arxiv.org/abs/1107.2031) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Proposed System for data hiding using Cryptography and Steganography Proposed System for data hiding using Cryptography and Steganography
+
+**Goal:** Steganography and Cryptography are two popular ways of sending vital information in a secret way.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Proposed System for data hiding using Cryptography and Stega** | 2010 | cs.CR | Dipti Kapoor Sarmah, Neha Bajpai [[1]](https://arxiv.org/abs/1009.2826) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Retransmission Steganography Applied
+
+**Goal:** This paper presents experimental results of the implementation of network steganography method called RSTEG (Retransmission Steganography).
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Retransmission Steganography Applied** | 2010 | cs.CR | Wojciech Mazurczyk, Milosz Smolarczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1007.0767) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Stream Control Transmission Protocol Steganography
+
+**Goal:** Stream Control Transmission Protocol (SCTP) is a new transport layer protocol that is due to replace TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) protocols in future IP netw...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Stream Control Transmission Protocol Steganography** | 2010 | cs.CR | Wojciech Fraczek, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1006.0247) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Information Hiding Using Improper Frame Padding
+
+**Goal:** Hiding information in network traffic may lead to leakage of confidential information.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Information Hiding Using Improper Frame Padding** | 2010 | cs.CR | Bartosz Jankowski, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1005.1925) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Perfect Z2Z4-linear codes in Steganography
+
+**Goal:** Steganography is an information hiding application which aims to hide secret data imperceptibly into a commonly used media.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Perfect Z2Z4-linear codes in Steganography** | 2010 | cs.IT, cs.CR | H. Rifà-Pous, J. Rifà, L. Ronquillo [[1]](https://arxiv.org/abs/1002.0026) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Steganography in Handling Oversized IP Packets
+
+**Goal:** This paper identifies new class of network steganography methods that utilize mechanisms to handle oversized packets in IP networks: IP fragmentation, PMTUD (Path MTU Discovery) and PLPMTUD (Packet...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Steganography in Handling Oversized IP Packets** | 2009 | cs.CR | Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/0907.0313) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### SecMon: End-to-End Quality and Security Monitoring System
+
+**Goal:** a self-organizing capability.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **SecMon: End-to-End Quality and Security Monitoring System** | 2008 | cs.MM | Tomasz Ciszkowski et al. [[1]](https://arxiv.org/abs/0804.0134) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---

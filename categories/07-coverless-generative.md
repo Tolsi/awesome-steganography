@@ -1,7 +1,7 @@
 # Coverless / Generative Steganography
 
 <!-- TOC -->
-## Contents (7 algorithms)
+## Contents (21 algorithms)
 
 **[Hash-based](#hash-based)**
 - [Coverless Image](#coverless-image)
@@ -19,6 +19,15 @@
 - [StegoNGP](#stegongp)
 - [3DGS Steganography](#3dgs-steganography)
 - [Splats in Splats++](#splats-in-splats)
+
+**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
+- [All That Glitters Is Not Gold: Key-Secured 3D Secrets within...](#all-that-glitters-is-not-gold-key-secured-3d-secrets-within-3d-gaussian-splatting)
+- [Splats in Splats: Robust and Effective 3D Steganography towa...](#splats-in-splats-robust-and-effective-3d-steganography-towards-gaussian-splatting)
+- [Dual Model Replacement:invisible Multi-target Backdoor Attac...](#dual-model-replacementinvisible-multi-target-backdoor-attack-based-on-federal-learning)
+- [A Dynamic YOLO-Based Sequence-Matching Model for Efficient C...](#a-dynamic-yolo-based-sequence-matching-model-for-efficient-coverless-image-steganography)
+- [Noise-NeRF: Hide Information in Neural Radiance Fields using...](#noise-nerf-hide-information-in-neural-radiance-fields-using-trainable-noise)
+- [Steganography for Neural Radiance Fields by Backdooring](#steganography-for-neural-radiance-fields-by-backdooring)
+- [Image Generation Network for Covert Transmission in Online S...](#image-generation-network-for-covert-transmission-in-online-social-network)
 <!-- /TOC -->
 
 ## Hash-based
@@ -306,3 +315,154 @@ Preprint October 2024; no public implementation.
 **Security status:** Secure
 
 **Community acceptance:** Emerging
+
+## Recent arXiv Papers (2024–2026)
+
+---
+
+### All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting
+
+**Goal:** Recent advances in 3D Gaussian Splatting (3DGS) have revolutionized scene reconstruction, opening new possibilities for 3D steganography by hiding 3D secrets within 3D covers.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **All That Glitters Is Not Gold: Key-Secured 3D Secrets within** | 2025 | cs.GR, cs.CR, cs.CV | Yan Ren, Shilin Lu, Adams Wai-Kin Kong [[1]](https://arxiv.org/abs/2503.07191) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Splats in Splats: Robust and Effective 3D Steganography towards Gaussian Splatting
+
+**Goal:** copyright protection techniques for 3DGS overlook the usability of 3D assets, posing challenges for practical deployment.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Splats in Splats: Robust and Effective 3D Steganography towa** | 2025 | cs.CV, eess.IV | Yijia Guo et al. [[1]](https://arxiv.org/abs/2412.03121) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Dual Model Replacement:invisible Multi-target Backdoor Attack based on Federal Learning
+
+**Goal:** training in backdoor attack, this paper designs a backdoor attack method based on federated learning.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Dual Model Replacement:invisible Multi-target Backdoor Attac** | 2024 | cs.LG | Rong Wang et al. [[1]](https://arxiv.org/abs/2404.13946) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography
+
+**Goal:** Many existing coverless steganography methods establish a mapping relationship between cover images and hidden data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Dynamic YOLO-Based Sequence-Matching Model for Efficient C** | 2024 | cs.CR | Jiajun Liu et al. [[1]](https://arxiv.org/abs/2401.11946) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Noise-NeRF: Hide Information in Neural Radiance Fields using Trainable Noise
+
+**Goal:** advancement in 3D reconstruction techniques.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Noise-NeRF: Hide Information in Neural Radiance Fields using** | 2024 | cs.CV | Qinglong Huang et al. [[1]](https://arxiv.org/abs/2401.01216) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Steganography for Neural Radiance Fields by Backdooring
+
+**Goal:** for visual data (such as images, videos, and 3D models) has recently gained significant attention in computer vision research.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Steganography for Neural Radiance Fields by Backdooring** | 2023 | cs.CR | Weina Dong et al. [[1]](https://arxiv.org/abs/2309.10503) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Image Generation Network for Covert Transmission in Online Social Network
+
+**Goal:** communications over the Internet more than ever, making it possible for secret message transmission over such noisy channels.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Image Generation Network for Covert Transmission in Online S** | 2022 | cs.CV | Zhengxin You et al. [[1]](https://arxiv.org/abs/2207.10292) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---

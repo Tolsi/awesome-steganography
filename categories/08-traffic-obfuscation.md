@@ -1,7 +1,7 @@
 # Traffic Obfuscation
 
 <!-- TOC -->
-## Contents (3 subcategories)
+## Contents (14 algorithms)
 
 **[Tor Pluggable Transports](#tor-pluggable-transports)**
 - [obfs4](#obfs4)

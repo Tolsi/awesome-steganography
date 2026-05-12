@@ -1,7 +1,7 @@
 # Video Steganography
 
 <!-- TOC -->
-## Contents (9 algorithms)
+## Contents (13 algorithms)
 
 **[Frame-based Methods](#frame-based-methods)**
 - [Frame LSB/DCT](#frame-lsbdct)
@@ -15,6 +15,12 @@
 - [H.265/HEVC CU Block Steganography](#h265hevc-cu-block-steganography)
 - [SemCovert](#semcovert-semantic-video-steganography)
 - [Optimizing Region of Interest Selection](#optimizing-region-of-interest-selection)
+
+**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
+- [From Covert Hiding to Visual Editing: Robust Generative Vide...](#from-covert-hiding-to-visual-editing-robust-generative-video-steganography)
+- [Large-capacity and Flexible Video Steganography via Invertib...](#large-capacity-and-flexible-video-steganography-via-invertible-neural-network)
+- [Investigation on Principles for Cost Assignment in Motion Ve...](#investigation-on-principles-for-cost-assignment-in-motion-vector-based-video-steganography)
+- [Convolutional Video Steganography with Temporal Residual Mod...](#convolutional-video-steganography-with-temporal-residual-modeling)
 <!-- /TOC -->
 
 ## Frame-based Methods
@@ -210,3 +216,91 @@ First paper to address steganography at the semantic communication layer; too re
 **Security status:** Emerging
 
 **Community acceptance:** Niche
+
+## Recent arXiv Papers (2024–2026)
+
+---
+
+### From Covert Hiding to Visual Editing: Robust Generative Video Steganography
+
+**Goal:** Traditional video steganography methods are based on modifying the covert space for embedding, whereas we propose an innovative approach that embeds secret message within semantic feature for
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **From Covert Hiding to Visual Editing: Robust Generative Vide** | 2023 | cs.CV | Xueying Mao et al. [[1]](https://arxiv.org/abs/2401.00652) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Large-capacity and Flexible Video Steganography via Invertible Neural Network
+
+**Goal:** Video steganography is the art of unobtrusively concealing secret data in a cover video and then recovering the secret data through a decoding protocol at the receiver end.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Large-capacity and Flexible Video Steganography via Invertib** | 2023 | cs.CV, cs.CR | Chong Mou et al. [[1]](https://arxiv.org/abs/2304.12300) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Investigation on Principles for Cost Assignment in Motion Vector-based Video Steganography
+
+**Goal:** Cost assignment in the motion vector domain remains a research focus in video steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Investigation on Principles for Cost Assignment in Motion Ve** | 2022 | cs.CR, cs.MM | Jun Li et al. [[1]](https://arxiv.org/abs/2209.01744) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Convolutional Video Steganography with Temporal Residual Modeling
+
+**Goal:** Steganography represents the art of unobtrusively concealing a secrete message within some cover data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Convolutional Video Steganography with Temporal Residual Mod** | 2018 | cs.MM | Xinyu Weng et al. [[1]](https://arxiv.org/abs/1806.02941) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
