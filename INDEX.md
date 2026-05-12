@@ -4,21 +4,27 @@
 - [Adaptive Methods](02-image-steganography.md#adaptive-methods)
 - [AAC-stego](03-audio-steganography.md#aac-stego)
 - [Adaptive Phase Coding](03-audio-steganography.md#adaptive-phase-coding)
+- [ASCII Art Steganography](01-text-steganography.md#ascii-art-steganography)
 
 ## B
 - [BPCS](02-image-steganography.md#bpcs)
 - [Bacon's Cipher](01-text-steganography.md#bacons-cipher)
+- [Blog-Steganography](01-text-steganography.md#blog-steganography)
 
 ## C
 - [CABAC](04-video-steganography.md#cabac)
 - [CELP](03-audio-steganography.md#celp)
 - [Chaotic Map LSB](02-image-steganography.md#chaotic-map-lsb)
 - [ChatStega](01-text-steganography.md#chatstega)
+- [Chaffing and Winnowing](01-text-steganography.md#chaffing-and-winnowing)
+- [Content-Aware Steganography](02-image-steganography.md#content-aware-steganography)
+- [Control-Flow Steganography](06-filesystem-os.md#control-flow-steganography)
 - [Coverless Image](07-coverless-generative.md#coverless-image)
 - [CRoSS](02-image-steganography.md#cross)
 - [CYPRESS](05-network-steganography.md#cypress)
 
 ## D
+- [Data After EOF](06-filesystem-os.md#data-after-eof)
 - [DFT](02-image-steganography.md#dft)
 - [Difference Expansion](02-image-steganography.md#difference-expansion)
 - [Discop](01-text-steganography.md#discop)
@@ -29,6 +35,7 @@
 ## E
 - [EMD](02-image-steganography.md#emd)
 - [Echo Hiding](03-audio-steganography.md#echo-hiding)
+- [EOF Stego](06-filesystem-os.md#data-after-eof)
 
 ## F
 - [F5](02-image-steganography.md#f5)
@@ -49,6 +56,7 @@
 - [HPA/DCO](06-filesystem-os.md#hpadco)
 - [HTTP Headers](05-network-steganography.md#http-headers)
 - [HUGO](02-image-steganography.md#hugo)
+- [Hydan](06-filesystem-os.md#control-flow-steganography)
 - [Hysteria 2](08-traffic-obfuscation.md#hysteria-2)
 
 ## I
@@ -64,8 +72,12 @@
 - [J-UNIWARD](02-image-steganography.md#j-uniward)
 - [Jitterbug](05-network-steganography.md#jitterbug)
 
+## K
+- [Keypress Timing Channel](05-network-steganography.md#keypress-timing-channel)
+
 ## L
 - [LACK](05-network-steganography.md#lack)
+- [LAN Covert Channels (Girling)](05-network-steganography.md#lan-covert-channels-girling)
 - [LPC](03-audio-steganography.md#lpc-linear-predictive-coding)
 - [LSB Audio](03-audio-steganography.md#lsb-audio)
 - [LSB Matching](02-image-steganography.md#lsb-matching)
@@ -81,8 +93,10 @@
 - [MIDAS](07-coverless-generative.md#midas)
 - [Mimic Functions](01-text-steganography.md#mimic-functions)
 - [MiPOD](02-image-steganography.md#mipod)
+- [Morse Code Yarn](09-physical-social.md#morse-code-yarn)
 - [Motion Vector](04-video-steganography.md#motion-vector)
 - [MP3Stego](03-audio-steganography.md#mp3stego)
+- [Music Cipher](09-physical-social.md#music-cipher)
 
 ## N
 - [NaiveProxy](08-traffic-obfuscation.md#naiveproxy)
@@ -116,6 +130,7 @@
 ## S
 - [S-UNIWARD](02-image-steganography.md#s-uniward)
 - [Shadowsocks](08-traffic-obfuscation.md#shadowsocks)
+- [Skin Tone Adaptive](02-image-steganography.md#skin-tone-adaptive)
 - [Snowflake](08-traffic-obfuscation.md#snowflake)
 - [Social Steganography](09-physical-social.md#social-steganography)
 - [Spectrogram Steganography](03-audio-steganography.md#spectrogram-steganography)
@@ -158,7 +173,9 @@
 - [Whitespace Coding](01-text-steganography.md#whitespace-coding)
 - [Wi-Fi CSI](05-network-steganography.md#wi-fi-csi)
 - [WireGuard Steganography](05-network-steganography.md#wireguard-steganography)
+- [Wolf Covert Channels](05-network-steganography.md#wolf-covert-channels)
 - [WOW](02-image-steganography.md#wow)
+- [Word Change Tracking](01-text-steganography.md#word-change-tracking)
 
 ## X
 - [XuNet](10-steganalysis.md#xunet)

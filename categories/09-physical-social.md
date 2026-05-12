@@ -4,6 +4,8 @@
 ## Contents (2 subcategories)
 
 **[Physical Methods](#physical-methods)**
+- [Morse Code Yarn](#morse-code-yarn)
+- [Music Cipher](#music-cipher)
 - [Printer Steganography](#printer-steganography)
 - [Microdots](#microdots)
 - [Invisible Ink](#invisible-ink)
@@ -14,6 +16,42 @@
 <!-- /TOC -->
 
 ## Physical Methods
+
+---
+
+### Morse Code Yarn
+
+**Goal:** Hide messages in knitted clothing using Morse code.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Morse Yarn** | 1940s | Morse on yarn | WWII spy technique |
+
+**State of the art:** Historical method.
+
+**Production readiness:** Deprecated
+
+**Security status:** N/A — Historical
+
+**Community acceptance:** Niche — Historical curiosity
+
+---
+
+### Music Cipher
+
+**Goal:** Hide messages in musical notes.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Music Cipher** | 1985 | Note pitch encoding | Klezmer saxophonist |
+
+**State of the art:** Unique approach using music.
+
+**Production readiness:** Deprecated
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
 
 ---
 

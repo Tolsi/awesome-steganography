@@ -7,6 +7,7 @@
 - [File Slack](#file-slack)
 - [NTFS ADS](#ntfs-ads)
 - [HPA/DCO](#hpadco)
+- [Data After EOF](#data-after-eof)
 
 **[Encryption-based](#encryption-based)**
 - [VeraCrypt Hidden Volume](#veracrypt-hidden-volume)
@@ -14,6 +15,7 @@
 
 **[Metadata](#metadata)**
 - [Metadata Steganography](#metadata-steganography)
+- [Control-Flow Steganography](#control-flow-steganography)
 <!-- /TOC -->
 
 ## Storage Methods
@@ -136,3 +138,39 @@
 **Security status:** Caution — Metadata visible
 
 **Community acceptance:** Widely trusted
+
+---
+
+### Control-Flow Steganography
+
+**Goal:** Hide data in program control flow graphs.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Hydan** | 2004 | Instruction redundancy | Executable stego |
+
+**State of the art:** Embeds in program binaries.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
+### Data After EOF
+
+**Goal:** Hide data after end of file marker.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **EOF Stego** | 1996 | Data after EOF | Universal |
+
+**State of the art:** Simple but detectable.
+
+**Production readiness:** Deprecated
+
+**Security status:** Broken — Easy to detect
+
+**Community acceptance:** Niche

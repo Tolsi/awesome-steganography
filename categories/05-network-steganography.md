@@ -10,7 +10,10 @@
 
 **[Timing Channels](#timing-channels)**
 - [IPD Encoding](#ipd-encoding)
+- [LAN Covert Channels (Girling)](#lan-covert-channels-girling)
+- [Wolf Covert Channels](#wolf-covert-channels)
 - [Jitterbug](#jitterbug)
+- [Keypress Timing Channel](#keypress-timing-channel)
 
 **[DNS Tunneling](#dns-tunneling)**
 - [iodine](#iodine)
@@ -112,6 +115,42 @@
 
 ---
 
+### LAN Covert Channels (Girling)
+
+**Goal:** First study of covert channels in LAN.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Girling** | 1987 | Storage + timing channels | Academic |
+
+**State of the art:** Foundational research.
+
+**Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Niche — Historical importance
+
+---
+
+### Wolf Covert Channels
+
+**Goal:** Implement covert channels in TCP/IP.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Wolf** | 1989 | Reserved fields | LAN protocols |
+
+**State of the art:** Early implementation.
+
+**Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
 ### Jitterbug
 
 **Goal:** Modulate keystroke timing for covert channels.
@@ -123,6 +162,24 @@
 **State of the art:** Academic curiosity.
 
 **Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
+### Keypress Timing Channel
+
+**Goal:** Encode data in keyboard timing delays.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Keypress Timing** | 2000 | Network delay encoding | 1-10 bps |
+
+**State of the art:** Uses telnet/remote desktop timing.
+
+**Production readiness:** Experimental
 
 **Security status:** Caution
 

@@ -4,6 +4,8 @@
 ## Contents (3 algorithms)
 
 **[Structural Methods](#structural-methods)**
+- [ASCII Art Steganography](#ascii-art-steganography)
+- [Word Change Tracking](#word-change-tracking)
 - [Bacon's Cipher](#bacons-cipher)
 - [Null Cipher](#null-cipher)
 - [Whitespace coding](#whitespace-coding)
@@ -11,15 +13,53 @@
 - [Homoglyphs](#homoglyphs)
 
 **[Semantic Methods](#semantic-methods)**
+- [Chaffing and Winnowing](#chaffing-and-winnowing)
 - [Mimic Functions](#mimic-functions)
 
 **[LLM-Based Methods](#llm-based-methods)**
 - [Meteor](#meteor)
 - [Discop](#discop)
 - [ChatStega](#chatstega)
+- [Blog-Steganography](#blog-steganography)
 <!-- /TOC -->
 
 ## Structural Methods
+
+---
+
+### ASCII Art Steganography
+
+**Goal:** Hide data in ASCII art representations.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **ASCII Art** | 2010 | Character density | Survives printing |
+
+**State of the art:** Novel approach surviving print.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### Word Change Tracking
+
+**Goal:** Hide data using word processor change tracking feature.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Change Tracking** | 2007 | Deliberate errors | Word docs |
+
+**State of the art:** Uses Word change tracking.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
 
 ---
 
@@ -99,6 +139,24 @@
 
 ---
 
+### Chaffing and Winnowing
+
+**Goal:** Separate authentic from chaff messages.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Chaffing** | 1998 | MAC authentication | Rivest |
+
+**State of the art:** Unique authentication-based approach.
+
+**Production readiness:** Mature
+
+**Security status:** Secure
+
+**Community acceptance:** Widely trusted
+
+---
+
 ### Mimic Functions
 
 **Goal:** Generate text that encodes secret data using grammar rules.
@@ -175,3 +233,21 @@
 **Security status:** Caution — Detectable with access to sampling seed
 
 **Community acceptance:** Emerging — Growing interest in practical LLM steganography
+
+---
+
+### Blog-Steganography
+
+**Goal:** Hide messages in blog comments across the internet.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Blog-Stego** | 2011 | Fractionalized + blog selection | Key = blog set |
+
+**State of the art:** Uses blogosphere as carrier.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure — Distributed
+
+**Community acceptance:** Niche

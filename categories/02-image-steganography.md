@@ -12,6 +12,8 @@
 - [Sudoku-based](#sudoku-based-steganography)
 - [FuzzyStego](#fuzzystego)
 - [Chaotic Map LSB](#chaotic-map-lsb)
+- [Content-Aware Steganography](#content-aware-steganography)
+- [Skin Tone Adaptive](#skin-tone-adaptive)
 - [STC](#stc)
 
 **[Adaptive Methods](#adaptive-methods)**
@@ -201,6 +203,42 @@
 **Security status:** Caution
 
 **Community acceptance:** Niche
+
+---
+
+### Content-Aware Steganography
+
+**Goal:** Hide data based on semantic content of image.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Content-Aware** | 2013 | Human-assigned semantics | Secure against non-human |
+
+**State of the art:** Uses semantic understanding.
+
+**Production readiness:** Experimental
+
+**Security status:** Secure — Human adversary required
+
+**Community acceptance:** Emerging
+
+---
+
+### Skin Tone Adaptive
+
+**Goal:** Embed in skin-tone regions using secret angle.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Skin Tone Adaptive** | 2009 | Face detection | Adaptive embedding |
+
+**State of the art:** Adaptive based on image content.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
 
 ---
 
