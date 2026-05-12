@@ -16,6 +16,7 @@
 **[Image Steganography](#image-steganography)**
 - [steghide](#steghide)
 - [steganography (kelvins)](#steganography-kelvins)
+- [steganography (stylesuxx)](#steganography-stylesuxx)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -311,6 +312,18 @@
 **Note:** Comprehensive Python library for learning steganography.
 
 **Star count:** ⭐ 365
+
+---
+
+### steganography (stylesuxx)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/stylesuxx/steganography) | JavaScript | JavaScript steganography library |
+
+**Note:** JavaScript library for image steganography.
+
+**Star count:** ⭐ 160
 
 ---
 
