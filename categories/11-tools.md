@@ -10,6 +10,8 @@
 - [stegtext](#stegtext)
 - [SpamMimic](#spammimic)
 - [meteor-stego](#meteor-stego)
+- [stegcloak](#stegcloak)
+- [Cloakify](#cloakify)
 
 **[Image Steganography](#image-steganography)**
 - [steghide](#steghide)
@@ -29,6 +31,9 @@
 - [SteganoGAN](#steganogan)
 - [StegaStamp](#stegastamp)
 - [CRoSS](#cross)
+- [stegify](#stegify)
+- [tweetable-polyglot-png](#tweetable-polyglot-png)
+- [stego-toolkit](#stego-toolkit)
 
 **[Audio Steganography](#audio-steganography)**
 - [DeepSound](#deepsound)
@@ -42,6 +47,7 @@
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
 - [videostego](#videostego)
+- [SteganographierGUI](#steganographiergui)
 
 **[Network Steganography](#network-steganography)**
 - [iodine](#iodine)
@@ -155,6 +161,30 @@
 **Note:** LLM-based text steganography using Meteor approach.
 
 **Star count:** ⭐ 215
+
+---
+
+### stegcloak
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegcloak](https://github.com/KuroLabs/stegcloak) | JavaScript | Hide secrets with invisible characters in plain text securely |
+
+**Note:** Hide secrets with invisible characters in plain text using zero-width characters with password protection.
+
+**Star count:** ⭐ 3.8k
+
+---
+
+### Cloakify
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Cloakify](https://github.com/TryCatchHCF/Cloakify) | Python | Data exfiltration using text-based steganography |
+
+**Note:** Converts any filetype into list of everyday strings. Evades DLP/MLS devices and data whitelisting.
+
+**Star count:** ⭐ 1.7k
 
 ---
 
@@ -366,6 +396,42 @@
 
 ---
 
+### stegify
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegify](https://github.com/DimitarPetrov/stegify) | Go | LSB steganography tool for hiding files in images |
+
+**Note:** Go tool for LSB steganography, capable of hiding any file within an image.
+
+**Star count:** ⭐ 1.3k
+
+---
+
+### tweetable-polyglot-png
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [tweetable-polyglot-png](https://github.com/DavidBuchanan314/tweetable-polyglot-png) | Python | Pack up to 3MB of data into a tweetable PNG polyglot |
+
+**Note:** Embeds ZIP, MP3, or other files into PNG images that remain valid and viewable.
+
+**Star count:** ⭐ 2.6k
+
+---
+
+### stego-toolkit
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit) | Shell | Collection of steganography tools for CTF challenges |
+
+**Note:** Docker-based collection of steganography tools. Helps with CTF challenges.
+
+**Star count:** ⭐ 2.7k
+
+---
+
 ## Audio Steganography
 
 ---
@@ -479,6 +545,18 @@
 **Note:** Simple video steganography using least significant bits.
 
 **Star count:** ⭐ 19
+
+---
+
+### SteganographierGUI
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SteganographierGUI](https://github.com/cenglin123/SteganographierGUI) | Python | Embed files into MP4/MKV video files |
+
+**Note:** Hides files in MP4/MKV video files using video steganography.
+
+**Star count:** ⭐ 823
 
 ---
 
