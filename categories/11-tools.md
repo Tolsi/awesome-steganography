@@ -78,6 +78,8 @@
 - [fractal-image-steganography](#fractal-image-steganography)
 - [LSB_Steganography (omriher)](#lsb_steganography-omriher)
 - [lsb (marselester)](#lsb-marselester)
+- [covertutils](#covertutils)
+- [stegsleuth](#stegsleuth)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1513,5 +1515,29 @@
 **Note:** Early LSB steganography tool for BMP images.
 
 **Star count:** ⭐ 7
+
+---
+
+### covertutils
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [covertutils](https://github.com/operatorequals/covertutils) | Python | Python framework for building covert channels |
+
+**Note:** Comprehensive framework for creating covert communication channels.
+
+**Star count:** ⭐ 435
+
+---
+
+### stegsleuth
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegsleuth](https://github.com/4osp3l/stegsleuth) | Python | Steganalysis framework |
+
+**Note:** Framework for detecting hidden data in various media.
+
+**Star count:** ⭐ 14
 
 ---
