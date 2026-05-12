@@ -174,6 +174,7 @@
 - [euli_treasure_hunt](#euli_treasure_hunt)
 - [Cipher-Sphere](#cipher-sphere)
 - [steganography (teovoinea)](#steganography-teovoinea)
+- [stegify-flutter-plugin](#stegify-flutter-plugin)
 <!-- /TOC -->
 
 ---
@@ -2059,5 +2060,17 @@
 **Note:** Rust library for image steganography.
 
 **Star count:** ⭐ 103
+
+---
+
+### stegify-flutter-plugin
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegify-flutter-plugin](https://github.com/DimitarPetrov/stegify-flutter-plugin) | Dart | Flutter plugin for stegify |
+
+**Note:** Flutter plugin for mobile steganography.
+
+**Star count:** ⭐ 10
 
 ---
