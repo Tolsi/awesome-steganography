@@ -165,6 +165,7 @@
 - [binary_steganography](#binary_steganography)
 - [node-stego](#node-stego)
 - [photochat](#photochat)
+- [PDFStego](#pdfstego)
 <!-- /TOC -->
 
 ---
@@ -1942,5 +1943,17 @@
 **Note:** Mobile app for hidden messaging in photos.
 
 **Star count:** ⭐ 43
+
+---
+
+### PDFStego
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PDFStego](https://github.com/aagallag/PDFStego) | C | PDF steganography tool |
+
+**Note:** Tool for hiding data in PDF files.
+
+**Star count:** —
 
 ---
