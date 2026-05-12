@@ -10,6 +10,7 @@
 - [Approximate Gaussian](02-image-steganography.md#approximate-gaussian-mapping)
 - [ASCII Art Steganography](01-text-steganography.md#ascii-art-steganography)
 - [Auto-Stega](01-text-steganography.md#auto-stega)
+- [Addressing Tokenization Inconsistency](01-text-steganography.md#addressing-tokenization-inconsistency)
 
 ## B
 - [BPCS](02-image-steganography.md#bpcs)
@@ -48,6 +49,8 @@
 - [DiffStega](02-image-steganography.md#diffstega-training-free-diffusion-steganography)
 - [DKiS](02-image-steganography.md#dkis-decay-weight-invertible-image-steganography)
 - [DDIM-Driven](07-coverless-generative.md#ddim-driven-coverless-steganography)
+- [Deep Data Hiding for ICAO-Compliant Face Images](02-image-steganography.md#deep-data-hiding-for-icao-compliant-face-images)
+- [Defending against Stegomalware](02-image-steganography.md#defending-against-stegomalware)
 
 ## E
 - [EMD](02-image-steganography.md#emd)
@@ -97,6 +100,7 @@
 - [iodine](05-network-steganography.md#iodine)
 - [IPD Encoding](05-network-steganography.md#ipd-encoding)
 - [IPv4/IPv6 Headers](05-network-steganography.md#ipv4ipv6-headers)
+- [Intelligent Carrier Allocation](02-image-steganography.md#intelligent-carrier-allocation)
 
 ## J
 - [JSteg](02-image-steganography.md#jsteg)
@@ -144,6 +148,8 @@
 - [OD-Stega](01-text-steganography.md#od-stega)
 - [Opus-stego](03-audio-steganography.md#opus-stego)
 - [OutGuess](02-image-steganography.md#outguess)
+- [On the Possible Detectability of Image-in-Image Steganography](02-image-steganography.md#on-the-possible-detectability-of-image-in-image-steganography)
+- [Optimizing Region of Interest Selection](04-video-steganography.md#optimizing-region-of-interest-selection)
 
 ## P
 - [Parity Coding](03-audio-steganography.md#parity-coding)
@@ -169,6 +175,8 @@
 - [REALITY](08-traffic-obfuscation.md#reality)
 - [ReTokSync](01-text-steganography.md#retoksync)
 - [RS-analysis](10-steganalysis.md#rs-analysis)
+- [Rethinking Security of Diffusion-based Generative Steganography](02-image-steganography.md#rethinking-security-of-diffusion-based-generative-steganography)
+- [Robust Provably Secure Image Steganography via Latent Iterative Optimization](02-image-steganography.md#robust-provably-secure-image-steganography-via-latent-iterative-optimization)
 
 ## S
 - [S-UNIWARD](02-image-steganography.md#s-uniward)
@@ -211,6 +219,8 @@
 - [StyleGAN Stego](07-coverless-generative.md#stylegan-stego)
 - [Sudoku-based](02-image-steganography.md#sudoku-based-steganography)
 - [SVD](02-image-steganography.md#svd)
+- [Secure Audio Embedding in Images](02-image-steganography.md#secure-audio-embedding-in-images)
+- [Splats in Splats++](07-coverless-generative.md#splats-in-splats)
 - [Structural Attack](10-steganalysis.md#structural-attack)
 - [Training-Free Coverless Multi-Image Steganography](07-coverless-generative.md#training-free-coverless-multi-image-steganography)
 
@@ -221,6 +231,7 @@
 - [Tone Insertion](03-audio-steganography.md#tone-insertion)
 - [Trojan-GFW](08-traffic-obfuscation.md#trojan-gfw)
 - [TrojanStego](01-text-steganography.md#trojanstego)
+- [Targeted Pooled Latent-Space Steganalysis](10-steganalysis.md#targeted-pooled-latent-space-steganalysis)
 
 ## U
 - [UED/UERD](02-image-steganography.md#ueduerd)
@@ -231,6 +242,7 @@
 - [VLESS](08-traffic-obfuscation.md#vless)
 - [Visual Attack](10-steganalysis.md#visual-attack)
 - [VoIP Steganography](05-network-steganography.md#voip-steganography)
+- [VeriPHY](05-network-steganography.md#veriphy)
 
 ## W
 - [WavMark](03-audio-steganography.md#wavmark)
@@ -253,4 +265,5 @@
 
 ## Z
 - [Zero-width Unicode](01-text-steganography.md#zero-width-unicode)
+- [Zero-Shot Interpretable Image Steganalysis](10-steganalysis.md#zero-shot-interpretable-image-steganalysis)
 - [ZhuNet](10-steganalysis.md#zhunet)

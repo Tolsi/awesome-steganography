@@ -94,6 +94,8 @@ Each algorithm/method appears as a `###` section inside a subcategory. The forma
 - **Advanced methods:** `| Algorithm | Year | Architecture/Approach | Notable Feature |`
 - Use `**bold**` for algorithm name in the first column.
 - Citations use inline footnote style: `[[1]](url)` — numbered per row.
+- **Every algorithm MUST have at least one reference** to a paper, article, or official description.
+- If a GitHub repository exists, add it both as a citation in the table AND in the Implementations section below.
 - Year is the publication/standardization year (use `—` if not applicable).
 
 ### Mandatory assessment fields
@@ -107,6 +109,8 @@ Every `###` algorithm section MUST include the following fields after the table 
 **Implementations:** <List of notable open-source implementations with URLs>
 - [Library/tool name](url) ⭐ <star count> — language, brief note
 - [Library/tool name](url) ⭐ <star count> [archived] — language, brief note *(if archived)*
+
+If no implementation exists, omit the Implementations section entirely.
 
 **Security status:** <One of: Secure / Caution / Broken / Superseded>
 <Brief explanation — known attacks, detection methods, or reason for deprecation>

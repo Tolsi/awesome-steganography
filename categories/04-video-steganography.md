@@ -1,7 +1,7 @@
 # Video Steganography
 
 <!-- TOC -->
-## Contents (7 algorithms)
+## Contents (9 algorithms)
 
 **[Frame-based Methods](#frame-based-methods)**
 - [Frame LSB/DCT](#frame-lsbdct)
@@ -13,6 +13,8 @@
 - [CABAC](#cabac)
 - [HEVC PU Partition](#hevc-pu-partition)
 - [H.265/HEVC CU Block Steganography](#h265hevc-cu-block-steganography)
+- [SemCovert](#semcovert-semantic-video-steganography)
+- [Optimizing Region of Interest Selection](#optimizing-region-of-interest-selection)
 <!-- /TOC -->
 
 ## Frame-based Methods
@@ -168,3 +170,23 @@
 **Security status:** Emerging
 
 **Community acceptance:** Emerging
+
+---
+
+### Optimizing Region of Interest Selection
+
+**Goal:** Optimize ROI selection for effective embedding in video steganography using genetic algorithms.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **ROI Optimization** | 2025 | Genetic algorithm optimization | H.265/HEVC |
+
+**State of the art:** Uses GA to find optimal regions for embedding without visual degradation.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Niche

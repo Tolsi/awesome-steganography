@@ -35,6 +35,7 @@
 - [Inter-protocol Steganography](#inter-protocol-steganography)
 - [Quantum Gatekeeper](#quantum-gatekeeper)
 - [Intellicise Wireless Network](#intellicise-wireless-network)
+- [VeriPHY](#veriphy)
 <!-- /TOC -->
 
 ## Header Fields
@@ -480,5 +481,25 @@
 **Implementations:** None found
 
 **Security status:** Secure — No cover images or keys to infer
+
+**Community acceptance:** Emerging
+
+---
+
+### VeriPHY
+
+**Goal:** Physical layer signal authentication for wireless communication using steganographic signatures.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **VeriPHY** | 2025 | Deep learning + steganography in I/Q signals | 5G device identification |
+
+**State of the art:** Embeds unique pseudo-random signatures in wireless I/Q transmissions using GMM sampling.
+
+**Production readiness:** Experimental
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure — Unique per-device signatures
 
 **Community acceptance:** Emerging

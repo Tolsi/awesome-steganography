@@ -1,7 +1,7 @@
 # Steganalysis
 
 <!-- TOC -->
-## Contents (3 subcategories)
+## Contents (4 subcategories)
 
 **[Classical Methods](#classical-methods)**
 - [Visual Attack](#visual-attack)
@@ -22,6 +22,12 @@
 **[Network Steganalysis](#network-steganalysis)**
 - [Tor Traffic Detection](#tor-traffic-detection)
 - [DNS Tunnel Detection](#dns-tunnel-detection)
+
+**[Detection Benchmarks](#detection-benchmarks)**
+- [Stego Battlefield](#stego-battlefield)
+- [Zero-Shot Interpretable Image Steganalysis](#zero-shot-interpretable-image-steganalysis)
+- [Targeted Pooled Latent-Space Steganalysis](#targeted-pooled-latent-space-steganalysis)
+- [Systematically Deconstructing APVD Steganography](#systematically-deconstructing-apvd-steganography)
 <!-- /TOC -->
 
 ## Classical Methods
@@ -282,5 +288,53 @@
 **Production readiness:** Research
 
 **Implementations:** Academic benchmark
+
+**Community acceptance:** Emerging
+
+---
+
+### Zero-Shot Interpretable Image Steganalysis
+
+**Goal:** Zero-shot detection of invertible image hiding methods with interpretability.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Zero-Shot Interpretable** | 2026 | Zero-shot learning | Invertible image hiding |
+
+**State of the art:** Addresses detectability of emerging invertible image hiding approaches.
+
+**Production readiness:** Research
+
+**Community acceptance:** Emerging
+
+---
+
+### Targeted Pooled Latent-Space Steganalysis
+
+**Goal:** Detect steganography in latent space of generative models.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Pooled Latent-Space** | 2025 | Latent space analysis | Generative steganography |
+
+**State of the art:** Analyzes statistical distribution of latent vector norm to detect embedding.
+
+**Production readiness:** Research
+
+**Community acceptance:** Emerging
+
+---
+
+### Systematically Deconstructing APVD Steganography
+
+**Goal:** Detect Adaptive Pixel Value Differencing steganography using deep learning.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **APVD Detection** | 2025 | Deep learning approach | APVD steganography |
+
+**State of the art:** Unified deep learning paradigm for APVD detection.
+
+**Production readiness:** Research
 
 **Community acceptance:** Emerging

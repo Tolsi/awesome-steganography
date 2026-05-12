@@ -1,7 +1,7 @@
 # Text Steganography
 
 <!-- TOC -->
-## Contents (16 algorithms)
+## Contents (17 algorithms)
 
 **[Structural Methods](#structural-methods)**
 - [ASCII Art Steganography](#ascii-art-steganography)
@@ -42,6 +42,7 @@
 - [TrojanStego](#trojanstego)
 - [GTSD](#gtsd-generative-text-steganography-via-diffusion)
 - [List Decoding](#provably-secure-steganography-based-on-list-decoding)
+- [Addressing Tokenization Inconsistency](#addressing-tokenization-inconsistency)
 <!-- /TOC -->
 
 ## Structural Methods
@@ -654,5 +655,23 @@
 **Production readiness:** Research
 
 **Security status:** Secure — Provably secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Addressing Tokenization Inconsistency
+
+**Goal:** Address tokenization inconsistency between steganography sender and receiver in LLM-based methods.
+
+| Algorithm | Year | Description |
+|-----------|------|-------------|
+| **Addressing Tokenization Inconsistency** | 2025 | Resolves tokenization discrepancies between encoder/decoder in LLM steganography [[1]](https://arxiv.org/abs/2508.20718) |
+
+**State of the art:** Proposes tokenization alignment methods for reliable message extraction.
+
+**Production readiness:** Research
+
+**Security status:** Caution — Requires synchronized tokenizers
 
 **Community acceptance:** Emerging

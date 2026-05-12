@@ -1,7 +1,7 @@
 # Coverless / Generative Steganography
 
 <!-- TOC -->
-## Contents (6 algorithms)
+## Contents (7 algorithms)
 
 **[Hash-based](#hash-based)**
 - [Coverless Image](#coverless-image)
@@ -18,6 +18,7 @@
 **[3D/Neural Graphics](#3dneural-graphics)**
 - [StegoNGP](#stegongp)
 - [3DGS Steganography](#3dgs-steganography)
+- [Splats in Splats++](#splats-in-splats)
 <!-- /TOC -->
 
 ## Hash-based
@@ -269,6 +270,26 @@
 **State of the art:** Higher hiding capacity than traditional methods.
 
 **Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Splats in Splats++
+
+**Goal:** Robust and generalizable 3D Gaussian Splatting steganography framework.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Splats in Splats++** | 2026 | 3DGS hash encoding | Pipeline-agnostic |
+
+**State of the art:** Unified framework embedding 3D/4D content in native 3DGS representation.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
 
 **Security status:** Secure
 

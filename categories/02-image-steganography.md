@@ -70,6 +70,13 @@
 - [PRIS](#pris-practical-robust-invertible-network-for-image-steganography)
 - [Multi-User Multi-Key](#multi-user-multi-key-image-steganography)
 - [StegaPos](#stegapos)
+- [Rethinking Security of Diffusion-based Generative Steganography](#rethinking-security-of-diffusion-based-generative-steganography)
+- [Intelligent Carrier Allocation](#intelligent-carrier-allocation)
+- [Secure Audio Embedding in Images](#secure-audio-embedding-in-images)
+- [Deep Data Hiding for ICAO-Compliant Face Images](#deep-data-hiding-for-icao-compliant-face-images)
+- [Defending against Stegomalware](#defending-against-stegomalware)
+- [On the Possible Detectability of Image-in-Image Steganography](#on-the-possible-detectability-of-image-in-image-steganography)
+- [Robust Provably Secure Image Steganography via Latent Iterative Optimization](#robust-provably-secure-image-steganography-via-latent-iterative-optimization)
 <!-- /TOC -->
 
 ## Spatial Domain
@@ -1163,3 +1170,143 @@
 **Security status:** Caution — Detects tampering but not traditional steganalysis
 
 **Community acceptance:** Emerging — Useful for image authentication
+
+---
+
+### Rethinking Security of Diffusion-based Generative Steganography
+
+**Goal:** Analyze and improve security of diffusion model-based generative image steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Rethinking Security of DM-GIS** | 2026 | Diffusion model analysis | Security enhancement |
+
+**State of the art:** Identifies vulnerabilities in existing DM-GIS methods and proposes improvements.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Caution — Known vulnerabilities identified
+
+**Community acceptance:** Emerging
+
+---
+
+### Intelligent Carrier Allocation
+
+**Goal:** Cross-modal reasoning framework for adaptive multimodal steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Intelligent Carrier Allocation** | 2025 | Cross-modal reasoning | Adaptive carrier selection |
+
+**State of the art:** Uses AI reasoning to select optimal carrier media for different message types.
+
+**Production readiness:** Experimental
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Emerging
+
+**Community acceptance:** Emerging
+
+---
+
+### Secure Audio Embedding in Images
+
+**Goal:** Hide audio files in images using nature-inspired optimization.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Secure Audio Embedding** | 2025 | LSB with Harris Hawks Optimization | Audio-in-image |
+
+**State of the art:** Uses HHO algorithm to optimize LSB embedding for audio in images.
+
+**Production readiness:** Experimental
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Caution — LSB-based methods are detectable
+
+**Community acceptance:** Niche
+
+---
+
+### Deep Data Hiding for ICAO-Compliant Face Images
+
+**Goal:** Embed data in ICAO-compliant face images while maintaining biometric standards.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **ICAO Data Hiding** | 2025 | Watermarking/steganography for biometric images | ICAO compliant |
+
+**State of the art:** Enables persistent verification without compromising ICAO compliance.
+
+**Production readiness:** Experimental
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Caution — Must maintain biometric standards
+
+**Community acceptance:** Emerging
+
+---
+
+### Defending against Stegomalware
+
+**Goal:** Protect deep neural networks from steganographic malware embedding.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Stegomalware Defense** | 2025 | Permutation symmetry defense | Corrupts embedded payloads |
+
+**State of the art:** Uses layer permutation to corrupt stegomalware payloads without accuracy loss.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure — Effective against state-of-the-art methods
+
+**Community acceptance:** Emerging
+
+---
+
+### On the Possible Detectability of Image-in-Image Steganography
+
+**Goal:** Analyze detectability of embedding one image inside another.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Image-in-Image Detectability** | 2026 | ICA-based detection | High embedding rate |
+
+**State of the art:** Shows embedding is identifiable by independent component analysis.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Caution — Easily detectable
+
+**Community acceptance:** Emerging
+
+---
+
+### Robust Provably Secure Image Steganography via Latent Iterative Optimization
+
+**Goal:** Robust and provably secure image steganography using latent-space iterative optimization.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Latent Iterative Optimization** | 2026 | Latent-space iterative refinement | Robust message extraction |
+
+**State of the art:** Improves message extraction accuracy through iterative latent refinement.
+
+**Production readiness:** Research
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure — Provably secure framework
+
+**Community acceptance:** Emerging
