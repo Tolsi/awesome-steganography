@@ -180,6 +180,7 @@
 - [VHiddenNet](#vhiddennet)
 - [stegoTool (jonsalchichonnn)](#stegotool-jonsalchichonnn)
 - [steganography (browningjp)](#steganography-browningjp)
+- [Text-steganography (sakship31)](#text-steganography-sakship31)
 <!-- /TOC -->
 
 ---
@@ -2137,5 +2138,17 @@
 **Note:** OpenCV-based image steganography tool.
 
 **Star count:** ⭐ 12
+
+---
+
+### Text-steganography (sakship31)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Text-steganography](https://github.com/sakship31/Text-steganography) | Python | Flask-based text steganography web app |
+
+**Note:** Web application for text steganography.
+
+**Star count:** ⭐ 29
 
 ---
