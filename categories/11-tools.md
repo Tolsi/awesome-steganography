@@ -159,6 +159,8 @@
 - [Matroschka](#matroschka)
 - [Chaya](#chaya)
 - [f5-steganography](#f5-steganography)
+- [ch3r0](#ch3r0)
+- [ReconEXIF](#reconexif)
 <!-- /TOC -->
 
 ---
@@ -1864,5 +1866,29 @@
 **Note:** Framework for detecting hidden data in various media.
 
 **Star count:** ⭐ 14
+
+---
+
+### ch3r0
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ch3r0](https://github.com/tnt-wolve/ch3r0) | Python | Steganography detection tool |
+
+**Note:** Tool for detecting steganography in images.
+
+**Star count:** ⭐ 317
+
+---
+
+### ReconEXIF
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ReconEXIF](https://github.com/spider863644/ReconEXIF) | Python | EXIF metadata analysis tool |
+
+**Note:** Tool for analyzing EXIF metadata for forensics.
+
+**Star count:** ⭐ 9
 
 ---
