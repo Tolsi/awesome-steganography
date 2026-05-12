@@ -1,7 +1,7 @@
 # Network Steganography
 
 <!-- TOC -->
-## Contents (62 algorithms)
+## Contents (63 algorithms)
 
 **[Header Fields](#header-fields)**
 - [IPv4/IPv6 Headers](#ipv4ipv6-headers)
@@ -76,6 +76,9 @@
 - [Perfect Z2Z4-linear codes in Steganography](#perfect-z2z4-linear-codes-in-steganography)
 - [Steganography in Handling Oversized IP Packets](#steganography-in-handling-oversized-ip-packets)
 - [SecMon: End-to-End Quality and Security Monitoring System](#secmon-end-to-end-quality-and-security-monitoring-system)
+
+**[Network Stego Tools](#network-stego-tools)**
+- [ST3GG](#st3gg)
 <!-- /TOC -->
 
 ## Header Fields
@@ -1343,3 +1346,32 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+## Network Stego Tools
+
+---
+
+### ST3GG
+
+**Goal:** All-in-one network steganography suite covering DNS, ICMP, TCP header fields, HTTP, UDP, and 20+ covert channel detection functions.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **ST3GG** | 2024 | Multi-protocol covert channel toolkit | Modular: each protocol is a plugin; includes detection [[1]](https://github.com/elder-plinius/ST3GG) |
+
+**State of the art:** Most comprehensive open-source network stego toolkit. Covers DNS TXT encoding, ICMP payload hiding, TCP timestamp/sequence channels, and HTTP header steganography in one tool.
+
+**Production readiness:** Experimental
+Active development; 2024 release; growing community.
+
+**Implementations:**
+- [elder-plinius/ST3GG](https://github.com/elder-plinius/ST3GG) ⭐ 1.4k — Python
+
+**Security status:** Caution
+DPI and behavioral analysis can detect covert channels; encrypted payload adds confidentiality.
+
+**Community acceptance:** Emerging
+Rapidly growing interest since 2024 release; not yet peer-reviewed.
+
+---
+

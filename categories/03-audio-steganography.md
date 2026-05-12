@@ -1,7 +1,7 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (38 algorithms)
+## Contents (40 algorithms)
 
 **[Time Domain](#time-domain)**
 - [LPC](#lpc-linear-predictive-coding)
@@ -51,6 +51,10 @@
 **[CTF Audio Tools](#ctf-audio-tools)**
 - [WavSteg](#wavsteg)
 - [Sonic Visualizer](#sonic-visualizer)
+
+**[Software Tools](#software-tools)**
+- [AudioStego](#audiostego)
+- [spectrology](#spectrology)
 <!-- /TOC -->
 
 ## Time Domain
@@ -879,6 +883,55 @@ Only reveals visually encoded patterns; encrypted audio stego invisible to spect
 
 **Community acceptance:** Standard
 Universal CTF tool for audio stego analysis.
+
+---
+
+## Software Tools
+
+---
+
+### AudioStego
+
+**Goal:** Hide and retrieve data files in MP3 and WAV audio using LSB manipulation via the `hideme` CLI.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **AudioStego (hideme)** | 2016 | LSB in MP3/WAV audio samples | Simple hide/reveal CLI; included in stego-toolkit [[1]](https://github.com/DominicBreuker/stego-toolkit) |
+
+**State of the art:** Bundled in the stego-toolkit Docker container. Commands: `hideme cover.mp3 secret.txt` and `hideme stego.mp3 -f`.
+
+**Production readiness:** Mature
+Stable; actively used in CTF environments via Docker container.
+
+**Security status:** Caution
+LSB in audio detectable via statistical analysis of sample LSBs.
+
+**Community acceptance:** Niche
+Known primarily through stego-toolkit Docker container.
+
+---
+
+### spectrology
+
+**Goal:** Encode an image into the spectrogram of a WAV audio file so the image becomes visible in a spectrogram viewer.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **spectrology** | 2015 | Image-to-spectrogram audio encoding | Hidden image revealed by Sonic Visualizer or Audacity [[1]](https://github.com/solusipse/spectrology) |
+
+**State of the art:** Primary tool for creating CTF audio stego challenges where an image is hidden as a spectrogram. Decode side uses any spectrogram viewer.
+
+**Production readiness:** Mature
+Stable Python script; widely used to create CTF challenges.
+
+**Implementations:**
+- [solusipse/spectrology](https://github.com/solusipse/spectrology) ⭐ 277 — Python
+
+**Security status:** Caution
+Trivially revealed by any spectrogram viewer (Sonic Visualizer, Audacity).
+
+**Community acceptance:** Standard
+Standard CTF audio stego creation tool; spectrogram challenges are a CTF staple.
 
 ---
 

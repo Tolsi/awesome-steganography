@@ -1,7 +1,7 @@
 # Text Steganography
 
 <!-- TOC -->
-## Contents (258 algorithms)
+## Contents (259 algorithms)
 
 **[Structural Methods](#structural-methods)**
 - [ASCII Art Steganography](#ascii-art-steganography)
@@ -270,6 +270,9 @@
 
 **[Web Tools & References](#web-tools-references)**
 - [Irongeek Unicode Steganography](#irongeek-unicode-steganography)
+
+**[Python Text Stego Libraries](#python-text-stego-libraries)**
+- [pyUnicodeSteganography](#pyunicodesteganography)
 <!-- /TOC -->
 
 ## Structural Methods
@@ -5657,6 +5660,34 @@ Easily detected by inspecting raw bytes; homoglyph substitutions visible in hex 
 
 **Community acceptance:** Niche
 Well-known in CTF community; rarely used in production systems.
+
+---
+
+## Python Text Stego Libraries
+
+---
+
+### pyUnicodeSteganography
+
+**Goal:** Encode messages in plaintext by inserting invisible Unicode zero-width characters between visible characters.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **pyUnicodeSteganography** | 2020 | Zero-width Unicode character substitution | Message survives copy-paste; visually undetectable [[1]](https://github.com/bunnylab/pyUnicodeSteganography) |
+
+**State of the art:** Simple Python library for zero-width stego. Works by encoding bits as combinations of ZWSP, ZWNJ, ZWJ characters.
+
+**Production readiness:** Experimental
+Small project; functional but minimal documentation.
+
+**Implementations:**
+- [bunnylab/pyUnicodeSteganography](https://github.com/bunnylab/pyUnicodeSteganography) ⭐ 6 — Python
+
+**Security status:** Caution
+Detectable by inspecting raw bytes or using Unicode debuggers like the Irongeek tool.
+
+**Community acceptance:** Niche
+Small project; one of several similar implementations.
 
 ---
 

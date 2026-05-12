@@ -1,7 +1,7 @@
 # Steganalysis
 
 <!-- TOC -->
-## Contents (92 algorithms)
+## Contents (98 algorithms)
 
 **[Classical Methods](#classical-methods)**
 - [Visual Attack](#visual-attack)
@@ -106,6 +106,14 @@
 - [StegCracker](#stegcracker)
 - [Fcrackzip](#fcrackzip)
 - [dcode.fr](#dcodefr)
+
+**[Steganalysis Software Tools](#steganalysis-software-tools)**
+- [stegoVeritas](#stegoveritas)
+- [stegbreak](#stegbreak)
+- [pngcheck](#pngcheck)
+- [Steganabara](#steganabara)
+- [AperiSolve](#aperisolve)
+- [stego-toolkit](#stego-toolkit)
 <!-- /TOC -->
 
 ## Classical Methods
@@ -2069,6 +2077,145 @@ Web-based tool; do not submit sensitive data.
 
 **Community acceptance:** Standard
 Referenced in nearly every CTF write-up involving encoding or cipher identification.
+
+---
+
+## Steganalysis Software Tools
+
+---
+
+### stegoVeritas
+
+**Goal:** Automated multi-check steganalysis of JPEG, PNG, GIF, TIFF, and BMP files including metadata, LSB brute-force, and color-plane analysis.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **stegoVeritas** | 2019 | Multi-method automated scanner | LSB brute-force, metadata, color checks in one pass [[1]](https://github.com/bannsec/stegoVeritas) |
+
+**State of the art:** Go-to automated pre-screening tool in CTF. Runs 20+ checks and saves results/extracted data per check automatically.
+
+**Production readiness:** Mature
+Stable Python tool; available via pip.
+
+**Implementations:**
+- [bannsec/stegoVeritas](https://github.com/bannsec/stegoVeritas) ⭐ 403 — Python, `pip install stegoveritas`
+
+**Security status:** Caution
+Detection-only tool; cannot defeat encrypted or exotic embedding schemes.
+
+**Community acceptance:** Standard
+Included in every major CTF stego toolkit.
+
+---
+
+### stegbreak
+
+**Goal:** Brute-force crack JPEG images hidden with OutGuess, JPHide, or JSteg using a wordlist.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **stegbreak** | 2003 | Dictionary attack on JPEG stego | Targets outguess, jphide, jsteg simultaneously [[1]](https://github.com/DominicBreuker/stego-toolkit) |
+
+**State of the art:** Classic JPEG stego cracker. Bundled in stego-toolkit Docker container. Largely superseded by stegseek for steghide but still unique for outguess/jphide targets.
+
+**Production readiness:** Mature
+Stable; available in stego-toolkit container and legacy repos.
+
+**Security status:** Caution
+Effective only against weak passphrases; strong keys resist dictionary attack.
+
+**Community acceptance:** Standard
+CTF standard for attacking password-protected JPEG stego files.
+
+---
+
+### pngcheck
+
+**Goal:** Verify PNG file integrity and display detailed chunk-level structure for forensic analysis.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **pngcheck** | 1995 | PNG chunk parser and validator | Detects corrupted/modified chunk structure [[1]](http://www.libpng.org/pub/png/apps/pngcheck.html) |
+
+**State of the art:** Standard PNG forensics tool. Useful for detecting non-standard chunks that carry hidden data.
+
+**Production readiness:** Production
+Stable, widely available via apt.
+
+**Security status:** Caution
+Only inspects structure; cannot detect LSB-level stego.
+
+**Community acceptance:** Standard
+Standard tool in PNG analysis workflows.
+
+---
+
+### Steganabara
+
+**Goal:** Interactively transform and analyze images to reveal hidden steganographic content through visual inspection.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Steganabara** | 2014 | Java GUI with interactive image transformations | Manual visual analysis; complement to automated tools [[1]](https://github.com/DominicBreuker/stego-toolkit) |
+
+**State of the art:** GUI alternative to stegsolve. Bundled in stego-toolkit. Useful for manual visual inspection when automated tools miss non-standard encodings.
+
+**Production readiness:** Mature
+Stable Java tool; no active development but fully functional.
+
+**Security status:** Caution
+Reveals only visually encoded data; ineffective against encrypted stego.
+
+**Community acceptance:** Niche
+Known in CTF community; less popular than stegsolve.
+
+---
+
+### AperiSolve
+
+**Goal:** Online multi-tool image steganalysis platform combining binwalk, exiftool, steghide, zsteg, foremost, and strings into one interface.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **AperiSolve** | 2019 | Web platform aggregating multiple steganalysis tools | Single URL submission returns output from 10+ tools [[1]](https://www.aperisolve.com) [[2]](https://github.com/Zeecka/AperiSolve) |
+
+**State of the art:** Fastest CTF stego pre-screening: upload once, get results from all major tools simultaneously. Self-hostable.
+
+**Production readiness:** Production
+Actively maintained; public instance at aperisolve.com.
+
+**Implementations:**
+- [Zeecka/AperiSolve](https://github.com/Zeecka/AperiSolve) ⭐ 817 — Python/Flask, self-hostable
+
+**Security status:** Caution
+Public web tool; do not submit sensitive files to public instance.
+
+**Community acceptance:** Standard
+Widely referenced in CTF write-ups; the first tool many CTF players try.
+
+---
+
+### stego-toolkit
+
+**Goal:** Docker container with 25+ pre-installed steganography and steganalysis tools plus automated screening scripts for CTF use.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **stego-toolkit** | 2017 | Docker image with curated tool collection | One-command install of entire stego CTF toolkit [[1]](https://github.com/DominicBreuker/stego-toolkit) |
+
+**State of the art:** De facto standard CTF stego environment. Includes jphide, jsteg, outguess, steghide, stegano, cloackedpixel, openstego, mp3stego, spectrology, SonicVisualiser, and many more.
+
+**Production readiness:** Production
+Widely used; Docker image available on Docker Hub.
+
+**Implementations:**
+- [DominicBreuker/stego-toolkit](https://github.com/DominicBreuker/stego-toolkit) ⭐ 2.7k — Docker, `docker pull dominicbreuker/stego-toolkit`
+
+**Security status:** Caution
+Container with many tools; review individual tool security before use in sensitive environments.
+
+**Community acceptance:** Standard
+Referenced in CTF tutorials and write-ups worldwide.
 
 ---
 

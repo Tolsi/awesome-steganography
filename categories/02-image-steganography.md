@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (221 algorithms)
+## Contents (227 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -237,6 +237,14 @@
 - [A New Image Steganography Based On First Component Alteratio...](#a-new-image-steganography-based-on-first-component-alteration-technique)
 - [Trellis-coded quantization for public-key steganography](#trellis-coded-quantization-for-public-key-steganography)
 - [Quantum computing, phase estimation and applications](#quantum-computing-phase-estimation-and-applications)
+
+**[Software Tools](#software-tools)**
+- [OpenPuff](#openpuff)
+- [SilentEye](#silenteye)
+- [Stegosuite](#stegosuite)
+- [cloacked-pixel](#cloacked-pixel)
+- [stegpy](#stegpy)
+- [jphide / jpseek](#jphide-jpseek)
 <!-- /TOC -->
 
 ## Spatial Domain
@@ -4887,3 +4895,143 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+## Software Tools
+
+---
+
+### OpenPuff
+
+**Goal:** Embed data across multiple carrier files (images, audio, video) with multi-layer encryption and plausible deniability.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **OpenPuff** | 2004 | Multi-carrier, multi-key steganography with AES/TDES/IDEA | Deniable stego: decoys + real payload [[1]](https://embeddedsw.net/OpenPuff_Steganography_Home.html) |
+
+**State of the art:** Most sophisticated free multi-format stego tool. Supports BMP, PNG, TGA, JPEG, MP3, WAV, MP4, and more. Windows-only GUI.
+
+**Production readiness:** Mature
+Actively maintained; no source code released (closed-source freeware).
+
+**Security status:** Caution
+No public peer-reviewed cryptanalysis; closed-source limits independent verification.
+
+**Community acceptance:** Widely trusted
+Long history since 2004; widely cited in academic papers as a reference tool.
+
+---
+
+### SilentEye
+
+**Goal:** Cross-platform GUI application for hiding messages in images and audio with plug-in based algorithm support.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **SilentEye** | 2011 | Plugin-based LSB for JPEG/BMP/WAV | AES-128 encryption; drag-and-drop interface [[1]](https://github.com/achorein/silenteye) |
+
+**State of the art:** User-friendly cross-platform GUI. Good for non-technical users; supports JPEG, BMP, WAV carriers.
+
+**Production readiness:** Mature
+Archived; no active development since 2012 but fully functional.
+
+**Implementations:**
+- [achorein/silenteye](https://github.com/achorein/silenteye) ⭐ 143 — C++/Qt, Windows/Linux/macOS
+
+**Security status:** Caution
+LSB scheme detectable via statistical analysis; AES encryption adds confidentiality layer.
+
+**Community acceptance:** Niche
+Known in CTF community; less popular than steghide for CLI workflows.
+
+---
+
+### Stegosuite
+
+**Goal:** GUI-based Java steganography tool for embedding and extracting data in GIF, JPG, and BMP images with AES encryption.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Stegosuite** | 2010 | LSB with AES-128 in Java Swing GUI | Actively developed; cross-platform [[1]](https://stegosuite.org/) |
+
+**State of the art:** Actively maintained Java GUI tool. Good for demonstrations and non-technical use cases.
+
+**Production readiness:** Mature
+Active development; available via apt on Kali Linux.
+
+**Security status:** Caution
+LSB detectable; AES protects payload confidentiality.
+
+**Community acceptance:** Niche
+Bundled in Kali Linux; used in CTF and academic courses.
+
+---
+
+### cloacked-pixel
+
+**Goal:** LSB steganography in PNG images with AES-256 encryption of the payload before embedding.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **cloacked-pixel** | 2014 | AES-256 + LSB in PNG | Encrypted payload prevents content analysis even if stego detected [[1]](https://github.com/livz/cloacked-pixel) |
+
+**State of the art:** Simple Python tool pairing LSB with strong encryption. Good balance of simplicity and payload security.
+
+**Production readiness:** Mature
+Stable; bundled in stego-toolkit Docker container.
+
+**Implementations:**
+- [livz/cloacked-pixel](https://github.com/livz/cloacked-pixel) ⭐ 631 — Python
+
+**Security status:** Caution
+LSB embedding detectable via zsteg; AES-256 protects payload content.
+
+**Community acceptance:** Niche
+Used in CTF challenges; cited in steganalysis tool evaluations.
+
+---
+
+### stegpy
+
+**Goal:** Encode and decode messages in PNG, GIF, BMP, WebP images and WAV audio via LSB substitution with optional encryption.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **stegpy** | 2021 | LSB in PNG/GIF/BMP/WebP/WAV | Multi-format; single Python script [[1]](https://github.com/izcoser/stegpy) |
+
+**State of the art:** Lightweight multi-format tool. Covers more image formats than most alternatives (GIF and WebP support is rare).
+
+**Production readiness:** Experimental
+Working implementation; limited testing.
+
+**Implementations:**
+- [izcoser/stegpy](https://github.com/izcoser/stegpy) ⭐ 131 — Python
+
+**Security status:** Caution
+LSB scheme; detectable by zsteg and similar tools.
+
+**Community acceptance:** Niche
+Small community; growing interest in multi-format support.
+
+---
+
+### jphide / jpseek
+
+**Goal:** Embed secret data in JPEG images by modifying DCT coefficients with passphrase protection.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **jphide** | 1999 | DCT coefficient modification with BBS PRNG selection | Low visual distortion; harder to detect than JSteg [[1]](https://github.com/DominicBreuker/stego-toolkit) |
+
+**State of the art:** Classic JPEG stego pair: jphide embeds, jpseek extracts. Historically significant; detectable by stegbreak and stegdetect.
+
+**Production readiness:** Deprecated
+No active development; available in stego-toolkit container.
+
+**Security status:** Broken
+Detectable by stegdetect and stegbreak dictionary attacks; known detection fingerprint.
+
+**Community acceptance:** Niche
+Historical significance; used in CTF challenges as a known target format.
+
+---
+

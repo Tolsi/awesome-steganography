@@ -1,7 +1,7 @@
 # Video Steganography
 
 <!-- TOC -->
-## Contents (13 algorithms)
+## Contents (15 algorithms)
 
 **[Frame-based Methods](#frame-based-methods)**
 - [Frame LSB/DCT](#frame-lsbdct)
@@ -21,6 +21,10 @@
 - [Large-capacity and Flexible Video Steganography via Invertib...](#large-capacity-and-flexible-video-steganography-via-invertible-neural-network)
 - [Investigation on Principles for Cost Assignment in Motion Ve...](#investigation-on-principles-for-cost-assignment-in-motion-vector-based-video-steganography)
 - [Convolutional Video Steganography with Temporal Residual Mod...](#convolutional-video-steganography-with-temporal-residual-modeling)
+
+**[Video Software Tools](#video-software-tools)**
+- [LVDO](#lvdo)
+- [videostego](#videostego)
 <!-- /TOC -->
 
 ## Frame-based Methods
@@ -304,3 +308,56 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+## Video Software Tools
+
+---
+
+### LVDO
+
+**Goal:** Convert arbitrary files into video using DCT steganography suitable for upload to video platforms like YouTube.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **LVDO** | 2019 | DCT-based file-to-video encoding | Survives YouTube transcoding; lossless retrieval [[1]](https://github.com/m13253/lvdo) |
+
+**State of the art:** Unique approach: use video as a storage medium via steganographic encoding that survives platform re-encoding.
+
+**Production readiness:** Experimental
+Proof-of-concept; tested on YouTube.
+
+**Implementations:**
+- [m13253/lvdo](https://github.com/m13253/lvdo) ⭐ 100 — Python/FFmpeg
+
+**Security status:** Caution
+DCT coefficients can be inspected; platform re-encoding may degrade capacity.
+
+**Community acceptance:** Niche
+Niche use case; cited in steganography reviews.
+
+---
+
+### videostego
+
+**Goal:** Embed and extract secret data in MP4 video files using LSB substitution on frame pixel data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **videostego** | 2020 | LSB substitution in MP4 frames | Pure Python; uses OpenCV for frame manipulation [[1]](https://github.com/JavDomGom/videostego) |
+
+**State of the art:** Simple video LSB tool for educational use and CTF. Frame-by-frame pixel manipulation.
+
+**Production readiness:** Experimental
+Educational implementation; not battle-tested.
+
+**Implementations:**
+- [JavDomGom/videostego](https://github.com/JavDomGom/videostego) ⭐ 19 — Python
+
+**Security status:** Caution
+LSB in video trivially detectable by frame-level analysis.
+
+**Community acceptance:** Niche
+Small educational project.
+
+---
+
