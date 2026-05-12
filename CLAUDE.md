@@ -21,6 +21,7 @@ categories/
   08-traffic-obfuscation.md
   09-physical-social.md
   10-steganalysis.md
+  11-tools.md
 ```
 
 ## Category File Structure
@@ -216,3 +217,4 @@ Before committing changes, verify ALL of the following:
 | 08 | traffic-obfuscation | Tor (obfs4, meek, Snowflake, WebTunnel), V2Ray/Xray/REALITY, Trojan-GFW, Hysteria 2, Shadowsocks, NaiveProxy |
 | 09 | physical-social | Printer dots, microdots, invisible ink, cultural references, contextual hiding |
 | 10 | steganalysis | Classical (chi-square, RS, WS, SPAM, SRM, DCTR), deep learning (XuNet, YeNet, SRNet, ZhuNet), network detection |
+| 11 | tools | Consolidated implementations and tools by category |

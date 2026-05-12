@@ -28,6 +28,7 @@ Every steganographic method balances three competing properties:
 - [Traffic Obfuscation](categories/08-traffic-obfuscation.md)
 - [Physical & Social](categories/09-physical-social.md)
 - [Steganalysis](categories/10-steganalysis.md)
+- [Tools & Implementations](categories/11-tools.md)
 
 ---
 
