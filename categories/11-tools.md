@@ -76,6 +76,8 @@
 - [LSB_Steganography](#lsb_steganography)
 - [steg (surg0r)](#steg-surg0r)
 - [fractal-image-steganography](#fractal-image-steganography)
+- [LSB_Steganography (omriher)](#lsb_steganography-omriher)
+- [lsb (marselester)](#lsb-marselester)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1487,5 +1489,29 @@
 **Note:** Uses fractal algorithms for image steganography.
 
 **Star count:** ⭐ 3
+
+---
+
+### LSB_Steganography (omriher)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB_Steganography](https://github.com/omriher/LSB_Steganography) | Python | LSB steganography implementation |
+
+**Note:** Simple LSB steganography tool.
+
+**Star count:** ⭐ 15
+
+---
+
+### lsb (marselester)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [lsb](https://github.com/marselester/lsb) | Python | LSB steganography in BMP images [archived] |
+
+**Note:** Early LSB steganography tool for BMP images.
+
+**Star count:** ⭐ 7
 
 ---
