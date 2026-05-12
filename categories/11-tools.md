@@ -177,6 +177,8 @@
 - [stegify-flutter-plugin](#stegify-flutter-plugin)
 - [NeuralSteganography](#neuralsteganography)
 - [PyTorch-Deep-Image-Steganography](#pytorch-deep-image-steganography)
+- [VHiddenNet](#vhiddennet)
+- [stegoTool (jonsalchichonnn)](#stegotool-jonsalchichonnn)
 <!-- /TOC -->
 
 ---
@@ -2098,5 +2100,29 @@
 **Note:** Implementation of deep learning image steganography.
 
 **Star count:** ⭐ 139
+
+---
+
+### VHiddenNet
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [VHiddenNet](https://github.com/YoursIvan/VHiddenNet) | Python | Social network steganography |
+
+**Note:** Steganography tool for social networks.
+
+**Star count:** ⭐ 9
+
+---
+
+### stegoTool (jonsalchichonnn)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegoTool](https://github.com/jonsalchichonnn/stegoTool) | Python | General steganography tool |
+
+**Note:** Multi-purpose steganography tool.
+
+**Star count:** ⭐ 3
 
 ---
