@@ -5,6 +5,7 @@
 
 **[Hash-based](#hash-based)**
 - [Coverless Image](#coverless-image)
+- [INR Stego](#inr-stego)
 
 **[GAN-based](#gan-based)**
 - [StyleGAN Stego](#stylegan-stego)
@@ -40,6 +41,24 @@
 **Security status:** Secure — No modified pixels to detect
 
 **Community acceptance:** Emerging — Requires infrastructure
+
+---
+
+### INR Stego
+
+**Goal:** Image in residual network representation steganography.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **INR Stego** | 2022 | Implicit neural representations | Novel approach |
+
+**State of the art:** Uses neural implicit representations.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
 
 ---
 

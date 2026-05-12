@@ -9,6 +9,9 @@
 - [BPCS](#bpcs)
 - [PVD](#pvd)
 - [EMD](#emd)
+- [Sudoku-based](#sudoku-based-steganography)
+- [FuzzyStego](#fuzzystego)
+- [Chaotic Map LSB](#chaotic-map-lsb)
 - [STC](#stc)
 
 **[Adaptive Methods](#adaptive-methods)**
@@ -144,6 +147,60 @@
 **Security status:** Caution — Good perceptual quality but specific statistical signature
 
 **Community acceptance:** Niche — Academic interest, practical use limited
+
+---
+
+### Sudoku-based Steganography
+
+**Goal:** Use Sudoku puzzle solutions as encoding key.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Sudoku** | 2009 | Sudoku grid key | High key space |
+
+**State of the art:** Large key space provides security.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
+### FuzzyStego
+
+**Goal:** Use fuzzy logic for adaptive embedding.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **FuzzyStego** | 2010 | Fuzzy logic rules | Adaptive |
+
+**State of the art:** Adaptive approach using fuzzy logic.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
+### Chaotic Map LSB
+
+**Goal:** Use chaotic maps for secure LSB embedding.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Chaotic Map LSB** | 2008 | Chaos-based embedding | Increased security |
+
+**State of the art:** Chaotic sequences add security layer.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
 
 ---
 

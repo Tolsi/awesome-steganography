@@ -12,6 +12,7 @@
 ## C
 - [CABAC](04-video-steganography.md#cabac)
 - [CELP](03-audio-steganography.md#celp)
+- [Chaotic Map LSB](02-image-steganography.md#chaotic-map-lsb)
 - [ChatStega](01-text-steganography.md#chatstega)
 - [Coverless Image](07-coverless-generative.md#coverless-image)
 - [CRoSS](02-image-steganography.md#cross)
@@ -32,10 +33,12 @@
 ## F
 - [F5](02-image-steganography.md#f5)
 - [File Slack](06-filesystem-os.md#file-slack)
+- [FuzzyStego](02-image-steganography.md#fuzzystego)
 
 ## G
 - [GiST](02-image-steganography.md#grain)
 - [Glow](02-image-steganography.md#glow)
+- [Grain](08-traffic-obfuscation.md#grain)
 
 ## H
 - [HICCUPS](05-network-steganography.md#hiccups)
@@ -50,6 +53,7 @@
 
 ## I
 - [ICMP Tunnel](08-traffic-obfuscation.md#icmp-tunnel)
+- [INR Stego](07-coverless-generative.md#inr-stego)
 - [Inter-protocol Steganography](05-network-steganography.md#inter-protocol-steganography)
 - [iodine](05-network-steganography.md#iodine)
 - [IPD Encoding](05-network-steganography.md#ipd-encoding)
@@ -126,11 +130,13 @@
 - [SteganoGAN](02-image-steganography.md#steganogan)
 - [SteganoRTP](05-network-steganography.md#steganortp)
 - [StyleGAN Stego](07-coverless-generative.md#stylegan-stego)
+- [Sudoku-based](02-image-steganography.md#sudoku-based-steganography)
 - [SVD](02-image-steganography.md#svd)
 - [Structural Attack](10-steganalysis.md#structural-attack)
 
 ## T
 - [TCP Headers](05-network-steganography.md#tcp-headers)
+- [Thomae](08-traffic-obfuscation.md#thomae)
 - [Tone Insertion](03-audio-steganography.md#tone-insertion)
 - [Trojan-GFW](08-traffic-obfuscation.md#trojan-gfw)
 

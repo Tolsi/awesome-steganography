@@ -29,6 +29,9 @@
 - [WavMark](#wavmark)
 - [AudioSeal](#audioseal)
 - [PRoADS](#proads)
+
+**[Spectrogram Methods](#spectrogram-methods)**
+- [Spectrogram Steganography](#spectrogram-steganography)
 <!-- /TOC -->
 
 ## Time Domain
@@ -395,3 +398,21 @@
 **Security status:** Secure — Theoretical guarantees
 
 **Community acceptance:** Emerging — Very recent
+
+---
+
+### Spectrogram Steganography
+
+**Goal:** Hide data in audio spectrograms.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Spectrogram Steganography** | 2010 | Image in spectrogram | Visual+audio |
+
+**State of the art:** Novel approach using spectrogram representation.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging

@@ -8,6 +8,8 @@
 - [meek](#meek)
 - [Snowflake](#snowflake)
 - [WebTunnel](#webtunnel)
+- [Grain](#grain)
+- [Thomae](#thomae)
 
 **[V2Ray/Xray Family](#v2rayxray-family)**
 - [REALITY](#reality)
@@ -100,6 +102,42 @@
 
 **Implementations:**
 - [WebTunnel](https://github.com/Arkanic/WebTunnel) ⭐ 156
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
+### Grain
+
+**Goal:** Stream cipher-based traffic obfuscation.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Grain** | 2014 | Grain cipher | Lightweight |
+
+**State of the art:** Lightweight stream cipher approach.
+
+**Production readiness:** Production
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
+### Thomae
+
+**Goal:** Protocol obfuscation using TLS fingerprinting.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Thomae** | 2019 | TLS fingerprint | Protocol mimicry |
+
+**State of the art:** Mimics legitimate TLS patterns.
+
+**Production readiness:** Production
 
 **Security status:** Secure
 
