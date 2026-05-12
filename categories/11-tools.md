@@ -21,6 +21,9 @@
 - [steganography (kzykhys)](#steganography-kzykhys)
 - [HIDEAGEM](#hideagem)
 - [Steganography (cyberteach360)](#steganography-cyberteach360)
+- [bpcs (mobeets)](#bpcs-mobeets)
+- [steganography-app (aksel)](#steganography-app-aksel)
+- [stegoVeritas](#stegoveritas)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -376,6 +379,42 @@
 **Note:** Teaching tool for learning steganography.
 
 **Star count:** ⭐ 38
+
+---
+
+### bpcs (mobeets)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [bpcs](https://github.com/mobeets/bpcs) | Python | BPCS steganography implementation (2024) |
+
+**Note:** BPCS (Bit-Plane Complexity Segmentation) steganography.
+
+**Star count:** ⭐ 32
+
+---
+
+### steganography-app (aksel)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography-app](https://github.com/aksel/steganography-app) | Python | GUI steganography application (2021) [archived] |
+
+**Note:** Desktop GUI application for steganography.
+
+**Star count:** ⭐ 40
+
+---
+
+### stegoVeritas
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegoVeritas](https://github.com/bannsec/stegoVeritas) | Python | Steganography analysis tool (2026) |
+
+**Note:** Advanced steganography analysis and extraction tool.
+
+**Star count:** —
 
 ---
 
