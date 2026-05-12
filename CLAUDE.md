@@ -12,23 +12,15 @@ INDEX.md                           — Alphabetical index of all sections
 CLAUDE.md                          — This file
 categories/
   01-text-steganography.md
-  02-image-spatial-domain.md
-  03-image-jpeg-domain.md
-  04-image-adaptive-methods.md
-  05-image-deep-learning.md
-  06-image-transform-reversible.md
-  07-audio-steganography.md
-  08-video-steganography.md
-  09-network-steganography.md
-  10-dns-tunneling.md
-  11-quic-http3-steganography.md
-  12-blockchain-steganography.md
-  13-filesystem-os.md
-  14-coverless-generative.md
-  15-traffic-obfuscation.md
-  16-physical-social-steganography.md
-  17-steganalysis.md
-  18-additional-methods.md
+  02-image-steganography.md
+  03-audio-steganography.md
+  04-video-steganography.md
+  05-network-steganography.md
+  06-filesystem-os.md
+  07-coverless-generative.md
+  08-traffic-obfuscation.md
+  09-physical-social.md
+  10-steganalysis.md
 ```
 
 ## Category File Structure
@@ -72,7 +64,7 @@ Each category file is organized into **subcategories** (## level) containing **a
 
 ### Subcategory rules
 
-- Each category file MUST have 3–6 subcategories grouping related algorithms.
+- Each category file MUST have 2–4 subcategories grouping related algorithms.
 - Subcategory headings are `##` level with a `---` separator after them.
 - Algorithm entries are `###` level, each ending with `---`.
 - The TOC uses bold subcategory links with indented algorithm entries.
@@ -210,21 +202,13 @@ Before committing changes, verify ALL of the following:
 
 | # | File | Contents |
 |---|------|----------|
-| 01 | text-steganography | Whitespace, Unicode, homoglyphs, semantic, LLM-based (Meteor, Discop, ChatStega), mimic functions |
-| 02 | image-spatial-domain | LSB, LSB matching, BPCS, PVD, EMD, STC, Sudoku-based, chaotic map |
-| 03 | image-jpeg-domain | JSteg, F5, nsF5, OutGuess, J-UNIWARD, UED/UERD, QIM, 1-bit Q-table |
-| 04 | image-adaptive-methods | HUGO, WOW, S-UNIWARD, HILL, MiPOD, MG/MVG, distortion-first approaches |
-| 05 | image-deep-learning | HiDDeN, SteganoGAN, StegaStamp, UDH, CRoSS, StegNet, Transformer-based |
-| 06 | image-transform-reversible | DWT, DFT, SVD, Contourlet, NSCT, histogram shifting, difference expansion, PEE, RDH-EI |
-| 07 | audio-steganography | LSB, parity, echo hiding, phase coding, spread spectrum, MP3Stego, vocoder-based (LPC, CELP), neural (DeepSound, WavMark, AudioSeal), PRoADS |
-| 08 | video-steganography | Frame LSB/DCT, motion vectors, intra prediction modes, QP modulation, CABAC, HEVC PU partition |
-| 09 | network-steganography | IP header fields (ID, TTL, DSCP), IPv6, TCP (ISN, timestamp), HTTP headers, timing channels, IPD, Jitterbug |
-| 10 | dns-tunneling | iodine, dnscat2, dns2tcp, DNScat-DoH, cobalt strike DNS |
-| 11 | quic-http3-steganography | QuicCourier (20 channels), connection ID, packet number gaps, frame padding, spin bit |
-| 12 | blockchain-steganography | OP_RETURN, address generation, transaction LSB, Ethereum calldata, NFT metadata |
-| 13 | filesystem-os | File slack, volume slack, NTFS ADS, HPA/DCO, StegFS, VeraCrypt hidden volume, metadata |
-| 14 | coverless-generative | Coverless image, StyleGAN-stego, INR stego, MIDAS, StegoNGP, 3DGS, diffusion-based |
-| 15 | traffic-obfuscation | Tor (obfs4, meek, Snowflake, WebTunnel), V2Ray/Xray/REALITY, Trojan-GFW, Hysteria 2, Shadowsocks, NaiveProxy, ICMP tunnels |
-| 16 | physical-social-steganography | Printer dots, social steganography, invisible ink, microdots, cultural references |
-| 17 | steganalysis | Chi-square, RS-analysis, WS, SPAM, SRM, DCTR, deep learning (XuNet, YeNet, SRNet, ZhuNet), network steganalysis |
-| 18 | additional-methods | 3D mesh steganography, DNA steganography, model watermarking, NFC steganography, QR steganography, IoT/CPS steganography, 5G/6G, CYPRESS |
+| 01 | text-steganography | Structural (whitespace, Unicode, homoglyphs), semantic, LLM-based (Meteor, Discop, ChatStega) |
+| 02 | image-steganography | Spatial (LSB, BPCS, PVD, EMD, STC), adaptive (HUGO, WOW, S-UNIWARD, HILL, MiPOD), JPEG (JSteg, F5, nsF5, OutGuess, J-UNIWARD, UED), transform (DWT, DFT, SVD), reversible, deep learning (HiDDeN, SteganoGAN, StegaStamp, CRoSS) |
+| 03 | audio-steganography | Time domain (LSB, parity, echo, phase), frequency (spread spectrum, MDCT), compressed (MP3Stego, AAC, Opus), neural (DeepSound, WavMark, AudioSeal, PRoADS) |
+| 04 | video-steganography | Frame LSB/DCT, motion vectors, intra prediction modes, QP modulation, CABAC, HEVC PU partition |
+| 05 | network-steganography | Header fields (IP, TCP, HTTP), timing channels, DNS tunneling (iodine, dnscat2, dns2tcp), QUIC (QuicCourier), VoIP (LACK), 5G/6G, CYPRESS |
+| 06 | filesystem-os | File slack, NTFS ADS, HPA/DCO, VeraCrypt hidden volume, StegFS, metadata |
+| 07 | coverless-generative | Hash-based, StyleGAN, diffusion (CRoSS, MIDAS), 3D (StegoNGP, 3DGS) |
+| 08 | traffic-obfuscation | Tor (obfs4, meek, Snowflake, WebTunnel), V2Ray/Xray/REALITY, Trojan-GFW, Hysteria 2, Shadowsocks, NaiveProxy |
+| 09 | physical-social | Printer dots, microdots, invisible ink, cultural references, contextual hiding |
+| 10 | steganalysis | Classical (chi-square, RS, WS, SPAM, SRM, DCTR), deep learning (XuNet, YeNet, SRNet, ZhuNet), network detection |
