@@ -169,6 +169,8 @@
 - [ExeSteganography](#exesteganography)
 - [exe2png](#exe2png)
 - [stegify-mobile](#stegify-mobile)
+- [stegbrute](#stegbrute)
+- [stego-toolkit-nix](#stego-toolkit-nix)
 <!-- /TOC -->
 
 ---
@@ -1994,5 +1996,29 @@
 **Note:** Mobile implementation of stegify for Flutter/Dart.
 
 **Star count:** ⭐ 8
+
+---
+
+### stegbrute
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegbrute](https://github.com/R4yGM/stegbrute) | Rust | Docker-based steganography brute forcer |
+
+**Note:** Fast steganography brute forcing tool in Rust.
+
+**Star count:** ⭐ 244
+
+---
+
+### stego-toolkit-nix
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stego-toolkit-nix](https://github.com/qrxnz/stego-toolkit-nix) | Nix | NixOS steganography toolkit |
+
+**Note:** Nix package for steganography tools.
+
+**Star count:** —
 
 ---
