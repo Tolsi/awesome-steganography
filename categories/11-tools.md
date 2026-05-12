@@ -38,6 +38,7 @@
 - [zipography](#zipography)
 - [F5-steganography](#f5-steganography-1)
 - [AndroidWM](#androidwm)
+- [Cryptography (kemingy)](#cryptography-kemingy)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -533,6 +534,18 @@
 **Note:** Android library for image watermarking and steganography.
 
 **Star count:** ⭐ 1.6k
+
+---
+
+### Cryptography (kemingy)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Cryptography](https://github.com/kemingy/Cryptography) | C | LSB steganography in C [archived] |
+
+**Note:** Early C implementation of LSB steganography.
+
+**Star count:** ⭐ 20
 
 ---
 
