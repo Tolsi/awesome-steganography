@@ -17,6 +17,8 @@
 - [steghide](#steghide)
 - [steganography (kelvins)](#steganography-kelvins)
 - [steganography (stylesuxx)](#steganography-stylesuxx)
+- [Deep-Steganography (harveyslash)](#deep-steganography-harveyslash)
+- [steganography (kzykhys)](#steganography-kzykhys)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -324,6 +326,30 @@
 **Note:** JavaScript library for image steganography.
 
 **Star count:** ⭐ 160
+
+---
+
+### Deep-Steganography (harveyslash)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Deep-Steganography](https://github.com/harveyslash/Deep-Steganography) | Python | Deep learning steganography |
+
+**Note:** TensorFlow implementation of deep learning steganography.
+
+**Star count:** ⭐ 214
+
+---
+
+### steganography (kzykhys)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/kzykhys/Steganography) | PHP | PHP steganography library |
+
+**Note:** PHP library for steganography.
+
+**Star count:** ⭐ 88
 
 ---
 
