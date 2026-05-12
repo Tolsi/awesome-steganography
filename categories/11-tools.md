@@ -34,6 +34,11 @@
 - [stegify](#stegify)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
+- [jphs](#jphs)
+- [imagemask](#imagemask)
+- [lsb-steganography](#lsb-steganography)
+- [Steganography-Tools](#steganography-tools)
+- [7thSamurai/steganography](#7thsamurai-steganography)
 
 **[Audio Steganography](#audio-steganography)**
 - [DeepSound](#deepsound)
@@ -433,6 +438,66 @@
 **Note:** Docker-based collection of steganography tools. Helps with CTF challenges.
 
 **Star count:** ⭐ 2.7k
+
+---
+
+### jphs
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [jphs](https://github.com/h3xx/jphs) | C | JStegHide Plus - JPEG steganography |
+
+**Note:** JPEG steganography tool with improved implementation.
+
+**Star count:** ⭐ 90
+
+---
+
+### imagemask
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [imagemask](https://github.com/kingthy/imagemask) | Python | Image masking steganography |
+
+**Note:** Hides data by masking regions in images.
+
+**Star count:** ⭐ 68
+
+---
+
+### lsb-steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [lsb-steganography](https://github.com/Aqcurate/lsb-steganography) | Python | LSB encoding/decoding for images |
+
+**Note:** Simple LSB steganography implementation for PNG images.
+
+**Star count:** ⭐ 79
+
+---
+
+### Steganography-Tools
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-Tools](https://github.com/Priyansh-15/Steganography-Tools) | Python | Multi-format steganography toolkit |
+
+**Note:** Supports image, video, and text steganography with encryption.
+
+**Star count:** ⭐ 111
+
+---
+
+### 7thSamurai/steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [7thSamurai/steganography](https://github.com/7thSamurai/steganography) | Python | Cryptography and steganography library |
+
+**Note:** Comprehensive library with AES encryption and multiple stego methods.
+
+**Star count:** ⭐ 1.1k
 
 ---
 
