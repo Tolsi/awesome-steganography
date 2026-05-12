@@ -2859,3 +2859,99 @@
 **Star count:** ⭐ 15
 
 ---
+
+### ascii-to-midi (1j01)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ascii-to-midi](https://github.com/1j01/ascii-to-midi) | JavaScript | ASCII to MIDI steganography |
+
+**Note:** Text-to-audio steganography using MIDI.
+
+**Star count:** ⭐ 12
+
+---
+
+### Pool2020 (PoCInnovation)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Pool2020](https://github.com/PoCInnovation/Pool2020) | Python | Steganography research project |
+
+**Note:** Research steganography techniques.
+
+**Star count:** ⭐ 12
+
+---
+
+### Enigma (AleksaMCode)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Enigma](https://github.com/AleksaMCode/Enigma) | Python | Cryptography and steganography tool |
+
+**Note:** Combined crypto and steganography.
+
+**Star count:** ⭐ 12
+
+---
+
+### F5Android (harlo)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [F5Android](https://github.com/harlo/F5Android) | Java | F5 steganography for Android |
+
+**Note:** F5 algorithm implementation for Android.
+
+**Star count:** ⭐ 11
+
+---
+
+### strogonoff (jbochi)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [strogonoff](https://github.com/jbochi/strogonoff) | Python | Early steganography tool |
+
+**Note:** Early Python steganography implementation.
+
+**Star count:** ⭐ 11
+
+---
+
+### Steganography-App (lukefire5156)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-App](https://github.com/lukefire5156/Steganography-App) | Python | GUI steganography application |
+
+**Note:** Desktop steganography app.
+
+**Star count:** ⭐ 11
+
+---
+
+### awesome-steganography (cristiancmoises)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [awesome-steganography](https://github.com/cristiancmoises/awesome-steganography) | Python | Steganography resources collection |
+
+**Note:** Curated steganography resources.
+
+**Star count:** ⭐ 11
+
+---
+
+### ImageSteganography (jokLiu)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ImageSteganography](https://github.com/jokLiu/ImageSteganography) | C++ | C++ image steganography |
+
+**Note:** C++ implementation of image steganography.
+
+**Star count:** ⭐ 11
+
+---
