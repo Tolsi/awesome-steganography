@@ -70,6 +70,7 @@
 - [Universal-Deep-Hiding](#universal-deep-hiding)
 - [StegaPy](#stegapy)
 - [The-A-Files](#the-a-files)
+- [invisible-watermark-tool](#invisible-watermark-tool)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1409,5 +1410,17 @@
 **Note:** Research on audio information hiding and watermarking.
 
 **Star count:** ⭐ 27
+
+---
+
+### invisible-watermark-tool
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [invisible-watermark-tool](https://github.com/nellx-io/invisible-watermark-tool) | Python | Invisible watermark with AES + SHA-256 |
+
+**Note:** Tool for adding invisible watermarks with encryption.
+
+**Star count:** ⭐ 2
 
 ---
