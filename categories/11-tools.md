@@ -41,6 +41,8 @@
 - [Cryptography (kemingy)](#cryptography-kemingy)
 - [steganography (woongbak)](#steganography-woongbak)
 - [steganography-dotnet](#steganography-dotnet)
+- [brute-force-steganography-tool](#brute-force-steganography-tool)
+- [ImageStegano](#imagestegano)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -572,6 +574,30 @@
 **Note:** .NET library for image steganography.
 
 **Star count:** ⭐ 25
+
+---
+
+### brute-force-steganography-tool
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [brute-force-steganography-tool](https://github.com/bpotaman/brute-force-steganography-tool) | Python | Brute force tool for LSB steganography |
+
+**Note:** Tool for brute-forcing LSB steganography passwords.
+
+**Star count:** ⭐ 0
+
+---
+
+### ImageStegano
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ImageStegano](https://github.com/zabbidou/ImageStegano) | Python | Image steganography tool |
+
+**Note:** Simple image steganography implementation.
+
+**Star count:** ⭐ 0
 
 ---
 
