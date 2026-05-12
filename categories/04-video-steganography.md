@@ -227,85 +227,85 @@ First paper to address steganography at the semantic communication layer; too re
 
 ### From Covert Hiding to Visual Editing: Robust Generative Video Steganography
 
-**Goal:** Traditional video steganography methods are based on modifying the covert space for embedding, whereas we propose an innovative approach that embeds secret message within semantic feature for
+**Goal:** Embed secret messages within semantic features of videos during the video editing process, achieving robustness against common distortions in online social networks (OSNs).
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **From Covert Hiding to Visual Editing: Robust Generative Vide** | 2023 | cs.CV | Xueying Mao et al. [[1]](https://arxiv.org/abs/2401.00652) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes RoGVS network using semantic feature modification for embedding, achieving robustness against OSN distortions. Face-swapping scenario demonstrates visual editing effects. Outperforms existing methods in both robustness and capacity.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; no public implementation available.
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Preprint under review; peer review status unknown.
 
 ---
 
 ### Large-capacity and Flexible Video Steganography via Invertible Neural Network
 
-**Goal:** Video steganography is the art of unobtrusively concealing secret data in a cover video and then recovering the secret data through a decoding protocol at the receiver end.
+**Goal:** Conceal secret data in cover videos and recover them through a decoding protocol, achieving large capacity and flexibility with invertible neural networks.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Large-capacity and Flexible Video Steganography via Invertib** | 2023 | cs.CV, cs.CR | Chong Mou et al. [[1]](https://arxiv.org/abs/2304.12300) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes LF-VSN using invertible neural networks for hiding up to 7 secret videos in 1 cover video. Features key-controllable scheme for flexible recovery and scalable strategy. Accepted at CVPR 2023.
 
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
+**Production readiness:** Mature
+Public implementation available at https://github.com/MC-E/LF-VSN
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Accepted at CVPR 2023; significant attention from research community.
 
 ---
 
 ### Investigation on Principles for Cost Assignment in Motion Vector-based Video Steganography
 
-**Goal:** Cost assignment in the motion vector domain remains a research focus in video steganography.
+**Goal:** Investigate principles for cost assignment in motion vector domain to improve security against steganalysis attacks.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Investigation on Principles for Cost Assignment in Motion Ve** | 2022 | cs.CR, cs.MM | Jun Li et al. [[1]](https://arxiv.org/abs/2209.01744) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes three principles: local optimality, non-consistency in block group, and complexity priority. Joint distortion function resists three steganalysis features simultaneously while maintaining visual quality and coding efficiency.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; no public implementation available.
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First systematic study of cost assignment principles in motion vector domain.
 
 ---
 
 ### Convolutional Video Steganography with Temporal Residual Modeling
 
-**Goal:** Steganography represents the art of unobtrusively concealing a secrete message within some cover data.
+**Goal:** Hide a full-sized color video within another video using convolutional neural networks with temporal residual modeling.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Convolutional Video Steganography with Temporal Residual Mod** | 2018 | cs.MM | Xinyu Weng et al. [[1]](https://arxiv.org/abs/1806.02941) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First deep learning approach to video steganography using temporal residual modeling. Proposes two-branch model for hiding inter-frame differences and secret frames. Outperforms LSB and image steganography models.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; no public implementation available.
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First deep video steganography work; significant attention.
 
 ---
 

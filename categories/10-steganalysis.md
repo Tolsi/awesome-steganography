@@ -421,35 +421,35 @@ Deployed in enterprise firewalls and DNS security platforms (Cisco Umbrella, etc
 |-----------|------|-----------|------|
 | **Stego Battlefield** | 2026 | Comprehensive attack/defense evaluation benchmark | Sun et al., arXiv May 2026 [[1]](https://arxiv.org/abs/2605.05789) |
 
-**State of the art:** Provides standardized evaluation framework covering both attack and defense perspectives; addresses covert channel abuse in large model pipelines.
+**State of the art:** SADBench benchmark with 4 core tasks: steganography attack capability, steganalysis defense capability, efficiency, and transferability evaluation. Evaluates image-payload and text-payload steganography across diverse cover distributions. Key findings: INN and autoencoder methods show superior stability, in-domain detection is near-perfect but transferability is asymmetric (attacks generalize better than detectors), real-world threats persist on social media.
 
 **Production readiness:** Research
 Preprint May 2026; benchmark suite under development.
 
 **Implementations:** Academic benchmark — code not yet publicly released
 
-**Security status:** Caution — Benchmark reveals gaps in current steganalysis defenses
+**Security status:** Caution — Benchmark reveals gaps in current steganalysis defenses against LLM-generated steganography
 
-**Community acceptance:** Emerging — Very recent; addresses timely LLM-era threat model
+**Community acceptance:** Emerging — Very recent; addresses timely LLM-era threat model with systematic evaluation framework
 
 ---
 
 ### Zero-Shot Interpretable Image Steganalysis
 
-**Goal:** Zero-shot detection of invertible image hiding methods with interpretability.
+**Goal:** Zero-shot detection of invertible image hiding methods with interpretability and secret recovery capability.
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
 | **Zero-Shot Interpretable** | 2026 | Zero-shot learning | Invertible image hiding [[1]](https://arxiv.org/abs/2605.01331) |
 
-**State of the art:** Addresses detectability of emerging invertible image hiding approaches.
+**State of the art:** Proposes interpretable steganalysis framework for invertible image hiding under zero-shot setting. Integrates image hiding, revealing, and steganalysis into unified framework with ability to recover embedded secret information. Uses residual augmentation strategy for cross-dataset and cross-architecture generalization. Accepted to IEEE SPL.
 
 **Production readiness:** Research
-Preprint 2026; no public implementation.
+Preprint 2026; accepted to IEEE SPL; no public implementation yet.
 
-**Security status:** Caution — Effective against invertible hiding; applicability to other schemes unclear
+**Security status:** Caution — Effective against invertible hiding; applicability to other schemes needs validation
 
-**Community acceptance:** Emerging — Very recent
+**Community acceptance:** Emerging — Very recent; addresses emerging invertible image hiding threat
 
 ---
 
@@ -495,106 +495,43 @@ Preprint 2025; no public implementation.
 
 ### A Game-Theoretic Approach for Adversarial Information Fusion in Distributed Sensor Networks
 
-**Goal:** disciplines of signal processing have received increasing attention in the last decades: multimedia forensics, digital watermarking, biometrics, network monitoring, steganography and steganalysis a...
+**Goal:** Address adversarial information fusion in distributed sensor networks using game-theoretic approaches.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **A Game-Theoretic Approach for Adversarial Information Fusion** | 2025 | cs.CR, cs.GT, cs.MA | Kassem Kallas [[1]](https://arxiv.org/abs/2511.23026) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** PhD thesis addressing adversarial signal processing in distributed sensor networks. Develops soft isolation defense, optimum decision fusion strategy against Byzantine attackers, near-optimum message passing via factor graphs, and defense against data falsification attacks in consensus networks. Not directly related to steganography/steganalysis.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+PhD thesis; theoretical framework for adversarial sensor networks.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Not a steganography or steganalysis method; addresses security in sensor networks.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Contributes to adversarial signal processing literature; not directly applicable to steganography.
 
 ---
 
 ### Exploring AI in Steganography and Steganalysis: Trends, Clusters, and Sustainable Development Potential
 
-**Goal:** Steganography and steganalysis are strongly related subjects of information security.
+**Goal:** Scientometric analysis of AI-driven steganography research trends from 2017-2023.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Exploring AI in Steganography and Steganalysis: Trends, Clus** | 2025 | cs.CR, cs.AI | Aditya Kumar Sahu et al. [[1]](https://arxiv.org/abs/2511.12052) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Comprehensive scientometric analysis of 654 AI-driven steganography articles (2017-2023). Identifies 7 thematic clusters: steganographic image data hiding, deep image steganalysis, neural watermark robustness, linguistic steganography models, speech steganalysis algorithms, covert communication networks, and video steganography techniques. Maps to UN Sustainable Development Goals; only 18/654 articles align with SDGs (SDG9 leading).
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Survey/scientometric study; provides research trends analysis.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### GSDFuse: Capturing Cognitive Inconsistencies from Multi-Dimensional Weak Signals in Social Media Steganalysis
-
-**Goal:** The ubiquity of social media platforms facilitates malicious linguistic steganography, posing significant security risks.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **GSDFuse: Capturing Cognitive Inconsistencies from Multi-Dime** | 2025 | cs.CR, cs.AI, cs.CL | Kaibo Huang et al. [[1]](https://arxiv.org/abs/2505.17085) |
-
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
-
-**Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Analytical work; not a detection or embedding method.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### A study on audio synchronous steganography detection and distributed guide inference model based on sliding spectral features and intelligent inference drive
-
-**Goal:** data in audio synchronization streams has emerged as a new covert communication method.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A study on audio synchronous steganography detection and dis** | 2025 | cs.SD, cs.AI, cs.CR | Wei Meng [[1]](https://arxiv.org/abs/2505.03193) |
-
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
-
-**Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### TSCL:Multi-party loss Balancing scheme for deep learning Image steganography based on Curriculum learning
-
-**Goal:** For deep learning-based image steganography frameworks, in order to ensure the invisibility and recoverability of the information embedding, the loss function usually contains several losses such a...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **TSCL:Multi-party loss Balancing scheme for deep learning Ima** | 2025 | cs.CV, cs.AI, cs.CR | Fengchun Liu. Tong Zhang, Chunying Zhang [[1]](https://arxiv.org/abs/2504.18348) |
-
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
-
-**Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First-of-its-kind scientometric study on AI-steganography; provides valuable overview of research landscape and gaps in SDG alignment.
 
 ---
 
@@ -606,16 +543,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Efficient Streaming Voice Steganalysis in Challenging Detect** | 2024 | cs.CR, cs.LG, cs.SD | Pengcheng Zhou et al. [[1]](https://arxiv.org/abs/2411.13612) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** State-of-the-art in VoIP steganalysis with Dual-View VoIP Steganalysis Framework (DVSF). Addresses detection at low embedding rates (10%) and short durations (0.1s). Shows near-real-time performance with superior accuracy.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; requires implementation verification.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New detection method; effectiveness against novel steganography unknown.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Recent work in streaming media steganalysis; promising results.
 
 ---
 
@@ -627,16 +564,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Linguistic Steganalysis via LLMs: Two Modes for Efficient De** | 2024 | cs.CL | Yifan Tang et al. [[1]](https://arxiv.org/abs/2406.04218) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel linguistic steganalysis using LLMs (LSGC) with two modes: generation mode uses LLM reasoning for detection, classification mode uses causalLM for efficient feature extraction. Achieves SOTA on strongly concealed stegos with reduced training time.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; no production implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New detection approach; requires validation on diverse datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First LLM-based linguistic steganalysis; growing interest.
 
 ---
 
@@ -648,16 +585,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Blind Data Adaptation to tackle Covariate Shift in Operation** | 2024 | eess.IV, cs.AI, cs.CR | Rony Abecidan et al. [[1]](https://arxiv.org/abs/2405.16961) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Addresses critical covariate shift problem in operational steganalysis. TADA (Target Alignment through Data Adaptation) uses geometric alignment and distribution matching to adapt models to target datasets. Addresses real-world deployment gap between training and operational steganalysis.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; addresses practical deployment challenge.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New adaptation method; requires validation on diverse operational scenarios.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important practical contribution; addresses real-world steganalysis deployment.
 
 ---
 
@@ -669,16 +606,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Towards Next-Generation Steganalysis: LLMs Unleash the Power** | 2024 | cs.CR | Minhao Bai. Jinshuai Yang et al. [[1]](https://arxiv.org/abs/2405.09090) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First LLM-based linguistic steganalysis using generative paradigm. Models steganalysis as generation task rather than classification. Outperforms baselines significantly; provides domain-agnostic detection capability with open-source models.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype with open-source code available.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; effectiveness against evolving steganography methods unknown.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Pioneering work in LLM-based steganalysis; significant interest.
 
 ---
 
@@ -690,16 +627,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Double-Flow-based Steganography without Embedding for Image-** | 2023 | cs.CV | Bingbing Song et al. [[1]](https://arxiv.org/abs/2311.15027) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel steganography without embedding (SWE) technique using reversible bijective transformation (DF-SWE). Achieves 24-72 BPP payload capacity, 8000-16000x higher than competitors, while producing diverse natural stego images. Domain-agnostic property allows application across various domains without training data.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Secure
+SWE inherently resistant to typical steganalysis as it doesn't modify cover images.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Pioneering SWE approach; significant capacity improvements over prior work.
 
 ---
 
@@ -711,16 +648,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A One-dimensional HEVC video steganalysis method using the O** | 2023 | cs.CR, cs.LG, cs.MM | Jun Li et al. [[1]](https://arxiv.org/abs/2308.06464) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel HEVC video steganalysis using optimality of predicted motion vectors. Uses 1D feature representing MVP optimality rate. Achieves 100% detection for covers vs <100% for stego. No training required, low computational complexity.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Proof-of-concept; submitted to TCSVT journal.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New feature; requires validation on diverse video datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to video steganalysis; addresses practical deployment.
 
 ---
 
@@ -732,16 +669,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Green Steganalyzer: A Green Learning Approach to Image Stega** | 2023 | eess.IV, cs.CR, cs.LG | Yao Zhu et al. [[1]](https://arxiv.org/abs/2306.04008) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Green learning approach to image steganalysis with three modules: pixel-based anomaly prediction, embedding location detection, and decision fusion. Achieves comparable performance to deep learning with significantly lower complexity and smaller model size. Suitable for mobile/edge applications.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; lower computational requirements enable broader deployment.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New paradigm; requires validation on diverse steganography methods.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important contribution to efficient steganalysis; addresses practical deployment.
 
 ---
 
@@ -753,16 +690,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Forensic Video Steganalysis in Spatial Domain by Noise Resid** | 2023 | cs.CV, cs.CR | Mart Keizer, Zeno Geradts, Meike Kombrink [[1]](https://arxiv.org/abs/2305.18070) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** CNN-based video steganalysis using noise residual approach. Achieves 99.96% detection rate on MSU StegoVideo dataset for spatial domain steganography. Uses CNN to detect pixel modifications from embedding.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; trained on synthetic video steganography dataset.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Detection evaluated on limited dataset; may vary with different steganography tools.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel application of CNN to video steganalysis; CC BY 4.0 license.
 
 ---
 
@@ -774,16 +711,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **CNN-Assisted Steganography -- Integrating Machine Learning w** | 2023 | cs.CR, cs.LG, cs.MM | Andrew Havard et al. [[1]](https://arxiv.org/abs/2304.12503) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses steganographic assistant CNN (SA-CNN) to customize parametric steganographic algorithms based on cover media characteristics. Shows reduced detection rates by Yedroudj-Net when integrated with S-UNIWARD. Adaptive approach that configures steganography per cover image.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Proof-of-concept; 6-page preprint with experimental evaluation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires validation on diverse datasets and steganalyzers.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Integrates ML with classical S-UNIWARD; CC BY-NC-SA 4.0 license.
 
 ---
 
@@ -795,16 +732,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **3D-VFD: A Victim-free Detector against 3D Adversarial Point ** | 2023 | cs.MM, cs.CV, eess.IV | Jiahao Zhu et al. [[1]](https://arxiv.org/abs/2205.08738) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First victim-free detector (3D-VFD) against 3D adversarial point clouds using steganalysis perspective. Captures discrepancies in residual geometric feature distributions between benign and adversarial point clouds. Achieves SOTA detection without relying on victim 3D model outputs.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Novel approach; effectiveness against evolving 3D adversarial attacks requires validation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First work applying steganalysis to 3D adversarial point cloud detection; pioneering approach.
 
 ---
 
@@ -816,16 +753,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Deniable Steganography** | 2022 | cs.CR, cs.CV | Yong Xu et al. [[1]](https://arxiv.org/abs/2205.12587) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First work on deniable steganography - allows receiver to extract fake message under coercive attack while hiding real message. Uses DNN-based receiver-deniable scheme with separate extraction modules for real and fake messages. Addresses novel threat model of coercive attack.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Novel concept; proof-of-concept implementation with DNN.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New threat model; requires more research on practical deployment.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Introduces new research direction; novel application of deniable encryption concepts to steganography.
 
 ---
 
@@ -837,16 +774,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganalysis of Image with Adaptively Parametric Activation** | 2022 | cs.MM, cs.CR, cs.CV | Hai Su et al. [[1]](https://arxiv.org/abs/2203.12843) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Image steganalysis with Adaptively Parametric Activation (APA) module to preserve negative embedding signals. Uses constraint-based high-pass filters for residual diversity and contrastive learning loss. Competitive performance on BOSSbase against WOW and S-UNIWARD.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; no production implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New activation approach; requires validation on more datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to improving steganalysis features.
 
 ---
 
@@ -858,16 +795,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Secret-to-Image Reversible Transformation for Generative Ste** | 2022 | cs.CR | Zhili Zhou et al. [[1]](https://arxiv.org/abs/2203.06598) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Secret-to-Image Reversible Transformation (S2IRT) for generative steganography using Glow model. Achieves high hiding capacity (up to 4 bpp) and near 100% extraction accuracy. Includes SE-S2IRT variant for robustness against image attacks.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses reversibility challenge in generative steganography.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires steganalysis evaluation on diverse datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to generative steganography; addresses practical limitations.
 
 ---
 
@@ -879,16 +816,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Text Steganalysis with Attentional LSTM-CNN** | 2022 | cs.MM | YongJian Bao et al. [[1]](https://arxiv.org/abs/1912.12871) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Attentional LSTM-CNN for text steganalysis combining semantic word embeddings with CNN for local features and LSTM for long-distance context. Uses attention mechanism to identify important steganographic clues. Note: Paper has been withdrawn from arXiv.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Withdrawn paper; no active implementation available.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Deprecated
+Paper withdrawn; methodology should be verified from other sources.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Withdrawn paper; limited current relevance.
 
 ---
 
@@ -900,16 +837,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Generalized Local Optimality for Video Steganalysis in Motio** | 2021 | cs.CV, cs.CR | Liming Zhai et al. [[1]](https://arxiv.org/abs/2112.11729) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Generalized Local Optimality for video steganalysis. Extends concept from static to dynamic estimation and from MV to PMV domain. Achieves SOTA accuracy and robustness against cover source mismatch, video prediction methods, codecs, and resolutions.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses practical video steganalysis challenges.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New feature framework; requires validation on diverse video datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Significant contribution to video steganalysis; addresses real-world deployment.
 
 ---
 
@@ -921,16 +858,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Universal Deep Network for Steganalysis of Color Image based** | 2021 | cs.CV, cs.CR | Kangkang Wei et al. [[1]](https://arxiv.org/abs/2111.12231) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Universal color image steganalysis network (UCNet) for both spatial and JPEG domains. Uses channel representation (RGB/YCbCr) and group convolution. Achieves SOTA on ALASKA II with fewer parameters than SRNet and J-YeNet.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses color image steganalysis gap.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires validation on diverse color image datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important contribution addressing real-world color image steganalysis.
 
 ---
 
@@ -942,16 +879,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Stegomalware: A Systematic Survey of MalwareHiding and Detec** | 2021 | cs.CR | Rajasekhar Chaganti et al. [[1]](https://arxiv.org/abs/2110.02504) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First systematic survey of stegomalware (malware using image steganography). Covers history, generation tools, file formats, GAN-based steganography, and DL-based detection. Proposes enterprise stegomalware detection framework. Addresses critical security gap.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey paper; provides comprehensive overview and detection framework.
 
-**Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+**Security status:** N/A
+Survey; provides background and detection approach recommendations.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Widely trusted
+Important security survey; addresses practical malware detection gap.
 
 ---
 
@@ -963,16 +900,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **JPEG Steganography with Embedding Cost Learning and Side-Inf** | 2021 | cs.MM | Jianhua Yang et al. [[1]](https://arxiv.org/abs/2107.13151) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** JPEG steganography with embedding cost learning via GAN (JS-GAN). Includes estimated side-information (ESI) for asymmetric cost adjustment. Shows 2.58% detection error improvement over J-UNIWARD, and 11.25% further improvement with ESI.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses JPEG steganography anti-detection.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires validation against modern steganalysis.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to JPEG steganography; addresses practical deployment.
 
 ---
 
@@ -984,16 +921,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Three-Dimensional Mesh Steganography and Steganalysis: A Rev** | 2021 | cs.CR, cs.GR | Hang Zhou et al. [[1]](https://arxiv.org/abs/2104.10203) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Comprehensive survey of 3D mesh steganography and steganalysis. Proposes new taxonomy: two-state, LSB, permutation, and transform domains. Covers universal and specific steganalysis. Accepted to TVCG journal.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey paper; comprehensive overview of the field.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Survey; provides taxonomy and future directions.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Widely trusted
+Published in IEEE TVCG; authoritative survey.
 
 ---
 
@@ -1005,16 +942,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Image Steganography based on Iteratively Adversarial Samples** | 2021 | cs.CV | Xinghong Qin et al. [[1]](https://arxiv.org/abs/2101.05209) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel steganography (ITE-SYN) using iteratively adversarial samples on synchronized-directions sub-images. Enhances security against both feature-based and CNN-based steganalysis by fooling target CNN classifiers.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses dual threat from classical and deep learning steganalysis.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires validation on diverse steganalysis methods.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to adversarial steganography; addresses practical security concerns.
 
 ---
 
@@ -1026,16 +963,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **F3SNet: A Four-Step Strategy for QIM Steganalysis of Compres** | 2021 | cs.CR | Chuanpeng Guo, Wei Yang, Liusheng Huang [[1]](https://arxiv.org/abs/2101.05105) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** QIM steganalysis using hierarchical attention network (F3SNet). Four-step strategy: Embedding, Encoding, Attention, Classification. Addresses small sample and low embedding rate challenges. Note: Paper has been withdrawn due to major error in conclusions.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Withdrawn paper; no active implementation.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Deprecated
+Paper withdrawn; methodology should not be used.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Withdrawn paper; limited current relevance.
 
 ---
 
@@ -1047,16 +984,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **PixelSteganalysis: Pixel-wise Hidden Information Removal wit** | 2021 | cs.MM, cs.CR, cs.CV | Dahuin Jung et al. [[1]](https://arxiv.org/abs/1902.10905) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First DL-based steganalysis that removes hidden information at pixel level. Uses pixel and edge distribution restoration. Published in IEEE TDSC. Shows 10-20% improvement in decoded rate and destruction rate.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Published in IEEE TDSC; addresses practical steganalysis removal.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; effectiveness against novel steganography unknown.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important contribution to active steganalysis; practical implications.
 
 ---
 
@@ -1068,16 +1005,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Analysis of the Scalability of a Deep-Learning Network for S** | 2020 | cs.CR | Hugo Ruiz et al. [[1]](https://arxiv.org/abs/2012.14816) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Analyzes scalability of deep learning steganalysis networks on large diverse databases. Shows error power-law holds in steganalysis. Addresses minimum database/CNN size for better-than-random performance. Published at ICPR 2021.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic analysis; provides guidelines for database and network sizing.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Analytical work; not a detection or embedding method.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important analysis for DL steganalysis research; practical implications.
 
 ---
 
@@ -1089,16 +1026,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Coverless Video Steganography based on Maximum DC Coefficien** | 2020 | cs.MM, cs.CR | Laijin Meng et al. [[1]](https://arxiv.org/abs/2012.06809) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First coverless video steganography using maximum DC coefficients. Uses Gaussian distribution model of DC coefficients and hash sequence generation. Addresses capacity, robustness, and security. Better than prior coverless algorithms.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses coverless video steganography gap.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Secure
+Coverless approach inherently resistant to steganalysis detection.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach; addresses practical coverless video steganography.
 
 ---
 
@@ -1110,16 +1047,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **FCEM: A Novel Fast Correlation Extract Model For Real Time S** | 2020 | cs.MM | Hao Yang et al. [[1]](https://arxiv.org/abs/1911.00682) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Fast Correlation Extract Model (FCEM) for VoIP steganalysis using multi-head attention. Outperforms RNNs and CNNs in accuracy and speed. Detects low embedding rates and short samples (0.1s). Published at ICASSP 2020.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Published at ICASSP; addresses real-time VoIP steganalysis.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires validation on diverse VoIP datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important contribution to real-time steganalysis; practical implications.
 
 ---
 
@@ -1131,16 +1068,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Evolutionary Algorithms and Efficient Data Analytics for Ima** | 2020 | cs.CV, cs.LG, cs.MM | Farid Ghareh Mohammadi et al. [[1]](https://arxiv.org/abs/1907.12914) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Survey of evolutionary algorithms for addressing curse of dimensionality in universal steganalysis. Discusses deep learning and evolutionary approaches for real-time steganalysis. Addresses NP-hard feature selection problem.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey paper; provides overview of EA for steganalysis.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Survey; provides research directions.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Provides research directions for practical steganalysis.
 
 ---
 
@@ -1152,16 +1089,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Destruction of Image Steganography using Generative Adversar** | 2019 | cs.MM, cs.CR, cs.LG | Isaac Corley, Jonathan Lwowski, Justin Hoffman [[1]](https://arxiv.org/abs/1912.10070) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Deep Digital Steganography Purifier (DDSP) uses GAN to destroy steganographic content while preserving image quality. Addresses APT threats like APT37. Shows high destruction rate with visual quality preservation. Transfer learning capability for unseen steganography.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses practical steganography destruction.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; effectiveness against novel steganography unknown.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important active steganalysis approach; practical security implications.
 
 ---
 
@@ -1173,16 +1110,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **CIS-Net: A Novel CNN Model for Spatial Image Steganalysis vi** | 2019 | cs.MM, eess.IV | Songtao Wu et al. [[1]](https://arxiv.org/abs/1912.06540) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Cover Image Suppression Network (CIS-Net) for spatial image steganalysis. Uses Single-value Truncation Layer (STL) and Sub-linear Pooling Layer (SPL) to suppress cover content. Outperforms rich model classifiers and CNN models on challenging steganography.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses cover suppression for better detection.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires validation on diverse datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel network architecture; contributes to spatial steganalysis.
 
 ---
 
@@ -1194,16 +1131,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Hierarchical Representation Network for Steganalysis of QIM ** | 2019 | cs.MM | Hao Yang et al. [[1]](https://arxiv.org/abs/1910.04433) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Hierarchical Representation Network for QIM steganalysis in low-bit-rate speech. Uses CNN with three-level attention for hierarchical structure. Outperforms state-of-the-art on short and low embedding rate samples with lower computation.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; addresses VoIP steganalysis.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; requires validation on diverse VoIP datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important contribution to speech steganalysis; practical implications.
 
 ---
 
@@ -1215,16 +1152,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **CNN-based Steganalysis and Parametric Adversarial Embedding:** | 2019 | cs.MM, cs.GT | Xiaoyu Shi et al. [[1]](https://arxiv.org/abs/1906.00697) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Game-theoretic framework for CNN steganalysis and adversarial embedding. Models as non-zero sum game between steganographer and steganalyst. Shows equilibrium solution reduces to zero-sum game. Provides strategy to improve steganalysis reliability.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Theoretical framework; addresses adversarial steganography.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Game-theoretic approach; practical implementation complex.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel framework for adversarial steganalysis; theoretical contribution.
 
 ---
 
@@ -1236,16 +1173,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Deep Learning in steganography and steganalysis from 2015 to** | 2019 | cs.CR | Marc Chaumont [[1]](https://arxiv.org/abs/1904.01444) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Comprehensive survey of deep learning in steganalysis (2015-2018). Covers CNN-based steganalysis, Rich Models, spatial/JPEG/selection-channel-aware steganalysis. Shows evolution from traditional methods to deep learning approaches. Published as book chapter in "Digital Media Steganography".
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey/book chapter; comprehensive overview of field.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Survey; provides research overview.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Widely trusted
+Authoritative survey by Marc Chaumont; widely cited.
 
 ---
 
@@ -1257,16 +1194,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **PixelSteganalysis: Destroying Hidden Information with a Low ** | 2019 | cs.MM, cs.CR, cs.LG | Dahuin Jung et al. [[1]](https://arxiv.org/abs/1902.11113) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Active steganalysis for DL-based steganography using pixel distribution restoration. Withdrawn; superseded by arXiv:1902.10905 (published in IEEE TDSC). Shows up to 20% improvement in decoding rate. Addresses DL steganography detection.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Withdrawn paper; superseded by updated version.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Deprecated
+Paper withdrawn; use updated version arXiv:1902.10905.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Withdrawn paper; limited current relevance.
 
 ---
 
@@ -1278,16 +1215,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Decode and Transfer: A New Steganalysis Technique via Condit** | 2019 | cs.CR | Parisa Babaheidarian, Mark Wallace [[1]](https://arxiv.org/abs/1901.09746) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel steganalysis technique using conditional GANs to recover hidden secret images from steganographic images. Uses deep neural network to decode approximate estimate, then domain adaptation via GAN to enhance to high-quality RGB image with visible details. Can serve as attack model for evaluating steganography security.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; no production implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel recovery approach; requires validation on diverse steganography methods.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First work using cGAN for steganalysis recovery; pioneering approach.
 
 ---
 
@@ -1299,16 +1236,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Spec-ResNet: A General Audio Steganalysis scheme based on De** | 2019 | cs.MM | Yanzhen Ren et al. [[1]](https://arxiv.org/abs/1901.06838) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First audio steganalysis using spectrogram + deep residual network (Spec-ResNet). Generalizes across AAC and MP3 steganography domains. Uses spectrogram as input to extract universal features from steganographic modifications. Better detection accuracy than hand-crafted and CNN-based methods.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; 12-page paper with extensive evaluation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; requires validation on more audio codecs.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First work combining spectrogram analysis with deep residual networks for audio steganalysis.
 
 ---
 
@@ -1320,16 +1257,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganographic Generative Adversarial Networks** | 2019 | cs.MM, cs.CR, cs.CV | Denis Volkhonskiy, Ivan Nazarov, Evgeny Burnaev [[1]](https://arxiv.org/abs/1703.05502) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses DCGAN to generate image-like containers that are more secure against steganalysis. First application of GANs to steganography. Embedding using standard algorithms in generated images shows improved resistance to steganalysis. Presented at NIPS 2016 Workshop on Adversarial Training.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept; 15-page paper with experimental validation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Early work; more recent approaches have superseded this.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Pioneering work applying deep generative models to steganography; frequently cited.
 
 ---
 
@@ -1341,16 +1278,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Usage of analytic hierarchy process for steganographic inser** | 2018 | cs.MM, cs.CV, cs.GR | S. V. Belim, D. E. Vilkhovskiy [[1]](https://arxiv.org/abs/1902.11100) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses analytic hierarchy process to detect LSB steganography. Analyzes zero-layer of adjacent bits. Can detect messages in bounded rectangular areas with <10% fill rate. Localizes message location with <5 pixel error. Effective where statistical methods fail.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Published in 2016 conference proceedings; proof-of-concept.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Limited to specific attack scenarios; requires known message location.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Alternative approach to LSB detection; limited adoption.
 
 ---
 
@@ -1362,16 +1299,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Feature Bagging for Steganographer Identification** | 2018 | cs.MM | Hanzhou Wu [[1]](https://arxiv.org/abs/1810.11973) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First work on steganographer identification (SIP) problem. Uses feature bagging to merge results from multiple sub-models with randomly sampled feature spaces. Creates ImgNetEase dataset (5108 images). Uses PEV-274 features with nsF5 steganography. Significantly improves detection accuracy over single models in high-dimensional feature space.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept with custom dataset.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New problem formulation; requires validation on more scenarios.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Introduces novel SIP problem; first work addressing this scenario.
 
 ---
 
@@ -1383,16 +1320,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **TS-CNN: Text Steganalysis from Semantic Space Based on Convo** | 2018 | cs.CR | Zhongliang Yang et al. [[1]](https://arxiv.org/abs/1810.08136) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First text steganalysis for coverless steganography. Uses CNN to extract high-level semantic features. Detects subtle distribution differences in semantic space. Achieves nearly 100% precision/recall on CT-Steg dataset (216K texts). Can estimate hidden information capacity. Submitted to AAAI 2019.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Published dataset CT-Steg; proof-of-concept model.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Only evaluated on specific coverless steganography methods.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to text steganalysis; widely cited in coverless steganography research.
 
 ---
 
@@ -1404,16 +1341,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Spatial Image Steganography Based on Generative Adversarial ** | 2018 | cs.MM | Jianhua Yang et al. [[1]](https://arxiv.org/abs/1804.07939) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** GAN-based steganography with generator (U-NET), embedding simulator (Tanh-simulator), and discriminator with SCA. Outperforms ASDL-GAN by 30% training time reduction. Beats S-UNIWARD in security. First to incorporate selection-channel awareness in GAN steganography framework.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+7-page paper; proof-of-concept with GAN architecture.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; requires validation on diverse datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Pioneering work in GAN-based steganography; frequently cited.
 
 ---
 
@@ -1425,16 +1362,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **DNA Steganalysis Using Deep Recurrent Neural Networks** | 2018 | cs.LG, cs.MM | Ho Bae et al. [[1]](https://arxiv.org/abs/1704.08443) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First DNA steganalysis using deep RNN. Addresses limitations of frequency analysis methods for DNA steganography. Learns intrinsic distribution of coding/non-coding sequences. Detects hidden messages by exploiting distribution variations. More robust than existing biological sequence analysis methods. Updated v3 in 2018.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept; extensively revised over 3 versions.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel domain; requires validation on more DNA steganography methods.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First work on DNA steganalysis; pioneering in this niche area.
 
 ---
 
@@ -1446,16 +1383,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Coverless Information Hiding Based on Generative adversarial** | 2017 | cs.CR, cs.MM | Ming-ming Liu et al. [[1]](https://arxiv.org/abs/1712.06951) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First coverless information hiding using GAN. Replaces class label with secret information to drive image generation. Extracts secret through discriminator. No content modification - inherently resistant to steganalysis. Addresses limitations of traditional steganography that modify cover images.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept; arXiv note: overlap with 1703.05502 by different authors.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; capacity and extraction reliability need improvement.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Pioneering coverless approach; spawned significant follow-up research.
 
 ---
 
@@ -1467,16 +1404,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Novel Convolutional Neural Network for Image Steganalysis ** | 2017 | cs.MM | Songtao Wu, Sheng-hua Zhong, Yan Liu [[1]](https://arxiv.org/abs/1711.07306) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Shared Normalization (SN) layer for CNN steganalysis. Addresses generalization issue in paired learning by sharing statistics across training/test batches. Stable training and better detection than prior methods on state-of-the-art steganography. Submitted to IEEE Transactions on Multimedia.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept CNN architecture; submitted to journal.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel normalization technique; requires more validation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses fundamental challenge in steganalysis deep learning.
 
 ---
 
@@ -1488,16 +1425,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Convolutional Neural Network Steganalysis's Application to S** | 2017 | cs.MM | Mehdi Sharifzadeh et al. [[1]](https://arxiv.org/abs/1711.02581) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses steganalysis CNN to identify less detectable regions for embedding. Calculates derivatives of image statistical model w.r.t. embedding changes. Outperforms HUGO, S-UNIWARD, HILL at low payloads. Note: overlap with arXiv:1705.08616.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept; novel application of steganalysis to steganography.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Practical implementation challenges; requires further validation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Creative approach using detection network for embedding guidance.
 
 ---
 
@@ -1509,16 +1446,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A new adaptive method for hiding data in images** | 2017 | cs.MM, cs.CR | Kazem Qazanfari, Reza Safabaksh [[1]](https://arxiv.org/abs/1709.06729) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Adaptive LSB method - varies amount and method per image area based on local characteristics. Higher security than basic LSB by reducing statistical changes. May increase capacity in some images. Originally from 2011 Iranian conference.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Older work; proof-of-concept adaptive LSB method.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Broken
+Basic LSB-based; vulnerable to modern steganalysis.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Limited impact; superseded by modern adaptive methods.
 
 ---
 
@@ -1530,16 +1467,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **On the usefulness of information hiding techniques for wirel** | 2017 | cs.MM, cs.SE | Rola Al-Sharif et al. [[1]](https://arxiv.org/abs/1706.08136) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Review of steganography/steganalysis for wireless sensor networks. Visualizes WSN sensory data as images. Shows sink cannot detect nsF5 attacks on sensed data. Novel application domain for information hiding.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey paper; identifies research gaps in WSN steganography.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New attack vector; requires detection methods specific to WSN.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First review of WSN-specific steganography and steganalysis.
 
 ---
 
@@ -1551,16 +1488,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Further Study on GFR Features for JPEG Steganalysis** | 2017 | cs.MM | Xia Chao, Guan Qingxiao, Zhao Xianfeng [[1]](https://arxiv.org/abs/1706.07576) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Improved GFR (Gabor Filter Residual) features for JPEG steganalysis. Novel histogram merging using Gabor filter symmetries for compact features. Weighted histogram considering residual quantization position. Also designs CNN with improved GFR + ensemble classifier.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research; builds on established GFR framework.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Incremental improvement; requires validation on diverse datasets.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Extends well-known GFR approach; cited in JPEG steganalysis literature.
 
 ---
 
@@ -1572,16 +1509,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **MoveSteg: A Method of Network Steganography Detection** | 2016 | cs.MM, cs.CR | Krzysztof Szczypiorski, Tomasz Tyl [[1]](https://arxiv.org/abs/1610.01955) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Network steganalysis for time-based steganography. Detects source point of steganographic streams by analyzing packet delays. Can locate steganography source in networks under management. Novel approach to timing channel detection.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept detection method for time-based channels.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Limited to managed networks; specific to timing channels.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+First work on detecting source of time-based network steganography.
 
 ---
 
@@ -1593,16 +1530,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganalyzer performances in operational contexts** | 2016 | cs.MM, cs.CR | Yousra A. Fadil et al. [[1]](https://arxiv.org/abs/1608.05850) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Investigates universal steganalyzer without knowledge of steganography method. Evaluates effects of parameter/method modifications between learning and testing stages. Studies merging multiple methods during learning to improve classification. Published in IIH-MSP 2015.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey and experimental evaluation; published at conference.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Addresses practical deployment scenarios; requires validation on diverse data.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses operational context of steganalysis deployment.
 
 ---
 
@@ -1614,16 +1551,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganalysis via a Convolutional Neural Network using Large ** | 2016 | cs.MM | Jean-François Couchot et al. [[1]](https://arxiv.org/abs/1605.07946) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** CNN steganalysis with large convolution filters for "same embedding key" scenario. Outperforms other CNN steganalyzers and defeats state-of-the-art steganography. More general - handles larger images and lower payloads. Revised 3 versions on arXiv.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Extensively revised; proof-of-concept CNN architecture.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Specific to known embedding key; less generalizable.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Pioneering work on CNN steganalysis with large filters.
 
 ---
 
@@ -1635,16 +1572,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganalysis: Detecting LSB Steganographic Techniques** | 2014 | cs.MM, cs.CR | Tanmoy Sarkar, Sugata Sanyal [[1]](https://arxiv.org/abs/1405.5119) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Survey paper on LSB steganalysis techniques. Discusses different steganalysis methods and their applicability based on scenarios. 5-page overview paper helping understand when to use which technique.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey/educational; provides overview of LSB steganalysis.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Broken
+Survey of older techniques; LSB methods are largely broken by modern steganalysis.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Educational resource; limited current research relevance.
 
 ---
 
@@ -1656,16 +1593,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganalysis of Transcoding Steganography** | 2012 | cs.CR, cs.MM | Artur Janicki, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1210.5888) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Steganalysis of VoIP transcoding steganography (TranSteg) using MFCC parameters and GMMs. Efficient detection for some codec pairs (G.711/G729), more resistant for others (iLBC/AMR). First steganalysis method for TranSteg.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept for VoIP steganalysis.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Codec-dependent detection rates; some pairs harder to detect.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+First work on TranSteg detection; specialized to VoIP.
 
 ---
 
@@ -1677,16 +1614,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Towards Steganography Detection Through Network Traffic Visu** | 2012 | cs.CR | Wojciech Mazurczyk, Krzysztof Szczypiorski, Bartosz Jankowski [[1]](https://arxiv.org/abs/1208.2861) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First use of network traffic visualization for steganalysis. Uses steg-tomography methodology without linear time dependencies. Novel approach to network steganography detection using visual analysis. Dedicated visualization tool developed.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Novel concept; proof-of-concept visualization tool.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Early-stage research; requires more validation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First work on traffic visualization for steganalysis; pioneering approach.
 
 ---
 
@@ -1698,16 +1635,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganalysis Using Color Model Conversion** | 2012 | cs.CR | P. Thiyagarajan, G. Aghila, V. Prasanna Venkatesan [[1]](https://arxiv.org/abs/1206.2914) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Universal image steganalysis method using RGB to HSI color model conversion. Detects LSB steganography by analyzing color space transformations. Published in Signal and Image Processing: An International Journal.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; limited to LSB detection.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Broken
+Effective only against basic LSB steganography; defeated by modern adaptive methods.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Limited impact; superseded by modern steganalysis approaches.
 
 ---
 
@@ -1719,16 +1656,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Stego-Image Generator (SIG) - Building Steganography Image D** | 2012 | cs.CR | P. Thiyagarajan, G. Aghila, V. Prasanna Venkatesan [[1]](https://arxiv.org/abs/1206.2586) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First stego-image database (SIG) for testing steganalysis algorithms. Generates stego-images using various LSB steganographic algorithms with configurable parameters (rows infected, bits modified, channel affected). Addresses gap in existing datasets by providing ground truth for algorithm evaluation.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Dataset creation; no active implementation needed.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Resource/dataset; not a detection or embedding method.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Provides testing infrastructure; limited citation impact.
 
 ---
 
@@ -1740,16 +1677,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Application of Steganography for Anonymity through the Inter** | 2012 | cs.CR, cs.IT | Jacques M. Bahi et al. [[1]](https://arxiv.org/abs/1202.5302) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel steganographic scheme based on chaotic iterations for anonymity through the Internet. Achieves "stego-secure" status (highest security level in watermark-only attack category). Includes steganalysis study demonstrating security in real test framework.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; theoretical framework.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Novel approach; requires validation against modern steganalysis methods.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First work on chaotic iteration-based steganography for anonymity.
 
 ---
 
@@ -1761,16 +1698,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganography and Steganalysis: Different Approaches** | 2011 | cs.CR | Soumyendu Das et al. [[1]](https://arxiv.org/abs/1111.3758) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Survey paper covering different approaches to steganography and steganalysis using multimedia (text, static image, audio, video) and network IP datagrams as covers. Discusses various steganography implementations and detection methods. Published in International Journal of Computers, Information Technology and Engineering (IJCITAE) 2008.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey paper; provides educational overview.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** N/A
+Survey; provides background and taxonomy.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Educational resource; limited current research relevance.
 
 ---
 
@@ -1782,16 +1719,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Effective Steganography Detection Based On Data Compression** | 2011 | cs.CR | Ivan Nechta [[1]](https://arxiv.org/abs/1110.3466) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel text steganalysis method using Bzip2 data compression to detect stegotext generated by Texto stegosystem. Achieves 99.98% detection accuracy for text segments with 400 bytes. Published in Vestnik SIBSUTIS journal.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; targets specific stegosystem.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Effective against Texto but limited to text steganography methods.
 
-**Community acceptance:** Emerging
-Preprint stage; community evaluation ongoing.
+**Community acceptance:** Niche
+Specialized approach; limited adoption beyond specific use case.
 
 ---
 
@@ -1803,16 +1740,16 @@ Preprint stage; community evaluation ongoing.
 |-----------|------|----------|-----------------|
 | **Spectral Estimation Methods Comparison and Performance Analy** | 2011 | cs.CR | Tolga Mataracioglu, Unal Tatar [[1]](https://arxiv.org/abs/1108.2152) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces spectral estimation methods for audio steganalysis. Compares performance of various spectral estimation techniques. Demonstrates hiding and extracting information from sound signals using frequency analysis. Educational work on applying signal processing to steganalysis.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Proof-of-concept; educational demonstration.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Basic approach; limited to specific audio steganography methods.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Educational resource; limited current research relevance.
 
 ---
 
@@ -1824,16 +1761,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **On the Unicity Distance of Stego Key** | 2005 | cs.CR | Zhang Weiming, Li Shiqu [[1]](https://arxiv.org/abs/cs/0504083) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Information-theoretic analysis of stego key extraction difficulty. Derives lower bound for unicity distance showing relations between key rate, message rate, hiding capacity, and extraction difficulty. Proposes effective method for recovering stego key of LSB replacing steganography by combining steganalysis detection with cryptanalysis correlation attack.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Theoretical analysis with proof-of-concept attack.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Broken
+LSB replacement is obsolete; defeated by modern steganalysis and replaced by adaptive methods.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Early work from 2005; limited current relevance.
 
 ---
 

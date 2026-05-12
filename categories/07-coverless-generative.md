@@ -322,76 +322,76 @@ Preprint October 2024; no public implementation.
 
 ### All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting
 
-**Goal:** Recent advances in 3D Gaussian Splatting (3DGS) have revolutionized scene reconstruction, opening new possibilities for 3D steganography by hiding 3D secrets within 3D covers.
+**Goal:** Hide 3D secrets within 3D Gaussian Splatting covers while ensuring imperceptibility and high-fidelity reconstruction with key-secured access control.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **All That Glitters Is Not Gold: Key-Secured 3D Secrets within** | 2025 | cs.GR, cs.CR, cs.CV | Yan Ren, Shilin Lu, Adams Wai-Kin Kong [[1]](https://arxiv.org/abs/2503.07191) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes KeySS framework with key-controllable mechanism for multi-secret hiding. Introduces 3D-Sinkhorn distance for evaluating steganographic imperceptibility. Achieves state-of-the-art in both cover and secret reconstruction.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Public implementation available at https://github.com/RY-Paper/KeySS
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Very recent; peer review status unknown.
 
 ---
 
 ### Splats in Splats: Robust and Effective 3D Steganography towards Gaussian Splatting
 
-**Goal:** copyright protection techniques for 3DGS overlook the usability of 3D assets, posing challenges for practical deployment.
+**Goal:** Embed 3D content in 3DGS without modifying attributes, addressing usability challenges in 3DGS copyright protection.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Splats in Splats: Robust and Effective 3D Steganography towa** | 2025 | cs.CV, eess.IV | Yijia Guo et al. [[1]](https://arxiv.org/abs/2412.03121) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First 3DGS steganography framework embedding 3D content in 3DGS itself. Uses importance-graded SH coefficient encryption. Achieves 5.31% higher scene fidelity and 3x faster rendering. Accepted at AAAI 2026.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Very recent; no production implementation known.
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Accepted at AAAI 2026; significant for 3D asset protection.
 
 ---
 
 ### Dual Model Replacement:invisible Multi-target Backdoor Attack based on Federal Learning
 
-**Goal:** training in backdoor attack, this paper designs a backdoor attack method based on federated learning.
+**Goal:** Design backdoor attack method for federated learning using steganography to encode attack information as invisible noise.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Dual Model Replacement:invisible Multi-target Backdoor Attac** | 2024 | cs.LG | Rong Wang et al. [[1]](https://arxiv.org/abs/2404.13946) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes TrojanGan steganography model with encoder-decoder structure for invisible backdoor triggers. Uses dual model replacement for improved attack success rate in federated learning. Achieves high concealment and multi-target attack capability.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security research; discusses vulnerabilities and detection risks.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel application of steganography to backdoor attacks; significant for security research.
 
 ---
 
 ### A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography
 
-**Goal:** Many existing coverless steganography methods establish a mapping relationship between cover images and hidden data.
+**Goal:** Solve exponential database growth problem in coverless steganography by using YOLO-based sequence matching with limited image library.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **A Dynamic YOLO-Based Sequence-Matching Model for Efficient C** | 2024 | cs.CR | Jiajun Liu et al. [[1]](https://arxiv.org/abs/2401.11946) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses YOLO for optimal object selection and mapping dictionary for scrambling factors. Achieves 19 bits per image with only ~200 random images. Recovers 79.85% secret info under geometric attacks.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
@@ -400,19 +400,19 @@ Academic prototype; implementation details in paper.
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to database growth problem; significant for practical deployment.
 
 ---
 
 ### Noise-NeRF: Hide Information in Neural Radiance Fields using Trainable Noise
 
-**Goal:** advancement in 3D reconstruction techniques.
+**Goal:** Address information security issues in NeRF by hiding data within Neural Radiance Fields using trainable noise.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Noise-NeRF: Hide Information in Neural Radiance Fields using** | 2024 | cs.CV | Qinglong Huang et al. [[1]](https://arxiv.org/abs/2401.01216) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Noise-NeRF with Adaptive Pixel Selection and Pixel Perturbation strategies. Addresses low steganography quality and model weight damage issues. Achieves state-of-the-art in steganography quality and rendering quality.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
@@ -421,19 +421,19 @@ Academic prototype; implementation details in paper.
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First systematic work on NeRF steganography; significant for 3D reconstruction security.
 
 ---
 
 ### Steganography for Neural Radiance Fields by Backdooring
 
-**Goal:** for visual data (such as images, videos, and 3D models) has recently gained significant attention in computer vision research.
+**Goal:** Hide information in Neural Radiance Fields using backdoor approach for covert communications.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Steganography for Neural Radiance Fields by Backdooring** | 2023 | cs.CR | Weina Dong et al. [[1]](https://arxiv.org/abs/2309.10503) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses viewpoint as key to generate secret images in NeRF. Trains message extractor using overfitting for one-to-one mapping. Achieves 100% accuracy in message extraction with high capacity and fast performance.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
@@ -442,27 +442,27 @@ Academic prototype; implementation details in paper.
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First NeRF backdoor steganography; significant for implicit representation security.
 
 ---
 
 ### Image Generation Network for Covert Transmission in Online Social Network
 
-**Goal:** communications over the Internet more than ever, making it possible for secret message transmission over such noisy channels.
+**Goal:** Synthesize high-quality images directly from secret messages for covert transmission over online social networks.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Image Generation Network for Covert Transmission in Online S** | 2022 | cs.CV | Zhengxin You et al. [[1]](https://arxiv.org/abs/2207.10292) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes CIS-Net with Generation, Adversarial, Extraction, and Noise Modules. Achieves lossless extraction even after JPEG compression. Uses profile photos and stickers context for evasion. Accepted at ACMMM 2022.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Accepted at ACMMM 2022; significant for OSN-based steganography.
 
 ---

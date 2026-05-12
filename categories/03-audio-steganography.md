@@ -566,34 +566,34 @@ Novel combination of metaheuristic optimization and audio-in-image steganography
 
 ### Image Steganography For Securing Intellicise Wireless Networks: "Invisible Encryption" Against Eavesdroppers
 
-**Goal:** of communication and artificial intelligence (AI) also exposes SemCom to security and privacy threats posed by intelligent eavesdroppers.
+**Goal:** Apply image steganography to secure semantic communication in intelligent wireless networks against eavesdroppers.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Image Steganography For Securing Intellicise Wireless Networ** | 2026 | eess.SP | Rui Meng et al. [[1]](https://arxiv.org/abs/2505.04467) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First comprehensive exploration of image steganography integration in semantic communication. Covers JSCC-based steganographic models, training strategies, and coverless approaches for "invisible encryption" in SemCom.
 
 **Production readiness:** Research
 Very recent arXiv preprint; no production implementation known.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel application; security analysis pending.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+First work in this domain; limited peer review.
 
 ---
 
 ### V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manipulation Localization and Copyright Protection
 
-**Goal:** limitations of current video tampering forensics, such as poor generalizability, singular function, and single modality focus.
+**Goal:** Address limitations of current video tampering forensics—poor generalizability, singular function, and single modality focus—with multimodal watermarking.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manip** | 2024 | cs.CV | Xuanyu Zhang et al. [[1]](https://arxiv.org/abs/2404.16824) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Combines video-into-video steganography with deep robust watermarking for visual-audio localization and copyright protection. Uses temporal alignment, fusion module, and cross-modal extraction. Accepted at ACM MM 2024.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
@@ -602,19 +602,19 @@ Academic prototype; implementation details in paper.
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Accepted at ACM MM 2024; significant for AIGC video era.
 
 ---
 
 ### Secure Semantic Communication for Image Transmission in the Presence of Eavesdroppers
 
-**Goal:** posing a serious threat to privacy.
+**Goal:** Protect image transmission in semantic communication from eavesdropping using steganography.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Secure Semantic Communication for Image Transmission in the ** | 2024 | eess.SP, cs.IT | Shunpu Tang et al. [[1]](https://arxiv.org/abs/2404.12170) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes INN-based signal steganography to embed private image signals into host image signals. Legitimate receiver reconstructs private image; eavesdropper only sees host image. Maintains comparable reconstruction quality.
 
 **Production readiness:** Research
 Academic prototype; implementation details in paper.
@@ -623,217 +623,217 @@ Academic prototype; implementation details in paper.
 Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Significant for 6G secure communications.
 
 ---
 
 ### NUANCE: Near Ultrasound Attack On Networked Communication Environments
 
-**Goal:** demonstrates the reversibility or demodulation of the inaudible signal, suggesting potential alerting methods and the possibility of embedding secret messages like audio steganography.
+**Goal:** Investigate inaudible attack vectors on voice assistants using near-ultrasound and explore steganography potential.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **NUANCE: Near Ultrasound Attack On Networked Communication En** | 2023 | cs.CR, cs.LG, cs.SD | Forrest McKee, David Noever [[1]](https://arxiv.org/abs/2305.10358) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses Single Upper Sideband Amplitude Modulation (SUSBAM) to generate inaudible commands (16-22 kHz). 100% success with unprocessed commands, 58% with processed. Mapped to MITRE ATT&CK framework. Demonstrates demodulation for alerting and audio steganography potential.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; no public implementation.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Attack vector demonstrated; defense methods proposed but not widely deployed.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Raises awareness of voice assistant attack surface.
 
 ---
 
 ### Source Mixing and Separation Robust Audio Steganography
 
-**Goal:** Audio steganography aims at concealing secret information in carrier audio with imperceptible modification on the carrier.
+**Goal:** Embed information into individual sound sources in audio mixtures that survives source separation attacks.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Source Mixing and Separation Robust Audio Steganography** | 2022 | cs.SD, cs.CR, eess.AS | Naoya Takahashi, Mayank Kumar Singh, Yuki Mitsufuji [[1]](https://arxiv.org/abs/2110.05054) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First method robust against mixing and source separation. Uses time-domain model with curriculum learning to decode from separated sources. Successfully embeds info into multiple sources simultaneously. Accepted at ICASSP 2022.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research; implementation details in paper.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Robust against source separation but not evaluated against steganalysis.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Accepted at ICASSP 2022; novel approach to audio steganography.
 
 ---
 
 ### PixInWav: Residual Steganography for Hiding Pixels in Audio
 
-**Goal:** Steganography comprises the mechanics of hiding data in a host media that may be publicly available.
+**Goal:** Hide images in audio signals using residual architecture on STDCT spectrograms.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **PixInWav: Residual Steganography for Hiding Pixels in Audio** | 2021 | cs.MM, cs.SD, eess.AS | Margarita Geleta et al. [[1]](https://arxiv.org/abs/2106.09814) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Novel residual architecture on spectrograms allows independent encoding of hidden image from host audio. Can encode images offline and later hide as residual. Tested over air from speaker to microphone. Presented at CVPR 2021 WiCV Workshop.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research; implementation details in paper.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; security analysis limited.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Presented at CVPR 2021 WiCV Workshop; notable multimodal steganography.
 
 ---
 
 ### Multi-Stage Residual Hiding for Image-into-Audio Steganography
 
-**Goal:** technologies has speeded up audio data flowing across the Internet, which made it a popular carrier for covert communication.
+**Goal:** Hide image content into audio carriers while preserving perceptual fidelity of the cover audio.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Multi-Stage Residual Hiding for Image-into-Audio Steganograp** | 2021 | cs.CV, cs.CR | Wenxue Cui et al. [[1]](https://arxiv.org/abs/2101.01872) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses two multi-stage networks: encoder embeds residual errors into audio subsequences, decoder extracts them. Multi-stage design provides flexible payload control. Modifications unnoticeable to human listeners. Published at ICASSP 2020.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research; implementation in paper.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; limited security analysis.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Published at ICASSP 2020; cross-modal steganography.
 
 ---
 
 ### Utilizing Pileup Effect and Intermittently Nonlinear Filtering in Synthesis of Covert and Hard-to-Intercept Communication Links
 
-**Goal:** We outline an approach to physical-layer steganography where the transmitted low-power stego messages are statistically indistinguishable from the Gaussian component of the channel noise (e.g.
+**Goal:** Physical-layer steganography where low-power stego messages are statistically indistinguishable from Gaussian channel noise.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Utilizing Pileup Effect and Intermittently Nonlinear Filteri** | 2020 | eess.SP | Alexei V. Nikitin, Ruslan L. Davidchack [[1]](https://arxiv.org/abs/2004.13610) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses channel noise as cover signal. Cover and stego signals have matching spectral/temporal properties. Linear and nonlinear filtering separates cover, payload, and jamming signals even when all have identical characteristics.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Theoretical framework; no public implementation.
 
 **Security status:** Secure
-Provably secure construction with formal guarantees.
+Theoretically secure—stego indistinguishable from thermal noise.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Physical-layer steganography; specialized audience.
 
 ---
 
 ### Heard More Than Heard: An Audio Steganography Method Based on GAN
 
-**Goal:** Audio steganography is a collection of techniques for concealing the existence of information by embedding it within a non-secret audio, which is referred to as carrier.
+**Goal:** Use adversarial training to automatically generate audio steganography instead of handcrafting methods.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Heard More Than Heard: An Audio Steganography Method Based o** | 2019 | cs.MM, cs.CR, eess.AS | Dengpan Ye, Shunzhi Jiang, Jiaqin Huang [[1]](https://arxiv.org/abs/1907.04986) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses three neural networks: encoder embeds secret message, decoder extracts it, discriminator determines if carrier contains secret. All trained simultaneously. Produces high-fidelity steganographic audio containing secret audio. Verified robustness and security.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research; implementation in paper.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+GAN-based approach; security not independently verified.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Early GAN-based audio steganography work.
 
 ---
 
 ### Audio Steganography: LSB Technique Using a Pyramid Structure and Range of Bytes
 
-**Goal:** The demand for keeping the information secure and confidential simultaneously has been progressively increasing.
+**Goal:** Improve LSB audio steganography to balance payload capacity, robustness, and imperceptibility.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Audio Steganography: LSB Technique Using a Pyramid Structure** | 2015 | cs.MM | Satish Bhalshankar, Avinash K. Gulve [[1]](https://arxiv.org/abs/1509.02630) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses pyramid structure and range of bytes to improve payload capacity while maintaining robustness and imperceptibility. Divides cover audio bytes into ranges to hide secret bits appropriately. Published in IJACR.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Published research; implementation details in paper.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Broken
+LSB methods are easily detected by steganalysis.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Published in 2015; superseded by modern methods.
 
 ---
 
 ### Developing a Video Steganography Toolkit
 
-**Goal:** Although techniques for separate image and audio steganography are widely known, relatively little has been described concerning the hiding of information within video streams ("video
+**Goal:** Review current state of video steganography and develop a practical video steganography system.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Developing a Video Steganography Toolkit** | 2014 | cs.MM | James Ridgway, Mike Stannett [[1]](https://arxiv.org/abs/1409.4883) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Reviews video steganography field and describes key issues in developing practical systems. Includes supporting video demonstration. Provides foundation for video steganography toolkit development.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Survey paper; toolkit concept only.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Survey paper; no specific security guarantees.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Early video steganography survey (2014).
 
 ---
 
 ### A Two Intermediates Audio Steganography Technique
 
-**Goal:** became openly public which has driven IT industries to pay special consideration to data confidentiality.
+**Goal:** Hide data in audio using two intermediates: random audio samples and a generated English text encoding their locations.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **A Two Intermediates Audio Steganography Technique** | 2012 | cs.CR | Youssef Bassil [[1]](https://arxiv.org/abs/1212.2207) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses randomized algorithm to select audio samples, then generates grammatically correct English text (via CFG) to encode sample locations. Two intermediates make detection and recovery difficult. Published in Journal of Emerging Trends in CIS.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Paper proposes technique; no implementation available.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Broken
+Novel but untested; likely detectable by modern steganalysis.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Older technique (2012); limited adoption.
 
 ---
 
 ### Design And Implementation Of Multilevel Access Control In Medical Image Transmission Using Symmetric Polynomial Based Audio Steganography
 
-**Goal:** ...The steganography scheme makes it possible to hide the medical image in different bit locations of host media without inviting suspicion.
+**Goal:** Hide medical images in audio with hierarchical access control using symmetric polynomial key derivation.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Design And Implementation Of Multilevel Access Control In Me** | 2010 | cs.MM | J. Nafeesa Begum, K. Kumar, V. Sumathy [[1]](https://arxiv.org/abs/1004.1682) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses symmetric polynomial for hierarchical key derivation. Higher-level users can derive keys for lower levels. Uses two bit positions dictated by key, not conventional LSB. Published in IJCSIT (IEEE format). Claims dynamic, scalable system.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Published in 2010; no current implementations known.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Deprecated
+Outdated approach; no modern security analysis.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Older medical imaging steganography work.
 
 ---
 

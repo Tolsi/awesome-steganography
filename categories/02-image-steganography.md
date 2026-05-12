@@ -1586,16 +1586,16 @@ arXiv April 2021 (updated December 2022); academic prototype only.
 |-----------|------|----------|-----------------|
 | **An Additive Approximation Scheme for Generating Dyadic Codin** | 2026 | cs.IT, cs.DS | Daniella Bar-Lev, Farzad Farnoud, Ryan Gabrys [[1]](https://arxiv.org/abs/2605.05837) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Develops a polynomial-time additive approximation scheme for dyadic approximations of LLM token distributions under rate constraints, providing provable guarantees for near-optimal approximations and a principled framework for LLM-based steganography.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Academic prototype; provides theoretical framework for rate-constrained steganography with provable guarantees.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Theoretical framework; security depends on implementation choices and rate parameters.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Recent ICLR submission; provides novel theoretical foundation for semantic steganography.
 
 ---
 
@@ -1607,16 +1607,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Toward Accountable AI-Generated Content on Social Platforms:** | 2026 | cs.CV, cs.AI, cs.CR | Xinlei Guan et al. [[1]](https://arxiv.org/abs/2604.10460) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces a steganography-enabled attribution framework that embeds cryptographically signed identifiers into images at creation time, combining spread-spectrum watermarking with CLIP-based multimodal harmful content detection for cross-modal attribution verification (AUC-ROC 0.99).
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Academic prototype with open-source code; combines watermarking with content moderation pipeline.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Evaluates robustness to blur distortions; watermarking can be detected/removal attacks.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Provides end-to-end forensic pipeline for AI-generated content attribution.
 
 ---
 
@@ -1628,16 +1628,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Invisible Safety Threat: Malicious Finetuning for LLM via St** | 2026 | cs.LG | Guangnian Wan et al. [[1]](https://arxiv.org/abs/2603.08104) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Demonstrates a malicious steganography attack where finetuned LLMs encode hidden harmful content within benign-looking cover responses, evading content safety classifiers (100% of malicious stegotexts classified as safe by Llama-Guard-3-8B).
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Demonstrated on GPT-4.1, Llama-3.3-70B-Instruct, Phi-4, and Mistral-Small-24B; ICLR 2026 acceptance.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Broken
+Attack successfully bypasses all evaluated safety classifiers; significant security threat.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Controversial
+Important for understanding LLM safety risks; accepted at ICLR 2026.
 
 ---
 
@@ -1649,16 +1649,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **: Towards Semantic Steganography via Large Language Models** | 2026 | cs.CV, cs.CR | Huanqi Wu et al. [[1]](https://arxiv.org/abs/2511.05319) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces S²LM (Semantic Steganographic Language Model) that leverages LLMs to hide arbitrary sentence-level messages in images, redesigning the entire pipeline for semantic rather than bit-level steganography, with a benchmark dataset (Invisible Text) for evaluation.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Novel concept demonstration; establishes benchmark for semantic steganography evaluation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New paradigm; security properties not yet thoroughly evaluated against steganalysis.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Introduces novel concept of semantic steganography; significant research potential.
 
 ---
 
@@ -1670,16 +1670,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Training-Free Color-Aware Adversarial Diffusion Sanitization** | 2025 | cs.CR, cs.CV | Vladimir Frants, Sos Agaian [[1]](https://arxiv.org/abs/2512.24499) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces Adversarial Diffusion Sanitization (ADS), a training-free defense that uses off-the-shelf denoisers to neutralize hidden payloads in diffusion steganography, driving decoder success rates to near zero while maintaining minimal perceptual impact.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Training-free defense; uses pretrained denoisers without fine-tuning.
 
-**Security status:** Caution
-Research prototype; security not yet independently verified.
+**Security status:** Secure
+Effectively neutralizes state-of-the-art diffusion steganography (Pulsar) without detection.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Provides practical defense against coverless diffusion steganography threats.
 
 ---
 
@@ -1691,16 +1691,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Frobenius Revivals in Laplacian Cellular Automata: Chaos, Re** | 2025 | nlin.CG, cs.IT, math.DS | Małgorzata Nowak-Kępczyk [[1]](https://arxiv.org/abs/2511.17389) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Investigates Frobenius-driven revivals in prime-modulus Laplacian cellular automata where chaotic transients collapse into exact replicas at algebraically prescribed times, proposing a reversible encoding scheme based on chaotic transients for potential steganography applications.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Theoretical framework; proposes reversible encoding scheme using cellular automata dynamics.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel theoretical approach; security properties not yet evaluated against practical attacks.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Mathematical/algorithmic research; limited practical adoption.
 
 ---
 
@@ -1712,16 +1712,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Reasoning Models Sometimes Output Illegible Chains of Though** | 2025 | cs.LG | Arun Jose [[1]](https://arxiv.org/abs/2510.27338) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Studies CoT legibility across 14 reasoning models, finding RL causes reasoning to become illegible to humans and AI monitors while returning readable answers; discusses steganography as a hypothesis for opaque reasoning.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Empirical study; no production implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Finds steganography as potential hypothesis for illegible reasoning; monitoring effectiveness undermined.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Important findings for LLM safety and monitoring.
 
 ---
 
@@ -1733,16 +1733,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Concrete Roadmap towards Safety Cases based on Chain-of-Th** | 2025 | cs.LG, cs.AI | Julian Schulz [[1]](https://arxiv.org/abs/2510.19476) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Presents a roadmap for constructing safety cases based on chain-of-thought (CoT) monitoring in reasoning models; examines threats to monitorability including steganography, linguistic drift, and alien reasoning; proposes techniques for maintaining CoT faithfulness.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Framework proposal; provides guidelines for safety case development.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Addresses security implications of opaque reasoning in LLMs.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Contributes to AI safety and monitoring discourse.
 
 ---
 
@@ -1754,16 +1754,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **All Code, No Thought: Current Language Models Struggle to Re** | 2025 | cs.CL, cs.AI, cs.LG | Shiyuan Guo, Henry Sleight, Fabien Roger [[1]](https://arxiv.org/abs/2510.09714) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes a systematic framework for Chain-of-Thought monitoring by examining threats including steganography, linguistic drift, and alien reasoning; provides roadmap for building safety cases for LLM monitoring systems.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Framework proposal; provides guidelines for safety case development.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Addresses security implications of opaque reasoning in LLMs.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Contributes to AI safety and monitoring discourse.
 
 ---
 
@@ -1775,16 +1775,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **ZK-WAGON: Imperceptible Watermark for Image Generation Model** | 2025 | cs.CR, cs.AI, cs.CV | Aadarsh Anantha Ramakrishnan et al. [[1]](https://arxiv.org/abs/2510.01967) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces ZK-WAGON, a framework for imperceptible watermarking of image generation models using ZK-SNARKs, with proof generation time reduced significantly by encoding computations into circuits.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Framework with reduced proof generation time; no production deployment.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Uses cryptographic proofs; practical security depends on implementation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to watermarking generated images.
 
 ---
 
@@ -1796,16 +1796,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **StegOT: Trade-offs in Steganography via Optimal Transport** | 2025 | cs.CV, cs.AI | Chengde Lin et al. [[1]](https://arxiv.org/abs/2509.11178) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Analyzes trade-offs in steganography using optimal transport theory, providing a principled framework for understanding capacity, imperceptibility, and security trade-offs in image steganography.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Theoretical analysis framework; provides insights for algorithm design.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Theoretical framework; security properties depend on implementation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Provides mathematical framework for understanding steganography trade-offs.
 
 ---
 
@@ -1817,16 +1817,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Technical Review on Comparison and Estimation of Steganogr** | 2025 | cs.CR, cs.CV, cs.GR | Ms. Preeti P. Bhatt, Rakesh R. Savant [[1]](https://arxiv.org/abs/2508.19323) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Provides a technical review comparing different steganographic tools, analyzing their performance, capacity, and detectability characteristics across various cover media types.
 
-**Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+**Production readiness:** Mature
+Comprehensive review; synthesizes existing tools and techniques.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Review discusses known vulnerabilities of various approaches.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Widely trusted
+Useful reference for practitioners and researchers.
 
 ---
 
@@ -1838,16 +1838,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Joint Lossless Compression and Steganography for Medical Ima** | 2025 | eess.IV, cs.CV | Pengcheng Zheng et al. [[1]](https://arxiv.org/abs/2508.01782) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes using LLMs for joint lossless compression and steganography of medical images, addressing security in modern medical scenarios while maintaining diagnostic quality.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Novel approach for medical image security; addresses healthcare requirements.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security of compression process in medical context needs further evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses important healthcare privacy application.
 
 ---
 
@@ -1859,16 +1859,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Feature Prediction in Quantum Graph Recurrent Neural Network** | 2025 | cs.CR | Jawaher Kaldari, Saif Al-Kuwari [[1]](https://arxiv.org/abs/2506.23144) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes QGRNNs for classical graph data processing with high feature reconstruction accuracy; introduces information hiding technique where messages are embedded into graphs and retrieved under specific conditions, demonstrating scalability and robustness for quantum steganography.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Theoretical framework; requires quantum hardware for full implementation; no production deployment.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel quantum approach; security properties not yet evaluated against practical attacks.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Recent quantum computing approach to steganography; limited peer review.
 
 ---
 
@@ -1880,16 +1880,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Large language models can learn and generalize steganographi** | 2025 | cs.AI, cs.CL, cs.LG | Joey Skaf et al. [[1]](https://arxiv.org/abs/2506.01926) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces Quantum Graph Recurrent Neural Networks (QGRNNs) for quantum-enhanced feature extraction and information hiding, exploring quantum steganography capabilities.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Quantum computing approach; requires quantum hardware for full implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Quantum security properties not yet thoroughly evaluated.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Explores quantum advantage in information hiding.
 
 ---
 
@@ -1901,16 +1901,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Implicit Jailbreak Attacks via Cross-Modal Information Conce** | 2025 | cs.LG | Zhaoxin Wang et al. [[1]](https://arxiv.org/abs/2505.16446) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes IJA (Implicit Jailbreak Attacks), a framework that embeds malicious instructions into images via LSB steganography and couples them with text prompts to bypass VLM safety measures.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Demonstrates attack on state-of-the-art VLMs; shows vulnerability.
 
-**Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+**Security status:** Broken
+Successful jailbreak attack; demonstrates real security vulnerability.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Controversial
+Important for understanding VLM security risks; concerning implications.
 
 ---
 
@@ -1922,16 +1922,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Quantum steganography using catalytic and entanglement-assis** | 2025 | cs.CR | Sanjoy Dutta et al. [[1]](https://arxiv.org/abs/2505.15869) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces catalytic and entanglement-assisted quantum codes for steganography, providing theoretical framework for quantum secure communication using entanglement.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Theoretical quantum framework; requires quantum hardware.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Quantum security properties need further evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to quantum steganography.
 
 ---
 
@@ -1943,16 +1943,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Shackled Dancing: A Bit-Locked Diffusion Algorithm for Lossl** | 2025 | cs.LG | Tianshuo Zhang et al. [[1]](https://arxiv.org/abs/2505.10950) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Shackled Dancing, a bit-locked diffusion algorithm achieving lossless and controllable image steganography, addressing trade-offs between security, capacity, and perceptual quality.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Novel diffusion-based approach; achieves lossless message extraction.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security against steganalysis needs further evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses important lossless steganography requirement.
 
 ---
 
@@ -1964,16 +1964,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **CLPSTNet: A Progressive Multi-Scale Convolutional Steganogra** | 2025 | cs.CV, cs.AI, cs.CR | Fengchun Liu, Tong Zhang, Chunying Zhang [[1]](https://arxiv.org/abs/2504.16364) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes CLPSTNet using curriculum learning for progressive multi-scale convolutional steganography, with Inception structures and dilated convolutions for multi-scale feature extraction from shallow to deep layers.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+CNN-based steganography approach; experimental validation on ALASKA2, VOC2012, ImageNet.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Claims resistance to steganalysis; independent verification needed.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach integrating curriculum learning into steganography.
 
 ---
 
@@ -1985,16 +1985,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Fragile Watermarking for Image Certification Using Deep Steg** | 2025 | cs.CV, cs.LG | Davide Ghiani et al. [[1]](https://arxiv.org/abs/2504.13759) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces CLPSTNet using curriculum learning for progressive multi-scale convolutional steganography, improving convergence and steganalysis resistance.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+CNN-based approach; improves on traditional methods.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Evaluated against steganalysis; security depends on training.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Contributes to deep learning steganography research.
 
 ---
 
@@ -2006,16 +2006,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Big Brother is Watching: Proactive Deepfake Detection via Le** | 2025 | cs.CV | Hongbo Li et al. [[1]](https://arxiv.org/abs/2504.11309) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes fragile watermarking using deep steganographic embedding for image certification and manipulation detection.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Addresses image authentication needs; provides tamper detection.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Fragile watermarks can be circumvented; limited robustness.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Useful for image forensics applications.
 
 ---
 
@@ -2027,16 +2027,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Parasite: A Steganography-based Backdoor Attack Framework fo** | 2025 | cs.CV, cs.AI | Jiahao Chen et al. [[1]](https://arxiv.org/abs/2504.05815) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Parasite, a steganography-based backdoor attack for diffusion models that hides triggers in images, demonstrating significant security implications for AI-generated content.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Demonstrates attack vector; important for understanding model security.
 
-**Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+**Security status:** Broken
+Shows practical backdoor attack using steganography; significant security threat.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Controversial
+Important for understanding diffusion model vulnerabilities.
 
 ---
 
@@ -2048,16 +2048,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **RoSMM: A Robust and Secure Multi-Modal Watermarking Framewor** | 2025 | cs.MM | ZhongLi Fang, Yu Xie, Ping Chen [[1]](https://arxiv.org/abs/2504.02640) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes RoSMM, a robust multi-modal watermarking framework for diffusion models that handles both text and image watermarks simultaneously.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Multi-modal approach; addresses real-world deployment needs.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security evaluated against removal attacks; robustness varies.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Useful for protecting diffusion model outputs.
 
 ---
 
@@ -2069,16 +2069,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Towards Secure Semantic Communications in the Presence of In** | 2025 | cs.IT, eess.IV, eess.SP | Shunpu Tang et al. [[1]](https://arxiv.org/abs/2503.23103) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Explores secure semantic communications in the presence of intelligent eavesdroppers, addressing steganography for semantic-level security.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Theoretical framework; addresses semantic security requirements.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security depends on semantic encoding choices.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses emerging semantic communication security needs.
 
 ---
 
@@ -2090,16 +2090,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **ImF: Implicit Fingerprint for Large Language Models** | 2025 | cs.CL, cs.AI | Jiaxuan Wu et al. [[1]](https://arxiv.org/abs/2503.21805) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces Implicit Fingerprints (ImF) for LLM model fingerprinting using steganographic techniques to identify models without detection.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Novel approach to model attribution; uses steganographic encoding.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security of fingerprinting depends on implementation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Useful for model provenance and attribution.
 
 ---
 
@@ -2111,16 +2111,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Hiding Images in Diffusion Models by Editing Learned Score F** | 2025 | cs.CV | Haoyu Chen et al. [[1]](https://arxiv.org/abs/2503.18459) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes editing learned score functions in diffusion models to hide images, demonstrating neural steganography in generative models.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Novel approach for hiding images in diffusion model outputs.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties need further evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Contributes to neural steganography literature.
 
 ---
 
@@ -2132,16 +2132,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Quantum Direct Steganography Scheme Based on Modified Genera** | 2025 | cs.CR | Chaolong Hao et al. [[1]](https://arxiv.org/abs/2501.07578) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces quantum direct steganography using modified generator projection directions of Steane code over Pauli channels.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Quantum approach; requires quantum hardware.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Quantum security properties need evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Theoretical quantum steganography framework.
 
 ---
 
@@ -2153,16 +2153,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Adaptive 3D Mesh Steganography Based on Feature-Preserving D** | 2025 | cs.MM | Yushu Zhang et al. [[1]](https://arxiv.org/abs/2209.08884) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes adaptive 3D mesh steganography using feature-preserving distortion to maintain mesh quality while embedding data.
 
 **Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
+Addresses 3D mesh steganography; evaluated on various mesh formats.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security against 3D mesh steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Contributes to 3D steganography research.
 
 ---
 
@@ -2174,16 +2174,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Provably Secure Robust Image Steganography via Cross-Modal E** | 2024 | cs.MM, cs.CR, cs.CV | Yuang Qi et al. [[1]](https://arxiv.org/abs/2412.12206) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes provably secure robust image steganography using autoregressive image generation models with VQ tokenizers and cross-modal error correction; achieves high quality, embedding capacity, and robustness against JPEG compression; accepted at AAAI 2025.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; accepted at AAAI 2025 conference.
 
 **Security status:** Secure
 Provably secure construction with formal guarantees.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Peer-reviewed publication at AAAI 2025; contributes to generative steganography field.
 
 ---
 
@@ -2195,16 +2195,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Novel Approach to Image Steganography Using Generative Adv** | 2024 | cs.CR, cs.CV, cs.LG | Waheed Rehman [[1]](https://arxiv.org/abs/2412.00094) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes novel GAN-based image steganography approach, contributing to generative steganography methods.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+GAN-based approach; contributes to generative steganography.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Contributes to GAN-based steganography literature.
 
 ---
 
@@ -2216,16 +2216,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Facial Features Matter: a Dynamic Watermark based Proactive ** | 2024 | cs.CV, cs.CR, cs.LG | Shulin Lan et al. [[1]](https://arxiv.org/abs/2411.14798) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes dynamic watermark-based proactive deepfake detection using facial features, enhancing protection against reverse inference attacks.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Addresses deepfake detection; uses watermarking approach.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security depends on watermark robustness.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Useful for deepfake detection applications.
 
 ---
 
@@ -2237,16 +2237,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Magnetic steganography based on wide field diamond quantum m** | 2024 | cs.CR | Jungbae Yoon et al. [[1]](https://arxiv.org/abs/2411.12243) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** First experimental demonstration of magnetic steganography using diamond NV centers in wide-field quantum microscopy.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Hardware-based approach; requires specialized equipment.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Physical steganography; security properties unique.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel physical steganography approach.
 
 ---
 
@@ -2258,16 +2258,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Neural Cover Selection for Image Steganography** | 2024 | cs.AI | Karl Chahine, Hyeji Kim [[1]](https://arxiv.org/abs/2410.18216) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Uses neural networks for cover selection in image steganography, improving security by selecting optimal covers.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Novel approach to cover selection using deep learning.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security depends on selection algorithm robustness.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses important cover selection problem.
 
 ---
 
@@ -2279,16 +2279,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **IWN: Image Watermarking Based on Idempotency** | 2024 | cs.MM, cs.CV | Kaixin Deng [[1]](https://arxiv.org/abs/2409.19506) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces IWN using idempotency for image watermarking, balancing embedding capacity and robustness.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Novel watermarking approach; addresses capacity-robustness trade-off.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security depends on idempotency implementation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Contributes to watermarking research.
 
 ---
 
@@ -2300,16 +2300,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganographic Entanglement Sharing** | 2024 | cs.CR | Bruno Avritzer, Todd A. Brun [[1]](https://arxiv.org/abs/2409.09335) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Extends quantum steganography to transmission of quantum information; demonstrates steganographic entanglement sharing for nonclassical state teleportation even with active eavesdropper.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Theoretical framework; requires quantum hardware for full implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Quantum security properties need further evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Explores quantum advantage in information hiding.
 
 ---
 
@@ -2321,16 +2321,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Robust Message Embedding via Attention Flow-Based Steganogra** | 2024 | cs.CV | Huayuan Ye et al. [[1]](https://arxiv.org/abs/2405.16414) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes RMSteg framework using normalizing flow-based model with transformer tokenized representation for message-in-image embedding; achieves robust message restoration even after print-scan attacks; first work integrating transformer models into normalizing flow for steganography.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; experiments show robustness to print and photo distortions.
 
-**Security status:** Secure
-Provably secure construction with formal guarantees.
+**Security status:** Caution
+Evaluated for robustness; security against steganalysis not extensively studied.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to robust message embedding; limited peer review.
 
 ---
 
@@ -2342,16 +2342,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Diffusion-Based Hierarchical Image Steganography** | 2024 | cs.CV | Youmin Xu et al. [[1]](https://arxiv.org/abs/2405.11523) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces Hierarchical Image Steganography (HIS) using diffusion models for embedding multiple images into a single container with varying robustness levels; integrates Embed-Flow and Enhance-Flow for improved embedding efficiency and image recovery; demonstrates advantage in analytical resistance, robustness, and capacity.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; evaluated on multiple images and text embedding.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; security properties against steganalysis need further evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel multi-image steganography approach; limited peer review.
 
 ---
 
@@ -2363,16 +2363,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **High Fidelity Artificial Quantum Thermal State Generation us** | 2024 | cs.CR | Haley Weinstein et al. [[1]](https://arxiv.org/abs/2405.03881) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Experimental quantum steganography using encoded coherent states to disguise communications as thermal noise; achieves fidelity F>0.98 with theoretical thermal states.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Experimental implementation with quantum state tomography validation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Experimental proof-of-concept; requires further security analysis.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel experimental approach to quantum steganography.
 
 ---
 
@@ -2384,16 +2384,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **StegoGAN: Leveraging Steganography for Non-Bijective Image-t** | 2024 | cs.CV, eess.IV | Sidi Wu et al. [[1]](https://arxiv.org/abs/2403.20142) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces StegoGAN leveraging steganography to prevent spurious features in non-bijective image-to-image translation; enhances semantic consistency without additional supervision; outperforms existing GAN-based models qualitatively and quantitatively.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; code and pretrained models available.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Uses steganography for image translation; security properties different from traditional steganography.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel application of steganography to image translation tasks.
 
 ---
 
@@ -2405,16 +2405,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Enhancing Steganographic Text Extraction: Evaluating the Imp** | 2024 | cs.CV, cs.AI, cs.CL | Mingyang Li et al. [[1]](https://arxiv.org/abs/2402.18849) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes LSB-NLP hybrid framework combining image steganography with NLP large models for error detection, correction, and semantic consistency analysis; improves extraction accuracy especially for Chinese characters; demonstrates interdisciplinary approach of integrating steganography with NLP.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; addresses complex character encoding challenges.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Extends traditional LSB steganography; security analysis needed for hybrid approach.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel intersection of steganography and NLP; limited peer review.
 
 ---
 
@@ -2426,16 +2426,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Transparency Attacks: How Imperceptible Image Layers Can Foo** | 2024 | cs.CV, cs.CR, cs.LG | Forrest McKee, David Noever [[1]](https://arxiv.org/abs/2401.15817) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Investigates transparency attacks using imperceptible image layers to fool vision models (YOLO, ViT, GPT-Vision); demonstrates dataset poisoning and evasion of facial recognition, watermarking, and surveillance systems.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Demonstrates attack vectors against multiple vision systems.
 
-**Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+**Security status:** Broken
+Successful attack on multiple AI vision systems; raises security concerns.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel attack vector with implications for AI security.
 
 ---
 
@@ -2447,16 +2447,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Null Space Properties of Neural Networks with Applications t** | 2023 | cs.CV, cs.AI, cs.CR | Xiang Li, Kevin M. Short [[1]](https://arxiv.org/abs/2401.10262) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Explores null space properties of neural networks extending from linear to nonlinear maps; proposes image steganography method using null space components to embed hidden images that neural networks can detect but appear different to humans; demonstrates on MNIST dataset.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; demonstrates concept on standard datasets.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Exploits neural network weakness; security depends on target model.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel application of neural network properties to steganography.
 
 ---
 
@@ -2468,16 +2468,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **EditGuard: Versatile Image Watermarking for Tamper Localizat** | 2023 | cs.CV | Xuanyu Zhang et al. [[1]](https://arxiv.org/abs/2312.08883) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes EditGuard for unified copyright protection and tamper-agnostic localization in AIGC images; embeds imperceptible watermarks and precisely decodes tampered areas and copyright information.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Available with project page and demo.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel watermarking approach; security properties need verification.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses both copyright protection and tamper localization.
 
 ---
 
@@ -2489,16 +2489,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **THInImg: Cross-modal Steganography for Presenting Talking He** | 2023 | cs.CV | Lin Zhao et al. [[1]](https://arxiv.org/abs/2311.17177) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes cross-modal steganography hiding lengthy audio data inside identity images; can present up to 80 seconds of talking-head video in a 160x160 image; accepted at WACV 2024.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; accepted at WACV 2024 conference.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel cross-modal approach; security properties need further evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Peer-reviewed publication at WACV 2024; novel cross-modal steganography.
 
 ---
 
@@ -2510,16 +2510,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **GhostEncoder: Stealthy Backdoor Attacks with Dynamic Trigger** | 2023 | cs.CV, cs.CR | Qiannan Wang et al. [[1]](https://arxiv.org/abs/2310.00626) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes GhostEncoder, the first dynamic invisible backdoor attack on self-supervised learning using image steganography techniques; evades state-of-the-art defenses including STRIP, STRIP-Cl, and SSL-Cleanse.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Demonstrates attack on pre-trained encoders.
 
-**Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+**Security status:** Broken
+Successful backdoor attack on SSL models; raises security concerns.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel application of steganography to backdoor attacks.
 
 ---
 
@@ -2531,16 +2531,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Invertible Mosaic Image Hiding Network for Very Large Capaci** | 2023 | cs.MM | Zihan Chen et al. [[1]](https://arxiv.org/abs/2309.08987) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes InvMIHNet for very large capacity image steganography using mosaic secret images; can conceal and reveal up to 16 secret images with high quality; outperforms state-of-the-art in imperceptibility and recovery accuracy.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; evaluated on ImageNet-1K, COCO, and DIV2K datasets.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel large-capacity image steganography approach.
 
 ---
 
@@ -2552,16 +2552,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Focus on Content not Noise: Improving Image Generation for N** | 2023 | eess.IV, cs.CV | Jonas Utz et al. [[1]](https://arxiv.org/abs/2308.01769) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes suppressing steganography in CycleGAN using DCT-based low pass filtering; improves coherence between generated images and masks; achieves 5.4 percentage points improvement in F1-score for nuclei segmentation.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; evaluated on downstream nuclei segmentation task.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Addresses steganography as a problem in generative models; not a steganography method.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses steganography in generative models; relevant to understanding steganography behavior.
 
 ---
 
@@ -2573,16 +2573,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Semi-supervised Cycle-GAN for face photo-sketch translation ** | 2023 | cs.CV | Chaofeng Chen et al. [[1]](https://arxiv.org/abs/2307.10281) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Semi-Cycle-GAN (SCG) addressing steganography phenomenon in unpaired photo-sketch translation; uses pseudo sketch features and noise-injection to alleviate steganography effect; achieves competitive results on benchmarks and superior results on photos in the wild.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; addresses steganography as a problem in CycleGAN.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Addresses steganography as a problem; not a steganography method.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses steganography behavior in generative models.
 
 ---
 
@@ -2594,16 +2594,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **StyleStegan: Leak-free Style Transfer Based on Feature Stega** | 2023 | cs.CV, cs.MM | Xiujian Liang et al. [[1]](https://arxiv.org/abs/2307.00225) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes StyleStegan for leak-free style transfer using feature steganography; addresses content leakage issue in serial and reversible stylization; achieves 14.98% and 7.28% SSIM improvement over baseline.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Under review; addresses content leakage in style transfer.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach to leak-free style transfer.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel application of steganography to style transfer.
 
 ---
 
@@ -2615,16 +2615,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Diffusion-Stego: Training-free Diffusion Generative Steganog** | 2023 | cs.CV | Daegyu Kim et al. [[1]](https://arxiv.org/abs/2305.18726) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Diffusion-Stego using diffusion models for training-free generative steganography via message projection; achieves high capacity (3.0 bpp with 98% accuracy, 6.0 bpp with 90% accuracy) and high quality (FID 2.77); works with Stable Diffusion.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Training-free approach; can leverage pre-trained diffusion models.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Generative steganography; security against steganalysis varies with capacity.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach to diffusion-based steganography.
 
 ---
 
@@ -2636,16 +2636,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Generative Steganographic Flow** | 2023 | cs.CV, cs.MM | Ping Wei et al. [[1]](https://arxiv.org/abs/2305.05838) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Generative Steganographic Flow (GSF) using flow-based models with reversible bijective mapping between secret data and stego images; achieves better performance than prior works; accepted at ICME 2022.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; uses Glow model for stego generation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Flow-based approach; security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Peer-reviewed publication at ICME 2022.
 
 ---
 
@@ -2657,16 +2657,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Generative Steganography Diffusion** | 2023 | cs.MM, cs.AI | Ping Wei et al. [[1]](https://arxiv.org/abs/2305.03472) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Generative Steganography Diffusion (GSD) using invertible diffusion model StegoDiffusion; achieves 100% recovery of hidden secret data and realistic stego image generation; addresses limitations of GAN and Flow-based methods.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; uses invertible diffusion with ODE-based approach.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel diffusion-based generative steganography approach.
 
 ---
 
@@ -2678,16 +2678,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Robust image steganography against lossy JPEG compression ba** | 2023 | cs.MM | Xiaolong Duan et al. [[1]](https://arxiv.org/abs/2304.13297) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes robust image steganography against lossy JPEG compression using embedding domain selection and adaptive error correction; achieves better anti-steganalysis and robustness for social network transmission.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype; addresses real-world JPEG compression scenarios.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Addresses robustness; security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses practical robustness requirements for social networks.
 
 ---
 
@@ -2699,16 +2699,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **RoSteALS: Robust Steganography using Autoencoder Latent Spac** | 2023 | cs.CV | Tu Bui et al. [[1]](https://arxiv.org/abs/2304.03400) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes RoSteALS, a steganography technique leveraging frozen pretrained autoencoders for robust data hiding with improved image quality and robustness against perturbations.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic prototype using pretrained autoencoders; training complexity reduced.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Uses pretrained models; security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Novel approach combining deep learning with pretrained representations.
 
 ---
 
@@ -2720,16 +2720,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Learning Iterative Neural Optimizers for Image Steganography** | 2023 | eess.IV, cs.CV, cs.MM | Xiangyu Chen, Varsha Kishore, Kilian Q Weinberger [[1]](https://arxiv.org/abs/2303.16206) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes iterative neural network optimizers for image steganography that operate on the manifold of natural images, achieving improved convergence and image quality.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Novel optimization approach; requires further benchmarking.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+New approach; security evaluation needed.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Addresses fundamental optimization challenges in deep steganography.
 
 ---
 
@@ -2741,16 +2741,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Low-frequency Image Deep Steganography: Manipulate the Frequ** | 2023 | cs.CR, cs.CV | Huajie Chen et al. [[1]](https://arxiv.org/abs/2303.13713) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Proposes Low-frequency Image Deep Steganography method that manipulates frequency distribution to hide secrets with robustness against high-frequency attacks.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Addresses CNN vulnerability to high-frequency attacks.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Novel approach; detection resistance needs evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Frequency domain approach to deep steganography.
 
 ---
 
@@ -2762,16 +2762,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Towards Robust Image-in-Audio Deep Steganography** | 2023 | cs.CR, cs.CV, cs.MM | Jaume Ros et al. [[1]](https://arxiv.org/abs/2303.05007) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Explores cross-modal steganography by embedding images and 3D shapes in musical audio using artistic closed-loop curves and Hamiltonian cycles.
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Novel cross-modal approach; limited practical deployment.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Cross-modal detection difficulty unknown.
 
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
+**Community acceptance:** Niche
+Artistic steganography; specialized application domain.
 
 ---
 
@@ -2783,16 +2783,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Artistic Curve Steganography Carried by Musical Audio** | 2023 | cs.SD, cs.IR, cs.MM | Christopher J. Tralie [[1]](https://arxiv.org/abs/2301.12354) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The advancement of secure communication and identity verification fields has significantly increased through the use of deep learning techniques for d
 
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
+**Production readiness:** Experimental
+Academic research; experimental implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; security evaluation ongoing.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Preprint; peer review in progress.
 
 ---
 
@@ -2804,17 +2804,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Invisible Backdoor Attack with Dynamic Triggers against Pers** | 2023 | cs.CV, cs.CR | Wenli Sun et al. [[1]](https://arxiv.org/abs/2211.10933) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In recent years, person Re-identification (ReID) has rapidly progressed with wide real-world applications, but also pose
 
 **Production readiness:** Research
-Academic prototype; implementation details in paper.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Errorless Robust JPEG Steganography using Outputs of JPEG Coders
@@ -2825,16 +2824,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Errorless Robust JPEG Steganography using Outputs of JPEG Co** | 2023 | cs.MM, cs.CR, eess.IV | Jan Butora, Pauline Puteaux, Patrick Bas [[1]](https://arxiv.org/abs/2211.04750) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The advancement of secure communication and identity verification fields has significantly increased through the use of deep learning techniques for d
 
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
+**Production readiness:** Experimental
+Academic research; experimental implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; security evaluation ongoing.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Preprint; peer review in progress.
 
 ---
 
@@ -2846,16 +2845,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Data Hiding with Deep Learning: A Survey Unifying Digital Wa** | 2023 | cs.CV | Zihan Wang et al. [[1]](https://arxiv.org/abs/2107.09287) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The advancement of secure communication and identity verification fields has significantly increased through the use of deep learning techniques for d
 
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
+**Production readiness:** Experimental
+Academic research; experimental implementation.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Novel approach; security evaluation ongoing.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Preprint; peer review in progress.
 
 ---
 
@@ -2867,17 +2866,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Robust Image Steganographic Scheme against General Scaling** | 2022 | cs.MM | Qingliang Liu et al. [[1]](https://arxiv.org/abs/2212.02822) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Conventional covert image communication is assumed to transmit the message, in the securest way possible for a given pay
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Applications of single-photon technology
@@ -2888,17 +2886,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Applications of single-photon technology** | 2022 | cs.CR | Marta Misiaszek-Schreyner [[1]](https://arxiv.org/abs/2205.10221) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This doctoral dissertation deals with the subject of single-photon technology applications.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### FaceSigns: Semi-Fragile Neural Watermarks for Media Authentication and Countering Deepfakes
@@ -2909,17 +2906,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **FaceSigns: Semi-Fragile Neural Watermarks for Media Authenti** | 2022 | cs.CV, cs.AI, stat.ML | Paarth Neekhara et al. [[1]](https://arxiv.org/abs/2204.01960) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Deepfakes and manipulated media are becoming a prominent threat due to the recent advances in realistic image and video 
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Image Steganography based on Style Transfer
@@ -2930,17 +2926,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Image Steganography based on Style Transfer** | 2022 | cs.CV, cs.CR | Donghui Hu et al. [[1]](https://arxiv.org/abs/2203.04500) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Image steganography is the art and science of using images as cover for covert communications.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A Survey on Patients Privacy Protection with Stganography and Visual Encryption
@@ -2951,17 +2946,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Survey on Patients Privacy Protection with Stganography an** | 2022 | cs.CV, cs.MM | Hussein K. Alzubaidy, Dhiah Al-Shammary, Mohammed Hamzah Abed [[1]](https://arxiv.org/abs/2201.09388) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this survey, thirty models for steganography and visual encryption methods have been discussed to provide patients pr
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint stage; community evaluation ongoing.
-
+Preprint; peer review ongoing.
 ---
 
 ### Improving Performance of Semantic Segmentation CycleGANs by Noise Injection into the Latent Segmentation Space
@@ -2972,17 +2966,16 @@ Preprint stage; community evaluation ongoing.
 |-----------|------|----------|-----------------|
 | **Improving Performance of Semantic Segmentation CycleGANs by ** | 2022 | cs.CV, eess.IV | Jonas Löhdefink, Tim Fingscheidt [[1]](https://arxiv.org/abs/2201.06415) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In recent years, semantic segmentation has taken benefit from various works in computer vision.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Adaptive Steganography Based on bargain Game
@@ -2993,17 +2986,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Adaptive Steganography Based on bargain Game** | 2022 | cs.MM, math.OC | Behbod Keshavarzi et al. [[1]](https://arxiv.org/abs/2111.04653) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The capacity and security of the confidential message on the channel are two important challenges in steganography.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### "Robot Steganography"?: Opportunities and Challenges
@@ -3014,17 +3006,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **"Robot Steganography"?: Opportunities and Challenges** | 2022 | cs.RO | Martin Cooney, Eric Järpe, Alexey Vinel [[1]](https://arxiv.org/abs/2108.00998) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Robots are being designed to communicate with people in various public and domestic venues in a helpful, discreet way.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A Color Image Steganography Based on Frequency Sub-band Selection
@@ -3035,17 +3026,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Color Image Steganography Based on Frequency Sub-band Sele** | 2021 | cs.CR, cs.CV | Hai Su et al. [[1]](https://arxiv.org/abs/2112.14437) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Color image steganography based on deep learning is the art of hiding information in the color image.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Image quality enhancement of embedded holograms in holographic information hiding using deep neural networks
@@ -3056,17 +3046,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Image quality enhancement of embedded holograms in holograph** | 2021 | cs.CV, cs.GR | Tomoyoshi Shimobaba et al. [[1]](https://arxiv.org/abs/2112.11246) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Holographic information hiding is a technique for embedding holograms or images into another hologram, used for copyrigh
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Pixel-Stega: Generative Image Steganography Based on Autoregressive Models
@@ -3077,17 +3066,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Pixel-Stega: Generative Image Steganography Based on Autoreg** | 2021 | cs.CV | Siyu Zhang et al. [[1]](https://arxiv.org/abs/2112.10945) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this letter, we explored generative image steganography based on autoregressive models.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Interpretable Privacy Preservation of Text Representations Using Vector Steganography
@@ -3098,17 +3086,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Interpretable Privacy Preservation of Text Representations U** | 2021 | cs.CL, cs.AI | Geetanjali Bihani [[1]](https://arxiv.org/abs/2112.02557) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Contextual word representations generated by language models (LMs) learn spurious associations present in the training c
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Multitask Identity-Aware Image Steganography via Minimax Optimization
@@ -3119,17 +3106,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Multitask Identity-Aware Image Steganography via Minimax Opt** | 2021 | cs.CV | Jiabao Cui et al. [[1]](https://arxiv.org/abs/2107.05819) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** High-capacity image steganography, aimed at concealing a secret image in a cover image, is a technique to preserve sensi
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Pixel identification in an image using Grover Search Algorithm
@@ -3140,17 +3126,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Pixel identification in an image using Grover Search Algorit** | 2021 | cs.CR | Mohd. Hussain Mir, Harkirat Singh [[1]](https://arxiv.org/abs/2107.03039) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Quantum Computing offers an entirely new way of doing computation governed by the rules of quantum mechanics like Superp
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Improving Cost Learning for JPEG Steganography by Exploiting JPEG Domain Knowledge
@@ -3161,17 +3146,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Improving Cost Learning for JPEG Steganography by Exploiting** | 2021 | cs.CR, cs.CV | Weixuan Tang et al. [[1]](https://arxiv.org/abs/2105.03867) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Although significant progress in automatic learning of steganographic cost has been achieved recently, existing methods 
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Universal Adversarial Perturbations Through the Lens of Deep Steganography: Towards A Fourier Perspective
@@ -3182,17 +3166,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Universal Adversarial Perturbations Through the Lens of Deep** | 2021 | cs.LG, cs.CV | Chaoning Zhang et al. [[1]](https://arxiv.org/abs/2102.06479) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The booming interest in adversarial attacks stems from a misalignment between human vision and a deep neural network (DN
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### CSIS: compressed sensing-based enhanced-embedding capacity image steganography scheme
@@ -3203,17 +3186,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **CSIS: compressed sensing-based enhanced-embedding capacity i** | 2021 | cs.MM, math.OC | Rohit Agrawal, Kapil Ahuja [[1]](https://arxiv.org/abs/2101.00690) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Image steganography plays a vital role in securing secret data by embedding it in the cover images.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Multi-Image Steganography Using Deep Neural Networks
@@ -3224,17 +3206,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Multi-Image Steganography Using Deep Neural Networks** | 2021 | cs.CV | Abhishek Das et al. [[1]](https://arxiv.org/abs/2101.00350) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Steganography is the science of hiding a secret message within an ordinary public message.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### FoolHD: Fooling speaker identification by Highly imperceptible adversarial Disturbances
@@ -3245,17 +3226,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **FoolHD: Fooling speaker identification by Highly imperceptib** | 2021 | cs.SD, cs.LG, eess.AS | Ali Shahin Shamsabadi et al. [[1]](https://arxiv.org/abs/2011.08483) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Speaker identification models are vulnerable to carefully designed adversarial perturbations of their input signals that
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### New Design Paradigm of Distortion Cost Function for Efficient JPEG Steganography
@@ -3266,17 +3246,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **New Design Paradigm of Distortion Cost Function for Efficien** | 2021 | cs.MM | Wenkang Su et al. [[1]](https://arxiv.org/abs/1908.01947) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Recently, with the introduction of JPEG phase-aware steganalysis features, e.g.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Generative Steganography with Kerckhoffs' Principle
@@ -3287,17 +3266,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Generative Steganography with Kerckhoffs' Principle** | 2021 | cs.MM | Yan Ke et al. [[1]](https://arxiv.org/abs/1711.04916) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embed
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Painting with Hue, Saturation, and Brightness Control by Nanoscale 3D Printing
@@ -3308,17 +3286,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Painting with Hue, Saturation, and Brightness Control by Nan** | 2020 | cs.CR | Hao Wang et al. [[1]](https://arxiv.org/abs/2010.11035) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Varying only the in-plane or out-of-plane dimensions of nanostructures produces a wide range of colourful elements in me
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Adversarial Images through Stega Glasses
@@ -3329,17 +3306,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Adversarial Images through Stega Glasses** | 2020 | cs.CR, eess.IV, eess.SP | Benoît Bonnet, Teddy Furon, Patrick Bas [[1]](https://arxiv.org/abs/2010.07542) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper explores the connection between steganography and adversarial images.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Enabling optical steganography, data storage, and encryption with plasmonic colors
@@ -3350,17 +3326,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Enabling optical steganography, data storage, and encryption** | 2020 | cs.CR | Maowen Song et al. [[1]](https://arxiv.org/abs/2009.03521) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Plasmonic color generation utilizing ultra-thin metasurfaces as well as metallic nanoparticles hold a great promise for 
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### \ell_1SABMIS: \ell_1-minimization and sparse approximation based blind multi-image steganography scheme
@@ -3371,17 +3346,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **\ell_1SABMIS: \ell_1-minimization and sparse approximation b** | 2020 | cs.MM | Rohit Agrawal [[1]](https://arxiv.org/abs/2007.05025) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Steganography plays a vital role in achieving secret data security by embedding it into cover media.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Secure Steganography Technique Based on Bitplane Indexes
@@ -3392,17 +3366,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Secure Steganography Technique Based on Bitplane Indexes** | 2020 | cs.MM | Alan Anwer Abdulla, Sabah A. Jassim, Harin Sellahewa [[1]](https://arxiv.org/abs/2004.12470) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper is concerned with secret hiding in multiple image bitplanes for increased security without undermining capaci
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Stego Quality Enhancement by Message Size Reduction and Fibonacci Bit-Plane Mapping
@@ -3413,17 +3386,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Stego Quality Enhancement by Message Size Reduction and Fibo** | 2020 | cs.MM | Alan A. Abdulla, Harin Sellahewa, Sabah A. Jassim [[1]](https://arxiv.org/abs/2004.12467) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** An efficient 2-step steganography technique is proposed to enhance stego image quality and secret message un-detectabili
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Efficient High Capacity Steganography Technique
@@ -3434,17 +3406,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Efficient High Capacity Steganography Technique** | 2020 | cs.MM | Alan Anwer Abdulla, Sabah A. Jassim, Harin Sellahewa [[1]](https://arxiv.org/abs/2004.11984) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Performance indicators characterizing modern steganographic techniques include capacity (i.e.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Steganography Based on Pixel Intensity Value Decomposition
@@ -3455,17 +3426,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganography Based on Pixel Intensity Value Decomposition** | 2020 | cs.MM | Alan Anwer Abdulla, Harin Sellahewa, Sabah A. Jassim [[1]](https://arxiv.org/abs/2004.11977) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper focuses on steganography based on pixel intensity value decomposition.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Improving embedding efficiency for digital steganography by exploiting similarities between secret and cover images
@@ -3476,17 +3446,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Improving embedding efficiency for digital steganography by ** | 2020 | cs.MM | Alan A. Abdulla, Harin Sellahewa, Sabah A. Jassim [[1]](https://arxiv.org/abs/2004.11974) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Digital steganography is becoming a common tool for protecting sensitive communications in various applications such as 
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Data hiding in speech signal using steganography and encryption
@@ -3497,17 +3466,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Data hiding in speech signal using steganography and encrypt** | 2020 | cs.MM | Hanisha Chowdary N et al. [[1]](https://arxiv.org/abs/2002.02370) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Data privacy and data security are always on highest priority in the world.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Universal Stego Post-processing for Enhancing Image Steganography
@@ -3518,17 +3486,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Universal Stego Post-processing for Enhancing Image Steganog** | 2020 | cs.MM | Bolin Chen et al. [[1]](https://arxiv.org/abs/1912.03878) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** It is well known that the designing or improving embedding cost becomes a key issue for current steganographic methods.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Invisible Backdoor Attacks on Deep Neural Networks via Steganography and Regularization
@@ -3539,17 +3506,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Invisible Backdoor Attacks on Deep Neural Networks via Stega** | 2020 | cs.CR, cs.CV, cs.LG | Shaofeng Li et al. [[1]](https://arxiv.org/abs/1909.02742) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Deep neural networks (DNNs) have been proven vulnerable to backdoor attacks, where hidden features (patterns) trained to
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Self-Contained Stylization via Steganography for Reverse and Serial Style Transfer
@@ -3560,17 +3526,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Self-Contained Stylization via Steganography for Reverse and** | 2020 | cs.CV | Hung-Yu Chen, I-Sheng Fang, Wei-Chen Chiu [[1]](https://arxiv.org/abs/1812.03910) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Style transfer has been widely applied to give real-world images a new artistic look.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Distribution-Preserving Steganography Based on Text-to-Speech Generative Models
@@ -3581,17 +3546,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Distribution-Preserving Steganography Based on Text-to-Speec** | 2020 | cs.MM | Kejiang Chen et al. [[1]](https://arxiv.org/abs/1811.03732) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Steganography is the art and science of hiding secret messages in public communication so that the presence of the secre
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Beyond Unfolding: Exact Recovery of Latent Convex Tensor Decomposition under Reshuffling
@@ -3602,17 +3566,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Beyond Unfolding: Exact Recovery of Latent Convex Tensor Dec** | 2020 | cs.LG, stat.ML | Chao Li et al. [[1]](https://arxiv.org/abs/1805.08465) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Exact recovery of tensor decomposition (TD) methods is a desirable property in both unsupervised learning and scientific
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Hide the Image in FC-DenseNets to another Image
@@ -3623,17 +3586,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Hide the Image in FC-DenseNets to another Image** | 2019 | cs.MM, cs.CR, eess.IV | Duan Xintao, Liu Nao [[1]](https://arxiv.org/abs/1910.08341) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In the past, steganography was to embed text in a carrier, the sender Alice and the recipient Bob share the key, and the
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Enhancing JPEG Steganography using Iterative Adversarial Examples
@@ -3644,17 +3606,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Enhancing JPEG Steganography using Iterative Adversarial Exa** | 2019 | cs.MM | Huaxiao Mo et al. [[1]](https://arxiv.org/abs/1909.07556) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Convolutional Neural Networks (CNN) based methods have significantly improved the performance of image steganalysis comp
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Steganography Protocols for Quantum Channels
@@ -3665,17 +3626,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganography Protocols for Quantum Channels** | 2019 | cs.IT | Mehrdad Tahmasbi, Matthieu Bloch [[1]](https://arxiv.org/abs/1907.09602) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** We study several versions of a quantum steganography problem, in which two legitimate parties attempt to conceal a cyphe
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### BASN -- Learning Steganography with Binary Attention Mechanism
@@ -3686,17 +3646,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **BASN -- Learning Steganography with Binary Attention Mechani** | 2019 | cs.CV, cs.MM | Yang Yang [[1]](https://arxiv.org/abs/1907.04362) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Secret information sharing through image carrier has aroused much research attention in recent years with images' growin
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Recent Advances of Image Steganography with Generative Adversarial Networks
@@ -3707,17 +3666,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Recent Advances of Image Steganography with Generative Adver** | 2019 | cs.CR, cs.MM, eess.IV | Jia Liu et al. [[1]](https://arxiv.org/abs/1907.01886) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In the past few years, the Generative Adversarial Network (GAN) which proposed in 2014 has achieved great success.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Generative Reversible Data Hiding by Image to Image Translation via GANs
@@ -3728,17 +3686,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Generative Reversible Data Hiding by Image to Image Translat** | 2019 | eess.IV, cs.CR, cs.MM | Zhuo Zhang et al. [[1]](https://arxiv.org/abs/1905.02872) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The traditional reversible data hiding technique is based on cover image modification which inevitably leaves some trace
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### StegoAppDB: a Steganography Apps Forensics Image Database
@@ -3749,17 +3706,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **StegoAppDB: a Steganography Apps Forensics Image Database** | 2019 | eess.IV, cs.MM | Jennifer Newman et al. [[1]](https://arxiv.org/abs/1904.09360) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this paper, we present a new reference dataset simulating digital evidence for image steganography.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Solving the large syndrome calculation problem in steganography
@@ -3770,17 +3726,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Solving the large syndrome calculation problem in steganogra** | 2019 | cs.IT | Suah Kim, Vasily Sachnev, Hyoung Joong Kim [[1]](https://arxiv.org/abs/1904.05625) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In error correction code based image steganography, embedding using large length codes have not been researched extensiv
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A security steganography scheme based on hdr image
@@ -3791,17 +3746,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A security steganography scheme based on hdr image** | 2019 | cs.CV | Wei Gao, Yongqing Huo, Yan Qiao [[1]](https://arxiv.org/abs/1902.10943) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** It is widely recognized that the image format is crucial to steganography for that each individual format has its unique
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### SteganoGAN: High Capacity Image Steganography with GANs
@@ -3812,17 +3766,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **SteganoGAN: High Capacity Image Steganography with GANs** | 2019 | cs.CV, cs.LG, cs.MM | Kevin Alex Zhang et al. [[1]](https://arxiv.org/abs/1901.03892) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Image steganography is a procedure for hiding messages inside pictures.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Adaptive Spatial Steganography Based on Probability-Controlled Adversarial Examples
@@ -3833,17 +3786,17 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Adaptive Spatial Steganography Based on Probability-Controll** | 2019 | cs.MM | Sai Ma et al. [[1]](https://arxiv.org/abs/1804.02691) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Explanation from Sai Ma:
+The experiments in this paper are conducted on Caffe framework.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Emerging Applications of Reversible Data Hiding
@@ -3854,17 +3807,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Emerging Applications of Reversible Data Hiding** | 2018 | cs.CV | Dongdong Hou et al. [[1]](https://arxiv.org/abs/1811.02928) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Reversible data hiding (RDH) is one special type of information hiding, by which the host sequence as well as the embedd
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Combined Image Encryption and Steganography Algorithm in the Spatial Domain
@@ -3875,17 +3827,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Combined Image Encryption and Steganography Algorithm in the** | 2018 | eess.IV, cs.MM | Aya H. S. Abdelgader, Raneem A. Aboughalia, Osama A. S. Alkishriwo [[1]](https://arxiv.org/abs/1810.05263) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In recent years, steganography has emerged as one of the main research areas in information security.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Invisible Steganography via Generative Adversarial Networks
@@ -3896,17 +3847,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Invisible Steganography via Generative Adversarial Networks** | 2018 | cs.MM, cs.CV | Ru Zhang, Shiqi Dong, Jianyi Liu [[1]](https://arxiv.org/abs/1807.08571) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Nowadays, there are plenty of works introducing convolutional neural networks (CNNs) to the steganalysis and exceeding c
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### High Capacity Image Data Hiding of Scanned Text Documents Using Improved Quadtree
@@ -3917,17 +3867,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **High Capacity Image Data Hiding of Scanned Text Documents Us** | 2018 | cs.MM | Seyyed Hossein Soleymani, Amir Hossein Taherinia [[1]](https://arxiv.org/abs/1803.11286) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this paper, an effective method was introduced to steganography of text document in the host image.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### The Cut and Dominating Set Problem in A Steganographer Network
@@ -3938,17 +3887,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **The Cut and Dominating Set Problem in A Steganographer Netwo** | 2018 | cs.DS, cs.MM | Hanzhou Wu et al. [[1]](https://arxiv.org/abs/1802.09333) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** A steganographer network corresponds to a graphic structure that the involved vertices (or called nodes) denote social e
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A Graph-theoretic Model to Steganography on Social Networks
@@ -3959,17 +3907,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Graph-theoretic Model to Steganography on Social Networks** | 2018 | cs.MM | Hanzhou Wu et al. [[1]](https://arxiv.org/abs/1712.03621) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Steganography aims to conceal the very fact that the communication takes place, by embedding a message into a digit obje
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### SSGAN: Secure Steganography Based on Generative Adversarial Networks
@@ -3980,17 +3927,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **SSGAN: Secure Steganography Based on Generative Adversarial ** | 2018 | cs.CV, cs.MM | Haichao Shi et al. [[1]](https://arxiv.org/abs/1707.01613) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this paper, a novel strategy of Secure Steganograpy based on Generative Adversarial Networks is proposed to generate 
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Encoding DNA sequences by integer chaos game representation
@@ -4001,17 +3947,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Encoding DNA sequences by integer chaos game representation** | 2017 | cs.CE, bio.OT | Changchuan Yin [[1]](https://arxiv.org/abs/1712.04546) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** DNA sequences are fundamental for encoding genetic information.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### CycleGAN, a Master of Steganography
@@ -4022,17 +3967,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **CycleGAN, a Master of Steganography** | 2017 | cs.CV, cs.LG, stat.ML | Casey Chu, Andrey Zhmoginov, Mark Sandler [[1]](https://arxiv.org/abs/1712.02950) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** CycleGAN (Zhu et al. 2017) is one recent successful approach to learn a transformation between two image distributions.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### End-to-end Trained CNN Encode-Decoder Networks for Image Steganography
@@ -4043,17 +3987,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **End-to-end Trained CNN Encode-Decoder Networks for Image Ste** | 2017 | cs.MM, cs.CV | Atique ur Rehman et al. [[1]](https://arxiv.org/abs/1711.07201) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** All the existing image steganography methods use manually crafted features to hide binary payloads into cover images.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A Robust Data Hiding Process Contributing to the Development of a Semantic Web
@@ -4064,17 +4007,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Robust Data Hiding Process Contributing to the Development** | 2017 | cs.MM | Jacques M. Bahi et al. [[1]](https://arxiv.org/abs/1706.08764) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this paper, a novel steganographic scheme based on chaotic iterations is proposed.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### StegIbiza: Steganography in Club Music Implemented in Python
@@ -4085,17 +4027,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **StegIbiza: Steganography in Club Music Implemented in Python** | 2017 | cs.MM | Krzysztof Szczypiorski, Wojciech Zydecki [[1]](https://arxiv.org/abs/1705.07788) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper introduces the implementation of steganography method called StegIbiza, which uses tempo modulation as hidden
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### FPGA Implementation of a Novel Image Steganography for Hiding Images
@@ -4106,17 +4047,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **FPGA Implementation of a Novel Image Steganography for Hidin** | 2016 | cs.AR, cs.DC | Masoom Nazari et al. [[1]](https://arxiv.org/abs/1609.04569) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** As the complexity of current data flow systems and according infrastructure networks increases, the security of data tra
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Enhanced Boolean Correlation Matrix Memory
@@ -4127,17 +4067,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Enhanced Boolean Correlation Matrix Memory** | 2016 | cs.NE | Mario Mastriani [[1]](https://arxiv.org/abs/1607.04267) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper introduces an Enhanced Boolean version of the Correlation Matrix Memory (CMM), which is useful to work with b
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Quantum Enhanced Correlation Matrix Memories via States Orthogonalisation
@@ -4148,17 +4087,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Quantum Enhanced Correlation Matrix Memories via States Orth** | 2016 | cs.CR | Mario Mastriani, Marcelo Naiouf [[1]](https://arxiv.org/abs/1607.03106) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper introduces a Quantum Correlation Matrix Memory (QCMM) and Enhanced QCMM (EQCMM), which are useful to work wit
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Can Machine Learn Steganography? - Implementing LSB Substitution and Matrix Coding Steganography with Feed-Forward Neural Networks
@@ -4169,17 +4107,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Can Machine Learn Steganography? - Implementing LSB Substitu** | 2016 | cs.MM | Han-Zhou Wu, Hong-Xia Wang, Yun-Qing Shi [[1]](https://arxiv.org/abs/1606.05294) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In recent years, due to the powerful abilities to deal with highly complex tasks, the artificial neural networks (ANNs) 
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Optimal Binary Coding for q^+ -state Data Embedding
@@ -4190,17 +4127,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Optimal Binary Coding for q^+ -state Data Embedding** | 2016 | cs.IT | Han-Zhou Wu [[1]](https://arxiv.org/abs/1604.03140) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In steganography, we always hope to maximize the embedding payload subject to an upper-bounded distortion.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Reading Between the Pixels: Photographic Steganography for Camera Display Messaging
@@ -4211,17 +4147,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Reading Between the Pixels: Photographic Steganography for C** | 2016 | cs.CV, cs.GR, cs.MM | Eric Wengrowski et al. [[1]](https://arxiv.org/abs/1604.01720) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** We exploit human color metamers to send light-modulated messages less visible to the human eye, but recoverable by camer
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### An Enhanced Edge Adaptive Steganography Approach Using Threshold Value for Region Selection
@@ -4232,17 +4167,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **An Enhanced Edge Adaptive Steganography Approach Using Thres** | 2016 | cs.MM | Sachin Mungmode, R. R. Sedamkar, Niranjan Kulkarni [[1]](https://arxiv.org/abs/1601.02076) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper attempts to improve the quality and the modification rate of a Stego Image.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A New Image Steganographic Technique using Pattern based Bits Shuffling and Magic LSB for Grayscale Images
@@ -4253,17 +4187,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A New Image Steganographic Technique using Pattern based Bit** | 2016 | cs.MM | Khan Muhammad et al. [[1]](https://arxiv.org/abs/1601.01386) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Image Steganography is a growing research area of information security where secret information is embedded in innocent-
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Capacity Enlargement Of The PVD Steganography Method Using The GLM Technique
@@ -4274,17 +4207,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Capacity Enlargement Of The PVD Steganography Method Using T** | 2016 | cs.MM | Mehdi Safarpour, Mostafa Charmi [[1]](https://arxiv.org/abs/1601.00299) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In most steganographic methods, increasing in the capacity leads to decrease in the quality of the stego-image, so in th
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Covert Communication Gains from Adversary's Ignorance of Transmission Time
@@ -4295,17 +4227,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Covert Communication Gains from Adversary's Ignorance of Tra** | 2016 | cs.IT | Boulat A. Bash, Dennis Goeckel, Don Towsley [[1]](https://arxiv.org/abs/1403.1013) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The recent square root law (SRL) for covert communication demonstrates that Alice can reliably transmit $\mathcal{O}(\sq
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Steganography: A Secure way for Transmission in Wireless Sensor Networks
@@ -4316,17 +4247,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Steganography: A Secure way for Transmission in Wireless Sen** | 2015 | cs.MM | Khan Muhammad [[1]](https://arxiv.org/abs/1511.08865) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Addressing the security concerns in wireless sensor networks (WSN) is a challenging task, which has attracted the attent
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Towards Reversible De-Identification in Video Sequences Using 3D Avatars and Steganography
@@ -4337,17 +4267,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Towards Reversible De-Identification in Video Sequences Usin** | 2015 | cs.CV, cs.MM | Martin Blažević, Karla Brkić, Tomislav Hrkać [[1]](https://arxiv.org/abs/1510.04861) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** We propose a de-identification pipeline that protects the privacy of humans in video sequences by replacing them with re
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Ontology-based Secure Retrieval of Semantically Significant Visual Contents
@@ -4358,17 +4287,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Ontology-based Secure Retrieval of Semantically Significant ** | 2015 | cs.MM, cs.IR | Khan Muhammad et al. [[1]](https://arxiv.org/abs/1510.02177) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Image classification is an enthusiastic research field where large amount of image data is classified into various class
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Data Hiding in Video using Triangularization LSB Technique
@@ -4379,17 +4307,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Data Hiding in Video using Triangularization LSB Technique** | 2015 | cs.MM | Subhashri Acharya et al. [[1]](https://arxiv.org/abs/1507.05242) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** The importance of data hiding in the field of Information Technology is a widely accepted.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Hiding Information in Noise: Fundamental Limits of Covert Wireless Communication
@@ -4400,17 +4327,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Hiding Information in Noise: Fundamental Limits of Covert Wi** | 2015 | cs.IT | Boulat A. Bash et al. [[1]](https://arxiv.org/abs/1506.00066) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Widely-deployed encryption-based security prevents unauthorized decoding, but does not ensure undetectability of communi
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Identification of Image Operations Based on Steganalytic Features
@@ -4421,17 +4347,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Identification of Image Operations Based on Steganalytic Fea** | 2015 | cs.MM | Haodong Li et al. [[1]](https://arxiv.org/abs/1503.04718) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Image forensics have attracted wide attention during the past decade.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Optimal Radiometric Calibration for Camera-Display Communication
@@ -4442,17 +4367,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Optimal Radiometric Calibration for Camera-Display Communica** | 2015 | cs.CV | Wenjia Yuan et al. [[1]](https://arxiv.org/abs/1501.01744) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** We present a novel method for communicating between a camera and display by embedding and recovering hidden and dynamic 
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Olfactory Signal Processing
@@ -4463,17 +4387,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Olfactory Signal Processing** | 2015 | cs.IT, cs.MM, stat.AP | Kush R. Varshney, Lav R. Varshney [[1]](https://arxiv.org/abs/1410.4865) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Olfaction, the sense of smell, has received scant attention from a signal processing perspective in comparison to auditi
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Secret Image Sharing Using Grayscale Payload Decomposition and Irreversible Image Steganography
@@ -4484,17 +4407,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Secret Image Sharing Using Grayscale Payload Decomposition a** | 2014 | cs.MM | Soumendu Chakraborty, Anand Singh Jalal, Charul Bhatnagar [[1]](https://arxiv.org/abs/1410.3122) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** To provide an added security level most of the existing reversible as well as irreversible image steganography schemes e
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Digital Image Data Hiding Techniques: A Comparative Study
@@ -4505,17 +4427,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Digital Image Data Hiding Techniques: A Comparative Study** | 2014 | cs.MM | Minati Mishra, Priyadarsini Mishra, M. C. Adhikary [[1]](https://arxiv.org/abs/1408.3564) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** With the advancements in the field of digital image processing during the last decade, digital image data hiding techniq
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### An Easy yet Effective Method for Detecting Spatial Domain LSB Steganography
@@ -4526,17 +4447,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **An Easy yet Effective Method for Detecting Spatial Domain LS** | 2014 | cs.MM | Minati Mishra, M. C. Adhikary [[1]](https://arxiv.org/abs/1407.6877) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Digitization of image was a revolutionary step for the fields of photography and Image processing as this made the editi
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A simple technique for steganography
@@ -4547,17 +4467,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A simple technique for steganography** | 2013 | cs.MM | Adity Sharma, Anoo Agarwal, Vinay Kumar [[1]](https://arxiv.org/abs/1307.8385) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** A new technique for data hiding in digital image is proposed in this paper.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Hiding Image in Image by Five Modulus Method for Image Steganography
@@ -4568,17 +4487,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Hiding Image in Image by Five Modulus Method for Image Stega** | 2013 | cs.MM, cs.CV | Firas A. Jassim [[1]](https://arxiv.org/abs/1304.1571) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper is to create a practical steganographic implementation to hide color image (stego) inside another color image
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A Fresnelet-Based Encryption of Medical Images using Arnold Transform
@@ -4589,17 +4507,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Fresnelet-Based Encryption of Medical Images using Arnold ** | 2013 | cs.CR, cs.CV | Muhammad Nazeer et al. [[1]](https://arxiv.org/abs/1302.3702) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Medical images are commonly stored in digital media and transmitted via Internet for certain uses.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Improving success probability and embedding efficiency in code based steganography
@@ -4610,17 +4527,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Improving success probability and embedding efficiency in co** | 2013 | cs.IT | Morgan Barbier, Carlos Munuera [[1]](https://arxiv.org/abs/1302.2048) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** For stegoschemes arising from error correcting codes, embedding depends on a decoding map for the corresponding code.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A Hash based Approach for Secure Keyless Steganography in Lossless RGB Images
@@ -4631,17 +4547,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A Hash based Approach for Secure Keyless Steganography in Lo** | 2013 | cs.CR, cs.CV, cs.MM | Ankit Chaudhary et al. [[1]](https://arxiv.org/abs/1211.5614) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper proposes an improved steganography approach for hiding text messages in lossless RGB images.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Classification of minimal 1-saturating sets in PG(2,q), q\leq 23
@@ -4652,17 +4567,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Classification of minimal 1-saturating sets in PG(2,q), q\le** | 2012 | math.CO | Daniele Bartoli, Stefano Marcugini, Fernanda Pambianco [[1]](https://arxiv.org/abs/1203.1133) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Minimal 1-saturating sets in the projective plane $PG(2,q)$ are considered.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Coordination using Implicit Communication
@@ -4673,17 +4587,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Coordination using Implicit Communication** | 2011 | cs.IT | Paul Cuff, Lei Zhao [[1]](https://arxiv.org/abs/1108.3652) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** We explore a basic noise-free signaling scenario where coordination and communication are naturally merged.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Hiding Quantum Information in the Perfect Code
@@ -4694,17 +4607,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Hiding Quantum Information in the Perfect Code** | 2011 | cs.CR | Bilal A. Shaw, Todd A. Brun [[1]](https://arxiv.org/abs/1007.0793) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** We present and analyze a protocol for quantum steganography where the sender (Alice) encodes her steganographic informat
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Image Sterilization to Prevent LSB-based Steganographic Transmission
@@ -4715,17 +4627,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Image Sterilization to Prevent LSB-based Steganographic Tran** | 2010 | cs.MM | Goutam Paul, Imon Mukherjee [[1]](https://arxiv.org/abs/1012.5573) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Sterilization is a very popular word used in biomedical testing (like removal of all microorganisms on surface of an art
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Colour Guided Colour Image Steganography
@@ -4736,17 +4647,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Colour Guided Colour Image Steganography** | 2010 | cs.MM | R. Amirtharajan et al. [[1]](https://arxiv.org/abs/1010.4007) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Information security has become a cause of concern because of the electronic eavesdropping.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Quantum Steganography and Quantum Error-Correction
@@ -4757,17 +4667,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Quantum Steganography and Quantum Error-Correction** | 2010 | cs.IT | Bilal A. Shaw [[1]](https://arxiv.org/abs/1008.0425) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In the current thesis we first talk about the six-qubit quantum error-correcting code and show its connections to entang
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### An Alternative Approach of Steganography using Reference Image
@@ -4778,17 +4687,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **An Alternative Approach of Steganography using Reference Ima** | 2010 | cs.MM | Samir Kumar Bandyopadhyay, Indra Kanta Maitra [[1]](https://arxiv.org/abs/1007.1233) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper is to create a practical steganographic implementation for 4-bit images.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Product Perfect Z2Z4-linear codes in Steganography
@@ -4799,17 +4707,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Product Perfect Z2Z4-linear codes in Steganography** | 2010 | cs.IT | J. Rifa, L. Ronquillo [[1]](https://arxiv.org/abs/1003.4852) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Product perfect codes have been proven to enhance the performance of the F5 steganographic method, whereas perfect Z2Z4-
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Signal Enhancement and Background Suppression Using Interference and Entanglement
@@ -4820,17 +4727,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Signal Enhancement and Background Suppression Using Interfer** | 2010 | cs.CR | Keith Kastella, Ralph S. Conti [[1]](https://arxiv.org/abs/1003.0423) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** We describe two-photon absorption processes excited by entangled pairs, but not by non-entangled pairs of the same energ
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### A New Image Steganography Based On First Component Alteration Technique
@@ -4841,17 +4747,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **A New Image Steganography Based On First Component Alteratio** | 2010 | cs.MM, cs.CV | Amanpreet Kaur, Renu Dhir, Geeta Sikka [[1]](https://arxiv.org/abs/1001.1972) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this paper, A new image steganography scheme is proposed which is a kind of spatial domain technique.
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Trellis-coded quantization for public-key steganography
@@ -4862,17 +4767,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Trellis-coded quantization for public-key steganography** | 2008 | cs.MM, cs.IT | Gaëtan Le Guelvouit [[1]](https://arxiv.org/abs/0811.4700) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** This paper deals with public-key steganography in the presence of a passive warden.
 
 **Production readiness:** Experimental
-Mature research with available implementation.
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ### Quantum computing, phase estimation and applications
@@ -4883,17 +4787,16 @@ Preprint; peer review status unknown.
 |-----------|------|----------|-----------------|
 | **Quantum computing, phase estimation and applications** | 2008 | cs.CR | Miroslav Dobšíček [[1]](https://arxiv.org/abs/0803.0909) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** In this thesis, attention is paid to small experimental testbed applications with respect to the quantum phase estimatio
 
-**Production readiness:** Experimental
-Mature research with available implementation.
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
-Research prototype; security not yet independently verified.
+Security properties under evaluation.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
+Preprint; peer review ongoing.
 ---
 
 ## Software Tools

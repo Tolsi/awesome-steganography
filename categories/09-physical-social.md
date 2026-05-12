@@ -254,13 +254,13 @@ IEEE Access 2025; concept demonstration only.
 
 ### Pulsed Waveforms and Intermittently Nonlinear Filtering in Synthesis of Low-SNR and Covert Communications
 
-**Goal:** signal (e.g. to reduce the burden on the power amplifier), and/or made statistically indistinguishable from Gaussian noise (e.g.
+**Goal:** Encode low-rate information directly into wideband waveforms without physical frequency spreading, enabling covert communications indistinguishable from Gaussian noise.
 
 | Algorithm | Year | Approach | Notable Feature |
 |-----------|------|----------|-----------------|
 | **Pulsed Waveforms and Intermittently Nonlinear Filtering in S** | 2020 | eess.SP | Alexei V. Nikitin, Ruslan L. Davidchack [[1]](https://arxiv.org/abs/2008.06390) |
 
-**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+**State of the art:** Introduces alternative approach where low-rate information is encoded directly into wideband waveforms. Uses allpass filters to manage statistical properties without changing spectral composition. Enables covert transmissions and physical layer steganography.
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -269,7 +269,7 @@ Mature research with available implementation.
 Provably secure construction with formal guarantees.
 
 **Community acceptance:** Emerging
-Preprint; peer review status unknown.
+Strong theoretical foundations; significant for physical layer security.
 
 ---
 
