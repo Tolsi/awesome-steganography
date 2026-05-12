@@ -2679,3 +2679,87 @@
 **Star count:** ⭐ 35
 
 ---
+
+### timeshifter (anfractuosity)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [timeshifter](https://github.com/anfractuosity/timeshifter) | Python | Temporal steganography tool |
+
+**Note:** Time-based steganography techniques.
+
+**Star count:** ⭐ 23
+
+---
+
+### Cs-FNNS (albblgb)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Cs-FNNS](https://github.com/albblgb/Cs-FNNS) | C# | .NET steganography library |
+
+**Note:** C# steganography implementation.
+
+**Star count:** ⭐ 23
+
+---
+
+### stegjs (andmev)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegjs](https://github.com/andmev/stegjs) | JavaScript | JavaScript steganography library |
+
+**Note:** Browser-based steganography in JavaScript.
+
+**Star count:** ⭐ 23
+
+---
+
+### nanoboard (Karasiq)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [nanoboard](https://github.com/Karasiq/nanoboard) | Scala | Steganography toolkit in Scala |
+
+**Note:** Multi-format steganography in Scala.
+
+**Star count:** ⭐ 23
+
+---
+
+### Steganography- (BecauseY)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-](https://github.com/BecauseY/Steganography-) | Python | Steganography tool |
+
+**Note:** General steganography implementation.
+
+**Star count:** ⭐ 21
+
+---
+
+### secretbook (owencm)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [secretbook](https://github.com/owencm/secretbook) | JavaScript | Steganography for images |
+
+**Note:** Image steganography in JavaScript.
+
+**Star count:** ⭐ 21
+
+---
+
+### Explosive-Steganography (XlogicX)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Explosive-Steganography](https://github.com/XlogicX/Explosive-Steganography) | Python | CTF steganography challenges |
+
+**Note:** Educational steganography for CTF practice.
+
+**Star count:** ⭐ 21
+
+---
