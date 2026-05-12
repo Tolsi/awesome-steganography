@@ -19,6 +19,7 @@
 - [steganography (stylesuxx)](#steganography-stylesuxx)
 - [Deep-Steganography (harveyslash)](#deep-steganography-harveyslash)
 - [steganography (kzykhys)](#steganography-kzykhys)
+- [HIDEAGEM](#hideagem)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -345,11 +346,23 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [steganography](https://github.com/kzykhys/Steganography) | PHP | PHP steganography library |
+| [steganography](https://github.com/kzykhys/Steganography) | PHP | PHP steganography library (2023) |
 
 **Note:** PHP library for steganography.
 
 **Star count:** ⭐ 88
+
+---
+
+### HIDEAGEM
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [HIDEAGEM](https://github.com/CYBERGEM777/HIDEAGEM) | Python | Multi-format steganography tool (2024) |
+
+**Note:** Comprehensive steganography tool for multiple formats.
+
+**Star count:** ⭐ 441
 
 ---
 
