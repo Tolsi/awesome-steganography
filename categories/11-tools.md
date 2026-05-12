@@ -64,6 +64,9 @@
 - [steganography-png-decoder](#steganography-png-decoder)
 - [steganography (atbuy)](#steganography-atbuy)
 - [StegsnowBruteForcer](#stegsnowbruteforcer)
+- [Steganography (Sanjipan)](#steganography-sanjipan)
+- [neural-imaging](#neural-imaging)
+- [sigBits](#sigbits)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1331,5 +1334,41 @@
 **Note:** Cracks passwords for SNOW steganography tool.
 
 **Star count:** ⭐ 15
+
+---
+
+### Steganography (Sanjipan)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/Sanjipan/Steganography) | Python | Multi-format steganography for images, video, audio, text |
+
+**Note:** Comprehensive steganography toolkit supporting multiple media types.
+
+**Star count:** ⭐ 26
+
+---
+
+### neural-imaging
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [neural-imaging](https://github.com/pkorus/neural-imaging) | Python | Research on JPEG compression and neural imaging |
+
+**Note:** Academic framework for neural imaging and JPEG steganography research.
+
+**Star count:** ⭐ 163
+
+---
+
+### sigBits
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [sigBits](https://github.com/Pulho/sigBits) | Python | LSB steganography for JPEG, PNG, BMP |
+
+**Note:** Simple but effective LSB steganography for multiple image formats.
+
+**Star count:** ⭐ 40
 
 ---
