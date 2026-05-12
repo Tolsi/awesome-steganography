@@ -46,6 +46,8 @@
 - [Picture-Video-Info-Hiding-EnDecryption](#picture-video-info-hiding-endecryption)
 - [Bit-Plane-Slicing-for-Information-Hiding](#bit-plane-slicing-for-information-hiding)
 - [Audio-Steganography (Bebra777228)](#audio-steganography-bebra777228)
+- [Steganography-Deep-Learning](#steganography-deep-learning)
+- [DeepSteganography](#deepsteganography)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -637,6 +639,30 @@
 **Note:** Simple audio steganography tool.
 
 **Star count:** ⭐ 5
+
+---
+
+### Steganography-Deep-Learning
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-Deep-Learning](https://github.com/saadzia10/Steganography-Deep-Learning) | Python | Deep learning steganography research |
+
+**Note:** Research project on deep learning for steganography.
+
+**Star count:** ⭐ 15
+
+---
+
+### DeepSteganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [DeepSteganography](https://github.com/JapsimarSinghWahi/DeepSteganography) | PyTorch | Deep neural network steganography |
+
+**Note:** PyTorch implementation of neural steganography.
+
+**Star count:** ⭐ 54
 
 ---
 
