@@ -36,6 +36,8 @@
 - [Steganography (hktaskin)](#steganography-hktaskin)
 - [emocrypt](#emocrypt)
 - [StegoDisk](#stegodisk)
+- [LSB-Audio-Steganography](#lsb-audio-steganography)
+- [LSB-Image-Steganography (Monsef-Noubadji)](#lsb-image-steganography-monsef-noubadji)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -571,6 +573,30 @@
 **Note:** Steganography library for disk files.
 
 **Star count:** ⭐ 8
+
+---
+
+### LSB-Audio-Steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB-Audio-Steganography](https://github.com/Ibrahim-Benkhedda/LSB-Audio-Steganography) | Python | LSB audio steganography (2024) |
+
+**Note:** LSB steganography for WAV audio files.
+
+**Star count:** ⭐ 5
+
+---
+
+### LSB-Image-Steganography (Monsef-Noubadji)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB-Image-Steganography](https://github.com/Monsef-Noubadji/LSB-Image-Steganography) | PHP | LSB image steganography (2022) |
+
+**Note:** PHP implementation of LSB steganography.
+
+**Star count:** ⭐ 1
 
 ---
 
