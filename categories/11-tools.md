@@ -171,6 +171,8 @@
 - [stegify-mobile](#stegify-mobile)
 - [stegbrute](#stegbrute)
 - [stego-toolkit-nix](#stego-toolkit-nix)
+- [euli_treasure_hunt](#euli_treasure_hunt)
+- [Cipher-Sphere](#cipher-sphere)
 <!-- /TOC -->
 
 ---
@@ -2018,6 +2020,30 @@
 | [stego-toolkit-nix](https://github.com/qrxnz/stego-toolkit-nix) | Nix | NixOS steganography toolkit |
 
 **Note:** Nix package for steganography tools.
+
+**Star count:** —
+
+---
+
+### euli_treasure_hunt
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [euli_treasure_hunt](https://github.com/ruppde/euli_treasure_hunt) | Python | Steganography puzzle game |
+
+**Note:** Treasure hunt game using steganography puzzles.
+
+**Star count:** ⭐ 44
+
+---
+
+### Cipher-Sphere
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Cipher-Sphere](https://github.com/nouralmulhem/Cipher-Sphere) | Python | Security and steganography learning platform |
+
+**Note:** Educational platform for learning cryptography and steganography.
 
 **Star count:** —
 
