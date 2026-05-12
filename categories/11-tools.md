@@ -48,6 +48,9 @@
 - [WavSteg](#wavsteg)
 - [spectrology](#spectrology)
 - [audio-steganography-algorithms](#audio-steganography-algorithms)
+- [HiddenWave](#hiddenwave)
+- [Audio-Steganography-CLI](#audio-steganography-cli)
+- [stegpy](#stegpy)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1084,5 +1087,41 @@
 **Note:** Implementation of F5 JPEG steganography algorithm.
 
 **Star count:** ⭐ 50
+
+---
+
+### HiddenWave
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [HiddenWave](https://github.com/techchipnet/HiddenWave) | Python | Audio steganography for hiding messages in audio |
+
+**Note:** Hides messages in audio files using various techniques.
+
+**Star count:** ⭐ 184
+
+---
+
+### Audio-Steganography-CLI
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Audio-Steganography-CLI](https://github.com/sniperline047/Audio-Steganography-CLI) | Python | Command-line audio steganography |
+
+**Note:** Simple CLI tool for audio steganography.
+
+**Star count:** ⭐ 22
+
+---
+
+### stegpy
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegpy](https://github.com/izcoser/stegpy) | Python | Steganography for images and audio |
+
+**Note:** Multi-format steganography supporting images and WAV audio.
+
+**Star count:** ⭐ 131
 
 ---
