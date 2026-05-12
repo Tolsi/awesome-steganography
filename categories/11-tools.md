@@ -175,6 +175,8 @@
 - [Cipher-Sphere](#cipher-sphere)
 - [steganography (teovoinea)](#steganography-teovoinea)
 - [stegify-flutter-plugin](#stegify-flutter-plugin)
+- [NeuralSteganography](#neuralsteganography)
+- [PyTorch-Deep-Image-Steganography](#pytorch-deep-image-steganography)
 <!-- /TOC -->
 
 ---
@@ -2072,5 +2074,29 @@
 **Note:** Flutter plugin for mobile steganography.
 
 **Star count:** ⭐ 10
+
+---
+
+### NeuralSteganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [NeuralSteganography](https://github.com/harvardnlp/NeuralSteganography) | Python | Harvard NLP neural steganography |
+
+**Note:** Neural steganography research from Harvard NLP.
+
+**Star count:** ⭐ 212
+
+---
+
+### PyTorch-Deep-Image-Steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PyTorch-Deep-Image-Steganography](https://github.com/arnoweng/PyTorch-Deep-Image-Steganography) | PyTorch | Deep image steganography with U-Net |
+
+**Note:** Implementation of deep learning image steganography.
+
+**Star count:** ⭐ 139
 
 ---
