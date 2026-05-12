@@ -84,6 +84,10 @@
 - [Pytorch-YeNet](#pytorch-yenet)
 - [Deep-Steganalysis](#deep-steganalysis)
 - [Zhu-Net](#zhu-net)
+- [AperiSolve](#aperisolve)
+- [Stegano](#stegano)
+- [StegOnline](#stegonline)
+- [steghide (Stegseek)](#steghide-stegseek)
 <!-- /TOC -->
 
 ---
@@ -889,5 +893,53 @@
 **Note:** Lightweight yet effective CNN steganalysis.
 
 **Star count:** ⭐ 89
+
+---
+
+### AperiSolve
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [AperiSolve](https://github.com/Zeecka/AperiSolve) | Python | Steganalysis web platform |
+
+**Note:** Online steganalysis platform with multiple detection methods. Active CTF tool.
+
+**Star count:** ⭐ 817
+
+---
+
+### Stegano
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stegano](https://github.com/cedricbonhomme/Stegano) | Python | Pure Python steganography module |
+
+**Note:** Pure Python steganography library with LSB and other methods.
+
+**Star count:** ⭐ 589
+
+---
+
+### StegOnline
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegOnline](https://github.com/Ge0rg3/StegOnline) | TypeScript | Web-based steganalysis tool |
+
+**Note:** Open-source port of StegSolve with additional features. Browser-based.
+
+**Star count:** ⭐ 377
+
+---
+
+### steghide (Stegseek)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegseek](https://github.com/RickdeJager/stegseek) | C++ | World's fastest steghide cracker |
+
+**Note:** Cracks steghide passwords at millions per second. Fast steganalysis tool.
+
+**Star count:** ⭐ 1.3k
 
 ---
