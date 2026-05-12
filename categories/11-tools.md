@@ -111,6 +111,7 @@
 - [dns2tcp](#dns2tcp)
 - [covertovert](#covertovert)
 - [covert-tube](#covert-tube)
+- [Ectoplasm-Steganography](#ectoplasm-steganography)
 
 **[Filesystem & OS](#filesystem--os)**
 - [bmap](#bmap)
@@ -977,6 +978,18 @@
 **Note:** Covert channel implementation using YouTube.
 
 **Star count:** ⭐ 105
+
+---
+
+### Ectoplasm-Steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Ectoplasm-Steganography](https://github.com/thomas-xin/Ectoplasm-Steganography) | Python | Metadata-based steganography |
+
+**Note:** Tool for metadata-based image steganography.
+
+**Star count:** —
 
 ---
 
