@@ -3219,3 +3219,39 @@
 **Star count:** ⭐ 6
 
 ---
+
+### Steganography (D3fy-Crypto)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/D3fy-Crypto/Steganography) | Python | General steganography tool (2020) |
+
+**Note:** Python steganography implementation.
+
+**Star count:** ⭐ 5
+
+---
+
+### Steganography (mayanksingh2298)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/mayanksingh2298/Steganography) | Python | Image steganography (2018) |
+
+**Note:** Simple image steganography.
+
+**Star count:** ⭐ 5
+
+---
+
+### stegano (alexandru-dinu)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegano](https://github.com/alexandru-dinu/stegano) | Python | Python steganography library (2023) |
+
+**Note:** Python steganography toolkit.
+
+**Star count:** ⭐ 5
+
+---
