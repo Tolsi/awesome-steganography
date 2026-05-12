@@ -116,6 +116,8 @@
 - [PacketWhisper](#packetwhisper)
 - [Dissembling-Ferret](#dissembling-ferret)
 - [StegoAuth](#stegoauth)
+- [PyExfil](#pyexfil)
+- [ICMPStegano](#icmpstegano)
 
 **[Filesystem & OS](#filesystem--os)**
 - [bmap](#bmap)
@@ -1040,6 +1042,30 @@
 | [StegoAuth](https://github.com/LabunskyA/StegoAuth) | Python | Authentication protocol steganography |
 
 **Note:** Proof-of-concept for steganography-based authentication.
+
+**Star count:** ⭐ 4
+
+---
+
+### PyExfil
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PyExfil](https://github.com/ytisf/PyExfil) | Python | Data exfiltration via steganography |
+
+**Note:** Multi-protocol data exfiltration tool using steganography.
+
+**Star count:** ⭐ 806
+
+---
+
+### ICMPStegano
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ICMPStegano](https://github.com/pshanoop/ICMPStegano) | Python | ICMP steganography [archived] |
+
+**Note:** ICMP-based steganography for data exfiltration.
 
 **Star count:** ⭐ 4
 
