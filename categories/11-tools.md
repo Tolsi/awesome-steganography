@@ -166,6 +166,8 @@
 - [node-stego](#node-stego)
 - [photochat](#photochat)
 - [PDFStego](#pdfstego)
+- [ExeSteganography](#exesteganography)
+- [exe2png](#exe2png)
 <!-- /TOC -->
 
 ---
@@ -1955,5 +1957,29 @@
 **Note:** Tool for hiding data in PDF files.
 
 **Star count:** —
+
+---
+
+### ExeSteganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ExeSteganography](https://github.com/god233012yamil/ExeSteganography) | Python | EXE file steganography |
+
+**Note:** Tool for steganography in executable files.
+
+**Star count:** ⭐ 17
+
+---
+
+### exe2png
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [exe2png](https://github.com/donno2048/exe2png) | Python | Convert EXE to PNG steganography |
+
+**Note:** Embeds executable files into PNG images.
+
+**Star count:** ⭐ 7
 
 ---
