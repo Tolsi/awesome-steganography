@@ -34,6 +34,8 @@
 - [stegify](#stegify)
 - [steganography (auyer)](#steganography-auyer)
 - [jsteg](#jsteg)
+- [steganography (scholtes)](#steganography-scholtes)
+- [zipography](#zipography)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -481,6 +483,30 @@
 **Note:** Simple and fast JPEG steganography in Go.
 
 **Star count:** ⭐ 639
+
+---
+
+### steganography (scholtes)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/scholtes/steganography) | Ruby | Ruby steganography library |
+
+**Note:** Ruby implementation for image steganography.
+
+**Star count:** ⭐ 3
+
+---
+
+### zipography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [zipography](https://github.com/gromnitsky/zipography) | Ruby | LSB steganography in Ruby |
+
+**Note:** Ruby library for zip-based steganography.
+
+**Star count:** ⭐ 10
 
 ---
 
