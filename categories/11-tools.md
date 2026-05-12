@@ -93,6 +93,8 @@
 - [Stegano](#stegano)
 - [StegOnline](#stegonline)
 - [steghide (Stegseek)](#steghide-stegseek)
+- [cloacked-pixel](#cloacked-pixel)
+- [StegoForge](#stegoforge)
 <!-- /TOC -->
 
 ---
@@ -1006,5 +1008,29 @@
 **Note:** Cracks steghide passwords at millions per second. Fast steganalysis tool.
 
 **Star count:** ⭐ 1.3k
+
+---
+
+### cloacked-pixel
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [cloacked-pixel](https://github.com/livz/cloacked-pixel) | Python | LSB steganography with AES-256 encryption |
+
+**Note:** Secure steganography tool with encrypted payload in PNG images.
+
+**Star count:** ⭐ 631
+
+---
+
+### StegoForge
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegoForge](https://github.com/Nour833/StegoForge) | Python | Multi-format steganography + detection toolkit |
+
+**Note:** Encodes and detects hidden data across 5 media types in one tool.
+
+**Star count:** ⭐ 337
 
 ---
