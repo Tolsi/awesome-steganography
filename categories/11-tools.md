@@ -24,6 +24,8 @@
 - [bpcs (mobeets)](#bpcs-mobeets)
 - [steganography-app (aksel)](#steganography-app-aksel)
 - [stegoVeritas](#stegoveritas)
+- [stegtool](#stegtool)
+- [Pictograph](#pictograph)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -415,6 +417,30 @@
 **Note:** Advanced steganography analysis and extraction tool.
 
 **Star count:** —
+
+---
+
+### stegtool
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegtool](https://github.com/djhworld/stegtool) | Python | Steganography tool (2020) |
+
+**Note:** Simple steganography tool.
+
+**Star count:** ⭐ 52
+
+---
+
+### Pictograph
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Pictograph](https://github.com/MrAdamBoyd/Pictograph) | Python | Image steganography tool (2021) |
+
+**Note:** Tool for hiding messages in images.
+
+**Star count:** ⭐ 77
 
 ---
 
