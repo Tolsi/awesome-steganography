@@ -67,6 +67,9 @@
 - [Steganography (Sanjipan)](#steganography-sanjipan)
 - [neural-imaging](#neural-imaging)
 - [sigBits](#sigbits)
+- [Universal-Deep-Hiding](#universal-deep-hiding)
+- [StegaPy](#stegapy)
+- [The-A-Files](#the-a-files)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1370,5 +1373,41 @@
 **Note:** Simple but effective LSB steganography for multiple image formats.
 
 **Star count:** ⭐ 40
+
+---
+
+### Universal-Deep-Hiding
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Universal-Deep-Hiding](https://github.com/ChaoningZhang/Universal-Deep-Hiding) | PyTorch | Universal deep learning steganography framework |
+
+**Note:** Research framework for universal neural steganography.
+
+**Star count:** ⭐ 123
+
+---
+
+### StegaPy
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegaPy](https://github.com/MearaY/StegaPy) | Python | Python steganography library |
+
+**Note:** Pure Python steganography library for hiding data in images.
+
+**Star count:** ⭐ 328
+
+---
+
+### The-A-Files
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [The-A-Files](https://github.com/pawel-kaczmarek/The-A-Files) | Python | Audio steganography and watermarking |
+
+**Note:** Research on audio information hiding and watermarking.
+
+**Star count:** ⭐ 27
 
 ---
