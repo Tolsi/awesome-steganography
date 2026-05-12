@@ -32,6 +32,8 @@
 - [StegaStamp](#stegastamp)
 - [CRoSS](#cross)
 - [stegify](#stegify)
+- [steganography (auyer)](#steganography-auyer)
+- [jsteg](#jsteg)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -455,6 +457,30 @@
 **Note:** Go tool for LSB steganography, capable of hiding any file within an image.
 
 **Star count:** ⭐ 1.3k
+
+---
+
+### steganography (auyer)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/auyer/steganography) | Go | Go library for image steganography |
+
+**Note:** Pure Go implementation for hiding data in images.
+
+**Star count:** ⭐ 354
+
+---
+
+### jsteg
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [jsteg](https://github.com/lukechampine/jsteg) | Go | JPEG steganography in Go |
+
+**Note:** Simple and fast JPEG steganography in Go.
+
+**Star count:** ⭐ 639
 
 ---
 
