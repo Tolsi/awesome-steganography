@@ -36,6 +36,8 @@
 - [jsteg](#jsteg)
 - [steganography (scholtes)](#steganography-scholtes)
 - [zipography](#zipography)
+- [F5-steganography](#f5-steganography-1)
+- [AndroidWM](#androidwm)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -507,6 +509,30 @@
 **Note:** Ruby library for zip-based steganography.
 
 **Star count:** ⭐ 10
+
+---
+
+### F5-steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [F5-steganography](https://github.com/matthewgao/F5-steganography) | Java | F5 algorithm implementation in Java |
+
+**Note:** Java implementation of F5 JPEG steganography.
+
+**Star count:** ⭐ 263
+
+---
+
+### AndroidWM
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [AndroidWM](https://github.com/huangyz0918/AndroidWM) | Java | Android watermark library |
+
+**Note:** Android library for image watermarking and steganography.
+
+**Star count:** ⭐ 1.6k
 
 ---
 
