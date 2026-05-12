@@ -2763,3 +2763,99 @@
 **Star count:** ⭐ 21
 
 ---
+
+### mr-hyde (rafael-santiago)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [mr-hyde](https://github.com/rafael-santiago/mr-hyde) | Rust | Steganography in Rust |
+
+**Note:** Steganography tool written in Rust.
+
+**Star count:** ⭐ 15
+
+---
+
+### advsteg (jhayes14)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [advsteg](https://github.com/jhayes14/advsteg) | Python | Advanced steganography techniques |
+
+**Note:** Advanced steganography implementation.
+
+**Star count:** ⭐ 15
+
+---
+
+### image-steganography (subedigaurav)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [image-steganography](https://github.com/subedigaurav/image-steganography) | Python | Image steganography tool |
+
+**Note:** Simple image steganography.
+
+**Star count:** ⭐ 15
+
+---
+
+### PictureCrypt (waleko)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PictureCrypt](https://github.com/waleko/PictureCrypt) | Python | Picture-based encryption and steganography |
+
+**Note:** Steganography with encryption.
+
+**Star count:** ⭐ 15
+
+---
+
+### cryptographic_methods (podkidyshev)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [cryptographic_methods](https://github.com/podkidyshev/cryptographic_methods) | Python | Cryptography and steganography methods |
+
+**Note:** Educational cryptography and steganography.
+
+**Star count:** ⭐ 15
+
+---
+
+### stegasawus (rokkuran)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegasawus](https://github.com/rokkuran/stegasawus) | Python | Steganography tool |
+
+**Note:** Python steganography utility.
+
+**Star count:** ⭐ 15
+
+---
+
+### Steganography (vvHacker007)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/vvHacker007/Steganography) | Python | Python steganography tool |
+
+**Note:** General steganography implementation.
+
+**Star count:** ⭐ 15
+
+---
+
+### stega (sebleier)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stega](https://github.com/sebleier/stega) | Python | Early Python steganography |
+
+**Note:** Early steganography library for Python.
+
+**Star count:** ⭐ 15
+
+---
