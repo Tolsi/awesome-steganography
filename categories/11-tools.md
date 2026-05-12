@@ -56,6 +56,9 @@
 - [LVDO](#lvdo)
 - [videostego](#videostego)
 - [SteganographierGUI](#steganographiergui)
+- [Video-Steganography (Amritaryal44)](#video-steganography-amritaryal44)
+- [Video-Steganography (llopen-sourcell)](#video-steganography-llopen-sourcell)
+- [Deep-Video-Steganography](#deep-video-steganography)
 
 **[Network Steganography](#network-steganography)**
 - [iodine](#iodine)
@@ -635,6 +638,42 @@
 **Note:** Hides files in MP4/MKV video files using video steganography.
 
 **Star count:** ⭐ 823
+
+---
+
+### Video-Steganography (Amritaryal44)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Video-Steganography](https://github.com/Amritaryal44/Video-Steganography) | Python | Video steganography using LSB |
+
+**Note:** Simple video steganography implementation using least significant bits.
+
+**Star count:** ⭐ 72
+
+---
+
+### Video-Steganography (llopen-sourcell)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Video-Steganography](https://github.com/llopen-sourcell/Video-Steganography) | Python | LSB-based video steganography |
+
+**Note:** Frame-based video steganography for hiding data.
+
+**Star count:** ⭐ 38
+
+---
+
+### Deep-Video-Steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Deep-Video-Steganography](https://github.com/anilsathyan7/Deep-Video-Steganography-Hiding-Videos-in-Plain-Sight) | Python/TensorFlow | Neural network video steganography |
+
+**Note:** Deep learning approach to hiding videos within videos.
+
+**Star count:** ⭐ 56
 
 ---
 
