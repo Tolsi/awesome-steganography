@@ -2595,3 +2595,87 @@
 **Star count:** ⭐ 81
 
 ---
+
+### steganography (raffg)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/raffg/steganography) | Python | General-purpose steganography library |
+
+**Note:** Python steganography library.
+
+**Star count:** ⭐ 36
+
+---
+
+### Image-Stegano (varunon9)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Image-Stegano](https://github.com/varunon9/Image-Stegano) | JavaScript | Image steganography in JavaScript |
+
+**Note:** Browser-based image steganography.
+
+**Star count:** ⭐ 36
+
+---
+
+### markovTextStego (hmoraldo)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [markovTextStego](https://github.com/hmoraldo/markovTextStego) | Python | Text steganography using Markov chains |
+
+**Note:** Linguistic steganography using Markov models.
+
+**Star count:** ⭐ 36
+
+---
+
+### js-steg (owencm)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [js-steg](https://github.com/owencm/js-steg) | JavaScript | JavaScript steganography library |
+
+**Note:** Client-side steganography for web applications.
+
+**Star count:** ⭐ 36
+
+---
+
+### Linguistic-Steganography-and-Steganalysis (YangzlTHU)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Linguistic-Steganography-and-Steganalysis](https://github.com/YangzlTHU/Linguistic-Steganography-and-Steganalysis) | Python | Research on linguistic steganography and steganalysis |
+
+**Note:** Academic research toolkit for linguistic steganography.
+
+**Star count:** ⭐ 35
+
+---
+
+### Learning-Image-Steganography (TracyCuiq)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Learning-Image-Steganography](https://github.com/TracyCuiq/Learning-Image-Steganography) | Python | Educational image steganography codebase |
+
+**Note:** Learning resource for image steganography techniques.
+
+**Star count:** ⭐ 35
+
+---
+
+### StegFormer (aoli-gei)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegFormer](https://github.com/aoli-gei/StegFormer) | Python | Transformer-based steganography |
+
+**Note:** Deep learning steganography using transformer architecture.
+
+**Star count:** ⭐ 35
+
+---
