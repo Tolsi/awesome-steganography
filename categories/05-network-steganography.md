@@ -21,11 +21,15 @@
 - [QuicCourier](#quiccourier)
 - [LACK](#lack)
 - [SteganoRTP](#steganortp)
+- [VoIP Steganography](#voip-steganography)
+- [WireGuard Steganography](#wireguard-steganography)
 
 **[Alternative Protocols](#alternative-protocols)**
 - [5G/6G Cellular](#56g-cellular)
 - [Wi-Fi CSI](#wi-fi-csi)
 - [CYPRESS](#cypress)
+- [HICCUPS](#hiccups)
+- [Inter-protocol Steganography](#inter-protocol-steganography)
 <!-- /TOC -->
 
 ## Header Fields
@@ -251,6 +255,42 @@
 
 ---
 
+### VoIP Steganography
+
+**Goal:** General steganography in Voice over IP streams.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **VoIP Steganography** | 2008 | Codec-based, timing | Multiple methods |
+
+**State of the art:** Active research area.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### WireGuard Steganography
+
+**Goal:** Hide data in WireGuard VPN protocol.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **WireGuard Stego** | 2020 | WireGuard handshake | Modern VPN |
+
+**State of the art:** Newer approach using WireGuard.
+
+**Production readiness:** Research
+
+**Security status:** Secure
+
+**Community acceptance:** Emerging
+
+---
+
 ## Alternative Protocols
 
 ---
@@ -304,5 +344,44 @@
 **Production readiness:** Research
 
 **Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### HICCUPS
+
+**Goal:** Hide data in WLAN networks using corrupted frames.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **HICCUPS** | 2003 | Hidden Communication System for Corrupted Networks | WLAN steganography |
+
+**State of the art:** First practical WLAN steganography.
+
+**Production readiness:** Experimental
+
+**Implementations:**
+- [HICCUPS](http://www.tele.pw.edu.pl/~krzysiek/pdf/steg-seminar-2003.pdf) — Original paper
+
+**Security status:** Caution — Uses corrupted packets
+
+**Community acceptance:** Niche
+
+---
+
+### Inter-protocol Steganography
+
+**Goal:** Use relationships between multiple protocols for covert channels.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Inter-protocol** | 2010 | Cross-protocol embedding | Complex detection |
+
+**State of the art:** Harder to detect than single-protocol methods.
+
+**Production readiness:** Research
+
+**Security status:** Secure — Cross-protocol correlation required
 
 **Community acceptance:** Emerging

@@ -17,6 +17,8 @@
 - [S-UNIWARD](#s-uniward)
 - [HILL](#hill)
 - [MiPOD](#mipod)
+- [QIM](#qim)
+- [MG/MVG](#mgmvg)
 
 **[JPEG Domain](#jpeg-domain)**
 - [JSteg](#jsteg)
@@ -376,6 +378,45 @@
 **Production readiness:** Mature
 
 **Security status:** Secure — Competitive with J-UNIWARD
+
+**Community acceptance:** Emerging
+
+---
+
+### QIM
+
+**Goal:** Embed data using quantization index modulation.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **QIM** | 2003 | Quantization-based | High robustness |
+
+**State of the art:** Robust to compression, mathematically principled.
+
+**Production readiness:** Mature
+
+**Implementations:**
+- Various implementations in steganography toolkits
+
+**Security status:** Caution — Detectable by trained classifiers
+
+**Community acceptance:** Widely trusted — Foundational watermarking method
+
+---
+
+### MG/MVG
+
+**Goal:** Multi-grade variable group embedding for high capacity.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **MG/MVG** | 2011 | Multi-variable groups | High capacity |
+
+**State of the art:** High capacity with good visual quality.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
 
 **Community acceptance:** Emerging
 

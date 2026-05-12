@@ -4,6 +4,8 @@
 ## Contents (3 algorithms)
 
 **[Structural Methods](#structural-methods)**
+- [Bacon's Cipher](#bacons-cipher)
+- [Null Cipher](#null-cipher)
 - [Whitespace coding](#whitespace-coding)
 - [Zero-width Unicode](#zero-width-unicode)
 - [Homoglyphs](#homoglyphs)
@@ -18,6 +20,42 @@
 <!-- /TOC -->
 
 ## Structural Methods
+
+---
+
+### Bacon's Cipher
+
+**Goal:** Hide data using two different typefaces in text.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Bacon's Cipher** | 1605 | Bold/italic encode 0/1 | 5 bits/letter |
+
+**State of the art:** Classic historical method, still used in puzzles.
+
+**Production readiness:** Deprecated
+
+**Security status:** Broken — Easily detected visually
+
+**Community acceptance:** Niche — Historical importance
+
+---
+
+### Null Cipher
+
+**Goal:** Hide message as first letters of words in innocent text.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Null Cipher** | 1901 | Acrostic/first letters | Requires long cover |
+
+**State of the art:** Simple but requires careful cover text selection.
+
+**Production readiness:** Deprecated
+
+**Security status:** Broken — Detectable by statistical analysis
+
+**Community acceptance:** Niche
 
 ---
 

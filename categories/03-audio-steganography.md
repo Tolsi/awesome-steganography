@@ -4,15 +4,20 @@
 ## Contents (4 subcategories)
 
 **[Time Domain](#time-domain)**
+- [LPC](#lpc-linear-predictive-coding)
 - [LSB Audio](#lsb-audio)
 - [Parity Coding](#parity-coding)
 - [Echo Hiding](#echo-hiding)
 - [Phase Coding](#phase-coding)
+- [Tone Insertion](#tone-insertion)
+- [Adaptive Phase Coding](#adaptive-phase-coding)
 
 **[Frequency Domain](#frequency-domain)**
 - [Spread Spectrum](#spread-spectrum)
 - [MDCT-domain](#mdct-domain)
 - [Wavelet Packet](#wavelet-packet)
+- [CELP](#celp)
+- [Patchwork](#patchwork)
 
 **[Compressed Formats](#compressed-formats)**
 - [MP3Stego](#mp3stego)
@@ -27,6 +32,24 @@
 <!-- /TOC -->
 
 ## Time Domain
+
+---
+
+### LPC (Linear Predictive Coding)
+
+**Goal:** Embed in linear prediction coefficients of speech.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **LPC** | 2004 | Modify prediction coefficients | Speech-specific |
+
+**State of the art:** Good for voice steganography.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
 
 ---
 
@@ -105,6 +128,42 @@
 
 ---
 
+### Tone Insertion
+
+**Goal:** Insert tones in inaudible frequency regions.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Tone Insertion** | 1999 | Inaudible frequency tones | Simple |
+
+**State of the art:** Simple but limited capacity.
+
+**Production readiness:** Mature
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
+### Adaptive Phase Coding
+
+**Goal:** Adaptive phase modification based on audio content.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Adaptive Phase Coding** | 2008 | Content-aware phase | Improved quality |
+
+**State of the art:** Better than standard phase coding.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
 ## Frequency Domain
 
 ---
@@ -160,6 +219,42 @@
 **Security status:** Caution
 
 **Community acceptance:** Niche
+
+---
+
+### CELP
+
+**Goal:** Embed in Code Excited Linear Prediction coefficients.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **CELP** | 2006 | CELP codebook | Low bitrate audio |
+
+**State of the art:** Works with CELP-based codecs.
+
+**Production readiness:** Experimental
+
+**Security status:** Caution
+
+**Community acceptance:** Niche
+
+---
+
+### Patchwork
+
+**Goal:** Embed data by modifying pseudo-random pairs of samples.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Patchwork** | 1996 | Random sample pairs | Watermarking |
+
+**State of the art:** Robust to some attacks.
+
+**Production readiness:** Mature
+
+**Security status:** Caution
+
+**Community acceptance:** Widely trusted
 
 ---
 

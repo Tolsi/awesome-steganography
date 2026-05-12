@@ -4,6 +4,8 @@
 ## Contents (3 subcategories)
 
 **[Classical Methods](#classical-methods)**
+- [Visual Attack](#visual-attack)
+- [Structural Attack](#structural-attack)
 - [Chi-square](#chi-square)
 - [RS-analysis](#rs-analysis)
 - [Weighted Stego](#weighted-stego)
@@ -23,6 +25,38 @@
 <!-- /TOC -->
 
 ## Classical Methods
+
+---
+
+### Visual Attack
+
+**Goal:** Detect steganography by visual inspection.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Visual Attack** | 1998 | Visual inspection | Manual |
+
+**State of the art:** Basic but still useful for initial analysis.
+
+**Production readiness:** Production
+
+**Community acceptance:** Standard
+
+---
+
+### Structural Attack
+
+**Goal:** Detect changes in file structure.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Structural Attack** | 1999 | File format analysis | Effective for LSB |
+
+**State of the art:** Effective against simple LSB methods.
+
+**Production readiness:** Production
+
+**Community acceptance:** Standard
 
 ---
 
