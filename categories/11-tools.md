@@ -3135,3 +3135,87 @@
 **Star count:** ⭐ 8
 
 ---
+
+### codered-steganography (au5ton)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [codered-steganography](https://github.com/au5ton/codered-steganography) | Python | Code Red steganography research (2018) |
+
+**Note:** Research steganography implementation.
+
+**Star count:** ⭐ 6
+
+---
+
+### MnemonicSteganography (jakezeal)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [MnemonicSteganography](https://github.com/jakezeal/MnemonicSteganography) | Python | Mnemonic-based steganography (2018) |
+
+**Note:** Memory-based steganography technique.
+
+**Star count:** ⭐ 6
+
+---
+
+### stego (gzcharleszhang)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stego](https://github.com/gzcharleszhang/stego) | Python | General steganography tool (2020) |
+
+**Note:** Python steganography implementation.
+
+**Star count:** ⭐ 6
+
+---
+
+### Steganography-Java-GUI (arunenigma)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-Java-GUI](https://github.com/arunenigma/Steganography-Java-GUI) | Java | GUI steganography in Java (2013) |
+
+**Note:** Java GUI steganography application.
+
+**Star count:** ⭐ 6
+
+---
+
+### LSB-Steganography-MATLAB (michaelhuntermoore)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB-Steganography-MATLAB](https://github.com/michaelhuntermoore/LSB-Steganography-MATLAB) | MATLAB | LSB steganography in MATLAB (2019) |
+
+**Note:** MATLAB implementation of LSB steganography.
+
+**Star count:** ⭐ 6
+
+---
+
+### AAC_Qmdct_Steganography (LeeeLiu)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [AAC_Qmdct_Steganography](https://github.com/LeeeLiu/AAC_Qmdct_Steganography) | Python | AAC audio steganography (2020) |
+
+**Note:** Audio steganography for AAC format.
+
+**Star count:** ⭐ 6
+
+---
+
+### MelodySteg (brvinfvck)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [MelodySteg](https://github.com/brvinfvck/MelodySteg) | Python | Melody-based steganography (2026) |
+
+**Note:** Audio steganography using melody.
+
+**Star count:** ⭐ 6
+
+---
