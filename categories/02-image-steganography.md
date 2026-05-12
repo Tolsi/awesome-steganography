@@ -1179,7 +1179,7 @@
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **Rethinking Security of DM-GIS** | 2026 | Diffusion model analysis | Security enhancement |
+| **Rethinking Security of DM-GIS** | 2026 | Diffusion model analysis | Security enhancement [[1]](https://arxiv.org/abs/2602.10219) |
 
 **State of the art:** Identifies vulnerabilities in existing DM-GIS methods and proposes improvements.
 
@@ -1199,7 +1199,7 @@
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **Intelligent Carrier Allocation** | 2025 | Cross-modal reasoning | Adaptive carrier selection |
+| **Intelligent Carrier Allocation** | 2025 | Cross-modal reasoning | Adaptive carrier selection [[1]](https://arxiv.org/abs/2511.09552) |
 
 **State of the art:** Uses AI reasoning to select optimal carrier media for different message types.
 
@@ -1219,7 +1219,7 @@
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **Secure Audio Embedding** | 2025 | LSB with Harris Hawks Optimization | Audio-in-image |
+| **Secure Audio Embedding** | 2025 | LSB with Harris Hawks Optimization | Audio-in-image [[1]](https://arxiv.org/abs/2512.08299) |
 
 **State of the art:** Uses HHO algorithm to optimize LSB embedding for audio in images.
 
@@ -1239,7 +1239,7 @@
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **ICAO Data Hiding** | 2025 | Watermarking/steganography for biometric images | ICAO compliant |
+| **ICAO Data Hiding** | 2025 | Watermarking/steganography for biometric images | ICAO compliant [[1]](https://arxiv.org/abs/2508.19324) |
 
 **State of the art:** Enables persistent verification without compromising ICAO compliance.
 
@@ -1259,7 +1259,7 @@
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **Stegomalware Defense** | 2025 | Permutation symmetry defense | Corrupts embedded payloads |
+| **Stegomalware Defense** | 2025 | Permutation symmetry defense | Corrupts embedded payloads [[1]](https://arxiv.org/abs/2509.20399) |
 
 **State of the art:** Uses layer permutation to corrupt stegomalware payloads without accuracy loss.
 
@@ -1279,7 +1279,7 @@
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **Image-in-Image Detectability** | 2026 | ICA-based detection | High embedding rate |
+| **Image-in-Image Detectability** | 2026 | ICA-based detection | High embedding rate [[1]](https://arxiv.org/abs/2603.11876) |
 
 **State of the art:** Shows embedding is identifiable by independent component analysis.
 
@@ -1299,7 +1299,7 @@
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **Latent Iterative Optimization** | 2026 | Latent-space iterative refinement | Robust message extraction |
+| **Latent Iterative Optimization** | 2026 | Latent-space iterative refinement | Robust message extraction [[1]](https://arxiv.org/abs/2603.09348) |
 
 **State of the art:** Improves message extraction accuracy through iterative latent refinement.
 

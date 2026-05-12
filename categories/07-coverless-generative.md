@@ -283,7 +283,7 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Splats in Splats++** | 2026 | 3DGS hash encoding | Pipeline-agnostic |
+| **Splats in Splats++** | 2026 | 3DGS hash encoding | Pipeline-agnostic [[1]](https://arxiv.org/abs/2604.15862) |
 
 **State of the art:** Unified framework embedding 3D/4D content in native 3DGS representation.
 

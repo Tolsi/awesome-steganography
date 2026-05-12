@@ -299,7 +299,7 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Zero-Shot Interpretable** | 2026 | Zero-shot learning | Invertible image hiding |
+| **Zero-Shot Interpretable** | 2026 | Zero-shot learning | Invertible image hiding [[1]](https://arxiv.org/abs/2605.01331) |
 
 **State of the art:** Addresses detectability of emerging invertible image hiding approaches.
 
@@ -315,7 +315,7 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **Pooled Latent-Space** | 2025 | Latent space analysis | Generative steganography |
+| **Pooled Latent-Space** | 2025 | Latent space analysis | Generative steganography [[1]](https://arxiv.org/abs/2510.12414) |
 
 **State of the art:** Analyzes statistical distribution of latent vector norm to detect embedding.
 
@@ -331,7 +331,7 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **APVD Detection** | 2025 | Deep learning approach | APVD steganography |
+| **APVD Detection** | 2025 | Deep learning approach | APVD steganography [[1]](https://arxiv.org/abs/2511.16604) |
 
 **State of the art:** Unified deep learning paradigm for APVD detection.
 

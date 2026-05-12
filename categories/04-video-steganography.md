@@ -179,7 +179,7 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **ROI Optimization** | 2025 | Genetic algorithm optimization | H.265/HEVC |
+| **ROI Optimization** | 2025 | Genetic algorithm optimization | H.265/HEVC [[1]](https://arxiv.org/abs/2508.13710) |
 
 **State of the art:** Uses GA to find optimal regions for embedding without visual degradation.
 

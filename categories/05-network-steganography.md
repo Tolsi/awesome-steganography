@@ -492,7 +492,7 @@
 
 | Algorithm | Year | Principle | Note |
 |-----------|------|-----------|------|
-| **VeriPHY** | 2025 | Deep learning + steganography in I/Q signals | 5G device identification |
+| **VeriPHY** | 2025 | Deep learning + steganography in I/Q signals | 5G device identification [[1]](https://arxiv.org/abs/2508.09213) |
 
 **State of the art:** Embeds unique pseudo-random signatures in wireless I/Q transmissions using GMM sampling.
 
