@@ -31,6 +31,9 @@
 - [DCT-Image-Steganography](#dct-image-steganography)
 - [fincher](#fincher)
 - [DeepSteganography (krishvishal)](#deepsteganography-krishvishal)
+- [steganography (mykeels)](#steganography-mykeels)
+- [steganography (arjunsr)](#steganography-arjunsr)
+- [Steganography (hktaskin)](#steganography-hktaskin)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -506,6 +509,42 @@
 **Note:** Implementation of deep learning steganography.
 
 **Star count:** ⭐ 40
+
+---
+
+### steganography (mykeels)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/mykeels/steganography) | JavaScript | JavaScript steganography (2023) |
+
+**Note:** JavaScript implementation of steganography.
+
+**Star count:** ⭐ 20
+
+---
+
+### steganography (arjunsr)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/arjunsr/steganography) | Python | Python steganography (2011) [archived] |
+
+**Note:** Early Python steganography tool.
+
+**Star count:** ⭐ 4
+
+---
+
+### Steganography (hktaskin)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/hktaskin/Steganography) | Python | Python steganography (2013) |
+
+**Note:** Simple steganography implementation.
+
+**Star count:** —
 
 ---
 
