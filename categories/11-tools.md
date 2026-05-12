@@ -29,6 +29,8 @@
 - [hide.py](#hidepy)
 - [spatial-image-steganography](#spatial-image-steganography)
 - [DCT-Image-Steganography](#dct-image-steganography)
+- [fincher](#fincher)
+- [DeepSteganography (krishvishal)](#deepsteganography-krishvishal)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -480,6 +482,30 @@
 **Note:** Implementation of DCT steganography.
 
 **Star count:** —
+
+---
+
+### fincher
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [fincher](https://github.com/maxfierke/fincher) | Crystal | Crystal steganography library (2025) |
+
+**Note:** Steganography library for Crystal language.
+
+**Star count:** ⭐ 90
+
+---
+
+### DeepSteganography (krishvishal)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [DeepSteganography](https://github.com/krishvishal/DeepSteganography) | Python | Deep learning steganography (2018) |
+
+**Note:** Implementation of deep learning steganography.
+
+**Star count:** ⭐ 40
 
 ---
 
