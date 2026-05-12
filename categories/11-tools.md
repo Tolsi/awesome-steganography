@@ -39,6 +39,8 @@
 - [F5-steganography](#f5-steganography-1)
 - [AndroidWM](#androidwm)
 - [Cryptography (kemingy)](#cryptography-kemingy)
+- [steganography (woongbak)](#steganography-woongbak)
+- [steganography-dotnet](#steganography-dotnet)
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
@@ -546,6 +548,30 @@
 **Note:** Early C implementation of LSB steganography.
 
 **Star count:** ⭐ 20
+
+---
+
+### steganography (woongbak)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/woongbak/Steganography) | C# | C# steganography implementation |
+
+**Note:** C# implementation for image steganography.
+
+**Star count:** ⭐ 6
+
+---
+
+### steganography-dotnet
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography-dotnet](https://github.com/suadev/steganography-dotnet) | C# | .NET steganography library |
+
+**Note:** .NET library for image steganography.
+
+**Star count:** ⭐ 25
 
 ---
 
