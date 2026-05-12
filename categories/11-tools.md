@@ -179,6 +179,7 @@
 - [PyTorch-Deep-Image-Steganography](#pytorch-deep-image-steganography)
 - [VHiddenNet](#vhiddennet)
 - [stegoTool (jonsalchichonnn)](#stegotool-jonsalchichonnn)
+- [steganography (browningjp)](#steganography-browningjp)
 <!-- /TOC -->
 
 ---
@@ -2124,5 +2125,17 @@
 **Note:** Multi-purpose steganography tool.
 
 **Star count:** ⭐ 3
+
+---
+
+### steganography (browningjp)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/browningjp/steganography) | Python | OpenCV-based steganography [archived] |
+
+**Note:** OpenCV-based image steganography tool.
+
+**Star count:** ⭐ 12
 
 ---
