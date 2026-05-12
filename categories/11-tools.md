@@ -2955,3 +2955,87 @@
 **Star count:** ⭐ 11
 
 ---
+
+### Steganofy (mstaudt)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganofy](https://github.com/mstaudt/Steganofy) | Python | Audio steganography tool |
+
+**Note:** Audio steganography implementation.
+
+**Star count:** ⭐ 9
+
+---
+
+### NNSDB (DLAIResearch)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [NNSDB](https://github.com/DLAIResearch/NNSDB) | Python | Neural network steganography database |
+
+**Note:** Research database for neural steganography.
+
+**Star count:** ⭐ 9
+
+---
+
+### stegano (tm9k1)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegano](https://github.com/tm9k1/stegano) | Python | Python steganography library |
+
+**Note:** Simple steganography in Python.
+
+**Star count:** ⭐ 10
+
+---
+
+### StegX (a1baradi)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegX](https://github.com/a1baradi/StegX) | C++ | C++ steganography tool |
+
+**Note:** C++ steganography implementation.
+
+**Star count:** ⭐ 9
+
+---
+
+### esteganografia-python (parzibyte)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [esteganografia-python](https://github.com/parzibyte/esteganografia-python) | Python | Spanish steganography tutorial |
+
+**Note:** Educational steganography in Spanish.
+
+**Star count:** ⭐ 9
+
+---
+
+### steggy (aneeshverma04)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steggy](https://github.com/aneeshverma04/steggy) | Python | Simple steganography tool |
+
+**Note:** Easy-to-use steganography.
+
+**Star count:** ⭐ 9
+
+---
+
+### Steganography (lakshmanaram)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/lakshmanaram/Steganography) | Python | Python steganography library |
+
+**Note:** Basic steganography implementation.
+
+**Star count:** ⭐ 9
+
+---
