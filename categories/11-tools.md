@@ -163,6 +163,8 @@
 - [ReconEXIF](#reconexif)
 - [Steganography-Software](#steganography-software)
 - [binary_steganography](#binary_steganography)
+- [node-stego](#node-stego)
+- [photochat](#photochat)
 <!-- /TOC -->
 
 ---
@@ -1916,5 +1918,29 @@
 **Note:** Tool for steganography in binary files.
 
 **Star count:** ⭐ 2
+
+---
+
+### node-stego
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [node-stego](https://github.com/uberscientist/node-stego) | JavaScript | Node.js steganography library [archived] |
+
+**Note:** Early Node.js library for steganography.
+
+**Star count:** ⭐ 5
+
+---
+
+### photochat
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [photochat](https://github.com/tianhaoz95/photochat) | Swift/Kotlin | Photo messaging with steganography |
+
+**Note:** Mobile app for hidden messaging in photos.
+
+**Star count:** ⭐ 43
 
 ---
