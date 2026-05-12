@@ -168,6 +168,7 @@
 - [PDFStego](#pdfstego)
 - [ExeSteganography](#exesteganography)
 - [exe2png](#exe2png)
+- [stegify-mobile](#stegify-mobile)
 <!-- /TOC -->
 
 ---
@@ -1981,5 +1982,17 @@
 **Note:** Embeds executable files into PNG images.
 
 **Star count:** ⭐ 7
+
+---
+
+### stegify-mobile
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegify-mobile](https://github.com/DimitarPetrov/stegify-mobile) | Dart | Mobile steganography app |
+
+**Note:** Mobile implementation of stegify for Flutter/Dart.
+
+**Star count:** ⭐ 8
 
 ---
