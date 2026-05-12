@@ -1,7 +1,7 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (36 algorithms)
+## Contents (38 algorithms)
 
 **[Time Domain](#time-domain)**
 - [LPC](#lpc-linear-predictive-coding)
@@ -47,6 +47,10 @@
 - [Developing a Video Steganography Toolkit](#developing-a-video-steganography-toolkit)
 - [A Two Intermediates Audio Steganography Technique](#a-two-intermediates-audio-steganography-technique)
 - [Design And Implementation Of Multilevel Access Control In Me...](#design-and-implementation-of-multilevel-access-control-in-medical-image-transmission-using-symmetric-polynomial-based-audio-steganography)
+
+**[CTF Audio Tools](#ctf-audio-tools)**
+- [WavSteg](#wavsteg)
+- [Sonic Visualizer](#sonic-visualizer)
 <!-- /TOC -->
 
 ## Time Domain
@@ -828,3 +832,53 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+## CTF Audio Tools
+
+---
+
+### WavSteg
+
+**Goal:** Hide arbitrary data in WAV audio files using LSB substitution and extract it with matching parameters.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **WavSteg** | 2018 | LSB substitution in WAV samples | Python3 CLI; embed and extract mode [[1]](https://github.com/ragibson/Steganography#WavSteg) |
+
+**State of the art:** Simple, widely used for WAV-based CTF challenges. Supports multi-bit LSB embedding.
+
+**Production readiness:** Mature
+Stable Python3 tool; standard for WAV stego in CTF.
+
+**Implementations:**
+- [ragibson/Steganography](https://github.com/ragibson/Steganography) ⭐ 648 — Python3
+
+**Security status:** Caution
+LSB changes detectable via statistical analysis of sample LSBs.
+
+**Community acceptance:** Widely trusted
+Standard CTF audio stego tool.
+
+---
+
+### Sonic Visualizer
+
+**Goal:** Visualize audio files as spectrograms and waveforms to reveal hidden images or patterns encoded in audio.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Sonic Visualizer** | 2006 | Spectrogram/waveform visualization | Reveals hidden images in audio spectrogram [[1]](https://www.sonicvisualiser.org/) |
+
+**State of the art:** Primary tool for discovering spectrogram steganography in CTF. Hidden images in audio are trivially revealed by switching to spectrogram view.
+
+**Production readiness:** Production
+Actively maintained; cross-platform GUI application.
+
+**Security status:** Caution
+Only reveals visually encoded patterns; encrypted audio stego invisible to spectrogram analysis.
+
+**Community acceptance:** Standard
+Universal CTF tool for audio stego analysis.
+
+---
+

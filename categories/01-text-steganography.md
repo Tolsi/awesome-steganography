@@ -1,7 +1,7 @@
 # Text Steganography
 
 <!-- TOC -->
-## Contents (257 algorithms)
+## Contents (258 algorithms)
 
 **[Structural Methods](#structural-methods)**
 - [ASCII Art Steganography](#ascii-art-steganography)
@@ -267,6 +267,9 @@
 - [Lightweight security mechanism for PSTN-VoIP cooperation](#lightweight-security-mechanism-for-pstn-voip-cooperation)
 - [New security and control protocol for VoIP based on steganog...](#new-security-and-control-protocol-for-voip-based-on-steganography-and-digital-watermarking)
 - [Content Based Image Retrieval with Mobile Agents and Stegano...](#content-based-image-retrieval-with-mobile-agents-and-steganography)
+
+**[Web Tools & References](#web-tools-references)**
+- [Irongeek Unicode Steganography](#irongeek-unicode-steganography)
 <!-- /TOC -->
 
 ## Structural Methods
@@ -5631,3 +5634,29 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+## Web Tools & References
+
+---
+
+### Irongeek Unicode Steganography
+
+**Goal:** Encode and decode text-based steganographic messages using Unicode homoglyphs and invisible characters via a web interface.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Irongeek Unicode Stego** | 2012 | Homoglyph substitution + zero-width characters | Web encoder/decoder; no install required [[1]](https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder) |
+
+**State of the art:** Classic reference implementation for Unicode-based text steganography. Commonly used to generate challenge files in CTF competitions.
+
+**Production readiness:** Mature
+Web tool; stable but no active development.
+
+**Security status:** Caution
+Easily detected by inspecting raw bytes; homoglyph substitutions visible in hex editors.
+
+**Community acceptance:** Niche
+Well-known in CTF community; rarely used in production systems.
+
+---
+

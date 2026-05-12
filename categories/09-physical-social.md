@@ -1,7 +1,7 @@
 # Physical & Social Steganography
 
 <!-- TOC -->
-## Contents (12 algorithms)
+## Contents (13 algorithms)
 
 **[Physical Methods](#physical-methods)**
 - [Morse Code Yarn](#morse-code-yarn)
@@ -20,6 +20,9 @@
 
 **[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
 - [Pulsed Waveforms and Intermittently Nonlinear Filtering in S...](#pulsed-waveforms-and-intermittently-nonlinear-filtering-in-synthesis-of-low-snr-and-covert-communications)
+
+**[Visual / Esoteric Languages](#visual-esoteric-languages)**
+- [Piet / npiet Online](#piet-npiet-online)
 <!-- /TOC -->
 
 ## Physical Methods
@@ -269,3 +272,29 @@ Provably secure construction with formal guarantees.
 Preprint; peer review status unknown.
 
 ---
+
+## Visual / Esoteric Languages
+
+---
+
+### Piet / npiet Online
+
+**Goal:** Execute programs encoded as bitmap images using the Piet esoteric programming language, where color transitions encode instructions.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Piet** | 2001 | Color-based esoteric language; images = programs | Programs look like abstract art [[1]](https://www.bertnase.de/npiet/npiet-execute.php) [[2]](http://www.dangermouse.net/esoteric/piet.html) |
+
+**State of the art:** Niche but recognizable CTF technique. Secret messages can be programs encoded as abstract images; requires npiet or similar interpreter to run.
+
+**Production readiness:** Research
+Academic curiosity; no production applications.
+
+**Security status:** Caution
+Trivially identified by anyone aware of Piet language; security by obscurity only.
+
+**Community acceptance:** Niche
+Recognized in CTF community; occasionally used in stego-style challenges.
+
+---
+

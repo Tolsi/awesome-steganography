@@ -1,7 +1,7 @@
 # Steganalysis
 
 <!-- TOC -->
-## Contents (82 algorithms)
+## Contents (92 algorithms)
 
 **[Classical Methods](#classical-methods)**
 - [Visual Attack](#visual-attack)
@@ -94,6 +94,18 @@
 - [Effective Steganography Detection Based On Data Compression](#effective-steganography-detection-based-on-data-compression)
 - [Spectral Estimation Methods Comparison and Performance Analy...](#spectral-estimation-methods-comparison-and-performance-analysis-on-a-steganalysis-application)
 - [On the Unicity Distance of Stego Key](#on-the-unicity-distance-of-stego-key)
+
+**[CTF Forensics Toolbox](#ctf-forensics-toolbox)**
+- [Steghide](#steghide)
+- [Foremost](#foremost)
+- [Stegsolve](#stegsolve)
+- [ExifTool](#exiftool)
+- [Exiv2](#exiv2)
+- [Binwalk](#binwalk)
+- [Zsteg](#zsteg)
+- [StegCracker](#stegcracker)
+- [Fcrackzip](#fcrackzip)
+- [dcode.fr](#dcodefr)
 <!-- /TOC -->
 
 ## Classical Methods
@@ -1816,3 +1828,247 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+## CTF Forensics Toolbox
+
+---
+
+### Steghide
+
+**Goal:** Embed and extract secret data in JPEG, BMP, WAV, and AU files using passphrase encryption.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Steghide** | 2003 | DCT/spatial LSB with AES-128 | Passphrase-protected extraction [[1]](https://github.com/StefanoDeVuono/steghide) |
+
+**State of the art:** De facto standard for simple passphrase-based image/audio stego in CTF contexts. Widely available via apt.
+
+**Production readiness:** Mature
+Widely deployed in CTF challenges; stable, no active development.
+
+**Implementations:**
+- [StefanoDeVuono/steghide](https://github.com/StefanoDeVuono/steghide) ⭐ 310 — C++, canonical mirror
+- [StegHigh/steghide](https://github.com/StegHigh/steghide) ⭐ 727 — C++, active fork
+
+**Security status:** Caution
+Passphrase brute-forceable with StegCracker; detectable via RS-analysis if payload is large.
+
+**Community acceptance:** Standard
+Universally recognized CTF tool; academic baseline for steganalysis benchmarks.
+
+---
+
+### Foremost
+
+**Goal:** Recover files from binary streams by matching known file headers and footers.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Foremost** | 2001 | Header/footer pattern matching | Recovers embedded files without filesystem [[1]](https://github.com/korczis/foremost) |
+
+**State of the art:** Standard forensic carving tool. Used alongside binwalk for extracting files hidden by appending or concatenation.
+
+**Production readiness:** Mature
+Stable tool, available in major distro repos.
+
+**Implementations:**
+- [korczis/foremost](https://github.com/korczis/foremost) ⭐ 367 — C, Linux/macOS
+
+**Security status:** Caution
+Only recovers files with known signatures; custom containers evade detection.
+
+**Community acceptance:** Standard
+Industry-standard forensic carving tool used in law enforcement and CTF alike.
+
+---
+
+### Stegsolve
+
+**Goal:** Apply color-channel filters and bit-plane analysis to images to visually reveal hidden data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Stegsolve** | 2010 | Bit-plane/color-filter visualization | Interactive Java GUI for LSB analysis [[1]](https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve) |
+
+**State of the art:** Essential CTF image steg tool. Pairs with zsteg for automated detection. No equivalent one-click GUI alternative.
+
+**Production readiness:** Mature
+Widely used in CTF; archived but functional.
+
+**Implementations:**
+- [eugenekolo/sec-tools](https://github.com/eugenekolo/sec-tools) ⭐ 684 — Java, contains stegsolve jar
+
+**Security status:** Caution
+Reveals only visually encoded data; ineffective against encrypted or transform-domain stego.
+
+**Community acceptance:** Standard
+Referenced in virtually every CTF stego write-up.
+
+---
+
+### ExifTool
+
+**Goal:** Read, write, and edit metadata in image, audio, video, and document files.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **ExifTool** | 2003 | Metadata parser for 100+ formats | Supports EXIF, IPTC, XMP, GPS, and custom tags [[1]](https://exiftool.org/) |
+
+**State of the art:** Gold standard for metadata inspection. Flags hidden data stored in EXIF comments, GPS fields, or custom tags.
+
+**Production readiness:** Production
+Actively maintained; used in professional digital forensics.
+
+**Implementations:**
+- [exiftool.org](https://exiftool.org/) — Perl, cross-platform
+
+**Security status:** Caution
+Metadata can be stripped or forged; does not detect payload in pixel data.
+
+**Community acceptance:** Standard
+Universally trusted in forensics and photography workflows.
+
+---
+
+### Exiv2
+
+**Goal:** Inspect and manipulate EXIF, IPTC, and XMP metadata in image files.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Exiv2** | 2004 | C++ metadata library | Fast CLI and library interface [[1]](https://www.exiv2.org/) [[2]](https://github.com/Exiv2/exiv2) |
+
+**State of the art:** Lightweight alternative to ExifTool for metadata inspection. Used in CTF when ExifTool is unavailable.
+
+**Production readiness:** Mature
+Stable C++ library with active maintenance.
+
+**Implementations:**
+- [Exiv2/exiv2](https://github.com/Exiv2/exiv2) ⭐ 1.1k — C++, cross-platform
+
+**Security status:** Caution
+Same limitations as ExifTool for pixel-level stego.
+
+**Community acceptance:** Widely trusted
+Used in image processing pipelines and CTF forensics.
+
+---
+
+### Binwalk
+
+**Goal:** Search binary files for embedded files and executable code using signature matching.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Binwalk** | 2010 | Magic-byte signature scan + recursive extract | Auto-extracts with `-e` flag [[1]](https://github.com/ReFirmLabs/binwalk) |
+
+**State of the art:** Standard firmware analysis and CTF stego tool. Often the first step in analyzing unknown binary blobs or images.
+
+**Production readiness:** Production
+Industry standard in firmware reverse engineering and CTF.
+
+**Implementations:**
+- [ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14k — Python, cross-platform
+
+**Security status:** Caution
+Signature-based; custom file formats without known magic bytes evade detection.
+
+**Community acceptance:** Standard
+Ubiquitous in CTF, firmware security, and IoT research.
+
+---
+
+### Zsteg
+
+**Goal:** Detect steganographic data hidden in PNG and BMP files using multiple channel/bit combinations.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Zsteg** | 2014 | Brute-force channel/bitorder/LSB scan | Detects LSB, LSBA, zlib-compressed payloads [[1]](https://github.com/zed-0xff/zsteg) |
+
+**State of the art:** Best automated tool for LSB stego detection in PNG/BMP. Complements stegsolve with non-interactive scanning.
+
+**Production readiness:** Mature
+Stable Ruby gem, widely used in CTF.
+
+**Implementations:**
+- [zed-0xff/zsteg](https://github.com/zed-0xff/zsteg) ⭐ 1.6k — Ruby, `gem install zsteg`
+
+**Security status:** Caution
+Effective against LSB schemes; misses encrypted or non-LSB payloads.
+
+**Community acceptance:** Standard
+Default tool for PNG stego in CTF write-ups.
+
+---
+
+### StegCracker
+
+**Goal:** Brute-force steghide-protected files using a wordlist.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **StegCracker** | 2019 | Dictionary attack on steghide passphrase | Multi-threaded steghide wrapper [[1]](https://github.com/Paradoxis/StegCracker) |
+
+**State of the art:** Go-to tool for cracking steghide-protected CTF files. Superseded for speed by stegseek.
+
+**Production readiness:** Mature
+Stable; largely replaced by stegseek for speed but still widely used.
+
+**Implementations:**
+- [Paradoxis/StegCracker](https://github.com/Paradoxis/StegCracker) ⭐ 594 — Python
+- [RickdeJager/stegseek](https://github.com/RickdeJager/stegseek) ⭐ 1.3k — C++, faster alternative
+
+**Security status:** Caution
+Only effective against weak/dictionary passphrases.
+
+**Community acceptance:** Standard
+Standard CTF tool for steghide cracking.
+
+---
+
+### Fcrackzip
+
+**Goal:** Brute-force password-protected ZIP archives using dictionary or brute-force attacks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Fcrackzip** | 1997 | Dictionary/brute-force ZIP cracker | Supports wordlist and charset modes [[1]](https://github.com/hyc/fcrackzip) |
+
+**State of the art:** Standard CTF tool for cracking ZIP passwords. Superseded by hashcat/John for speed on modern hardware.
+
+**Production readiness:** Mature
+Available via apt; stable, minimal maintenance.
+
+**Implementations:**
+- [hyc/fcrackzip](https://github.com/hyc/fcrackzip) ⭐ 469 — C, Linux/macOS
+
+**Security status:** Caution
+Dictionary attacks succeed against weak passwords; AES-256 ZIP encryption is computationally infeasible without weak password.
+
+**Community acceptance:** Standard
+Standard CTF tool; referenced in forensics guides and write-ups.
+
+---
+
+### dcode.fr
+
+**Goal:** Provide an online collection of cipher decoders and text analysis tools for cryptography and steganography CTF challenges.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **dcode.fr** | 2009 | Web-based cipher/encoding reference | Covers 500+ ciphers, codes, and encodings [[1]](https://www.dcode.fr/) |
+
+**State of the art:** Essential web reference for CTF stego and crypto. Decodes Morse, Braille, Bacon, Polybius, and hundreds of other encodings in seconds.
+
+**Production readiness:** Production
+Actively maintained web service; widely available.
+
+**Security status:** Caution
+Web-based tool; do not submit sensitive data.
+
+**Community acceptance:** Standard
+Referenced in nearly every CTF write-up involving encoding or cipher identification.
+
+---
+
