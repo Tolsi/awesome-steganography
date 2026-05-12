@@ -71,6 +71,7 @@
 - [StegaPy](#stegapy)
 - [The-A-Files](#the-a-files)
 - [invisible-watermark-tool](#invisible-watermark-tool)
+- [steganography (subc)](#steganography-subc)
 
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
@@ -1422,5 +1423,17 @@
 **Note:** Tool for adding invisible watermarks with encryption.
 
 **Star count:** ⭐ 2
+
+---
+
+### steganography (subc)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/subc/steganography) | Python | Multi-format steganography library |
+
+**Note:** Python library for steganography in images and other media.
+
+**Star count:** ⭐ 46
 
 ---
