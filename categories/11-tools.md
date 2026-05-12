@@ -2451,3 +2451,99 @@
 **Star count:** ⭐ 29
 
 ---
+
+### hackingtool (Z4nzu)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [hackingtool](https://github.com/Z4nzu/hackingtool) | Python | All-in-one hacking tool with steganography modules |
+
+**Note:** Multi-purpose hacking framework with steganography capabilities.
+
+**Star count:** ⭐ 73.9k
+
+---
+
+### ST3GG (elder-plinius)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ST3GG](https://github.com/elder-plinius/ST3GG) | HTML | All-in-one steganography suite |
+
+**Note:** Comprehensive steganography toolkit for various techniques.
+
+**Star count:** ⭐ 1.4k
+
+---
+
+### stegify (DimitarPetrov)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegify](https://github.com/DimitarPetrov/stegify) | Go | Go tool for LSB steganography, capable of hiding any file within an image |
+
+**Note:** LSB steganography tool written in Go.
+
+**Star count:** ⭐ 1.3k
+
+---
+
+### StegCracker (Paradoxis)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegCracker](https://github.com/Paradoxis/StegCracker) | Python | Steganography brute-force utility to uncover hidden data inside files |
+
+**Note:** Brute-force tool for cracking steganography passwords.
+
+**Star count:** ⭐ 594
+
+---
+
+### covertchannels-steganography (mindcrypt)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [covertchannels-steganography](https://github.com/mindcrypt/covertchannels-steganography) | Python | Covert channels and steganography research toolkit |
+
+**Note:** Research toolkit for covert channels and steganography.
+
+**Star count:** ⭐ 103
+
+---
+
+### Tomato (user1342)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Tomato](https://github.com/user1342/Tomato) | Python | Steganography tool with multiple techniques |
+
+**Note:** Multi-technique steganography tool.
+
+**Star count:** ⭐ 94
+
+---
+
+### chess-steg (jes)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [chess-steg](https://github.com/jes/chess-steg) | Python | Chess-based steganography using move notation |
+
+**Note:** Unique steganography using chess game moves to encode messages.
+
+**Star count:** ⭐ 91
+
+---
+
+### PolyZip (InfoSecREDD)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PolyZip](https://github.com/InfoSecREDD/PolyZip) | Python | Steganography tool for hiding data in files |
+
+**Note:** Data exfiltration tool using steganography.
+
+**Star count:** ⭐ 89
+
+---
