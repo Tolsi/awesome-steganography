@@ -112,6 +112,8 @@
 - [covertovert](#covertovert)
 - [covert-tube](#covert-tube)
 - [Ectoplasm-Steganography](#ectoplasm-steganography)
+- [stegator](#stegator)
+- [PacketWhisper](#packetwhisper)
 
 **[Filesystem & OS](#filesystem--os)**
 - [bmap](#bmap)
@@ -990,6 +992,30 @@
 **Note:** Tool for metadata-based image steganography.
 
 **Star count:** —
+
+---
+
+### stegator
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegator](https://github.com/1modm/stegator) | Python | Server-based steganography tool |
+
+**Note:** Tool for steganography in server environments.
+
+**Star count:** ⭐ 25
+
+---
+
+### PacketWhisper
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PacketWhisper](https://github.com/TryCatchHCF/PacketWhisper) | Python | Steganography in network packets |
+
+**Note:** Transforms data into packet timing patterns for covert communication.
+
+**Star count:** ⭐ 650
 
 ---
 
