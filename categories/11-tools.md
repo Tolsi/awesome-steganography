@@ -26,6 +26,9 @@
 - [stegoVeritas](#stegoveritas)
 - [stegtool](#stegtool)
 - [Pictograph](#pictograph)
+- [hide.py](#hidepy)
+- [spatial-image-steganography](#spatial-image-steganography)
+- [DCT-Image-Steganography](#dct-image-steganography)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -441,6 +444,42 @@
 **Note:** Tool for hiding messages in images.
 
 **Star count:** ⭐ 77
+
+---
+
+### hide.py
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [hide.py](https://github.com/nukeop/hide.py) | Python | Simple steganography tool (2018) [archived] |
+
+**Note:** Easy-to-use steganography tool.
+
+**Star count:** ⭐ 109
+
+---
+
+### spatial-image-steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [spatial-image-steganography](https://github.com/JianhuaYang001/spatial-image-steganography) | Python | Spatial image steganography (2019) |
+
+**Note:** Research implementation of spatial steganography.
+
+**Star count:** ⭐ 34
+
+---
+
+### DCT-Image-Steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [DCT-Image-Steganography](https://github.com/MasonEdgar/DCT-Image-Steganography) | Python | DCT-based image steganography (2024) |
+
+**Note:** Implementation of DCT steganography.
+
+**Star count:** —
 
 ---
 
