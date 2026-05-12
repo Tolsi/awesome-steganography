@@ -173,6 +173,7 @@
 - [stego-toolkit-nix](#stego-toolkit-nix)
 - [euli_treasure_hunt](#euli_treasure_hunt)
 - [Cipher-Sphere](#cipher-sphere)
+- [steganography (teovoinea)](#steganography-teovoinea)
 <!-- /TOC -->
 
 ---
@@ -2046,5 +2047,17 @@
 **Note:** Educational platform for learning cryptography and steganography.
 
 **Star count:** —
+
+---
+
+### steganography (teovoinea)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/teovoinea/steganography) | Rust | Rust steganography library |
+
+**Note:** Rust library for image steganography.
+
+**Star count:** ⭐ 103
 
 ---
