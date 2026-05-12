@@ -20,6 +20,7 @@
 - [Deep-Steganography (harveyslash)](#deep-steganography-harveyslash)
 - [steganography (kzykhys)](#steganography-kzykhys)
 - [HIDEAGEM](#hideagem)
+- [Steganography (cyberteach360)](#steganography-cyberteach360)
 - [openstego](#openstego)
 - [stegolab](#stegolab)
 - [pvd_steganography](#pvd_steganography)
@@ -363,6 +364,18 @@
 **Note:** Comprehensive steganography tool for multiple formats.
 
 **Star count:** ⭐ 441
+
+---
+
+### Steganography (cyberteach360)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/cyberteach360/Steganography) | Python | Educational steganography tool (2022) |
+
+**Note:** Teaching tool for learning steganography.
+
+**Star count:** ⭐ 38
 
 ---
 
