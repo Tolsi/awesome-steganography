@@ -95,6 +95,10 @@
 - [steghide (Stegseek)](#steghide-stegseek)
 - [cloacked-pixel](#cloacked-pixel)
 - [StegoForge](#stegoforge)
+- [LSB-Steganography](#lsb-steganography-1)
+- [Matroschka](#matroschka)
+- [Chaya](#chaya)
+- [f5-steganography](#f5-steganography)
 <!-- /TOC -->
 
 ---
@@ -1032,5 +1036,53 @@
 **Note:** Encodes and detects hidden data across 5 media types in one tool.
 
 **Star count:** ⭐ 337
+
+---
+
+### LSB-Steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB-Steganography](https://github.com/RobinDavid/LSB-Steganography) | Python | Classic LSB steganography in images [archived] |
+
+**Note:** Simple and well-documented LSB steganography implementation.
+
+**Star count:** ⭐ 953
+
+---
+
+### Matroschka
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Matroschka](https://github.com/fbngrm/Matroschka) | Python | LSB steganography with multiple carrier images |
+
+**Note:** Spreads payload across multiple images for increased capacity.
+
+**Star count:** ⭐ 438
+
+---
+
+### Chaya
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Chaya](https://github.com/xerohackcom/Chaya) | Python | Image steganography tool with GUI |
+
+**Note:** User-friendly steganography tool for hiding data in images.
+
+**Star count:** ⭐ 132
+
+---
+
+### f5-steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [f5-steganography](https://github.com/jackfengji/f5-steganography) | Python | F5 algorithm implementation |
+
+**Note:** Implementation of F5 JPEG steganography algorithm.
+
+**Star count:** ⭐ 50
 
 ---
