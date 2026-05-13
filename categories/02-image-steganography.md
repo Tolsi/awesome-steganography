@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (238 algorithms)
+## Contents (239 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -43,13 +43,16 @@
 - [Difference Expansion](#difference-expansion)
 - [Prediction Error Expansion](#prediction-error-expansion)
 
-**[QR Code Steganography](#qr-code-steganography)**
-- [QR Code Steganography (SAM9768)](#qr-code-steganography-sam9768)
-- [PPRSteg](#pprsteg)
+**[Print-Scan Robust](#print-scan-robust)**
+- [StegaStamp](#stegastamp)
 - [GHOSTFREAK](#ghostfreak)
 - [StampOne](#stampone)
 - [PIMoG](#pimog)
 - [TERA](#tera)
+
+**[QR Code Steganography](#qr-code-steganography)**
+- [QR Code Steganography (SAM9768)](#qr-code-steganography-sam9768)
+- [PPRSteg](#pprsteg)
 
 **[Deep Learning Methods](#deep-learning-methods)**
 - [HiDDeN](#hidden)
@@ -928,49 +931,34 @@ Extensively cited; considered standard alongside histogram shifting.
 
 ---
 
-## QR Code Steganography
+## Print-Scan Robust
 
 ---
 
-### QR Code Steganography (SAM9768)
+### StegaStamp
 
-**Goal:** Use QR codes for covert communication via steganography - building QR code symbols with hidden payloads and extracting hidden data.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **QR Code Steganography** | 2013 | QR code module manipulation | First detailed method for hiding data in QR codes [[1]](http://worldcomp-proceedings.com/proc/p2013/SAM9768.pdf) |
-
-**State of the art:** Foundational work demonstrating that QR codes can be used as cover objects for steganographic communication. Shows how to embed hidden payloads in QR code symbols while maintaining scannability.
-
-**Production readiness:** Research
-Academic paper from WorldComp 2013; foundational concept that inspired subsequent QR steganography research.
-
-**Security status:** Caution
-Basic method; subsequent research has improved capacity and security.
-
-**Community acceptance:** Niche
-Pioneering work in QR-based steganography; cited by later papers on QR steganography.
-
----
-
-### PPRSteg
-
-**Goal:** QR Code steganography robust to printing and photography using attention flow-based model.
+**Goal:** Invisible hyperlinks embedded in physical photographs that survive printing and photographing.
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **PPRSteg** | 2024 | Normalizing flow + Attention | First to integrate transformer into normalizing flow for print+photo robust QR stego [[1]](https://arxiv.org/abs/2405.16414) |
+| **StegaStamp** | 2020 | Encoder-decoder + attention | Print-photo robust steganography [[1]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tancik_StegaStamp_Invisible_Hyperlinks_in_Physical_Photographs_CVPR_2020_paper.pdf) |
 
-**State of the art:** Uses AttnFlow with attention affine coupling blocks (AACB) for invertible steganography. First work to integrate tokenized image representation into normalizing flow. Achieves high QR recovery accuracy after print+photo distortions.
+**State of the art:** Pioneer work in robust invisible hyperlinks for physical photographs. Embeds data that survives print-photograph cycle with high extraction accuracy.
 
-**Production readiness:** Research
-Academic prototype; no production implementations available.
+**Production readiness:** Experimental
+Multiple open-source implementations available; widely used in research.
 
-**Security status:** Secure
-Designed for robustness against real-world distortions.
+**Implementations:**
+- [tancik/StegaStamp](https://github.com/tancik/StegaStamp) ⭐ 3.3k
+- [dhdt/StegaStamp-pytorch](https://github.com/dhdt/StegaStamp-pytorch) ⭐ 268
+- [vadishev/stegastamp-original](https://huggingface.co/vadishev/stegastamp-original)
+- [ytfrdfiw/StegaStamp](https://github.com/ytfrdfiw/StegaStamp) — with detector
 
-**Community acceptance:** Emerging
-Recent work (2024); contributes to robust QR steganography field.
+**Security status:** Caution
+Vulnerable to steganalysis; designed for robustness rather than secrecy.
+
+**Community acceptance:** Widely trusted
+Foundational work that inspired many follow-up papers.
 
 ---
 
@@ -1003,7 +991,7 @@ Recent work (2025); contributes to print-scan robust steganography field.
 |-----------|------|--------------|------|
 | **StampOne** | 2024 | Frequency balancing + Encoder-decoder | Printer-proof steganography [[1]](https://openaccess.thecvf.com/content/CVPR2024W/WMF/papers/Shadmand_StampOne_Addressing_Frequency_Balance_in_Printer-proof_Steganography_CVPRW_2024_paper.pdf) |
 
-**State of the art:** Addresses frequency balance in printer-proof steganography.提出的方法解决了打印过程中的频率失真问题,在print-scan循环中保持较高的提取精度。
+**State of the art:** Addresses frequency balance in printer-proof steganography. Proposed method solves frequency distortion problems in printing process, maintaining high extraction accuracy in print-scan cycles.
 
 **Production readiness:** Research
 Academic prototype from CVPR 2024 Workshop on Media Forensics.
@@ -1058,6 +1046,52 @@ Designed for robustness against screen-to-camera distortions.
 
 **Community acceptance:** Emerging
 Foundational work in screen-to-camera steganography.
+
+---
+
+## QR Code Steganography
+
+---
+
+### QR Code Steganography (SAM9768)
+
+**Goal:** Use QR codes for covert communication via steganography - building QR code symbols with hidden payloads and extracting hidden data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **QR Code Steganography** | 2013 | QR code module manipulation | First detailed method for hiding data in QR codes [[1]](http://worldcomp-proceedings.com/proc/p2013/SAM9768.pdf) |
+
+**State of the art:** Foundational work demonstrating that QR codes can be used as cover objects for steganographic communication. Shows how to embed hidden payloads in QR code symbols while maintaining scannability.
+
+**Production readiness:** Research
+Academic paper from WorldComp 2013; foundational concept that inspired subsequent QR steganography research.
+
+**Security status:** Caution
+Basic method; subsequent research has improved capacity and security.
+
+**Community acceptance:** Niche
+Pioneering work in QR-based steganography; cited by later papers on QR steganography.
+
+---
+
+### PPRSteg
+
+**Goal:** QR Code steganography robust to printing and photography using attention flow-based model.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **PPRSteg** | 2024 | Normalizing flow + Attention | First to integrate transformer into normalizing flow for print+photo robust QR stego [[1]](https://arxiv.org/abs/2405.16414) |
+
+**State of the art:** Uses AttnFlow with attention affine coupling blocks (AACB) for invertible steganography. First work to integrate tokenized image representation into normalizing flow. Achieves high QR recovery accuracy after print+photo distortions.
+
+**Production readiness:** Research
+Academic prototype; no production implementations available.
+
+**Security status:** Secure
+Designed for robustness against real-world distortions.
+
+**Community acceptance:** Emerging
+Recent work (2024); contributes to robust QR steganography field.
 
 ---
 
