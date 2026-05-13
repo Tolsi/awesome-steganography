@@ -42,6 +42,8 @@
 - [Mobilefish](#mobilefish-steganography) *(Online)*
 - [imageonline.io](#imageonline-io-steganography) *(Online)*
 - [futureboy.us](#futureboy-us-stegano) *(Online)*
+- [Steganography Online Codec](#steganography-online-codec-pelock) *(Online)*
+- [ChameleonLab](#chameleonlab)
 - [steganography (kelvins)](#steganography-kelvins)
 - [steganography (stylesuxx)](#steganography-stylesuxx)
 - [Deep-Steganography (harveyslash)](#deep-steganography-harveyslash)
@@ -640,6 +642,26 @@
 | [futureboy.us](https://futureboy.us/stegano/encinput.html) | Web | Steganographic encoder for hiding messages in images |
 
 **Note:** Classic online tool by Alan Eliasen.
+
+---
+
+### Steganography Online Codec (PELock)
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Steganography Online Codec](https://www.pelock.com/products/steganography-online-codec) | Web | Hide encrypted messages in images using AES-256 + PBKDF2 |
+
+**Note:** Online steganography tool with strong encryption. Supports PNG, JPG, GIF, BMP formats. Client-side processing - images are not stored on server.
+
+---
+
+### ChameleonLab
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [ChameleonLab](https://chalab.ru/) | Windows/macOS | Professional steganography and cryptography suite with GUI |
+
+**Note:** Russian tool supporting PNG, BMP, PDF, DOCX, XLSX, PPTX, and other formats. Includes both embedding/extraction and steganalysis features.
 
 ---
 
