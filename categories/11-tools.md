@@ -4155,3 +4155,27 @@
 **Star count:** ⭐ 4
 
 ---
+
+### Image-in-Audio-Steganography (haoyuhsu)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Image-in-Audio-Steganography](https://github.com/haoyuhsu/Image-in-Audio-Steganography) | Python | Hide images in audio (2020) |
+
+**Note:** Image-in-audio steganography.
+
+**Star count:** ⭐ 21
+
+---
+
+### phon3x-art (Phon3x)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [phon3x-art](https://github.com/Phon3x/phon3x-art) | Python | Steganography art project (2026) |
+
+**Note:** Artistic steganography.
+
+**Star count:** ⭐ 18
+
+---
