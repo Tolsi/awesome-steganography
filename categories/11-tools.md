@@ -1244,6 +1244,8 @@
 | [StegaStamp-pytorch](https://github.com/jsrdcht/StegaStamp-pytorch) | PyTorch | PyTorch reimplementation of StegaStamp |
 | [StegaStamp (ytfrdfiw)](https://github.com/ytfrdfiw/StegaStamp) | TensorFlow | Fork with detector model for StegaStamp detection |
 | [vadishev/stegastamp-original](https://huggingface.co/vadishev/stegastamp-original) | PyTorch | Pretrained model (COCO, 99.6% bit accuracy) |
+| [BackdoorImageEditing](https://github.com/aiiu-lab/BackdoorImageEditing) | Python | Backdoor triggers in image editing via deep watermarking (AVSS 2025) |
+| [yufengcccc/Backdoor_InstructPix2Pix_StegaStamp_CAT](https://huggingface.co/yufengcccc/Backdoor_InstructPix2Pix_StegaStamp_CAT) | Diffusers | Backdoor model for InstructPix2Pix (arXiv:2506.04879) |
 
 **Note:** Invisible watermark that survives geometric distortions and photo capture. The pytorch version provides training/inference scripts. The ytfrdfiw fork adds detector model for detecting StegaStamps in images.
 
