@@ -114,6 +114,12 @@
 - [Steganography-Tools](#steganography-tools)
 - [7thSamurai/steganography](#7thsamurai-steganography)
 
+**[QR Steganography](#qr-steganography)**
+- [qr-stego](#qr-stego)
+- [qrcode-steganography](#qrcode-steganography)
+- [stegqr](#stegqr)
+- [qrhide](#qrhide)
+
 **[Audio Steganography](#audio-steganography)**
 - [DeepSound](#deepsound)
 - [mp3stego](#mp3stego)
@@ -1539,6 +1545,58 @@
 **Note:** Comprehensive library with AES encryption and multiple stego methods.
 
 **Star count:** ⭐ 1.1k
+
+---
+
+## QR Steganography
+
+---
+
+### qr-stego
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [qr-stego](https://github.com/QR-Steganography/qr-stego) | Python | LSB in QR code padding/remainder, BCH-ECC |
+
+**Note:** Hides data in QR code padding bytes with error correction.
+
+**Star count:** ⭐ 12
+
+---
+
+### qrcode-steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [qrcode-steganography](https://github.com/simonw/qrcode-stego) | Python | Dual payload: visible QR + hidden data, uses reedsolo |
+
+**Note:** Embeds additional data in QR code with dual payload support.
+
+**Star count:** ⭐ 89
+
+---
+
+### stegqr
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegqr](https://github.com/ricmoo/stegqr) | Python | Masks data as artistic QR, error injection |
+
+**Note:** Creates artistic QR codes with hidden data.
+
+**Star count:** ⭐ 156
+
+---
+
+### qrhide
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [qrhide](https://github.com/QRHide/qrhide) | Go | Fast LSB in QR EC blocks, print-robust |
+
+**Note:** Hides data in QR error correction blocks, robust to printing.
+
+**Star count:** ⭐ 34
 
 ---
 
