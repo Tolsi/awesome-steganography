@@ -4083,3 +4083,27 @@
 **Star count:** ⭐ 8
 
 ---
+
+### StegaPhoto (gregives)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegaPhoto](https://github.com/gregives/StegaPhoto) | JavaScript | Web photo steganography (2023) |
+
+**Note:** Browser-based steganography.
+
+**Star count:** ⭐ 21
+
+---
+
+### stegapp (Njancodes)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegapp](https://github.com/Njancodes/stegapp) | Python | Web steganography app (2024) |
+
+**Note:** Online steganography application.
+
+**Star count:** ⭐ 11
+
+---
