@@ -4107,3 +4107,27 @@
 **Star count:** ⭐ 11
 
 ---
+
+### Feature-Extractors-for-Video-Steganalysis (zhanghong863)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Feature-Extractors-for-Video-Steganalysis](https://github.com/zhanghong863/Feature-Extractors-for-Video-Steganalysis) | Python | Video steganalysis features (2021) |
+
+**Note:** Video steganalysis research tool.
+
+**Star count:** ⭐ 73
+
+---
+
+### stego-discord (0x44F)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stego-discord](https://github.com/0x44F/stego-discord) | Python | Discord steganography tool (2022) |
+
+**Note:** Steganography for Discord messages.
+
+**Star count:** ⭐ 17
+
+---
