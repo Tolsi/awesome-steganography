@@ -15,6 +15,21 @@
 
 **[Image Steganography](#image-steganography)**
 - [steghide](#steghide)
+- [Stegsolve](#stegsolve)
+- [SilentEye](#silenteye)
+- [Stegosuite](#stegosuite)
+- [jdvrif](#jdvrif)
+- [OpenPuff](#openpuff)
+- [QuickStego](#quickstego)
+- [Xiao Steganography](#xiao-steganography)
+- [Stegano Pro](#stegano-pro)
+- [SteganPEG](#steganpeg)
+- [S-Tools](#s-tools)
+- [Simple Image Steganography](#simple-image-steganography)
+- [DevGlan](#devglan-image-steganography) *(Online)*
+- [ToolPix](#toolpix) *(Online)*
+- [8gwifi](#8gwifi-steganography) *(Online)*
+- [StegZero](#stegzero) *(Online)*
 - [steganography (kelvins)](#steganography-kelvins)
 - [steganography (stylesuxx)](#steganography-stylesuxx)
 - [Deep-Steganography (harveyslash)](#deep-steganography-harveyslash)
@@ -324,6 +339,58 @@
 
 ---
 
+### Stegsolve
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stegsolve](https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve) | Java | Bit-plane/color-filter visualization GUI |
+
+**Note:** Essential CTF tool for analyzing images through different color filters and bit-planes.
+
+**Star count:** ⭐ 683 (sec-tools repo)
+
+**Last commit:** 2016
+
+---
+
+### SilentEye
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SilentEye](https://github.com/achorein/silenteye) | C++ (Qt) | Cross-platform steganography tool for hiding data in images and audio |
+
+**Note:** Easy-to-use GUI application supporting AES-256 encryption.
+
+**Star count:** ⭐ 142
+
+**Last commit:** 2023
+
+---
+
+### Stegosuite
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stegosuite](https://github.com/osde8info/stegosuite) | Java | Open source steganography tool to hide information in image files |
+
+**Star count:** ⭐ 45
+
+**Last commit:** 2025
+
+---
+
+### jdvrif
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [jdvrif](https://github.com/CleasbyCode/jdvrif) | C++ | Steganography tool for JPG images with metadata and zlib compression support |
+
+**Star count:** ⭐ 66
+
+**Last commit:** 2025
+
+---
+
 ### steganography (kelvins)
 
 | Tool | Language | Description |
@@ -333,6 +400,112 @@
 **Note:** Comprehensive Python library for learning steganography.
 
 **Star count:** ⭐ 365
+
+---
+
+### OpenPuff
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [OpenPuff](https://www.openpuff.com/) | Commercial (Windows) | Professional steganography tool supporting images, audio, and video carrier files |
+
+**Note:** Windows-based tool with strong encryption and multi-carrier support.
+
+---
+
+### QuickStego
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [QuickStego](http://quickstego.com/) | Freeware (Windows) | Simple steganography tool for hiding text and files in images |
+
+**Note:** Beginner-friendly tool for basic steganography tasks.
+
+---
+
+### Xiao Steganography
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Xiao Steganography](https://xiao-steganography.en.softonic.com/) | Freeware (Windows) | Hide confidential data within image and audio files |
+
+**Note:** Windows tool supporting BMP and WAV carriers.
+
+---
+
+### Stegano Pro
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Stegano Pro](https://apps.microsoft.com/detail/9p6xh5xr280v) | Free (Windows Store) | Steganography made easy - securely hide texts and files |
+
+**Note:** Modern Windows Store application for basic steganography.
+
+---
+
+### SteganPEG
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [SteganPEG](https://steganpeg.apponic.com/) | Freeware (Windows) | Application of Steganography to JPEG images |
+
+**Note:** Specializes in JPEG steganography.
+
+---
+
+### S-Tools
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [S-Tools](https://sourceforge.net/projects/steganographyv20/) | Freeware (Windows) | Classic steganography tool for hiding data in images and audio |
+
+**Note:** One of the oldest steganography tools, supports BMP, GIF, WAV.
+
+---
+
+### Simple Image Steganography
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Simple Image Steganography](https://www.softpedia.com/get/Security/Encrypting/Simple-Image-Steganography.shtml) | Freeware (Windows) | Hide data inside an image file |
+
+**Note:** Lightweight tool for basic LSB steganography.
+
+---
+
+### Online Tools
+
+#### DevGlan Image Steganography
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [DevGlan](https://www.devglan.com/online-tools/image-steganography-online) | Web | Online image steganography tool for embedding secret text |
+
+**Note:** Browser-based tool using LSB encoding.
+
+#### ToolPix
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [ToolPix](https://toolpix.pythonanywhere.com/image-editor/steganography) | Web | Image steganography tool on PythonAnywhere |
+
+**Note:** Supports PNG and JPG images.
+
+#### 8gwifi Steganography
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [8gwifi](https://8gwifi.org/steganography-tool.jsp) | Web | Advanced steganography tool for images and WAV audio |
+
+**Note:** Online tool with multiple carrier formats.
+
+#### StegZero
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [StegZero](https://stegzero.com) | Web | Zero-width steganography decoder and encoder |
+
+**Note:** Specializes in zero-width character steganography for text.
 
 ---
 
