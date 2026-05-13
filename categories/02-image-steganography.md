@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (233 algorithms)
+## Contents (234 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -45,6 +45,7 @@
 
 **[QR Code Steganography](#qr-code-steganography)**
 - [QR Code Steganography (SAM9768)](#qr-code-steganography-sam9768)
+- [PPRSteg](#pprsteg)
 
 **[Deep Learning Methods](#deep-learning-methods)**
 - [HiDDeN](#hidden)
@@ -945,6 +946,27 @@ Basic method; subsequent research has improved capacity and security.
 
 **Community acceptance:** Niche
 Pioneering work in QR-based steganography; cited by later papers on QR steganography.
+
+---
+
+### PPRSteg
+
+**Goal:** QR Code steganography robust to printing and photography using attention flow-based model.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **PPRSteg** | 2024 | Normalizing flow + Attention | First to integrate transformer into normalizing flow for print+photo robust QR stego [[1]](https://arxiv.org/abs/2405.16414) |
+
+**State of the art:** Uses AttnFlow with attention affine coupling blocks (AACB) for invertible steganography. First work to integrate tokenized image representation into normalizing flow. Achieves high QR recovery accuracy after print+photo distortions.
+
+**Production readiness:** Research
+Academic prototype; no production implementations available.
+
+**Security status:** Secure
+Designed for robustness against real-world distortions.
+
+**Community acceptance:** Emerging
+Recent work (2024); contributes to robust QR steganography field.
 
 ---
 

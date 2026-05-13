@@ -175,6 +175,7 @@
 ## Q
 - [QIM](02-image-steganography.md#qim)
 - [QR Code Steganography (SAM9768)](02-image-steganography.md#qr-code-steganography-sam9768)
+- [PPRSteg](02-image-steganography.md#pprsteg)
 - [QP Modulation](04-video-steganography.md#qp-modulation)
 - [Quantum Gatekeeper](05-network-steganography.md#quantum-gatekeeper)
 - [QuicCourier](05-network-steganography.md#quiccourier)
