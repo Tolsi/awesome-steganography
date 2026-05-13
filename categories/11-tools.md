@@ -2110,6 +2110,18 @@
 
 ---
 
+### The Sleuth Kit
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit) | C | Forensic toolkit for filesystem analysis and data recovery |
+
+**Note:** Collection of command-line tools for digital forensics. Analyzes disk images for hidden data and deleted files.
+
+**Star count:** ⭐ 2.3k
+
+---
+
 ## Blind Steganalysis
 
 ---
