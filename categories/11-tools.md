@@ -1266,27 +1266,31 @@
 
 ---
 
-### HiDDeN
+### HiDDeN ( alternatives)
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [HiDDeN](https://github.com/tancik/HiDDeN) | PyTorch | End-to-end deep learning steganography |
+| [TomTomTommi/HiNet](https://github.com/TomTomTommi/HiNet) | PyTorch | Official ICCV 2021 — invertible network ⭐205 |
+| [TomTomTommi/DeepMIH](https://github.com/TomTomTommi/DeepMIH) | PyTorch | Official TPAMI 2022 — multiple image hiding ⭐131 |
+| [Brittany-Chen/InvMIHNet](https://github.com/Brittany-Chen/InvMIHNet) | PyTorch | Large capacity image steganography ⭐12 |
+| [zhangle408/CNGI-Net](https://github.com/zhangle408/CNGI-Net-Contrastive-Noise-Guided-Invertible-Network-for-Image-Steganography) | PyTorch | Contrastive noise-guided INN ⭐3 |
+| [Cone-bottle-Cs/FastISN](https://github.com/Cone-bottle-Cs/FastISN) | PyTorch | Fast invertible network video stego ⭐2 |
+| [zhangle408/EUIN-Net](https://github.com/zhangle408/EUIN-Net-EFFICIENT-U-SHAPE-INVERTIBLE-NEURAL-NETWORK-FOR-IMAGE-STEGANOGRAPHY) | PyTorch | Efficient U-shape INN ⭐1 |
+| [c4Tch3r/HIANet](https://github.com/c4Tch3r/HIANet) | PyTorch | Auditory masking effect INN |
+| [XU001006/MIRA](https://github.com/XU001006/MIRA) | PyTorch | Multi-scale video steganography |
 
-**Note:** Pioneering neural steganography paper and implementation.
-
-**Star count:** ⭐ 892
+**Note:** Original HiDDeN repo (tancik/HiDDeN) archived. HiNet/DeepMIH are official PyTorch implementations of state-of-the-art invertible network approaches.
 
 ---
 
-### SteganoGAN
+### SteganoGAN ( alternatives)
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [SteganoGAN](https://github.com/DAI-Lab/SteganoGAN) | Python | GAN-based steganography with high capacity 2-4 bpp |
+| [DAI-Lab/SteganoGAN](https://github.com/DAI-Lab/SteganoGAN) | Python | Original GAN-based steganography 2-4 bpp ⭐428 |
+| [DAI-Lab/SteganoGAN forks](https://github.com/DAI-Lab/SteganoGAN/network/members) | Python | 100+ forks with variations |
 
-**Note:** Generates stego images with embedded secret data using GANs.
-
-**Star count:** ⭐ 428
+**Note:** SteganoGAN generates stego images using GANs. Multiple forks exist with architectural variations.
 
 ---
 
