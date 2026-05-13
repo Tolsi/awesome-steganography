@@ -3483,3 +3483,75 @@
 **Star count:** ⭐ 30
 
 ---
+
+### morpheUS (pyrou)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [morpheus](https://github.com/pyrou/morpheus) | PHP | PHP steganography library (2021) |
+
+**Note:** PHP image steganography.
+
+**Star count:** ⭐ 25
+
+---
+
+### SteganographyKit (picamator)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SteganographyKit](https://github.com/picamator/SteganographyKit) | PHP | PHP steganography toolkit (2016) |
+
+**Note:** PHP steganography library.
+
+**Star count:** ⭐ 18
+
+---
+
+### Stega-in-PHP (JoppeDC)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stega-in-PHP](https://github.com/JoppeDC/Stega-in-PHP) | PHP | PHP steganography implementation (2018) |
+
+**Note:** PHP steganography tutorial.
+
+**Star count:** ⭐ 12
+
+---
+
+### steganografi-kriptografi (asokanato)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganografi-kriptografi](https://github.com/asokanato/steganografi-kriptografi) | PHP | PHP steganography and cryptography (2020) |
+
+**Note:** Combined crypto and steganography.
+
+**Star count:** ⭐ 10
+
+---
+
+### Steganography (SleepTheGod)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography](https://github.com/SleepTheGod/Steganography) | PHP | PHP steganography tool (2023) |
+
+**Note:** PHP steganography utility.
+
+**Star count:** ⭐ 10
+
+---
+
+### stegleak (Estella)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegleak](https://github.com/Estella/stegleak) | PHP | PHP steganalysis tool (2019) |
+
+**Note:** PHP steganalysis utility.
+
+**Star count:** ⭐ 10
+
+---
