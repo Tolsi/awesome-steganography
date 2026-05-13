@@ -3447,3 +3447,39 @@
 **Star count:** ⭐ 134
 
 ---
+
+### PhotoFiremark (avestura)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PhotoFiremark](https://github.com/avestura/PhotoFiremark) | C# | Image watermarking and steganography (2024) |
+
+**Note:** .NET image watermarking tool.
+
+**Star count:** ⭐ 172
+
+---
+
+### SteganograhyProject (JHurst97)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SteganograhyProject](https://github.com/JHurst97/SteganograhyProject) | C# | C# steganography project (2020) |
+
+**Note:** Educational C# steganography.
+
+**Star count:** ⭐ 120
+
+---
+
+### PNG-Mask (AlphaDelta)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PNG-Mask](https://github.com/AlphaDelta/PNG-Mask) | C# | PNG steganography in C# (2016) |
+
+**Note:** C# PNG steganography.
+
+**Star count:** ⭐ 30
+
+---
