@@ -39,6 +39,7 @@
 ## D
 - [Data After EOF](06-filesystem-os.md#data-after-eof)
 - [DFT](02-image-steganography.md#dft)
+- [DocSafe](02-image-steganography.md#docsafe)
 - [Difference Expansion](02-image-steganography.md#difference-expansion)
 - [Discop](01-text-steganography.md#discop)
 - [DCTR](10-steganalysis.md#dctr)

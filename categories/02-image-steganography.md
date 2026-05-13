@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (239 algorithms)
+## Contents (240 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -46,6 +46,7 @@
 **[Print-Scan Robust](#print-scan-robust)**
 - [StegaStamp](#stegastamp)
 - [GHOSTFREAK](#ghostfreak)
+- [DocSafe](#docsafe)
 - [StampOne](#stampone)
 - [PIMoG](#pimog)
 - [TERA](#tera)
@@ -980,6 +981,27 @@ Designed for robustness against print-scan distortions.
 
 **Community acceptance:** Emerging
 Recent work (2025); contributes to print-scan robust steganography field.
+
+---
+
+### DocSafe
+
+**Goal:** Practical print-proof image steganography via frequency-aware embedding with high capacity for small image regions.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **DocSafe** | 2026 | Frequency-aware embedding | Print-proof steganography [[1]](https://ieeexplore.ieee.org/document/11471765) [[2]](https://www.semanticscholar.org/paper/DocSafe%3A-Toward-Practical-Print-Proof-Image-via-and-Shadmand-Medvedev/2ca301bdfa6c1ca4a7ec79c24eac8224731f4cb0) |
+
+**State of the art:** Addresses limitations of existing print-proof methods that struggle with small image regions and low-resolution printed outputs. DocSafe embeds up to 256 bits into stamp-like outputs robust to digital and physical distortions.
+
+**Production readiness:** Research
+Recent academic work (2026); no production implementations available.
+
+**Security status:** Secure
+Designed for robustness against print-scan and social media compression distortions.
+
+**Community acceptance:** Emerging
+Follow-up work from StampOne authors; focuses on practical deployment.
 
 ---
 
