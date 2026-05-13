@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (247 algorithms)
+## Contents (248 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -171,6 +171,7 @@
 - [FaceSigns: Semi-Fragile Neural Watermarks for Media Authenti...](#facesigns-semi-fragile-neural-watermarks-for-media-authentication-and-countering-deepfakes)
 - [Image Steganography based on Style Transfer](#image-steganography-based-on-style-transfer)
 - [A Survey on Patients Privacy Protection with Stganography an...](#a-survey-on-patients-privacy-protection-with-stganography-and-visual-encryption)
+- [Steganography Methods on Text, Audio, Image and Video: A Survey](#steganography-methods-on-text-audio-image-and-video-a-survey)
 - [Improving Performance of Semantic Segmentation CycleGANs by ...](#improving-performance-of-semantic-segmentation-cyclegans-by-noise-injection-into-the-latent-segmentation-space)
 - [Adaptive Steganography Based on bargain Game](#adaptive-steganography-based-on-bargain-game)
 - ["Robot Steganography"?: Opportunities and Challenges](#robot-steganography-opportunities-and-challenges)
@@ -3316,6 +3317,27 @@ Security properties under evaluation.
 
 **Community acceptance:** Emerging
 Preprint; peer review ongoing.
+---
+
+### Steganography Methods on Text, Audio, Image and Video: A Survey
+
+**Goal:** Survey of steganography methods across text, audio, image, and video domains.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Steganography Methods on Text, Audio, Image and Video** | 2017 | Survey | Aryfandy Febryan, Tito Waluyo Purboyo, Randy Erfa Saputra [[1]](https://www.ripublication.com/ijaer17/ijaerv12n21_04.pdf) |
+
+**State of the art:** Survey covering steganography methods across multiple domains: text, audio, image, and video. Provides overview of techniques in each domain.
+
+**Production readiness:** Research
+Academic survey paper; no implementation.
+
+**Security status:** Caution
+Survey only; individual methods have varying security properties.
+
+**Community acceptance:** Emerging
+Cited in academic surveys; provides broad overview.
+
 ---
 
 ### Improving Performance of Semantic Segmentation CycleGANs by Noise Injection into the Latent Segmentation Space
