@@ -2210,6 +2210,42 @@
 
 ---
 
+### stegalyzer
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegalyzer](https://github.com/kn42io/stegalyzer) | Python | Blind steganalysis for detecting hidden content |
+
+**Note:** Generic blind steganalysis tool for multiple formats.
+
+**Star count:** ⭐ 28
+
+---
+
+### stegwatch
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegwatch](https://github.com/nowotny/stegwatch) | Python | Real-time steganalysis monitoring |
+
+**Note:** Monitors files for steganographic content.
+
+**Star count:** ⭐ 19
+
+---
+
+### stegdetect-classic
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegdetect-classic](https://github.com/abeluck/stegdetect) | C | Classic stegdetect with enhanced detection |
+
+**Note:** Enhanced version of the original stegdetect tool.
+
+**Star count:** ⭐ 156
+
+---
+
 ## Steganalysis
 
 ---
