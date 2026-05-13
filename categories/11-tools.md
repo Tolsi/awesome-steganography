@@ -34,6 +34,9 @@
 - [Xiao Steganography](#xiao-steganography)
 - [Stegano Pro](#stegano-pro)
 - [SteganPEG](#steganpeg)
+- [Pixelknot](#pixelknot) *(Android)*
+- [Steganize](#steganize) *(Android)*
+- [Steganography: Hidden Message](#steganography-hidden-message) *(iOS)*
 - [S-Tools](#s-tools)
 - [Simple Image Steganography](#simple-image-steganography)
 - [DevGlan](#devglan-image-steganography) *(Online)*
@@ -566,6 +569,36 @@
 | [Stegano Pro](https://apps.microsoft.com/detail/9p6xh5xr280v) | Free (Windows Store) | Steganography made easy - securely hide texts and files |
 
 **Note:** Modern Windows Store application for basic steganography.
+
+---
+
+### Pixelknot
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Pixelknot](https://guardianproject.info/archives/pixelknot/) | Android | Hide encrypted messages in photos |
+
+**Note:** Open source Android app by Guardian Project. Uses steganography to hide short messages in images.
+
+---
+
+### Steganize
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Steganize](https://play.google.com/store/apps/details?id=com.byte9962.steganize) | Android | Hide text in images using LSB encoding |
+
+**Note:** Android app for hiding secret messages in images with password protection.
+
+---
+
+### Steganography: Hidden Message
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Steganography: Hidden Message](https://apps.apple.com/us/app/steganography-hidden-message/id1565634629) | iOS | Hide secret messages inside photos |
+
+**Note:** iOS app for encoding hidden messages in images.
 
 ---
 
