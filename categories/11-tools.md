@@ -3987,3 +3987,27 @@
 **Star count:** ⭐ 8
 
 ---
+
+### StegLLM (Rin313)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegLLM](https://github.com/Rin313/StegLLM) | Python | LLM-based steganography (2025) |
+
+**Note:** Large language model steganography.
+
+**Star count:** ⭐ 21
+
+---
+
+### Stega-Carder (vesamet)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stega-Carder](https://github.com/vesamet/Stega-Carder) | Python | Carder steganography tool (2021) |
+
+**Note:** Card-based steganography.
+
+**Star count:** ⭐ 14
+
+---
