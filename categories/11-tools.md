@@ -699,9 +699,9 @@
 
 | Tool | Type | Description |
 |------|------|-------------|
-| [Oversec](https://oversec.net/) | Android | Steganography app that encodes text into images in real-time |
+| [Oversec](https://oversec.net/) | Android | Steganography app that encodes text into images in real-time + reads encrypted text from screen |
 
-**Note:** Android app that can encode text directly into camera viewfinder or existing images. Supports both invisible ink mode and visible encoding.
+**Note:** Android app that can encode text directly into camera viewfinder or existing images. Supports both invisible ink mode and visible encoding. Can decrypt and read hidden text directly from screen and overlay decrypted content on top of the device screen in real-time.
 
 ---
 
