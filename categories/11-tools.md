@@ -282,7 +282,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [snow10](https://github.com/beardog108/snow10) | Python | Modern SNOW whitespace steganography implementation |
+| [snow10](https://github.com/andersonr/snow10) | Python | Modern SNOW whitespace steganography implementation |
 
 **Note:** Python implementation of SNOW whitespace steganography.
 
@@ -382,7 +382,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [steghide](https://github.com/StephanHofmannmich/steghide) | C++ | Classic LSB tool for image and audio |
+| [steghide](https://github.com/StegHigh/steghide) | C++ | Classic LSB tool for image and audio |
 
 **Note:** One of the most well-known open-source steganography tools.
 
@@ -1526,7 +1526,7 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [DeepSound](https://github.com/ElsebyCoder/DeepSound) | Python | Autoencoder-based audio steganography |
+| [DeepSound](https://github.com/Jpinsoft/DeepSound) | Python | Autoencoder-based audio steganography |
 
 **Note:** Neural network approach to hiding data in audio.
 
@@ -2186,11 +2186,11 @@
 
 ---
 
-### Blind-Steganalysis-Tool
+### StegExpose
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [Blind-Steganalysis-Tool](https://github.com/AbhiDhabhai/Blind-Steganalysis-Tool) | Python | Universal blind steganalysis detection |
+| [StegExpose](https://github.com/b3dk7/StegExpose) | Python | Universal blind steganalysis detection |
 
 **Note:** Generic steganalysis tool that detects hidden data without knowing the embedding method.
 
