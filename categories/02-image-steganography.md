@@ -989,7 +989,7 @@ Recent work (2025); contributes to print-scan robust steganography field.
 
 | Algorithm | Year | Architecture | Note |
 |-----------|------|--------------|------|
-| **StampOne** | 2024 | Frequency balancing + Encoder-decoder | Printer-proof steganography [[1]](https://openaccess.thecvf.com/content/CVPR2024W/WMF/papers/Shadmand_StampOne_Addressing_Frequency_Balance_in_Printer-proof_Steganography_CVPRW_2024_paper.pdf) |
+| **StampOne** | 2024 | Frequency balancing + Encoder-decoder | Printer-proof steganography [[1]](https://openaccess.thecvf.com/content/CVPR2024W/WMF/papers/Shadmand_StampOne_Addressing_Frequency_Balance_in_Printer-proof_Steganography_CVPRW_2024_paper.pdf) [[2]](https://openaccess.thecvf.com/content/CVPR2024W/WMF/html/Shadmand_StampOne_Addressing_Frequency_Balance_in_Printer-proof_Steganography_CVPRW_2024_paper.html) |
 
 **State of the art:** Addresses frequency balance in printer-proof steganography. Proposed method solves frequency distortion problems in printing process, maintaining high extraction accuracy in print-scan cycles.
 
