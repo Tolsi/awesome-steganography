@@ -19,6 +19,7 @@
 - [SilentEye](#silenteye)
 - [Stegosuite](#stegosuite)
 - [jdvrif](#jdvrif)
+- [Stegify](#stegify)
 - [OpenPuff](#openpuff)
 - [QuickStego](#quickstego)
 - [Xiao Steganography](#xiao-steganography)
@@ -30,6 +31,10 @@
 - [ToolPix](#toolpix) *(Online)*
 - [8gwifi](#8gwifi-steganography) *(Online)*
 - [StegZero](#stegzero) *(Online)*
+- [Manytools](#manytools-steganography) *(Online)*
+- [Mobilefish](#mobilefish-steganography) *(Online)*
+- [imageonline.io](#imageonline-io-steganography) *(Online)*
+- [futureboy.us](#futureboy-us-stegano) *(Online)*
 - [steganography (kelvins)](#steganography-kelvins)
 - [steganography (stylesuxx)](#steganography-stylesuxx)
 - [Deep-Steganography (harveyslash)](#deep-steganography-harveyslash)
@@ -391,6 +396,20 @@
 
 ---
 
+### Stegify
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stegify](https://github.com/DimitarPetrov/stegify) | Go | LSB steganography tool, capable of hiding any file within an image |
+
+**Note:** Go-based CLI tool for LSB steganography in PNG and JPEG images.
+
+**Star count:** ⭐ 1.3k
+
+**Last commit:** 2023
+
+---
+
 ### steganography (kelvins)
 
 | Tool | Language | Description |
@@ -506,6 +525,38 @@
 | [StegZero](https://stegzero.com) | Web | Zero-width steganography decoder and encoder |
 
 **Note:** Specializes in zero-width character steganography for text.
+
+#### Manytools Steganography
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Manytools](https://manytools.org/hacker-tools/steganography-encode-text-into-image/) | Web | Hide text messages in images using LSB encoding |
+
+**Note:** Free online tool for encoding text into images.
+
+#### Mobilefish Steganography
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Mobilefish](https://www.mobilefish.com/services/steganography/steganography.php) | Web | Online steganography service for hiding messages or files in images |
+
+**Note:** Supports various image formats and file embedding.
+
+#### imageonline.io Steganography
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [imageonline.io](https://imageonline.io/steganography-online/) | Web | Hide secret text messages in images online |
+
+**Note:** Simple web-based steganography encoder and decoder.
+
+#### futureboy.us Stegano
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [futureboy.us](https://futureboy.us/stegano/encinput.html) | Web | Steganographic encoder for hiding messages in images |
+
+**Note:** Classic online tool by Alan Eliasen.
 
 ---
 
