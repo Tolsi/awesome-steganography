@@ -3855,3 +3855,75 @@
 **Star count:** ⭐ 59
 
 ---
+
+### van-gonography (JoshuaKasa)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [van-gonography](https://github.com/JoshuaKasa/van-gonography) | Python | Van Gogh style image steganography (2025) |
+
+**Note:** Artistic steganography using Van Gogh style.
+
+**Star count:** ⭐ 449
+
+---
+
+### tweetdoom (discatte)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [tweetdoom](https://github.com/discatte/tweetdoom) | Ruby | Twitter steganography (2021) |
+
+**Note:** Steganography for Twitter posts.
+
+**Star count:** ⭐ 45
+
+---
+
+### StegaShade (merwin-asm)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegaShade](https://github.com/merwin-asm/StegaShade) | Python | Image shading steganography (2025) |
+
+**Note:** Image steganography using shading.
+
+**Star count:** ⭐ 41
+
+---
+
+### StegX (Heisenberk)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegX](https://github.com/Heisenberk/StegX) | Python | MP3 steganography tool (2018) |
+
+**Note:** MP3 audio steganography.
+
+**Star count:** ⭐ 30
+
+---
+
+### stegonaut (knez)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegonaut](https://github.com/knez/stegonaut) | Python | Audio steganography tool (2026) |
+
+**Note:** Audio steganography in Python.
+
+**Star count:** ⭐ 18
+
+---
+
+### MP3Stego (Charleswyt)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [MP3Stego](https://github.com/Charleswyt/MP3Stego) | C | MP3 steganography (2018) |
+
+**Note:** C implementation of MP3 steganography.
+
+**Star count:** ⭐ 10
+
+---
