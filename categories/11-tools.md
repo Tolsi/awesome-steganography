@@ -3255,3 +3255,111 @@
 **Star count:** ⭐ 5
 
 ---
+
+### LSB-Steganography (qrzbing)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LSB-Steganography](https://github.com/qrzbing/LSB-Steganography) | Python | LSB steganography implementation (2017) |
+
+**Note:** Classic LSB steganography in Python.
+
+**Star count:** ⭐ 5
+
+---
+
+### stego (im-NL)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stego](https://github.com/im-NL/stego) | Python | General steganography tool (2023) |
+
+**Note:** Python steganography utility.
+
+**Star count:** ⭐ 5
+
+---
+
+### crypto-steganography-img (mihirwagle)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [crypto-steganography-img](https://github.com/mihirwagle/crypto-steganography-img) | Python | Image steganography with encryption (2023) |
+
+**Note:** Combined encryption and steganography.
+
+**Star count:** ⭐ 5
+
+---
+
+### glitch-steganography-decode (max-mapper)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [glitch-steganography-decode](https://github.com/max-mapper/glitch-steganography-decode) | Python | Glitch art steganography (2014) |
+
+**Note:** Steganography using glitch effects.
+
+**Star count:** ⭐ 5
+
+---
+
+### Image-Steganography-hiding-text (VidhuNived)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Image-Steganography-hiding-text](https://github.com/VidhuNived/Image-Steganography-hiding-text-inside-image-using-python) | Python | Text hiding in images (2018) |
+
+**Note:** Simple text-in-image steganography.
+
+**Star count:** ⭐ 5
+
+---
+
+### LStegB (x1mus)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LStegB](https://github.com/x1mus/LStegB) | Python | LSB steganography tool (2025) |
+
+**Note:** LSB steganography implementation.
+
+**Star count:** ⭐ 5
+
+---
+
+### DEFCON22_HF_Steganography (pdogg)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [DEFCON22_HF_Steganography](https://github.com/pdogg/DEFCON22_HF_Steganography) | Python | DEFCON steganography talk (2014) |
+
+**Note:** Conference presentation materials.
+
+**Star count:** ⭐ 5
+
+---
+
+### Audio-Steganography-LSB (arooshiverma)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Audio-Steganography-LSB](https://github.com/arooshiverma/Audio-Steganography-using-LSB-susbstitution) | Python | Audio LSB steganography (2021) |
+
+**Note:** LSB audio steganography.
+
+**Star count:** ⭐ 5
+
+---
+
+### Stegbook (lozarcher)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stegbook](https://github.com/lozarcher/Stegbook) | Python | Steganography for social media (2011) |
+
+**Note:** Early social media steganography.
+
+**Star count:** ⭐ 5
+
+---
