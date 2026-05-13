@@ -3639,3 +3639,123 @@
 **Star count:** ⭐ 14
 
 ---
+
+### hstego (daniellerch)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [hstego](https://github.com/daniellerch/hstego) | C | Hierarchical steganography (2025) |
+
+**Note:** C-based hierarchical steganography.
+
+**Star count:** ⭐ 53
+
+---
+
+### Steganography-In-C (bapzz)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-In-C](https://github.com/bapzz/Steganography-In-C) | C | C steganography implementation (2017) |
+
+**Note:** C steganography library.
+
+**Star count:** ⭐ 49
+
+---
+
+### QRSteganography (Maldev-Academy)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [QRSteganography](https://github.com/Maldev-Academy/QRSteganography) | C | QR code steganography (2026) |
+
+**Note:** Steganography via QR codes.
+
+**Star count:** ⭐ 47
+
+---
+
+### iOS-Steganography (JaafarRammal)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [iOS-Steganography](https://github.com/JaafarRammal/iOS-Steganography) | Swift | iOS steganography app (2019) |
+
+**Note:** iOS image steganography.
+
+**Star count:** ⭐ 8
+
+---
+
+### accessibility-protocol (tuildes)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [accessibility-protocol](https://github.com/tuildes/accessibility-protocol) | Swift | Swift steganography protocol (2026) |
+
+**Note:** Swift steganography framework.
+
+**Star count:** ⭐ 7
+
+---
+
+### Image-Cipher (SKocur)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Image-Cipher](https://github.com/SKocur/Image-Cipher) | Kotlin | Android image steganography (2025) |
+
+**Note:** Android steganography app.
+
+**Star count:** ⭐ 65
+
+---
+
+### pixelsafe (StefanOltmann)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [pixelsafe](https://github.com/StefanOltmann/pixelsafe) | Kotlin | Android steganography app (2026) |
+
+**Note:** Secure image storage with steganography.
+
+**Star count:** ⭐ 50
+
+---
+
+### Insider (Shyguy99)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Insider](https://github.com/Shyguy99/Insider) | Kotlin | Android steganography (2021) |
+
+**Note:** Android steganography application.
+
+**Star count:** ⭐ 33
+
+---
+
+### plain-sight (bufferhead-code)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [plain-sight](https://github.com/bufferhead-code/plain-sight) | TypeScript | Plain sight steganography (2024) |
+
+**Note:** TypeScript steganography library.
+
+**Star count:** ⭐ 56
+
+---
+
+### Steganography-C2 (Pnkcaht)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-C2](https://github.com/Pnkcaht/Steganography-C2) | TypeScript | C2 steganography framework (2026) |
+
+**Note:** Command and control steganography.
+
+**Star count:** ⭐ 43
+
+---
