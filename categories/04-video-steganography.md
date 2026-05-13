@@ -386,6 +386,22 @@ Niche use case; cited in steganography reviews.
 
 ---
 
+### VideoStegNet
+
+**Goal:** Deep learning video steganography using convolutional neural networks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **VideoStegNet** | 2020 | CNN-based video steganography | End-to-end learning for video embedding [[1]](https://arxiv.org/abs/2005.03304) |
+
+**State of the art:** Early deep learning approach to video steganography.
+
+**Production readiness:** Research
+
+**Community acceptance:** Emerging
+
+---
+
 ### videostego
 
 **Goal:** Embed and extract secret data in MP4 video files using LSB substitution on frame pixel data.
