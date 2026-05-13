@@ -1,7 +1,9 @@
 ---
-active: true
-iteration: 0
+active: false
+iteration: 1
 maxIterations: 100
 ---
 
-поищи еще tools в интернете
+поищи еще tools в интернете - COMPLETED
+
+Added more steganography tools
