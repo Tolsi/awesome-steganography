@@ -3783,3 +3783,75 @@
 **Star count:** ⭐ 0
 
 ---
+
+### hinayer (nullice)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [hinayer](https://github.com/nullice/hinaLayer) | JavaScript | JS image steganography (2017) |
+
+**Note:** JavaScript steganography layer.
+
+**Star count:** ⭐ 64
+
+---
+
+### perfectly-secure-steganography (schroederdewitt)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [perfectly-secure-steganography](https://github.com/schroederdewitt/perfectly-secure-steganography) | Python | Perfectly secure steganography (2023) |
+
+**Note:** Information-theoretic steganography.
+
+**Star count:** ⭐ 63
+
+---
+
+### busysteg (jaybosamiya)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [busysteg](https://github.com/jaybosamiya/busysteg) | Python | Busy steganography tool (2017) |
+
+**Note:** Practical steganography implementation.
+
+**Star count:** ⭐ 63
+
+---
+
+### Steganography-Website-Project (Vatshayan)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-Website-Project](https://github.com/Vatshayan/Steganography-Website-Project) | Python | Web-based steganography (2022) |
+
+**Note:** Online steganography platform.
+
+**Star count:** ⭐ 63
+
+---
+
+### StegoGAN (sian-wusidi)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegoGAN](https://github.com/sian-wusidi/StegoGAN) | Python | GAN-based steganography (2024) |
+
+**Note:** Deep learning steganography with GANs.
+
+**Star count:** ⭐ 60
+
+---
+
+### Stego_Dropper (ahhh)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stego_Dropper](https://github.com/ahhh/Stego_Dropper) | Python | Steganography dropper tool (2015) |
+
+**Note:** Data exfiltration via steganography.
+
+**Star count:** ⭐ 59
+
+---
