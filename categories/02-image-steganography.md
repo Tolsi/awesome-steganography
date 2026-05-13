@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (246 algorithms)
+## Contents (247 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -14,6 +14,7 @@
 - [Chaotic Map LSB](#chaotic-map-lsb)
 - [Content-Aware Steganography](#content-aware-steganography)
 - [Skin Tone Adaptive](#skin-tone-adaptive)
+- [Wet Paper Codes](#wet-paper-codes)
 - [STC](#stc)
 
 **[Adaptive Methods](#adaptive-methods)**
@@ -489,6 +490,29 @@ Skin region detection can be replicated by an attacker; embedding within detecte
 
 **Community acceptance:** Emerging
 Cited in adaptive steganography surveys; not widely deployed.
+
+---
+
+### Wet Paper Codes
+
+**Goal:** Steganographic embedding that does not require knowledge of the cover for efficient data hiding.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Wet Paper Codes** | 2005 | Wet paper channel | No cover knowledge needed [[1]](http://www.ws.binghamton.edu/fridrich/Research/EI5681-33_WPC.pdf) |
+
+**State of the art:** Addresses the practical challenge of not needing the original cover image during embedding. Uses "dry" pixels that are not modified to achieve high capacity while maintaining security.
+
+**Production readiness:** Mature
+
+**Implementations:**
+- [daniellerch/stegolab](https://github.com/daniellerch/stegolab) ⭐ 51 — Python implementation
+
+**Security status:** Secure
+Provides theoretical guarantees for embedding without cover knowledge.
+
+**Community acceptance:** Widely trusted
+Foundational work from Binghamton University; widely cited.
 
 ---
 

@@ -270,6 +270,7 @@
 - [Wavelet Packet](03-audio-steganography.md#wavelet-packet)
 - [WebTunnel](08-traffic-obfuscation.md#webtunnel)
 - [Weighted Stego](10-steganalysis.md#weighted-stego)
+- [Wet Paper Codes](02-image-steganography.md#wet-paper-codes)
 - [Whitespace Coding](01-text-steganography.md#whitespace-coding)
 - [Wi-Fi CSI](05-network-steganography.md#wi-fi-csi)
 - [WireGuard Steganography](05-network-steganography.md#wireguard-steganography)
