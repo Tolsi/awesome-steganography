@@ -278,6 +278,18 @@
 
 ---
 
+### snow10
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [snow10](https://github.com/beardog108/snow10) | Python | Modern SNOW whitespace steganography implementation |
+
+**Note:** Python implementation of SNOW whitespace steganography.
+
+**Star count:** ⭐ 12
+
+---
+
 ### zwsp-steg-js
 
 | Tool | Language | Description |
@@ -4722,7 +4734,7 @@
 
 ---
 
-### StegLLM (Rin313)
+### StegLLM
 
 | Tool | Language | Description |
 |------|----------|-------------|
