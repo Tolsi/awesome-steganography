@@ -4059,3 +4059,27 @@
 **Star count:** ⭐ 5
 
 ---
+
+### netneedle (optiv)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [netneedle](https://github.com/optiv/netneedle) | Python | Network steganography tool (2016) |
+
+**Note:** Network packet steganography.
+
+**Star count:** ⭐ 8
+
+---
+
+### SpyChat (SIMRAN88)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SpyChat](https://github.com/SIMRAN88/SpyChat) | Python | Chat steganography tool (2020) |
+
+**Note:** Steganography for chat messages.
+
+**Star count:** ⭐ 8
+
+---
