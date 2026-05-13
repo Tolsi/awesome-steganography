@@ -3615,3 +3615,27 @@
 **Star count:** ⭐ 7
 
 ---
+
+### img-stego (ktekeli)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [img-stego](https://github.com/ktekeli/img-stego) | Python | Image steganography tool (2024) |
+
+**Note:** Python image steganography.
+
+**Star count:** ⭐ 16
+
+---
+
+### iSteg (rafiibrahim8)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [iSteg](https://github.com/rafiibrahim8/iSteg) | Python | Image steganography GUI (2019) |
+
+**Note:** Image steganography application.
+
+**Star count:** ⭐ 14
+
+---
