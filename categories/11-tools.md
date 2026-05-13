@@ -36,6 +36,7 @@
 - [Stegano Pro](#stegano-pro)
 - [SteganPEG](#steganpeg)
 - [Pixelknot](#pixelknot) *(Android)*
+- [Oversec](#oversec) *(Android)*
 - [Steganize](#steganize) *(Android)*
 - [Steganography: Hidden Message](#steganography-hidden-message) *(iOS)*
 - [S-Tools](#s-tools)
@@ -113,6 +114,8 @@
 - [tweetable-polyglot-png](#tweetable-polyglot-png)
 - [stego-toolkit](#stego-toolkit)
 - [jphs](#jphs)
+- [r5steg](#r5steg)
+- [Sekreto](#sekreto)
 - [imagemask](#imagemask)
 - [lsb-steganography](#lsb-steganography)
 - [Steganography-Tools](#steganography-tools)
@@ -642,6 +645,26 @@
 
 ---
 
+### r5steg
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [r5steg](https://github.com/daniellerch/r5steg) | Windows | JPEG steganography tool using F5 algorithm |
+
+**Note:** Windows tool implementing F5 steganography algorithm for JPEG images.
+
+---
+
+### Sekreto
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Sekreto](https://github.com/guogbonncc/sekreto) | Windows/Android | Steganography tool for PC and Android |
+
+**Note:** Cross-platform steganography tool supporting both desktop and mobile. Uses custom encoding method.
+
+---
+
 ### Xiao Steganography
 
 | Tool | Type | Description |
@@ -669,6 +692,16 @@
 | [Pixelknot](https://guardianproject.info/archives/pixelknot/) | Android | Hide encrypted messages in photos |
 
 **Note:** Open source Android app by Guardian Project. Uses steganography to hide short messages in images.
+
+---
+
+### Oversec
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Oversec](https://oversec.net/) | Android | Steganography app that encodes text into images in real-time |
+
+**Note:** Android app that can encode text directly into camera viewfinder or existing images. Supports both invisible ink mode and visible encoding.
 
 ---
 
