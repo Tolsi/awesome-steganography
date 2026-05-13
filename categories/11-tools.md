@@ -48,6 +48,7 @@
 - [imageonline.io](#imageonline-io-steganography) *(Online)*
 - [futureboy.us](#futureboy-us-stegano) *(Online)*
 - [Steganography Online Codec](#steganography-online-codec-pelock) *(Online)*
+- [CyberChef](#cyberchef) *(Online)*
 - [ChameleonLab](#chameleonlab)
 - [steganography (kelvins)](#steganography-kelvins)
 - [steganography (stylesuxx)](#steganography-stylesuxx)
@@ -717,6 +718,16 @@
 | [ChameleonLab](https://chalab.ru/) | Windows/macOS | Professional steganography and cryptography suite with GUI |
 
 **Note:** Russian tool supporting PNG, BMP, PDF, DOCX, XLSX, PPTX, and other formats. Includes both embedding/extraction and steganalysis features.
+
+---
+
+### CyberChef
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [CyberChef](https://gchq.github.io/CyberChef/) | Web | The Cyber Swiss Army Knife - includes steganography recipes for LSB extraction and more |
+
+**Note:** Open source tool by GCHQ. Multi-purpose tool that includes steganography operations via recipes. Great for quick analysis and extraction tasks.
 
 ---
 
