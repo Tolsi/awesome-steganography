@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (245 algorithms)
+## Contents (246 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -62,6 +62,7 @@
 - [ISN](#isn)
 - [StegFormer](#stegformer)
 - [StegTransX](#stegtransx)
+- [The Devil in the Stego Image](#the-devil-in-the-stego-image)
 - [SteganoGAN](#steganogan)
 - [StegaStamp](#stegastamp)
 - [CRoSS](#cross)
@@ -1243,6 +1244,27 @@ Recent work (2024); contributes to robust QR steganography field.
 **Security status:** Caution
 
 **Community acceptance:** Emerging
+
+---
+
+### The Devil in the Stego Image
+
+**Goal:** Critical evaluation revealing that deep image steganography methods are far from usable in real-world scenarios.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **The Devil in the Stego Image** | 2025 | Evaluation paper | Real-world limitations of deep steganography [[1]](https://dl.acm.org/doi/10.1145/3746027.3754767) |
+
+**State of the art:** Identifies two serious problems in deep image-to-image steganography that hinder real-world deployment: visual quality degradation and vulnerability to compression attacks.
+
+**Production readiness:** Research
+Critical analysis paper; no implementation needed.
+
+**Security status:** Caution
+Highlights practical limitations of current deep steganography methods.
+
+**Community acceptance:** Emerging
+Important critique of deep steganography practicality.
 
 ---
 
