@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (240 algorithms)
+## Contents (245 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -57,6 +57,11 @@
 
 **[Deep Learning Methods](#deep-learning-methods)**
 - [HiDDeN](#hidden)
+- [HiNet](#hinet)
+- [DeepMIH](#deepmih)
+- [ISN](#isn)
+- [StegFormer](#stegformer)
+- [StegTransX](#stegtransx)
 - [SteganoGAN](#steganogan)
 - [StegaStamp](#stegastamp)
 - [CRoSS](#cross)
@@ -1139,6 +1144,105 @@ Recent work (2024); contributes to robust QR steganography field.
 **Security status:** Caution — Vulnerable to CNN steganalysis
 
 **Community acceptance:** Widely trusted — Foundational work in DL stego
+
+---
+
+### HiNet
+
+**Goal:** Deep image hiding by invertible network.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **HiNet** | 2020 | Invertible network | Image hiding via INN |
+
+**State of the art:** Uses invertible neural networks for high-quality image hiding with reversible properties.
+
+**Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### DeepMIH
+
+**Goal:** Deep invertible network for multiple image hiding.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **DeepMIH** | 2022 | Invertible network | Multiple images in one [[1]](https://ieeexplore.ieee.org/abstract/document/9676416/) |
+
+**State of the art:** Extends invertible networks to hide multiple images simultaneously with high quality.
+
+**Production readiness:** Research
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### ISN
+
+**Goal:** Robust invertible image steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **ISN** | 2022 | Invertible network + robustness | Robust image steganography [[1]](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Robust_Invertible_Image_Steganography_CVPR_2022_paper.pdf) |
+
+**State of the art:** Combines invertible networks with robustness to distortions for practical deployment.
+
+**Production readiness:** Research
+
+**Implementations:**
+- [ISN implementation](https://github.com/ISN-steganography/ISN) ⭐ 42
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### StegFormer
+
+**Goal:** Rebuilding the glory of autoencoder-based steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StegFormer** | 2024 | Transformer-based autoencoder | Modern autoencoder steganography [[1]](https://ojs.aaai.org/index.php/AAAI/article/download/28051/28112) |
+
+**State of the art:** Brings transformer architecture to autoencoder-based steganography for improved performance.
+
+**Production readiness:** Research
+
+**Implementations:**
+- [aoli-gei/StegFormer](https://github.com/aoli-gei/StegFormer) ⭐ 35
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### StegTransX
+
+**Goal:** Lightweight deep steganography for high capacity and JPEG robustness.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StegTransX** | 2024 | Lightweight transformer | High capacity + JPEG robust [[1]](https://arxiv.org/abs/2407.20015) |
+
+**State of the art:** Lightweight transformer architecture achieving high capacity while maintaining JPEG compression robustness.
+
+**Production readiness:** Research
+
+**Implementations:**
+- [QQ-Stars/StegTransX](https://github.com/QQ-Stars/StegTransX) ⭐ 19
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
 
 ---
 
