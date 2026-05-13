@@ -326,6 +326,18 @@
 
 ---
 
+### acrostic-steganography
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [acrostic-steganography](https://github.com/utkarshp001/acrostic-steganography) | Python | Acrostic message encoding in text |
+
+**Note:** Hides messages using first letters of each line (acrostic method).
+
+**Star count:** ⭐ 12
+
+---
+
 ### stegcloak
 
 | Tool | Language | Description |
