@@ -1084,7 +1084,12 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [stegolab](https://github.com/daniellerch/stegolab) | Python | Includes LSB matching, HILL, J-UNIWARD, and steganalysis |
+| [stegolab](https://github.com/daniellerch/stegolab) | Python | Comprehensive steganography, steganalysis, and watermarking framework |
+
+**Features:**
+- **Steganography:** Binary/Ternary Hamming codes, Wet Paper Codes, STC (Syndrome Trellis Codes), S-UNIWARD, J-UNIWARD, HILL, RBV
+- **Steganalysis:** ATS attack, Calibration Attack, pyEC (Ensemble Classifiers)
+- **Watermarking:** E-Blind, E-Fixed-LC, E-blk-Blind, E-Simple-8, E-Trellis-8, H[i]dden
 
 **Note:** Comprehensive steganography research framework by Daniel Lerch.
 
