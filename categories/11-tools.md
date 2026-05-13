@@ -4179,3 +4179,27 @@
 **Star count:** ⭐ 18
 
 ---
+
+### StegaStamp-plus (Charmve)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegaStamp-plus](https://github.com/Charmve/StegaStamp-plus) | Python | Enhanced StegaStamp (2024) |
+
+**Note:** Improved StegaStamp implementation.
+
+**Star count:** ⭐ 42
+
+---
+
+### ium (foobuzz)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ium](https://github.com/foobuzz/ium) | Python | Invisible undisplayed messages (2015) |
+
+**Note:** Invisible character steganography.
+
+**Star count:** ⭐ 26
+
+---
