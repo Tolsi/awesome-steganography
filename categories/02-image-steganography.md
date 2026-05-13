@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (234 algorithms)
+## Contents (236 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -46,6 +46,8 @@
 **[QR Code Steganography](#qr-code-steganography)**
 - [QR Code Steganography (SAM9768)](#qr-code-steganography-sam9768)
 - [PPRSteg](#pprsteg)
+- [GHOSTFREAK](#ghostfreak)
+- [StampOne](#stampone)
 
 **[Deep Learning Methods](#deep-learning-methods)**
 - [HiDDeN](#hidden)
@@ -967,6 +969,51 @@ Designed for robustness against real-world distortions.
 
 **Community acceptance:** Emerging
 Recent work (2024); contributes to robust QR steganography field.
+
+---
+
+### GHOSTFREAK
+
+**Goal:** Deep steganography framework for print-scan pipelines using frequency-domain adaptation.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **GHOSTFREAK** | 2025 | Frequency-domain adaptation + Deep learning | Print-scan robust steganography [[1]](https://www.jatit.org/volumes/Vol103No14/25Vol103No14.pdf) [[2]](https://zenodo.org/records/18106288) |
+
+**State of the art:** Novel deep steganography framework designed to address challenges in print-scan pipelines. Uses frequency-domain adaptation to overcome distortions introduced during printing and scanning process.
+
+**Production readiness:** Research
+Academic prototype; no production implementations available.
+
+**Security status:** Secure
+Designed for robustness against print-scan distortions.
+
+**Community acceptance:** Emerging
+Recent work (2025); contributes to print-scan robust steganography field.
+
+---
+
+### StampOne
+
+**Goal:** Printer-proof steganography addressing frequency balance for robust print-scan resilience.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **StampOne** | 2024 | Frequency balancing + Encoder-decoder | Printer-proof steganography [[1]](https://openaccess.thecvf.com/content/CVPR2024W/WMF/papers/Shadmand_StampOne_Addressing_Frequency_Balance_in_Printer-proof_Steganography_CVPRW_2024_paper.pdf) |
+
+**State of the art:** Addresses frequency balance in printer-proof steganography.提出的方法解决了打印过程中的频率失真问题,在print-scan循环中保持较高的提取精度。
+
+**Production readiness:** Research
+Academic prototype from CVPR 2024 Workshop on Media Forensics.
+
+**Implementations:**
+- [farhadsh1992/StampOne](https://github.com/farhadsh1992/StampOne) ⭐ 2
+
+**Security status:** Secure
+Designed for robustness against printer-scan distortions.
+
+**Community acceptance:** Emerging
+Recent work from CVPR 2024 Workshop; focuses on practical print-scan robustness.
 
 ---
 
