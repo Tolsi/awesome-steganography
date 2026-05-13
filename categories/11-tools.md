@@ -1263,6 +1263,18 @@
 
 ---
 
+### RoSteALS
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [RoSteALS](https://github.com/TuBui/RoSteALS) | Python | Robust steganography using autoencoder latent space (CVPR 2023) [[Poster]](https://ningyu1991.github.io/homepage_files/poster_RoSteALS.pdf) |
+
+**Note:** Uses frozen VQ autoencoder latent space for robust data hiding. Supports 100-bit payload with BCH error correction.
+
+**Star count:** ⭐ 107
+
+---
+
 ### BackdoorImageEditing
 
 | Tool | Language | Description |
