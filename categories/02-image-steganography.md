@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (236 algorithms)
+## Contents (238 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -48,6 +48,8 @@
 - [PPRSteg](#pprsteg)
 - [GHOSTFREAK](#ghostfreak)
 - [StampOne](#stampone)
+- [PIMoG](#pimog)
+- [TERA](#tera)
 
 **[Deep Learning Methods](#deep-learning-methods)**
 - [HiDDeN](#hidden)
@@ -1014,6 +1016,48 @@ Designed for robustness against printer-scan distortions.
 
 **Community acceptance:** Emerging
 Recent work from CVPR 2024 Workshop; focuses on practical print-scan robustness.
+
+---
+
+### PIMoG
+
+**Goal:** Screen-shooting noise-layer simulation for deep-learning-based watermarking networks.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **PIMoG** | 2022 | Noise layer simulation | Screen-shooting robust watermarking [[1]](https://dl.acm.org/doi/pdf/10.1145/3503161.3548049) |
+
+**State of the art:** Proposes effective screen-shooting noise-layer simulation for deep-learning-based watermarking. Addresses the challenge of training networks that work robustly across physical screen capture.
+
+**Production readiness:** Research
+Academic prototype; no production implementations available.
+
+**Security status:** Secure
+Designed for robustness against screen-shooting distortions.
+
+**Community acceptance:** Emerging
+Contributes to robust watermarking for screen-capture scenarios.
+
+---
+
+### TERA
+
+**Goal:** Screen-to-camera image code with transparency, efficiency, robustness and adaptability.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **TERA** | 2021 | Screen-to-camera code | High robustness to screen capture [[1]](https://ieeexplore.ieee.org/abstract/document/9362313) |
+
+**State of the art:** Presents screen-to-camera image coding with transparency, efficiency, robustness and adaptability. Achieves high extraction accuracy in offline-to-online photography scenarios.
+
+**Production readiness:** Research
+Academic prototype; no production implementations available.
+
+**Security status:** Secure
+Designed for robustness against screen-to-camera distortions.
+
+**Community acceptance:** Emerging
+Foundational work in screen-to-camera steganography.
 
 ---
 
