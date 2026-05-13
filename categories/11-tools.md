@@ -4035,3 +4035,27 @@
 **Star count:** ⭐ 19
 
 ---
+
+### FFTStegPic (0xcomposure)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [FFTStegPic](https://github.com/0xcomposure/FFTStegPic) | Python | FFT-based image steganography (2024) |
+
+**Note:** Frequency domain steganography.
+
+**Star count:** ⭐ 11
+
+---
+
+### Stegano-Engine (BryanApolonio)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stegano-Engine](https://github.com/BryanApolonio/Stegano-Engine) | Python | Advanced steganography engine (2026) |
+
+**Note:** Advanced steganography toolkit.
+
+**Star count:** ⭐ 5
+
+---
