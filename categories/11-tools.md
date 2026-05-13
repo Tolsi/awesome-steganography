@@ -28,6 +28,8 @@
 - [Steg-GO](#steg-go)
 - [Stegify](#stegify)
 - [OpenPuff](#openpuff)
+- [east-tec InvisibleSecrets](#east-tec-invisiblesecrets)
+- [Steganos](#steganos)
 - [QuickStego](#quickstego)
 - [Xiao Steganography](#xiao-steganography)
 - [Stegano Pro](#stegano-pro)
@@ -514,6 +516,26 @@
 | [OpenPuff](https://www.openpuff.com/) | Commercial (Windows) | Professional steganography tool supporting images, audio, and video carrier files |
 
 **Note:** Windows-based tool with strong encryption and multi-carrier support.
+
+---
+
+### east-tec InvisibleSecrets
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [InvisibleSecrets](https://www.east-tec.com/invisiblesecrets/) | Commercial (Windows) | Steganography and file encryption software for hiding data in images, audio, and documents |
+
+**Note:** Award-winning Windows steganography tool with encryption features. Supports various carrier formats.
+
+---
+
+### Steganos (Encrypt, Hide & Share)
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Steganos](https://apps.microsoft.com/detail/9n4tj9j1ckn5) | Windows (Microsoft Store) | Mobile steganography app with AES-256 encryption and self-extracting archives |
+
+**Note:** Modern Windows app combining encryption and steganography.
 
 ---
 
