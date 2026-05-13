@@ -4068,9 +4068,19 @@
 
 **Note:** Network packet steganography.
 
-**Star count:** ⭐ 8
+**Star count:** ⭐ 81
 
 ---
+
+### CTF_tools (gregalletti)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [CTF_tools](https://github.com/gregalletti/CTF_tools) | Python | CTF steganography tools |
+
+**Note:** Collection of CTF stego tools.
+
+**Star count:** ⭐ 362
 
 ### SpyChat (SIMRAN88)
 
