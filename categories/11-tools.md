@@ -2162,6 +2162,42 @@
 
 ---
 
+### steganalysis-toolkit
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganalysis-toolkit](https://github.com/truongkma/steganalysis-toolkit) | Python | Collection of steganalysis tools |
+
+**Note:** Multiple classical steganalysis methods in one toolkit.
+
+**Star count:** ⭐ 89
+
+---
+
+### SPAM-feature-extraction
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SPAM-feature-extraction](https://github.com/abb3700/SPAM-feature-extraction) | Python | SPAM (Subtractive Pixel Adjacency Matrix) features |
+
+**Note:** Second-order SPAM features for steganalysis.
+
+**Star count:** ⭐ 18
+
+---
+
+### stegano-collector
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegano-collector](https://github.com/nowotny/stegano-collector) | Python | Multi-method steganalysis collector |
+
+**Note:** Combines multiple detection approaches for blind detection.
+
+**Star count:** ⭐ 34
+
+---
+
 ## Steganalysis
 
 ---
