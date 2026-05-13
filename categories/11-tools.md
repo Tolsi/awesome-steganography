@@ -199,6 +199,13 @@
 **[Physical & Social](#physical--social)**
 - [Printer Steganography Detector](#printer-steganography-detector)
 
+**[Steganography Detection](#steganography-detection)**
+- [StegExpose](#stegexpose)
+- [StegSpy](#stegspy)
+- [StegCracker](#stegcracker)
+- [Stegbreak](#stegbreak)
+- [StegVerifier](#stegverifier)
+
 **[Steganalysis](#steganalysis)**
 - [stegdetect](#stegdetect)
 - [ALASKA2 steganalysis tools](#alaska2-steganalysis-tools)
@@ -1988,6 +1995,70 @@
 **Note:** Analyzes printer dot patterns for forensic investigation.
 
 **Star count:** ⭐ 89
+
+---
+
+## Steganography Detection
+
+---
+
+### StegExpose
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegExpose](https://github.com/b3dk7/StegExpose) | Python | LSB steganalysis tool for detecting hidden data in images |
+
+**Note:** Specialized in detecting LSB steganography in PNG and BMP images.
+
+**Star count:** ⭐ 245
+
+---
+
+### StegSpy
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegSpy](https://github.com/AbhiDhabhai/StegSpy) | Python | Detects steganography in images and audio files |
+
+**Note:** Detects hidden data using statistical analysis.
+
+**Star count:** ⭐ 87
+
+---
+
+### StegCracker
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegCracker](https://github.com/Paradoxis/StegCracker) | Python | Steganography brute-force utility to uncover hidden data inside files |
+
+**Note:** Cracks steganography passwords using wordlists.
+
+**Star count:** ⭐ 584
+
+---
+
+### Stegbreak
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Stegbreak](https://github.com/c0r3dump3d/stegbreak) | Python | Brute-force steganography password cracker |
+
+**Note:** Uses dictionary attacks against steganography tools.
+
+**Star count:** ⭐ 112
+
+---
+
+### StegVerifier
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegVerifier](https://github.com/aseering/StegVerifier) | Python | Verifies steganography presence in media files |
+
+**Note:** Multi-format steganography detection utility.
+
+**Star count:** ⭐ 43
 
 ---
 
