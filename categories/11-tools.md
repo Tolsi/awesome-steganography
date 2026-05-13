@@ -290,6 +290,18 @@
 
 ---
 
+### snow.js
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [snow.js](https://github.com/MorseTheCode/snow.js) | JavaScript | JavaScript implementation of SNOW whitespace steganography |
+
+**Note:** Browser-friendly SNOW whitespace steganography.
+
+**Star count:** ⭐ 6
+
+---
+
 ### zwsp-steg-js
 
 | Tool | Language | Description |
@@ -387,6 +399,18 @@
 **Note:** One of the most well-known open-source steganography tools.
 
 **Star count:** ⭐ 1.8k
+
+---
+
+### SteganoHide
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SteganoHide](https://github.com/GH0STH4CKER/SteganoHide) | Python | Image steganography tool with LSB encoding |
+
+**Note:** Python tool for hiding data in images.
+
+**Star count:** ⭐ 5
 
 ---
 
