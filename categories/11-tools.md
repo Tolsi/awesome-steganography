@@ -24,6 +24,8 @@
 - [SilentEye](#silenteye)
 - [Stegosuite](#stegosuite)
 - [jdvrif](#jdvrif)
+- [StegHideX](#steghidex)
+- [Steg-GO](#steg-go)
 - [Stegify](#stegify)
 - [OpenPuff](#openpuff)
 - [QuickStego](#quickstego)
@@ -450,6 +452,30 @@
 **Star count:** ⭐ 66
 
 **Last commit:** 2025
+
+---
+
+### StegHideX
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegHideX](https://github.com/Rooted-Development/StegHideX) | Python | Python-based steganography tool for hiding files inside images securely |
+
+**Note:** Modern Python tool for steganography with secure file hiding capabilities.
+
+**Star count:** ⭐ 15
+
+---
+
+### Steg-GO
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steg-GO](https://github.com/Uttkarsh-raj/Steg-GO) | Go | Open-source steganography tool built in Golang |
+
+**Note:** Go-based CLI tool for image steganography.
+
+**Star count:** ⭐ 10
 
 ---
 
