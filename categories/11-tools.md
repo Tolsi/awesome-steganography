@@ -1600,6 +1600,30 @@
 
 ---
 
+### steganography-QRcode
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography-QRcode](https://github.com/MitanshiKshatriya/steganography-QRcode) | Python | QR code based steganography implementation |
+
+**Note:** QR code steganography tool.
+
+**Star count:** ⭐ 3
+
+---
+
+### StegoQR
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegoQR](https://github.com/leonardean/StegoQR) | Python | QR steganography with visual patterns |
+
+**Note:** Embeds hidden data in QR code visual patterns.
+
+**Star count:** ⭐ 18
+
+---
+
 ## Audio Steganography
 
 ---
