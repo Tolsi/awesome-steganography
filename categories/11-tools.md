@@ -4203,3 +4203,37 @@
 **Star count:** ⭐ 26
 
 ---
+
+### SecretPixel (x011)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [SecretPixel](https://github.com/x011/SecretPixel) | Python | Secret pixel steganography |
+
+**Note:** Pixel-based steganography.
+
+**Star count:** ⭐ 344
+
+---
+
+### File_Hider (x011)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [File_Hider](https://github.com/x011/File_Hider) | Python | File hiding tool |
+
+**Note:** File steganography tool.
+
+**Star count:** ⭐ 145
+
+---
+
+### StegoShark (XYFrank103)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegoShark](https://github.com/XYFrank103/StegoShark) | Python | Network steganography |
+
+**Note:** Network packet steganography.
+
+**Star count:** ⭐ 81
