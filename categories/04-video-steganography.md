@@ -25,6 +25,7 @@
 **[Video Software Tools](#video-software-tools)**
 - [LVDO](#lvdo)
 - [videostego](#videostego)
+- [LD-RoViS](#ld-rovised)
 <!-- /TOC -->
 
 ## Frame-based Methods
@@ -334,6 +335,54 @@ DCT coefficients can be inspected; platform re-encoding may degrade capacity.
 
 **Community acceptance:** Niche
 Niche use case; cited in steganography reviews.
+
+---
+
+### RoGVSN
+
+**Goal:** Robust Video Steganography Network with adaptive embedding based on video content.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **RoGVSN** | 2022 | Deep learning video steganography | Adaptive embedding based on video content [[1]](https://arxiv.org/abs/2201.04151) |
+
+**State of the art:** Learning-based approach that adapts embedding strength based on video complexity.
+
+**Production readiness:** Research
+
+**Community acceptance:** Emerging
+
+---
+
+### MEC-AQIM
+
+**Goal:** Video steganography using Motion Estimation Compensation and Adaptive QIM.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **MEC-AQIM** | 2021 | Motion compensation + AQIM | High capacity with robustness [[1]](https://ieeexplore.ieee.org/document/9144189) |
+
+**State of the art:** Combines motion estimation with adaptive quantization index modulation.
+
+**Production readiness:** Research
+
+**Community acceptance:** Niche
+
+---
+
+### AQIM
+
+**Goal:** Audio/Video steganography using QIM with adaptive embedding.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **AQIM** | 2019 | Adaptive QIM | Adaptive embedding based on cover characteristics [[1]](https://ieeexplore.ieee.org/document/8675189) |
+
+**State of the art:** Classical QIM-based approach with adaptive embedding.
+
+**Production readiness:** Research
+
+**Community acceptance:** Niche
 
 ---
 
