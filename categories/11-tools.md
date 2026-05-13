@@ -3555,3 +3555,63 @@
 **Star count:** ⭐ 10
 
 ---
+
+### ZWSP-Tool (TwistAtom)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ZWSP-Tool](https://github.com/TwistAtom/ZWSP-Tool) | Python | Zero-width character steganography (2020) |
+
+**Note:** Zero-width space steganography tool.
+
+**Star count:** ⭐ 24
+
+---
+
+### zero-width-steganography (lorossi)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [zero-width-steganography](https://github.com/lorossi/zero-width-steganography) | Python | Zero-width steganography library (2022) |
+
+**Note:** Python zero-width steganography.
+
+**Star count:** ⭐ 12
+
+---
+
+### zerosteg (jasonkimprojects)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [zerosteg](https://github.com/jasonkimprojects/zerosteg) | Python | Zero-width steganography (2019) |
+
+**Note:** Simple zero-width steganography.
+
+**Star count:** ⭐ 9
+
+---
+
+### Zero-Width-Characters (Endrem)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Zero-Width-Characters](https://github.com/Endrem/Zero-Width-Characters) | Python | Zero-width character steganography (2021) |
+
+**Note:** Zero-width character encoding.
+
+**Star count:** ⭐ 8
+
+---
+
+### ZW-Steg (MayADevBe)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ZW-Steg](https://github.com/MayADevBe/ZW-Steg) | Python | Zero-width steganography tool (2024) |
+
+**Note:** Simple ZW steganography.
+
+**Star count:** ⭐ 7
+
+---
