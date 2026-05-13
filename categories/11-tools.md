@@ -3411,3 +3411,39 @@
 **Star count:** ⭐ 49
 
 ---
+
+### steganography.js (petereigenschink)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography.js](https://github.com/petereigenschink/steganography.js) | JavaScript | Pure JS steganography library (2018) |
+
+**Note:** Browser-based steganography.
+
+**Star count:** ⭐ 373
+
+---
+
+### PixelJihad (oakes)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PixelJihad](https://github.com/oakes/PixelJihad) | JavaScript | JavaScript image steganography (2015) |
+
+**Note:** Early JS steganography tool.
+
+**Star count:** ⭐ 312
+
+---
+
+### desudesutalk (desudesutalk)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [desudesutalk](https://github.com/desudesutalk/desudesutalk) | JavaScript | Forum steganography tool (2018) |
+
+**Note:** Social platform steganography.
+
+**Star count:** ⭐ 134
+
+---
