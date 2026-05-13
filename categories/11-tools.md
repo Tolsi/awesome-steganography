@@ -2122,6 +2122,42 @@
 
 ---
 
+### Autopsy
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Autopsy](https://github.com/sleuthkit/autopsy) | Java | GUI frontend for The Sleuth Kit - digital forensics platform |
+
+**Note:** Graphical interface for disk forensics. Supports steganography detection through file analysis.
+
+**Star count:** ⭐ 1.6k
+
+---
+
+### bulk_extractor
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [bulk_extractor](https://github.com/simsong/bulk_extractor) | C++ | Fast forensic tool for extracting features from disk images |
+
+**Note:** Scans disk images for hidden data, emails, URLs, and steganographic content.
+
+**Star count:** ⭐ 412
+
+---
+
+### dc3dd
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [dc3dd](https://github.com/cfadams/dc3dd) | C | Enhanced version of dd for forensics |
+
+**Note:** Forensic disk imaging tool with hashing and logging.
+
+**Star count:** ⭐ 89
+
+---
+
 ## Blind Steganalysis
 
 ---
