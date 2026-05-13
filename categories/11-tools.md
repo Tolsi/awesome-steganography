@@ -4536,11 +4536,23 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [hstego](https://github.com/daniellerch/hstego) | C | Hierarchical steganography (2025) |
+| [hstego](https://github.com/daniellerch/hstego) | C/Python | Hard-to-detect image steganography using S-UNIWARD/J-UNIWARD + STC |
 
-**Note:** C-based hierarchical steganography.
+**Note:** Uses S-UNIWARD (spatial) and J-UNIWARD (JPEG) with Syndrome Trellis Codes. Limits payload to 5% capacity to avoid detection by modern steganalysis (tested with Aletheia). Includes GUI.
 
 **Star count:** ⭐ 53
+
+---
+
+### python-jpeg-toolbox
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [python-jpeg-toolbox](https://github.com/daniellerch/python-jpeg-toolbox) | Python/C | JPEG toolbox for reading/writing DCT coefficients, quantization matrices, Huffman tables |
+
+**Note:** Python library for low-level JPEG manipulation. Used for JPEG steganography research and development.
+
+**Star count:** ⭐ 16
 
 ---
 
