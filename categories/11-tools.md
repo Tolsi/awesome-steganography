@@ -4131,3 +4131,27 @@
 **Star count:** ⭐ 17
 
 ---
+
+### MasquerBot (ra101)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [MasquerBot](https://github.com/ra101/MasquerBot) | Python | Telegram steganography bot (2025) |
+
+**Note:** Telegram bot for steganography.
+
+**Star count:** ⭐ 10
+
+---
+
+### Steganography-Telegram-Bot (kousha1999)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-Telegram-Bot](https://github.com/kousha1999/Steganography-Telegram-Bot) | Python | Telegram bot for images (2019) |
+
+**Note:** Image steganography via Telegram.
+
+**Star count:** ⭐ 4
+
+---
