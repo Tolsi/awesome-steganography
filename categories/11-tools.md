@@ -3759,3 +3759,27 @@
 **Star count:** ⭐ 43
 
 ---
+
+### ZeroWidthStego (Muvesz)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ZeroWidthStego](https://github.com/Muvesz/ZeroWidthStego) | Python | Zero-width steganography (2026) |
+
+**Note:** Zero-width character steganography.
+
+**Star count:** ⭐ 0
+
+---
+
+### PhantomStego (AleX-AA08)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [PhantomStego](https://github.com/AleX-AA08/PhantomStego) | Python | Phantom steganography tool (2026) |
+
+**Note:** Advanced steganography implementation.
+
+**Star count:** ⭐ 0
+
+---
