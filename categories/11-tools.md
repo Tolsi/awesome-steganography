@@ -3927,3 +3927,63 @@
 **Star count:** ⭐ 10
 
 ---
+
+### poltergeist (Shell-Company)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [poltergeist](https://github.com/Shell-Company/poltergeist) | Python | Whitespace steganography tool (2023) |
+
+**Note:** Whitespace encoding steganography.
+
+**Star count:** ⭐ 20
+
+---
+
+### Steganography-SNOW-AVariation (Swati-Rathi)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganography-SNOW-AVariation](https://github.com/Swati-Rathi/Steganography-SNOW-AVariation) | Python | SNOW steganography variation (2015) |
+
+**Note:** SNOW whitespace steganography variant.
+
+**Star count:** ⭐ 7
+
+---
+
+### Steganographyx (athrvadeshmukh)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steganographyx](https://github.com/athrvadeshmukh/Steganographyx) | Python | Audio steganography tool (2023) |
+
+**Note:** WAV audio steganography.
+
+**Star count:** ⭐ 9
+
+---
+
+### stegnowav (riz4d)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegnowav](https://github.com/riz4d/stegnowav) | Python | WAV file steganography (2022) |
+
+**Note:** WAV audio steganography.
+
+**Star count:** ⭐ 8
+
+---
+
+### wavehider (richstokes)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [wavehider](https://github.com/richstokes/wavehider) | Python | Audio steganography for WAV (2021) |
+
+**Note:** Hide data in audio WAV files.
+
+**Star count:** ⭐ 8
+
+---
