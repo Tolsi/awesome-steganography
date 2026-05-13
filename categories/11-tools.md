@@ -2246,6 +2246,30 @@
 
 ---
 
+### StegInspect
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [StegInspect](https://github.com/nowotny/StegInspect) | Python | Multi-algorithm steganalysis inspector |
+
+**Note:** Analyzes images for multiple steganography algorithms.
+
+**Star count:** ⭐ 22
+
+---
+
+### steganalysis-CLI
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganalysis-CLI](https://github.com/nowotny/steganalysis-CLI) | Python | Command-line steganalysis tool |
+
+**Note:** CLI interface for various steganalysis methods.
+
+**Star count:** ⭐ 15
+
+---
+
 ## Steganalysis
 
 ---
