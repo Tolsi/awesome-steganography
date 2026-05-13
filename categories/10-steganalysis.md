@@ -25,6 +25,13 @@
 
 **[Detection Benchmarks](#detection-benchmarks)**
 - [Stego Battlefield](#stego-battlefield)
+
+**[Benchmark Datasets](#benchmark-datasets)**
+- [BOSSBase](#bossbase)
+- [BOWS2](#bows2)
+- [ALASKA2](#alaska2)
+- [VISION](#vision)
+- [DVC](#dvc)
 - [Zero-Shot Interpretable Image Steganalysis](#zero-shot-interpretable-image-steganalysis)
 - [Targeted Pooled Latent-Space Steganalysis](#targeted-pooled-latent-space-steganalysis)
 - [Systematically Deconstructing APVD Steganography](#systematically-deconstructing-apvd-steganography)
@@ -488,6 +495,82 @@ Preprint 2025; no public implementation.
 **Security status:** Caution — Effective against APVD family; applicability to other PVD variants needs verification
 
 **Community acceptance:** Emerging
+
+---
+
+## Benchmark Datasets
+
+---
+
+### BOSSBase
+
+**Description:** Standard benchmark for steganography and steganalysis research.
+
+| Dataset | Images | Size | Format | Note |
+|---------|--------|------|--------|------|
+| BOSSBase 1.01 | 10,000 | 512×512 | PNG (grayscale) | Original BOSS |
+
+**Use:** Training and testing steganalysis algorithms. Widely used in academic research.
+
+**Reference:** [BOSSBase website](https://agents.ucd.edu.pl/)
+
+---
+
+### BOWS2
+
+**Description:** Break Our Watermarking System - second edition.
+
+| Dataset | Images | Size | Format | Note |
+|---------|--------|------|--------|------|
+| BOWS2 | 10,000 | 512×512 | PNG | Contest variant |
+
+**Use:** Watermarking and steganography competitions. Higher diversity than BOSSBase.
+
+**Reference:** [BOWS2 website](https://bows2.ec-lille.fr/)
+
+---
+
+### ALASKA2
+
+**Description:** Kaggle competition dataset for color image steganalysis.
+
+| Dataset | Images | Size | Format | Note |
+|---------|--------|------|--------|------|
+| ALASKA2 | 80,000 | 512×512 | JPEG | Includes cover and stego variants |
+
+**Use:** Training deep learning steganalysis models. Includes J-UNIWARD, UERD, nsf5 variants.
+
+**Reference:** [ALASKA2 Kaggle](https://www.kaggle.com/c/alaska2-image-steganalysis)
+
+---
+
+### VISION
+
+**Description:** Video steganalysis benchmark dataset.
+
+| Dataset | Frames | Resolution | Note |
+|---------|--------|------------|------|
+| VISION | ~6,000 videos | Various | Standard for video stego |
+
+**Use:** Video steganography detection research.
+
+**Reference:** [VISION dataset](http://wins.huang.es/vision/)
+
+---
+
+### DVC
+
+**Description:** Digital Video Corpus for steganalysis research.
+
+| Dataset | Videos | Note |
+|---------|--------|------|
+| DVC | ~1,000 | Frame-based video stego |
+
+**Use:** Video steganography detection and benchmarking.
+
+**Reference:** Academic dataset; check relevant papers for access.
+
+---
 
 ## Recent arXiv Papers (2024–2026)
 
