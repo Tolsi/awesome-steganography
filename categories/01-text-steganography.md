@@ -11,6 +11,8 @@
 - [Whitespace coding](#whitespace-coding)
 - [Zero-width Unicode](#zero-width-unicode)
 - [Homoglyphs](#homoglyphs)
+- [Inter-letter Spacing](#inter-letter-spacing)
+- [DataGlyphs / GlyphCode](#dataglyphs--glyphcode)
 
 **[Semantic Methods](#semantic-methods)**
 - [Chaffing and Winnowing](#chaffing-and-winnowing)
@@ -435,6 +437,49 @@ Detected by Unicode normalization, script-mixing analysis, or copy-paste into an
 
 **Community acceptance:** Niche
 Recognised in security research and CTF; practical use is mainly document watermarking.
+
+---
+
+### Inter-letter Spacing
+
+**Goal:** Hide data using subtle micro-adjustments to kerning (inter-letter spacing).
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Inter-letter Spacing** | 2005 | ±0.1pt kerning shifts | Requires laser scanner with sub-pixel accuracy [[1]](https://www.researchgate.net/publication/216052617_DIGITAL_IMAGE_STEGANOGRAPHY) |
+
+**State of the art:** Encodes bits by slightly adjusting spacing between letters. Requires specialized scanning equipment to read; visually imperceptible to humans.
+
+**Production readiness:** Research
+Requires specialized hardware for extraction; not practical for digital-only scenarios.
+
+**Security status:** Caution
+Very hard to detect without knowing the font and scanning equipment; practical implementations are rare.
+
+**Community acceptance:** Niche
+Academic curiosity; limited practical use due to hardware requirements.
+
+---
+
+### DataGlyphs / GlyphCode
+
+**Goal:** Embed data using microscopic patterns in glyphs that appear as normal text.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **DataGlyphs** | 1998 | Xerox micro-patterns in glyphs | Looks like normal font, decoded by special software [[1]](https://www.researchgate.net/publication/1005499_DataGlyphs_Embedding_Byte_Streams_in_the_Visual_Appearance_of_Prints_of_Text_and_Graphical_Forms) |
+| **GlyphCode** | 2001 | PDF417 2D barcode variant | Text appears normal, embedded 2D barcode [[2]](https://patents.google.com/patent/US6285779A/en) |
+
+**State of the art:** Xerox DataGlyphs encode data as microscopic line patterns within character shapes. GlyphCode uses PDF417-style encoding. Both appear as ordinary text to casual observers.
+
+**Production readiness:** Deprecated
+Xerox commercial products discontinued; now mainly historical interest.
+
+**Security status:** Broken
+Patterns are detectable under magnification; superseded by digital steganography.
+
+**Community acceptance:** Niche
+Historical technique; relevant for document forensics and anti-counterfeiting research.
 
 ---
 
