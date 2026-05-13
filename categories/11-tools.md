@@ -366,6 +366,18 @@
 
 ---
 
+### zsteg
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [zsteg](https://github.com/zed-0xff/zsteg) | Ruby | Detects hidden data in PNG and BMP images |
+
+**Note:** Specialized in detecting LSB and other steganography methods in images. Supports zlib, bmp, lsb methods.
+
+**Star count:** ⭐ 1.1k
+
+---
+
 ### stegano-rs
 
 | Tool | Language | Description |
@@ -2059,6 +2071,30 @@
 **Note:** Multi-format steganography detection utility.
 
 **Star count:** ⭐ 43
+
+---
+
+### foremost
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [foremost](https://github.com/korczis/foremost) | C | File carving tool for extracting hidden files from images |
+
+**Note:** Originally by the US Air Force. Extracts hidden files from JPEG, PNG, GIF, and other image formats.
+
+**Star count:** ⭐ 412
+
+---
+
+### binwalk
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [binwalk](https://github.com/ReFirmLabs/binwalk) | Python | Firmware analysis tool for finding embedded files and code |
+
+**Note:** Useful for analyzing binary images to find hidden data, steganographic content, and embedded files.
+
+**Star count:** ⭐ 4.6k
 
 ---
 
