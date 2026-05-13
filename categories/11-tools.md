@@ -3363,3 +3363,51 @@
 **Star count:** ⭐ 5
 
 ---
+
+### purrcrypt (vxfemboy)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [purrcrypt](https://github.com/vxfemboy/purrcrypt) | Rust | Encode secrets as cat/dog sounds (2025) |
+
+**Note:** Audio steganography in Rust.
+
+**Star count:** ⭐ 610
+
+---
+
+### steg86 (woodruffw)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steg86](https://github.com/woodruffw/steg86) | Rust | x86 steganography tool (2026) |
+
+**Note:** Binary steganography for x86.
+
+**Star count:** ⭐ 321
+
+---
+
+### stego (ajmwagar)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stego](https://github.com/ajmwagar/stego) | Rust | Rust steganography CLI (2022) |
+
+**Note:** Command-line steganography in Rust.
+
+**Star count:** ⭐ 271
+
+---
+
+### ruci (jkshfanfbun)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [ruci](https://github.com/jkshfanfbun/ruci) | Rust | Rust steganography library (2025) |
+
+**Note:** Steganography toolkit in Rust.
+
+**Star count:** ⭐ 49
+
+---
