@@ -1610,6 +1610,18 @@
 
 ---
 
+### LD-RoViS
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [LD-RoViS](https://github.com/xiangkun1999/LD-RoViS) | Python | Learning-based RoViS (Robust Video Steganography) |
+
+**Note:** Deep learning-based video steganography using adversarial training.
+
+**Star count:** ⭐ 67
+
+---
+
 ### videostego
 
 | Tool | Language | Description |
