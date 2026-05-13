@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (232 algorithms)
+## Contents (233 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -42,6 +42,9 @@
 - [Histogram Shifting](#histogram-shifting)
 - [Difference Expansion](#difference-expansion)
 - [Prediction Error Expansion](#prediction-error-expansion)
+
+**[QR Code Steganography](#qr-code-steganography)**
+- [QR Code Steganography (SAM9768)](#qr-code-steganography-sam9768)
 
 **[Deep Learning Methods](#deep-learning-methods)**
 - [HiDDeN](#hidden)
@@ -917,6 +920,31 @@ Lossless recovery guaranteed; no practical attacks on the hiding mechanism.
 
 **Community acceptance:** Widely trusted
 Extensively cited; considered standard alongside histogram shifting.
+
+---
+
+## QR Code Steganography
+
+---
+
+### QR Code Steganography (SAM9768)
+
+**Goal:** Use QR codes for covert communication via steganography - building QR code symbols with hidden payloads and extracting hidden data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **QR Code Steganography** | 2013 | QR code module manipulation | First detailed method for hiding data in QR codes [[1]](http://worldcomp-proceedings.com/proc/p2013/SAM9768.pdf) |
+
+**State of the art:** Foundational work demonstrating that QR codes can be used as cover objects for steganographic communication. Shows how to embed hidden payloads in QR code symbols while maintaining scannability.
+
+**Production readiness:** Research
+Academic paper from WorldComp 2013; foundational concept that inspired subsequent QR steganography research.
+
+**Security status:** Caution
+Basic method; subsequent research has improved capacity and security.
+
+**Community acceptance:** Niche
+Pioneering work in QR-based steganography; cited by later papers on QR steganography.
 
 ---
 

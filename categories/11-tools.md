@@ -1240,9 +1240,11 @@
 
 | Tool | Language | Description |
 |------|----------|-------------|
-| [StegaStamp](https://github.com/tancik/StegaStamp) | PyTorch | Robust encoder surviving print+photo transmission |
+| [StegaStamp](https://github.com/tancik/StegaStamp) | TensorFlow | Robust encoder surviving print+photo transmission |
+| [StegaStamp-pytorch](https://github.com/jsrdcht/StegaStamp-pytorch) | PyTorch | PyTorch reimplementation of StegaStamp |
+| [StegaStamp (ytfrdfiw)](https://github.com/ytfrdfiw/StegaStamp) | TensorFlow | Fork with detector model for StegaStamp detection |
 
-**Note:** Invisible watermark that survives geometric distortions and photo capture.
+**Note:** Invisible watermark that survives geometric distortions and photo capture. The pytorch version provides training/inference scripts. The ytfrdfiw fork adds detector model for detecting StegaStamps in images.
 
 **Star count:** ⭐ 1.2k
 
