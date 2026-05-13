@@ -16,6 +16,11 @@
 **[Image Steganography](#image-steganography)**
 - [steghide](#steghide)
 - [Stegsolve](#stegsolve)
+- [stegano-rs](#stegano-rs)
+- [Hermetic Stego](#hermetic-stego)
+- [Steg (fabionet)](#steg-fabionet)
+- [wbStego](#wbstego)
+- [Ermis](#ermis)
 - [SilentEye](#silenteye)
 - [Stegosuite](#stegosuite)
 - [jdvrif](#jdvrif)
@@ -341,6 +346,58 @@
 **Note:** One of the most well-known open-source steganography tools.
 
 **Star count:** ⭐ 1.8k
+
+---
+
+### stegano-rs
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [stegano-rs](https://github.com/steganogram/stegano-rs) | Rust | Cross-platform CLI tool for steganography focused on performance and simplicity |
+
+**Note:** Rust-based steganography tool with focus on speed and ease of use.
+
+**Star count:** ⭐ 6
+
+---
+
+### Hermetic Stego
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Hermetic Stego](https://hermetic-stego.soft112.com/) | Freeware (Windows) | Steganography program with encryption for hiding data in images |
+
+**Note:** Windows steganography tool with encryption capabilities.
+
+---
+
+### Steg (fabionet)
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Steg](https://www.fabionet.org/) | Open Source (C++) | Cross-platform portable steganography software |
+
+**Note:** Easy cross-platform steganography tool written in C++.
+
+---
+
+### wbStego
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [wbStego](http://bailer.at/wbstego/) | Open Source | Steganography tool for bitmaps, text and HTML files |
+
+**Note:** Published under GNU GPL, supports multiple file formats.
+
+---
+
+### Ermis
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Ermis](https://flathub.org/en/apps/io.github.alamahant.Ermis) | Open Source (Flathub) | Cross-platform steganography application for hiding content in images or audio |
+
+**Note:** Modern cross-platform steganography app available on Flathub.
 
 ---
 
