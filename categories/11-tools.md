@@ -4011,3 +4011,27 @@
 **Star count:** ⭐ 14
 
 ---
+
+### steganography (stealthcopter)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [steganography](https://github.com/stealthcopter/steganography) | Python | Android steganography tool (2016) |
+
+**Note:** Android image steganography.
+
+**Star count:** ⭐ 28
+
+---
+
+### conceal (mrahimygk)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [conceal](https://github.com/mrahimygk/conceal) | Kotlin | Android steganography app (2021) |
+
+**Note:** Android steganography library.
+
+**Star count:** ⭐ 19
+
+---
