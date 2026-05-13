@@ -12,6 +12,7 @@
 - [meteor-stego](#meteor-stego)
 - [stegcloak](#stegcloak)
 - [Cloakify](#cloakify)
+- [Steg](#steg-text-steganography)
 
 **[Image Steganography](#image-steganography)**
 - [steghide](#steghide)
@@ -48,6 +49,9 @@
 - [imageonline.io](#imageonline-io-steganography) *(Online)*
 - [futureboy.us](#futureboy-us-stegano) *(Online)*
 - [Steganography Online Codec](#steganography-online-codec-pelock) *(Online)*
+- [StegoApp](#stegoapp) *(Web)*
+- [CryptoStego](#cryptostego) *(Web)*
+- [SSuite Picsel](#ssuite-picsel)
 - [CyberChef](#cyberchef) *(Online)*
 - [ChameleonLab](#chameleonlab)
 - [steganography (kelvins)](#steganography-kelvins)
@@ -389,6 +393,18 @@
 **Note:** Converts any filetype into list of everyday strings. Evades DLP/MLS devices and data whitelisting.
 
 **Star count:** ⭐ 1.7k
+
+---
+
+### Steg (text steganography)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [Steg](https://github.com/geezee/steg) | D | Text steganography using whitespace encoding |
+
+**Note:** Allows hiding information in ASCII text using different encodings for whitespace.
+
+**Star count:** ⭐ 52
 
 ---
 
@@ -1666,6 +1682,36 @@
 **Note:** Embeds hidden data in QR code visual patterns.
 
 **Star count:** ⭐ 18
+
+---
+
+### StegoApp
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [StegoApp](https://stego.app) | Web | Browser-based steganography tool for PNG and JPG images |
+
+**Note:** Runs in the browser with custom robust embedding method. Free tier with premium options.
+
+---
+
+### CryptoStego
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [CryptoStego](https://stego.js.org/) | Web | Browser-based steganography tool for PNG and JPG images |
+
+**Note:** Uses LSB replacement for PNG and custom method for JPG. MIT licensed.
+
+---
+
+### SSuite Picsel
+
+| Tool | Platform | Description |
+|------|----------|-------------|
+| [SSuite Picsel](https://www.ssuiteoffice.com/software/ssuitepicselsecurity.htm) | Windows/Mac/Linux | Steganography tool for BMP, PNG, and JPG images |
+
+**Note:** Simple steganography tool with graphical interface. Freeware.
 
 ---
 
