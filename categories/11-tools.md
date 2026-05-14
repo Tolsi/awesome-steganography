@@ -92,6 +92,7 @@
 - [outguess](#outguess)
 - [HiDDeN](#hidden)
 - [SteganoGAN](#steganogan)
+- [mas_GRDH](#mas-grdh-stable-diffusion)
 - [StegaStamp](#stegastamp)
 - [CRoSS](#cross)
 - [stegify](#stegify)
@@ -171,6 +172,7 @@
 **[Video Steganography](#video-steganography)**
 - [LVDO](#lvdo)
 - [videostego](#videostego)
+- [CryptoFrame](#cryptoframe-x011)
 - [SteganographierGUI](#steganographiergui)
 - [Video-Steganography (Amritaryal44)](#video-steganography-amritaryal44)
 - [Video-Steganography (llopen-sourcell)](#video-steganography-llopen-sourcell)
@@ -1294,6 +1296,18 @@
 
 ---
 
+### mas_GRDH (Stable Diffusion)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [mas_GRDH](https://github.com/HXX5656/mas_GRDH) | Python | Robust Generative Image Steganography via Popular Stable Diffusion |
+
+**Note:** Establishes robust generative image steganography using stable diffusion models.
+
+**Star count:** ⭐ 60
+
+---
+
 ### StegaStamp
 
 | Tool | Language | Description |
@@ -1877,6 +1891,18 @@
 **Note:** Simple video steganography using least significant bits.
 
 **Star count:** ⭐ 19
+
+---
+
+### CryptoFrame (x011)
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [CryptoFrame](https://github.com/x011/CryptoFrame) | Python/FFmpeg | Video steganography with FFmpeg |
+
+**Note:** Command-line tool for secure video steganography using FFmpeg.
+
+**Star count:** ⭐ 44
 
 ---
 
