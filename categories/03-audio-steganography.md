@@ -1,7 +1,7 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (43 algorithms)
+## Contents (46 algorithms)
 
 **[Time Domain](#time-domain)**
 - [LPC](#lpc-linear-predictive-coding)
@@ -31,6 +31,9 @@
 - [WavMark](#wavmark)
 - [AudioSeal](#audioseal)
 - [PRoADS](#proads)
+- [FGAS](#fgas-fixed-decoder-network-based-audio-steganography)
+- [AAG-Stega](#aag-stega-automatic-audio-generation-based-steganography)
+- [Hide and Speak](#hide-and-speak-deep-neural-networks-for-speech-steganography)
 
 **[Spectrogram Methods](#spectrogram-methods)**
 - [Spectrogram Steganography](#spectrogram-steganography)
@@ -519,6 +522,69 @@ Provable security derived from orthogonal matrix projection into diffusion model
 
 **Community acceptance:** Emerging — Very recent
 ICASSP 2026 acceptance signals peer validation; too new for broad adoption.
+
+---
+
+### FGAS: Fixed Decoder Network-Based Audio Steganography
+
+**Goal:** Fixed decoder audio steganography with adversarial perturbation generation.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **FGAS** | 2025 | Fixed decoder + A2PG | SOTA anti-steganalysis, 10dB PSNR gain [[1]](https://arxiv.org/abs/2505.22266) |
+
+**State of the art:** Uses fixed decoder with adversarial perturbations. Achieves >10dB PSNR improvement over SOTA, strong anti-steganalysis performance.
+
+**Production readiness:** Research
+
+**Implementations:**
+- No public GitHub repository yet
+
+**Security status:** Secure — Improved anti-steganalysis
+
+**Community acceptance:** Emerging — ICASSP 2025
+
+---
+
+### AAG-Stega: Automatic Audio Generation-based Steganography
+
+**Goal:** Generate audio covers automatically from secret bits.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **AAG-Stega** | 2018 | Auto-generation | First generation-based audio stego [[1]](https://arxiv.org/abs/1809.03463) |
+
+**State of the art:** First work to generate audio covers automatically rather than modify existing audio.
+
+**Production readiness:** Research
+
+**Implementations:**
+- No public GitHub repository
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging — AAAI 2019
+
+---
+
+### Hide and Speak: Deep Neural Networks for Speech Steganography
+
+**Goal:** End-to-end speech steganography using neural networks.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Hide and Speak** | 2019 | STFT-based encoder-decoder | Neural speech stego [[1]](https://arxiv.org/abs/1902.03083) |
+
+**State of the art:** Uses STFT/ISTFT as differentiable layers; first DL speech steganography.
+
+**Production readiness:** Research
+
+**Implementations:**
+- No public GitHub repository
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
 
 ---
 
