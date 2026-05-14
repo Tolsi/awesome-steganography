@@ -1,7 +1,7 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (41 algorithms)
+## Contents (43 algorithms)
 
 **[Time Domain](#time-domain)**
 - [LPC](#lpc-linear-predictive-coding)
@@ -26,6 +26,8 @@
 
 **[Neural Network Methods](#neural-network-methods)**
 - [DeepSound](#deepsound)
+- [Audio Steganography (GAN-based)](#audio-steganography-gan-based)
+- [Deep Audio Steganography](#deep-audio-steganography)
 - [WavMark](#wavmark)
 - [AudioSeal](#audioseal)
 - [PRoADS](#proads)
@@ -401,11 +403,53 @@ Growing interest as Opus replaces older VoIP codecs; limited dedicated literatur
 **Production readiness:** Experimental
 
 **Implementations:**
-- [DeepSound](https://github.com/ElsebyCoder/DeepSound) ⭐ 312
+- [ElsebyCoder/DeepSound](https://github.com/ElsebyCoder/DeepSound) ⭐ 312 — Python, autoencoder on spectrograms
 
 **Security status:** Caution
 
 **Community acceptance:** Widely trusted
+
+---
+
+### Audio Steganography (GAN-based)
+
+**Goal:** Audio steganography using Generative Adversarial Networks.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Audio Stego GAN** | 2018 | GAN for cover generation | Learning to Generate Steganographic Cover [[1]](https://github.com/Chenlang2018/Audio-Steganography-using-GAN) |
+
+**State of the art:** First GAN-based approach for generating steganographic audio covers.
+
+**Production readiness:** Research
+
+**Implementations:**
+- [Chenlang2018/Audio-Steganography-using-GAN](https://github.com/Chenlang2018/Audio-Steganography-using-GAN) ⭐ 16 — Python, official implementation
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
+
+---
+
+### Deep Audio Steganography
+
+**Goal:** End-to-end deep neural network for audio steganography.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Deep Audio Stego** | 2020 | DNN encoder-decoder | Training pipeline on TIMIT dataset [[1]](https://github.com/ppartarr/audioSteganography) |
+
+**State of the art:** Full train/predict pipeline with DNN for audio steganography.
+
+**Production readiness:** Research
+
+**Implementations:**
+- [ppartarr/audioSteganography](https://github.com/ppartarr/audioSteganography) ⭐ 4 — Python, train/predict pipeline
+
+**Security status:** Caution
+
+**Community acceptance:** Emerging
 
 ---
 
