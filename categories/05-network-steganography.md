@@ -1,7 +1,7 @@
 # Network Steganography
 
 <!-- TOC -->
-## Contents (61 algorithms)
+## Contents (63 algorithms)
 
 **[Header Fields](#header-fields)**
 - [IPv4/IPv6 Headers](#ipv4ipv6-headers)
@@ -61,6 +61,8 @@
 - [Steganography: A Secure way for Transmission in Wireless Sensor Networks](#steganography-a-secure-way-for-transmission-in-wireless-sensor-networks)
 - [Stealthy Backdoor Attack to Real-world Models in Android Apps](#stealthy-backdoor-attack-to-real-world-models-in-android-apps)
 - [Tackling Android Stego Apps in the Wild](#tackling-android-stego-apps-in-the-wild)
+- [QUIC-Exfil (Server-Preferred-Address Data Exfiltration)](#quic-exfil-server-preferred-address-data-exfiltration)
+- [QuicCC-SMD (Shaping Multi-Dimensional Traffic for Covert Communication in QUIC Streaming)](#quiccc-smd-shaping-multi-dimensional-traffic-for-covert-communication-in-quic-streaming)
 
 **[Alternative Protocols](#alternative-protocols)**
 - [5G/6G Cellular](#5g6g-cellular)
@@ -1141,6 +1143,48 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+---
+
+### QUIC-Exfil (Server-Preferred-Address Data Exfiltration)
+
+**Goal:** Exfiltrate data via QUIC's Server Preferred Address feature, disguising malicious data transfers as legitimate connection migrations that middleboxes cannot distinguish from benign QUIC behavior.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **QUIC-Exfil (Grübl et al.)** | 2025 | Server Preferred Address abuse | Connection-migration spoofing; 5 ML classifiers on 700k+ packets fail to detect [[1]](https://arxiv.org/abs/2505.05292) |
+
+**State of the art:** Demonstrates that QUIC's encrypted handshake + connection migration features create a fundamentally harder detection problem than TLS/DNS-based exfiltration. Tested ML classifiers (random forest, gradient boosting, MLP, CNN, LSTM) all fail at distinguishing benign from spoofed migrations.
+
+**Production readiness:** Research (offensive PoC)
+Working proof-of-concept; demonstrates gap in network monitoring/anomaly detection tools.
+
+**Security status:** Caution (defenders' perspective)
+Currently undetectable by deployed monitoring stacks. Mitigation requires QUIC-aware deep packet inspection or session-level behavioral analysis.
+
+**Community acceptance:** Emerging
+Recent paper; underscores broader QUIC security analysis gap.
+
+---
+
+### QuicCC-SMD (Shaping Multi-Dimensional Traffic for Covert Communication in QUIC Streaming)
+
+**Goal:** Construct resilient covert channels in long-lived QUIC streaming flows (HTTP/3 video, large file transfers) by shaping multi-dimensional traffic features (packet size, inter-arrival time, burstiness, stream count) to encode hidden bits.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **QuicCC-SMD** | 2025 | Multi-dimensional traffic shaping | Exploits long-lived QUIC streaming flows; spatio-temporal feature manipulation [[1]](https://www.mdpi.com/2227-7390/13/23/3879) |
+
+**State of the art:** Newest generation of network covert channels targeting HTTP/3 transport. Capacity scales with stream duration; achieves near-undetectable behavior in standard streaming patterns.
+
+**Production readiness:** Research
+Academic proof-of-concept; no deployed offensive use known.
+
+**Security status:** Caution
+Resilient against statistical fingerprinting trained on short-flow traces. Long-flow behavioral signatures may eventually expose pattern shifts.
+
+**Community acceptance:** Emerging
+Reflects shift from TCP/TLS covert channels to QUIC/HTTP/3 covert channels.
 
 ---
 

@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (261 algorithms)
+## Contents (262 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -277,6 +277,7 @@
 - [A Dual-Layer Image Encryption Framework Using Chaotic AES with Dynamic S-Boxes and Steganographic QR Codes](#a-dual-layer-image-encryption-framework-using-chaotic-aes-with-dynamic-s-boxes-and-steganographic-qr-codes)
 - [Dynamic Encryption-Based Cloud Security Model using Facial Image and Password-based Key Generation for Multimedia Data](#dynamic-encryption-based-cloud-security-model-using-facial-image-and-password-based-key-generation-for-multimedia-data)
 - [2D Hybrid chaos map for image security transform based on framelet and cellular automata](#2d-hybrid-chaos-map-for-image-security-transform-based-on-framelet-and-cellular-automata)
+- [SynthID-Image (Google Image Watermarking at Internet Scale)](#synthid-image-google-image-watermarking-at-internet-scale)
 
 **[Theoretical & Critical Analysis](#theoretical-critical-analysis)**
 - [The Devil in the Stego Image](#the-devil-in-the-stego-image)
@@ -5651,6 +5652,30 @@ Research prototype; security not yet independently verified.
 Preprint; peer review status unknown.
 
 ---
+
+---
+
+### SynthID-Image (Google Image Watermarking at Internet Scale)
+
+**Goal:** Production-grade invisibly-embedded watermarking system for AI-generated images deployed across Google services at >10 billion image scale.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **SynthID-Image** | 2025 | Encoder-decoder neural net | Deployed in Imagen, Veo, Lyria; preserves fidelity under JPEG, resizing, screen-photo, AI editing [[1]](https://arxiv.org/abs/2510.09263) |
+
+**State of the art:** Google DeepMind's flagship watermarking solution for generative AI imagery. Tested against rotation, JPEG compression, color shifts, model distillation. Achieves near-zero visible artifacts at standard fidelity settings.
+
+**Production readiness:** Production
+Deployed at planet scale (>10B images watermarked). Public detector pending. Integrated into Imagen 3, Veo 2, Gemini image generation pipelines.
+
+**Implementations:**
+- [SynthID announcement (Google DeepMind)](https://deepmind.google/technologies/synthid/) — production page, no public source code
+
+**Security status:** Caution
+Robust to standard image transformations, but adversarially-aware adversary can degrade detection by combining heavy editing + JPEG + recompression. White-box attacks not yet evaluated publicly.
+
+**Community acceptance:** Emerging
+Major industry deployment but limited academic review. Independent analysis (ePrint 2603.03410) suggests tournament-layer detection has provable weaknesses.
 
 ---
 

@@ -1,7 +1,7 @@
 # Steganalysis
 
 <!-- TOC -->
-## Contents (86 algorithms)
+## Contents (88 algorithms)
 
 **[Classical Methods](#classical-methods)**
 - [Visual Attack](#visual-attack)
@@ -62,6 +62,7 @@
 - [DNA Steganalysis Using Deep Recurrent Neural Networks](#dna-steganalysis-using-deep-recurrent-neural-networks)
 - [Using Deep Learning to Detect Digitally Encoded DNA Trigger for Trojan Malware in Bio-Cyber Attacks](#using-deep-learning-to-detect-digitally-encoded-dna-trigger-for-trojan-malware-in-bio-cyber-attacks)
 - [GSDFuse: Capturing Cognitive Inconsistencies from Multi-Dimensional Weak Signals in Social Media Steganalysis](#gsdfuse-capturing-cognitive-inconsistencies-from-multi-dimensional-weak-signals-in-social-media-steganalysis)
+- [Robust Detection of Watermarks Under Human Edits (Tr-GoF)](#robust-detection-of-watermarks-under-human-edits-tr-gof)
 
 **[Network Steganalysis](#network-steganalysis)**
 - [Tor Traffic Detection](#tor-traffic-detection)
@@ -89,6 +90,7 @@
 - [Steganalysis via a Convolutional Neural Network using Large Convolution Filters for Embedding Process with Same Stego Key](#steganalysis-via-a-convolutional-neural-network-using-large-convolution-filters-for-embedding-process-with-same-stego-key)
 - [Steganalysis of Transcoding Steganography](#steganalysis-of-transcoding-steganography)
 - [Towards Steganography Detection Through Network Traffic Visualisation](#towards-steganography-detection-through-network-traffic-visualisation)
+- [DNS-HyXNet (xLSTM Real-Time DNS Tunnel Detection)](#dns-hyxnet-xlstm-real-time-dns-tunnel-detection)
 
 **[Benchmark Datasets](#benchmark-datasets)**
 - [BOSSBase](#bossbase)
@@ -1282,6 +1284,27 @@ Preprint; peer review status unknown.
 
 ---
 
+### Robust Detection of Watermarks Under Human Edits (Tr-GoF)
+
+**Goal:** Detect LLM-generated text watermarks even when human editors substantially modify the text. Standard watermark detection degrades sharply under edits; Tr-GoF (truncated goodness-of-fit) is robust without requiring prior knowledge of edit level or LLM model.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **Tr-GoF (Li et al.)** | 2024 | Truncated goodness-of-fit test | Detects Gumbel/Red-Green watermarks under heavy human editing; optimal without model knowledge [[1]](https://arxiv.org/abs/2411.13868) |
+
+**State of the art:** Pennsylvania-led collaboration. Establishes that watermark detection under adversarial edits has provable optimal procedures; Tr-GoF achieves the upper bound asymptotically.
+
+**Production readiness:** Research
+Statistical framework with reference implementation; ready for integration into watermark detection pipelines.
+
+**Security status:** Effective
+Optimal in the adversarial-edit regime up to constant factors.
+
+**Community acceptance:** Emerging
+Cited in subsequent watermarking literature; influences design of robustness benchmarks (e.g., MarkMyWords).
+
+---
+
 ## Network Steganalysis
 
 ---
@@ -1798,6 +1821,30 @@ Early-stage research; requires more validation.
 
 **Community acceptance:** Emerging
 First work on traffic visualization for steganalysis; pioneering approach.
+
+---
+
+### DNS-HyXNet (xLSTM Real-Time DNS Tunnel Detection)
+
+**Goal:** Detect DNS tunneling attacks in real time using a sequential xLSTM model that processes DNS packet sequences directly, avoiding the computational overhead of graph-based approaches while preserving high accuracy.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **DNS-HyXNet** | 2025 | xLSTM sequential model | 99.99% accuracy; 0.041 ms detection latency per sample; deployable on commodity hardware [[1]](https://arxiv.org/abs/2512.09565) |
+
+**State of the art:** Ali et al. (2025) — current best for real-time DNS tunnel detection by combining temporal dynamics modeling with low-latency inference. Extends naturally to DoH (DNS over HTTPS) and DoT (DNS over TLS) where payload is encrypted.
+
+**Production readiness:** Mature
+Deployable on standard hardware; suitable for inline NIDS deployment.
+
+**Implementations:**
+- No public reference release yet; benchmark code described in paper.
+
+**Security status:** Effective
+99.99% benchmark accuracy on standard DNS tunnel datasets (iodine, dnscat2, dns2tcp).
+
+**Community acceptance:** Emerging
+Recent (Dec 2025); xLSTM-based approach gaining attention as Transformer alternative for sequential network data.
 
 ---
 

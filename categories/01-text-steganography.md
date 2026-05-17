@@ -1,7 +1,7 @@
 # Text Steganography
 
 <!-- TOC -->
-## Contents (146 algorithms)
+## Contents (150 algorithms)
 
 **[Structural Methods](#structural-methods)**
 - [ASCII Art Steganography](#ascii-art-steganography)
@@ -154,6 +154,10 @@
 - [The Reincarnation of Grille Cipher: A Generative Approach](#the-reincarnation-of-grille-cipher-a-generative-approach)
 - [The New Threats of Information Hiding: the Road Ahead](#the-new-threats-of-information-hiding-the-road-ahead)
 - [An improvement on LSB+ method](#an-improvement-on-lsb-method)
+- [SynthID-Text (Google Tournament-Based LLM Watermark)](#synthid-text-google-tournament-based-llm-watermark)
+- [TextSeal (Localized LLM Watermark for Provenance and Distillation)](#textseal-localized-llm-watermark-for-provenance-and-distillation)
+- [HeavyWater and SimplexWater (Distortion-Free LLM Watermarks)](#heavywater-and-simplexwater-distortion-free-llm-watermarks)
+- [A Unified Framework for LLM Watermarks](#a-unified-framework-for-llm-watermarks)
 
 <!-- /TOC -->
 
@@ -3229,6 +3233,95 @@ Known vulnerabilities or detection risks discussed in paper.
 Preprint; peer review status unknown.
 
 ---
+
+---
+
+### SynthID-Text (Google Tournament-Based LLM Watermark)
+
+**Goal:** First production-grade generative watermark system for large language model outputs. Embeds detectable signal in generated text via tournament-based token selection without degrading quality.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **SynthID-Text** | 2024 | Tournament sampling | Deployed in Google Gemini; published in Nature 2024 [[1]](https://www.nature.com/articles/s41586-024-08025-4) |
+| **SynthID-Text Theoretical Analysis** | 2026 | Mathematical proofs | Shows tournament-layer increases weaken mean-score detection; Bayesian scoring is more robust [[1]](https://arxiv.org/abs/2603.03410) |
+
+**State of the art:** First production LLM watermark deployed at scale. Tournament-based method achieves SoTA detectability for AI-generated text identification. Open-source detector released.
+
+**Production readiness:** Production
+Deployed in Gemini chat outputs as opt-in watermark; open-source detector available.
+
+**Implementations:**
+- [SynthID Text repo (Google DeepMind)](https://github.com/google-deepmind/synthid-text) — Python/TF, detection toolkit
+
+**Security status:** Caution
+Vulnerabilities identified by Omidi-Dong-Wang (2026): tournament-layer attacks reduce detection; Bayesian scoring is more robust than mean-score.
+
+**Community acceptance:** Widely trusted
+Published in Nature; positive review by independent watermarking community. Some critique re: detection-attack tradeoffs.
+
+---
+
+### TextSeal (Localized LLM Watermark for Provenance and Distillation)
+
+**Goal:** Distortion-free non-deterministic LLM watermark that protects both AI text provenance and model distillation attribution via dual-key generation and multi-region localization.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **TextSeal** | 2026 | Gumbel-max + dual-key + entropy weighting | Detects both AI-generated content and unauthorized distillation [[1]](https://arxiv.org/abs/2605.12456) |
+
+**State of the art:** Builds on Gumbel-max watermark (best detectability-quality Pareto frontier). Introduces dual-key generation to overcome determinism, entropy-weighted scoring, multi-region localization for fine-grained detection.
+
+**Production readiness:** Research
+Academic prototype with reference implementation; no public deployment yet.
+
+**Security status:** Secure
+Distortion-free at the token-distribution level; non-deterministic via key alternation defeats stateless adversaries.
+
+**Community acceptance:** Emerging
+Recent paper (2026); not yet widely evaluated against attack benchmarks.
+
+---
+
+### HeavyWater and SimplexWater (Distortion-Free LLM Watermarks)
+
+**Goal:** Watermark LLM outputs while preserving text quality, with special focus on low-entropy generation contexts (coding, structured outputs) where standard watermarks fail or degrade fluency.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **HeavyWater** | 2025 | Heavy-tailed distribution shift | Optimizes detection-distortion tradeoff [[1]](https://arxiv.org/abs/2506.06409) |
+| **SimplexWater** | 2025 | Simplex-projected distribution shift | Low-entropy-friendly variant of HeavyWater [[1]](https://arxiv.org/abs/2506.06409) |
+
+**State of the art:** Tsur et al. (2025) — first watermarking methods explicitly optimized for low-entropy tasks (code generation, structured-data outputs) where Gumbel-max and Red-Green degrade quality.
+
+**Production readiness:** Research
+Reference implementation in paper; not yet deployed in production LLM systems.
+
+**Security status:** Secure
+Distortion-free by construction. Robustness to paraphrasing not yet independently benchmarked.
+
+**Community acceptance:** Emerging
+Recent CRYPTO-adjacent paper, gaining attention in distortion-free watermark community.
+
+---
+
+### A Unified Framework for LLM Watermarks
+
+**Goal:** Formalize LLM watermarking as a constrained optimization problem, unifying Red-Green, AAR/KTH, SynthID, Gumbel-max, and other schemes under a single framework with provable trade-offs.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **Unified Watermark Framework** | 2026 | Constrained optimization | Reduces watermark design to maximizing detectability subject to distortion budget [[1]](https://arxiv.org/abs/2602.06754) |
+
+**State of the art:** Establishes mathematical scaffolding for comparing watermark schemes. Shows existing methods (Red-Green, AAR/KTH, SynthID) are special-case solutions to a constrained optimization.
+
+**Production readiness:** Research
+Theoretical framework only; not a deployable watermark itself.
+
+**Security status:** N/A (theoretical analysis)
+Provides bounds on detection-distortion tradeoff that all watermark schemes must satisfy.
+
+**Community acceptance:** Emerging
+Recent theory paper; provides unification useful for future watermark scheme design and analysis.
 
 ---
 
