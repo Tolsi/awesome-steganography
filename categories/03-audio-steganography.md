@@ -1,16 +1,17 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (46 algorithms)
+## Contents (41 algorithms)
 
 **[Time Domain](#time-domain)**
-- [LPC](#lpc-linear-predictive-coding)
+- [LPC (Linear Predictive Coding)](#lpc-linear-predictive-coding)
 - [LSB Audio](#lsb-audio)
 - [Parity Coding](#parity-coding)
 - [Echo Hiding](#echo-hiding)
 - [Phase Coding](#phase-coding)
 - [Tone Insertion](#tone-insertion)
 - [Adaptive Phase Coding](#adaptive-phase-coding)
+- [Audio Steganography: LSB Technique Using a Pyramid Structure and Range of Bytes](#audio-steganography-lsb-technique-using-a-pyramid-structure-and-range-of-bytes)
 
 **[Frequency Domain](#frequency-domain)**
 - [Spread Spectrum](#spread-spectrum)
@@ -31,35 +32,26 @@
 - [WavMark](#wavmark)
 - [AudioSeal](#audioseal)
 - [PRoADS](#proads)
-- [FGAS](#fgas-fixed-decoder-network-based-audio-steganography)
-- [AAG-Stega](#aag-stega-automatic-audio-generation-based-steganography)
-- [Hide and Speak](#hide-and-speak-deep-neural-networks-for-speech-steganography)
-
-**[Spectrogram Methods](#spectrogram-methods)**
+- [FGAS: Fixed Decoder Network-Based Audio Steganography](#fgas-fixed-decoder-network-based-audio-steganography)
+- [AAG-Stega: Automatic Audio Generation-based Steganography](#aag-stega-automatic-audio-generation-based-steganography)
+- [Hide and Speak: Deep Neural Networks for Speech Steganography](#hide-and-speak-deep-neural-networks-for-speech-steganography)
 - [Spectrogram Steganography](#spectrogram-steganography)
-
-**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
-- [Image Steganography For Securing Intellicise Wireless Networ...](#image-steganography-for-securing-intellicise-wireless-networks-invisible-encryption-against-eavesdroppers)
-- [V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manip...](#v2a-mark-versatile-deep-visual-audio-watermarking-for-manipulation-localization-and-copyright-protection)
-- [Secure Semantic Communication for Image Transmission in the ...](#secure-semantic-communication-for-image-transmission-in-the-presence-of-eavesdroppers)
-- [NUANCE: Near Ultrasound Attack On Networked Communication En...](#nuance-near-ultrasound-attack-on-networked-communication-environments)
+- [FGAS](#fgas)
+- [SteganoSNN](#steganosnn)
+- [HHO-Optimized Audio Steganography](#hho-optimized-audio-steganography)
+- [Image Steganography For Securing Intellicise Wireless Networks: "Invisible Encryption" Against Eavesdroppers](#image-steganography-for-securing-intellicise-wireless-networks-invisible-encryption-against-eavesdroppers)
+- [V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manipulation Localization and Copyright Protection](#v2a-mark-versatile-deep-visual-audio-watermarking-for-manipulation-localization-and-copyright-protection)
+- [Secure Semantic Communication for Image Transmission in the Presence of Eavesdroppers](#secure-semantic-communication-for-image-transmission-in-the-presence-of-eavesdroppers)
+- [NUANCE: Near Ultrasound Attack On Networked Communication Environments](#nuance-near-ultrasound-attack-on-networked-communication-environments)
 - [Source Mixing and Separation Robust Audio Steganography](#source-mixing-and-separation-robust-audio-steganography)
 - [PixInWav: Residual Steganography for Hiding Pixels in Audio](#pixinwav-residual-steganography-for-hiding-pixels-in-audio)
-- [Multi-Stage Residual Hiding for Image-into-Audio Steganograp...](#multi-stage-residual-hiding-for-image-into-audio-steganography)
-- [Utilizing Pileup Effect and Intermittently Nonlinear Filteri...](#utilizing-pileup-effect-and-intermittently-nonlinear-filtering-in-synthesis-of-covert-and-hard-to-intercept-communication-links)
-- [Heard More Than Heard: An Audio Steganography Method Based o...](#heard-more-than-heard-an-audio-steganography-method-based-on-gan)
-- [Audio Steganography: LSB Technique Using a Pyramid Structure...](#audio-steganography-lsb-technique-using-a-pyramid-structure-and-range-of-bytes)
+- [Multi-Stage Residual Hiding for Image-into-Audio Steganography](#multi-stage-residual-hiding-for-image-into-audio-steganography)
+- [Utilizing Pileup Effect and Intermittently Nonlinear Filtering in Synthesis of Covert and Hard-to-Intercept Communication Links](#utilizing-pileup-effect-and-intermittently-nonlinear-filtering-in-synthesis-of-covert-and-hard-to-intercept-communication-links)
+- [Heard More Than Heard: An Audio Steganography Method Based on GAN](#heard-more-than-heard-an-audio-steganography-method-based-on-gan)
 - [Developing a Video Steganography Toolkit](#developing-a-video-steganography-toolkit)
 - [A Two Intermediates Audio Steganography Technique](#a-two-intermediates-audio-steganography-technique)
-- [Design And Implementation Of Multilevel Access Control In Me...](#design-and-implementation-of-multilevel-access-control-in-medical-image-transmission-using-symmetric-polynomial-based-audio-steganography)
+- [Design And Implementation Of Multilevel Access Control In Medical Image Transmission Using Symmetric Polynomial Based Audio Steganography](#design-and-implementation-of-multilevel-access-control-in-medical-image-transmission-using-symmetric-polynomial-based-audio-steganography)
 
-**[CTF Audio Tools](#ctf-audio-tools)**
-- [WavSteg](#wavsteg)
-- [Sonic Visualizer](#sonic-visualizer)
-
-**[Software Tools](#software-tools)**
-- [AudioStego](#audiostego)
-- [spectrology](#spectrology)
 <!-- /TOC -->
 
 ## Time Domain
@@ -210,6 +202,27 @@ More resistant to detection than basic phase coding but still vulnerable to phas
 
 **Community acceptance:** Emerging
 Active research area; improved variants published through 2024.
+
+---
+
+### Audio Steganography: LSB Technique Using a Pyramid Structure and Range of Bytes
+
+**Goal:** Improve LSB audio steganography to balance payload capacity, robustness, and imperceptibility.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Audio Steganography: LSB Technique Using a Pyramid Structure** | 2015 | cs.MM | Satish Bhalshankar, Avinash K. Gulve [[1]](https://arxiv.org/abs/1509.02630) |
+
+**State of the art:** Uses pyramid structure and range of bytes to improve payload capacity while maintaining robustness and imperceptibility. Divides cover audio bytes into ranges to hide secret bits appropriately. Published in IJACR.
+
+**Production readiness:** Experimental
+Published research; implementation details in paper.
+
+**Security status:** Broken
+LSB methods are easily detected by steganalysis.
+
+**Community acceptance:** Niche
+Published in 2015; superseded by modern methods.
 
 ---
 
@@ -670,10 +683,6 @@ Underlying LSB technique remains detectable; optimization only improves pixel ch
 **Community acceptance:** Emerging
 Novel combination of metaheuristic optimization and audio-in-image steganography; limited peer adoption so far.
 
-## Recent arXiv Papers (2024–2026)
-
----
-
 ### Image Steganography For Securing Intellicise Wireless Networks: "Invisible Encryption" Against Eavesdroppers
 
 **Goal:** Apply image steganography to secure semantic communication in intelligent wireless networks against eavesdroppers.
@@ -860,27 +869,6 @@ GAN-based approach; security not independently verified.
 
 **Community acceptance:** Emerging
 Early GAN-based audio steganography work.
-
----
-
-### Audio Steganography: LSB Technique Using a Pyramid Structure and Range of Bytes
-
-**Goal:** Improve LSB audio steganography to balance payload capacity, robustness, and imperceptibility.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Audio Steganography: LSB Technique Using a Pyramid Structure** | 2015 | cs.MM | Satish Bhalshankar, Avinash K. Gulve [[1]](https://arxiv.org/abs/1509.02630) |
-
-**State of the art:** Uses pyramid structure and range of bytes to improve payload capacity while maintaining robustness and imperceptibility. Divides cover audio bytes into ranges to hide secret bits appropriately. Published in IJACR.
-
-**Production readiness:** Experimental
-Published research; implementation details in paper.
-
-**Security status:** Broken
-LSB methods are easily detected by steganalysis.
-
-**Community acceptance:** Niche
-Published in 2015; superseded by modern methods.
 
 ---
 

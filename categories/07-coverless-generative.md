@@ -14,20 +14,24 @@
 - [CRoSS](#cross)
 - [MIDAS](#midas)
 - [Training-Free Coverless Multi-Image Steganography](#training-free-coverless-multi-image-steganography)
+- [Dual Model Replacement:invisible Multi-target Backdoor Attack based on Federal Learning](#dual-model-replacementinvisible-multi-target-backdoor-attack-based-on-federal-learning)
+- [A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography](#a-dynamic-yolo-based-sequence-matching-model-for-efficient-coverless-image-steganography)
+- [Image Generation Network for Covert Transmission in Online Social Network](#image-generation-network-for-covert-transmission-in-online-social-network)
 
 **[3D/Neural Graphics](#3dneural-graphics)**
 - [StegoNGP](#stegongp)
 - [3DGS Steganography](#3dgs-steganography)
+- [SecureGS](#securegs)
+- [GS-Hider](#gs-hider)
+- [SemSteDiff](#semstediff)
+- [DDIM-Driven Coverless Steganography](#ddim-driven-coverless-steganography)
+- [INR-Based Generative Steganography](#inr-based-generative-steganography)
 - [Splats in Splats++](#splats-in-splats)
-
-**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
-- [All That Glitters Is Not Gold: Key-Secured 3D Secrets within...](#all-that-glitters-is-not-gold-key-secured-3d-secrets-within-3d-gaussian-splatting)
-- [Splats in Splats: Robust and Effective 3D Steganography towa...](#splats-in-splats-robust-and-effective-3d-steganography-towards-gaussian-splatting)
-- [Dual Model Replacement:invisible Multi-target Backdoor Attac...](#dual-model-replacementinvisible-multi-target-backdoor-attack-based-on-federal-learning)
-- [A Dynamic YOLO-Based Sequence-Matching Model for Efficient C...](#a-dynamic-yolo-based-sequence-matching-model-for-efficient-coverless-image-steganography)
-- [Noise-NeRF: Hide Information in Neural Radiance Fields using...](#noise-nerf-hide-information-in-neural-radiance-fields-using-trainable-noise)
+- [All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting](#all-that-glitters-is-not-gold-key-secured-3d-secrets-within-3d-gaussian-splatting)
+- [Splats in Splats: Robust and Effective 3D Steganography towards Gaussian Splatting](#splats-in-splats-robust-and-effective-3d-steganography-towards-gaussian-splatting)
+- [Noise-NeRF: Hide Information in Neural Radiance Fields using Trainable Noise](#noise-nerf-hide-information-in-neural-radiance-fields-using-trainable-noise)
 - [Steganography for Neural Radiance Fields by Backdooring](#steganography-for-neural-radiance-fields-by-backdooring)
-- [Image Generation Network for Covert Transmission in Online S...](#image-generation-network-for-covert-transmission-in-online-social-network)
+
 <!-- /TOC -->
 
 ## Hash-based
@@ -158,6 +162,69 @@ Preprint only; no implementation released.
 **Security status:** Secure — Coverless; no pixel-level embedding
 
 **Community acceptance:** Emerging — Very recent (2026)
+
+---
+
+### Dual Model Replacement:invisible Multi-target Backdoor Attack based on Federal Learning
+
+**Goal:** Design backdoor attack method for federated learning using steganography to encode attack information as invisible noise.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Dual Model Replacement:invisible Multi-target Backdoor Attac** | 2024 | cs.LG | Rong Wang et al. [[1]](https://arxiv.org/abs/2404.13946) |
+
+**State of the art:** Proposes TrojanGan steganography model with encoder-decoder structure for invisible backdoor triggers. Uses dual model replacement for improved attack success rate in federated learning. Achieves high concealment and multi-target attack capability.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Security research; discusses vulnerabilities and detection risks.
+
+**Community acceptance:** Emerging
+Novel application of steganography to backdoor attacks; significant for security research.
+
+---
+
+### A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography
+
+**Goal:** Solve exponential database growth problem in coverless steganography by using YOLO-based sequence matching with limited image library.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Dynamic YOLO-Based Sequence-Matching Model for Efficient C** | 2024 | cs.CR | Jiajun Liu et al. [[1]](https://arxiv.org/abs/2401.11946) |
+
+**State of the art:** Uses YOLO for optimal object selection and mapping dictionary for scrambling factors. Achieves 19 bits per image with only ~200 random images. Recovers 79.85% secret info under geometric attacks.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Novel approach to database growth problem; significant for practical deployment.
+
+---
+
+### Image Generation Network for Covert Transmission in Online Social Network
+
+**Goal:** Synthesize high-quality images directly from secret messages for covert transmission over online social networks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Image Generation Network for Covert Transmission in Online S** | 2022 | cs.CV | Zhengxin You et al. [[1]](https://arxiv.org/abs/2207.10292) |
+
+**State of the art:** Proposes CIS-Net with Generation, Adversarial, Extraction, and Noise Modules. Achieves lossless extraction even after JPEG compression. Uses profile photos and stickers context for evasion. Accepted at ACMMM 2022.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Accepted at ACMMM 2022; significant for OSN-based steganography.
 
 ---
 
@@ -316,10 +383,6 @@ Preprint October 2024; no public implementation.
 
 **Community acceptance:** Emerging
 
-## Recent arXiv Papers (2024–2026)
-
----
-
 ### All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting
 
 **Goal:** Hide 3D secrets within 3D Gaussian Splatting covers while ensuring imperceptibility and high-fidelity reconstruction with key-secured access control.
@@ -362,48 +425,6 @@ Accepted at AAAI 2026; significant for 3D asset protection.
 
 ---
 
-### Dual Model Replacement:invisible Multi-target Backdoor Attack based on Federal Learning
-
-**Goal:** Design backdoor attack method for federated learning using steganography to encode attack information as invisible noise.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Dual Model Replacement:invisible Multi-target Backdoor Attac** | 2024 | cs.LG | Rong Wang et al. [[1]](https://arxiv.org/abs/2404.13946) |
-
-**State of the art:** Proposes TrojanGan steganography model with encoder-decoder structure for invisible backdoor triggers. Uses dual model replacement for improved attack success rate in federated learning. Achieves high concealment and multi-target attack capability.
-
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
-
-**Security status:** Caution
-Security research; discusses vulnerabilities and detection risks.
-
-**Community acceptance:** Emerging
-Novel application of steganography to backdoor attacks; significant for security research.
-
----
-
-### A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography
-
-**Goal:** Solve exponential database growth problem in coverless steganography by using YOLO-based sequence matching with limited image library.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A Dynamic YOLO-Based Sequence-Matching Model for Efficient C** | 2024 | cs.CR | Jiajun Liu et al. [[1]](https://arxiv.org/abs/2401.11946) |
-
-**State of the art:** Uses YOLO for optimal object selection and mapping dictionary for scrambling factors. Achieves 19 bits per image with only ~200 random images. Recovers 79.85% secret info under geometric attacks.
-
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Novel approach to database growth problem; significant for practical deployment.
-
----
-
 ### Noise-NeRF: Hide Information in Neural Radiance Fields using Trainable Noise
 
 **Goal:** Address information security issues in NeRF by hiding data within Neural Radiance Fields using trainable noise.
@@ -443,26 +464,5 @@ Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
 First NeRF backdoor steganography; significant for implicit representation security.
-
----
-
-### Image Generation Network for Covert Transmission in Online Social Network
-
-**Goal:** Synthesize high-quality images directly from secret messages for covert transmission over online social networks.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image Generation Network for Covert Transmission in Online S** | 2022 | cs.CV | Zhengxin You et al. [[1]](https://arxiv.org/abs/2207.10292) |
-
-**State of the art:** Proposes CIS-Net with Generation, Adversarial, Extraction, and Noise Modules. Achieves lossless extraction even after JPEG compression. Uses profile photos and stickers context for evasion. Accepted at ACMMM 2022.
-
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Accepted at ACMMM 2022; significant for OSN-based steganography.
 
 ---

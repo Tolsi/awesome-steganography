@@ -1,7 +1,7 @@
 # Network Steganography
 
 <!-- TOC -->
-## Contents (67 algorithms)
+## Contents (61 algorithms)
 
 **[Header Fields](#header-fields)**
 - [IPv4/IPv6 Headers](#ipv4ipv6-headers)
@@ -19,6 +19,7 @@
 - [iodine](#iodine)
 - [dnscat2](#dnscat2)
 - [dns2tcp](#dns2tcp)
+- [A Lightweight Adaptable DNS Channel for Covert Data Transmission](#a-lightweight-adaptable-dns-channel-for-covert-data-transmission)
 
 **[Protocol-specific](#protocol-specific)**
 - [QuicCourier](#quiccourier)
@@ -26,50 +27,34 @@
 - [SteganoRTP](#steganortp)
 - [VoIP Steganography](#voip-steganography)
 - [WireGuard Steganography](#wireguard-steganography)
-
-**[Alternative Protocols](#alternative-protocols)**
-- [5G/6G Cellular](#56g-cellular)
-- [Wi-Fi CSI](#wi-fi-csi)
-- [CYPRESS](#cypress)
-- [HICCUPS](#hiccups)
-- [Inter-protocol Steganography](#inter-protocol-steganography)
-- [Quantum Gatekeeper](#quantum-gatekeeper)
-- [Intellicise Wireless Network](#intellicise-wireless-network)
-- [VeriPHY](#veriphy)
-
-**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
-- [Combining Different Existing Methods for Describing Steganog...](#combining-different-existing-methods-for-describing-steganography-hiding-methods)
+- [Combining Different Existing Methods for Describing Steganography Hiding Methods](#combining-different-existing-methods-for-describing-steganography-hiding-methods)
 - [Quantum Hilbert Transform](#quantum-hilbert-transform)
-- [RFNNS: Robust Fixed Neural Network Steganography with Univer...](#rfnns-robust-fixed-neural-network-steganography-with-universal-text-to-image-models)
-- [Multichannel Steganography: A Provably Secure Hybrid Stegano...](#multichannel-steganography-a-provably-secure-hybrid-steganographic-model-for-secure-communication)
-- [Cover-separable Fixed Neural Network Steganography via Deep ...](#cover-separable-fixed-neural-network-steganography-via-deep-generative-models)
-- [Synthetic Embedding of Hidden Information in Industrial Cont...](#synthetic-embedding-of-hidden-information-in-industrial-control-system-network-protocols-for-evaluation-of-steganographic-malware)
+- [RFNNS: Robust Fixed Neural Network Steganography with Universal Text-to-Image Models](#rfnns-robust-fixed-neural-network-steganography-with-universal-text-to-image-models)
+- [Multichannel Steganography: A Provably Secure Hybrid Steganographic Model for Secure Communication](#multichannel-steganography-a-provably-secure-hybrid-steganographic-model-for-secure-communication)
+- [Cover-separable Fixed Neural Network Steganography via Deep Generative Models](#cover-separable-fixed-neural-network-steganography-via-deep-generative-models)
+- [Synthetic Embedding of Hidden Information in Industrial Control System Network Protocols for Evaluation of Steganographic Malware](#synthetic-embedding-of-hidden-information-in-industrial-control-system-network-protocols-for-evaluation-of-steganographic-malware)
 - [Purified and Unified Steganographic Network](#purified-and-unified-steganographic-network)
-- [Towards Deep Network Steganography: From Networks to Network...](#towards-deep-network-steganography-from-networks-to-networks)
+- [Towards Deep Network Steganography: From Networks to Networks](#towards-deep-network-steganography-from-networks-to-networks)
 - [DWT-GBT-SVD-based Robust Speech Steganography](#dwt-gbt-svd-based-robust-speech-steganography)
-- [A Lightweight Adaptable DNS Channel for Covert Data Transmis...](#a-lightweight-adaptable-dns-channel-for-covert-data-transmission)
-- [Deep Residual Neural Networks for Image in Speech Steganogra...](#deep-residual-neural-networks-for-image-in-speech-steganography)
-- [Hide and Speak: Towards Deep Neural Networks for Speech Steg...](#hide-and-speak-towards-deep-neural-networks-for-speech-steganography)
-- [Hiding Data in Plain Sight: Undetectable Wireless Communicat...](#hiding-data-in-plain-sight-undetectable-wireless-communications-through-pseudo-noise-asymmetric-shift-keying)
+- [Deep Residual Neural Networks for Image in Speech Steganography](#deep-residual-neural-networks-for-image-in-speech-steganography)
+- [Hide and Speak: Towards Deep Neural Networks for Speech Steganography](#hide-and-speak-towards-deep-neural-networks-for-speech-steganography)
 - [AAG-Stega: Automatic Audio Generation-based Steganography](#aag-stega-automatic-audio-generation-based-steganography)
 - [Unified Description for Network Information Hiding Methods](#unified-description-for-network-information-hiding-methods)
 - [A Second Order Derivatives based Approach for Steganography](#a-second-order-derivatives-based-approach-for-steganography)
-- [Why Johnny Can't Use Stego: a Human-oriented Perspective on ...](#why-johnny-cant-use-stego-a-human-oriented-perspective-on-the-application-of-steganography)
+- [Why Johnny Can't Use Stego: a Human-oriented Perspective on the Application of Steganography](#why-johnny-cant-use-stego-a-human-oriented-perspective-on-the-application-of-steganography)
 - [Trends toward real-time network data steganography](#trends-toward-real-time-network-data-steganography)
-- ["The Good, The Bad And The Ugly": Evaluation of Wi-Fi Stegan...](#the-good-the-bad-and-the-ugly-evaluation-of-wi-fi-steganography)
-- [StegBlocks: ensuring perfect undetectability of network steg...](#stegblocks-ensuring-perfect-undetectability-of-network-steganography)
-- [Micro protocol engineering for unstructured carriers: On the...](#micro-protocol-engineering-for-unstructured-carriers-on-the-embedding-of-steganographic-control-protocols-into-audio-transmissions)
-- [Hidden and Uncontrolled - On the Emergence of Network Stegan...](#hidden-and-uncontrolled-on-the-emergence-of-network-steganographic-threats)
-- [On Importance of Steganographic Cost For Network Steganograp...](#on-importance-of-steganographic-cost-for-network-steganography)
+- [StegBlocks: ensuring perfect undetectability of network steganography](#stegblocks-ensuring-perfect-undetectability-of-network-steganography)
+- [Micro protocol engineering for unstructured carriers: On the embedding of steganographic control protocols into audio transmissions](#micro-protocol-engineering-for-unstructured-carriers-on-the-embedding-of-steganographic-control-protocols-into-audio-transmissions)
+- [Hidden and Uncontrolled - On the Emergence of Network Steganographic Threats](#hidden-and-uncontrolled-on-the-emergence-of-network-steganographic-threats)
+- [On Importance of Steganographic Cost For Network Steganography](#on-importance-of-steganographic-cost-for-network-steganography)
 - [Adaptive Software Radio Steganography](#adaptive-software-radio-steganography)
-- [Development Trends in Steganography](#development-trends-in-steganography)
 - [Principles and Overview of Network Steganography](#principles-and-overview-of-network-steganography)
 - [Dynamic Pattern Based Image Steganography](#dynamic-pattern-based-image-steganography)
-- [Direct Sequence Spread Spectrum Steganographic Scheme for IE...](#direct-sequence-spread-spectrum-steganographic-scheme-for-ieee-802154)
+- [Direct Sequence Spread Spectrum Steganographic Scheme for IEEE 802.15.4](#direct-sequence-spread-spectrum-steganographic-scheme-for-ieee-802154)
 - [How Hidden Can Be Even More Hidden?](#how-hidden-can-be-even-more-hidden)
 - [Sending Hidden Data via Google Suggest](#sending-hidden-data-via-google-suggest)
-- [Stegobot: construction of an unobservable communication netw...](#stegobot-construction-of-an-unobservable-communication-network-leveraging-social-behavior)
-- [Proposed System for data hiding using Cryptography and Stega...](#proposed-system-for-data-hiding-using-cryptography-and-steganography-proposed-system-for-data-hiding-using-cryptography-and-steganography)
+- [Stegobot: construction of an unobservable communication network leveraging social behavior](#stegobot-construction-of-an-unobservable-communication-network-leveraging-social-behavior)
+- [Proposed System for data hiding using Cryptography and Steganography Proposed System for data hiding using Cryptography and Steganography](#proposed-system-for-data-hiding-using-cryptography-and-steganography-proposed-system-for-data-hiding-using-cryptography-and-steganography)
 - [Retransmission Steganography Applied](#retransmission-steganography-applied)
 - [Stream Control Transmission Protocol Steganography](#stream-control-transmission-protocol-steganography)
 - [Information Hiding Using Improper Frame Padding](#information-hiding-using-improper-frame-padding)
@@ -77,8 +62,18 @@
 - [Steganography in Handling Oversized IP Packets](#steganography-in-handling-oversized-ip-packets)
 - [SecMon: End-to-End Quality and Security Monitoring System](#secmon-end-to-end-quality-and-security-monitoring-system)
 
-**[Network Stego Tools](#network-stego-tools)**
-- [ST3GG](#st3gg)
+**[Alternative Protocols](#alternative-protocols)**
+- [5G/6G Cellular](#5g6g-cellular)
+- [Wi-Fi CSI](#wi-fi-csi)
+- [CYPRESS](#cypress)
+- [HICCUPS](#hiccups)
+- [Inter-protocol Steganography](#inter-protocol-steganography)
+- [Quantum Gatekeeper](#quantum-gatekeeper)
+- [Intellicise Wireless Network](#intellicise-wireless-network)
+- [VeriPHY](#veriphy)
+- [Hiding Data in Plain Sight: Undetectable Wireless Communications Through Pseudo-Noise Asymmetric Shift Keying](#hiding-data-in-plain-sight-undetectable-wireless-communications-through-pseudo-noise-asymmetric-shift-keying)
+- ["The Good, The Bad And The Ugly": Evaluation of Wi-Fi Steganography](#the-good-the-bad-and-the-ugly-evaluation-of-wi-fi-steganography)
+
 <!-- /TOC -->
 
 ## Header Fields
@@ -300,6 +295,27 @@
 
 ---
 
+### A Lightweight Adaptable DNS Channel for Covert Data Transmission
+
+**Goal:** Create a DNS-based storage covert channel for stealthy data transfer.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Lightweight Adaptable DNS Channel for Covert Data Transmis** | 2020 | cs.CR | Mahboubeh Nazari, Sousan Tarahomi, Sobhan Aliabady [[1]](https://arxiv.org/abs/2003.14094) |
+
+**State of the art:** DNS storage covert channel with connection establishment, adaptability, lightweight obfuscation, and HMAC for confidentiality/integrity. Statistics well adapted to normal traffic. Average capacity 2.65 bytes/packet.
+
+**Production readiness:** Experimental
+Academic research; no public implementation.
+
+**Security status:** Caution
+DNS tunneling known to be monitored by security tools.
+
+**Community acceptance:** Niche
+DNS covert channel research.
+
+---
+
 ## Protocol-specific
 
 ---
@@ -391,161 +407,6 @@
 **Security status:** Secure — WireGuard's encryption limits detectability; channel capacity very low
 
 **Community acceptance:** Emerging — No peer-reviewed steganography paper confirmed; based on general network steganography principles
-
----
-
-## Alternative Protocols
-
----
-
-### 5G/6G Cellular
-
-**Goal:** Covert channels in cellular networks.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **SteaLTE** | 2021 | Full-stack wireless steganography disguising data as noise | Private 5G [[1]](https://arxiv.org/abs/2102.05606) |
-
-**State of the art:** Bonati et al. (IEEE INFOCOM 2021) presented SteaLTE, the first full-stack cellular steganography system enabling private network slices invisible to adversarial receivers.
-
-**Production readiness:** Research
-
-**Security status:** Secure — Data disguised as noise; requires physical layer access to detect
-
-**Community acceptance:** Emerging
-
----
-
-### Wi-Fi CSI
-
-**Goal:** Embed in Wi-Fi Channel State Information.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Wi-Fi CSI** | 2026 | CSI quotient with learned FIR filters | High capacity [[1]](https://arxiv.org/abs/2604.20521) |
-
-**State of the art:** Guo et al. (arXiv:2604.20521, Apr 2026) propose embedding secrets in the quotient of consecutive CSI measurements using an encoder-decoder neural network; prototype on ANTSDR and ESP32 hardware.
-
-**Production readiness:** Research
-
-**Security status:** Secure — Modifications blend with natural channel variation
-
-**Community acceptance:** Emerging
-
----
-
-### CYPRESS
-
-**Goal:** High-speed covert channels mounting on regular packets.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **CYPRESS** | 2025 | Secret network entity packets ride inside regular visible packets | 1.6 MB/s [[1]](https://arxiv.org/abs/2511.06540) |
-
-**State of the art:** Shahini & Ricci (arXiv:2511.06540, Nov 2025) demonstrate practical covert channels far exceeding prior work in throughput, protocol-agnostic and deployable in real networks.
-
-**Production readiness:** Research
-
-**Security status:** Caution — High throughput increases statistical detectability; no published countermeasure evaluation yet
-
-**Community acceptance:** Emerging
-
----
-
-### HICCUPS
-
-**Goal:** Hide data in WLAN networks using corrupted frames.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **HICCUPS** | 2003 | Hidden Communication System for Corrupted Networks | WLAN steganography [[1]](https://www.semanticscholar.org/paper/HICCUPS:-Hidden-Communication-System-for-Corrupted-Szczypiorski/cb42073a770527059d2b597560547bf926777c7f) |
-
-**State of the art:** First practical WLAN steganography.
-
-**Production readiness:** Experimental
-
-**Implementations:**
-- [HICCUPS](http://www.tele.pw.edu.pl/~krzysiek/pdf/steg-seminar-2003.pdf) — Original paper
-
-**Security status:** Caution — Uses corrupted packets
-
-**Community acceptance:** Niche
-
----
-
-### Inter-protocol Steganography
-
-**Goal:** Use relationships between multiple protocols for covert channels.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **PadSteg** | 2011 | ARP + TCP Etherleak padding cross-correlation | First inter-protocol system [[1]](https://arxiv.org/abs/1104.0422) |
-
-**State of the art:** Jankowski, Mazurczyk & Szczypiorski (arXiv:1104.0422, 2011) introduced PadSteg as the first inter-protocol steganography system, exploiting Etherleak in LAN ARP/TCP interactions. Harder to detect than single-protocol methods.
-
-**Production readiness:** Research
-
-**Security status:** Secure — Requires cross-protocol correlation to detect
-
-**Community acceptance:** Emerging
-
----
-
-### Quantum Gatekeeper
-
-**Goal:** Multi-factor context-bound image steganography with VQC-based key derivation on quantum hardware.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Quantum Gatekeeper** | 2026 | LSB embedding + variational quantum circuit key derivation | Quantum-resistant [[1]](https://arxiv.org/abs/2604.26413) |
-
-**State of the art:** Tomar & Kumar (arXiv:2604.26413, Apr 2026) combine LSB steganography with a deterministic VQC-derived gate key; payload recovery requires four factors (password, shared secret, context string, reference image).
-
-**Production readiness:** Research
-
-**Security status:** Secure — VQC-derived key; silent rejection on any factor mismatch
-
-**Community acceptance:** Emerging
-
----
-
-### Intellicise Wireless Network
-
-**Goal:** Coverless semantic steganography for 6G intelligent wireless networks using Agentic AI.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **AgentSemSteCom** | 2026 | Agentic AI + diffusion models + semantic codec | Coverless, no key required [[1]](https://arxiv.org/abs/2601.16472) |
-
-**State of the art:** Meng et al. (arXiv:2601.16472, Jan 2026) propose AgentSemSteCom: semantic extraction, digital token controlled reference image generation, and coverless steganography that eliminates the need for cover images and private semantic keys.
-
-**Production readiness:** Research
-
-**Security status:** Secure — No cover images or private keys to infer; resistant to traditional steganalysis
-
-**Community acceptance:** Emerging
-
----
-
-### VeriPHY
-
-**Goal:** Physical layer signal authentication for wireless communication using steganographic signatures.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **VeriPHY** | 2025 | Deep learning + steganography in I/Q signals | 5G device identification [[1]](https://arxiv.org/abs/2508.09213) |
-
-**State of the art:** Embeds unique pseudo-random signatures in wireless I/Q transmissions using GMM sampling.
-
-**Production readiness:** Experimental
-
-**Implementations:** Academic prototypes only
-
-**Security status:** Secure — Unique per-device signatures
-
-**Community acceptance:** Emerging
-
-## Recent arXiv Papers (2024–2026)
 
 ---
 
@@ -738,27 +599,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### A Lightweight Adaptable DNS Channel for Covert Data Transmission
-
-**Goal:** Create a DNS-based storage covert channel for stealthy data transfer.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A Lightweight Adaptable DNS Channel for Covert Data Transmis** | 2020 | cs.CR | Mahboubeh Nazari, Sousan Tarahomi, Sobhan Aliabady [[1]](https://arxiv.org/abs/2003.14094) |
-
-**State of the art:** DNS storage covert channel with connection establishment, adaptability, lightweight obfuscation, and HMAC for confidentiality/integrity. Statistics well adapted to normal traffic. Average capacity 2.65 bytes/packet.
-
-**Production readiness:** Experimental
-Academic research; no public implementation.
-
-**Security status:** Caution
-DNS tunneling known to be monitored by security tools.
-
-**Community acceptance:** Niche
-DNS covert channel research.
-
----
-
 ### Deep Residual Neural Networks for Image in Speech Steganography
 
 **Goal:** Hide RGB images inside speech segments without perceptual loss using deep learning.
@@ -798,27 +638,6 @@ Early work; limited security evaluation.
 
 **Community acceptance:** Emerging
 Influential early work on neural speech steganography.
-
----
-
-### Hiding Data in Plain Sight: Undetectable Wireless Communications Through Pseudo-Noise Asymmetric Shift Keying
-
-**Goal:** Undetectable wireless transmissions are fundamental to avoid eavesdroppers.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Hiding Data in Plain Sight: Undetectable Wireless Communicat** | 2019 | cs.CR, cs.NI, eess.SP | Salvatore D'Oro, Francesco Restuccia, Tommaso Melodia [[1]](https://arxiv.org/abs/1905.02250) |
-
-**State of the art:** State-of-the-art in wireless steganography using PN-ASK modulation. First method to demonstrate covert transmission over live IEEE 802.11g WiFi with 8x throughput improvement over prior art. Published at IEEE INFOCOM 2019.
-
-**Production readiness:** Experimental
-Proof-of-concept with USRP SDR implementation; no production wireless steganography tools.
-
-**Security status:** Caution
-Method is experimentally demonstrated to be undetectable byagnostic receivers but may be vulnerable to advanced RF fingerprinting.
-
-**Community acceptance:** Emerging
-Published at top-tier venue (INFOCOM); growing interest in wireless covert channels.
 
 ---
 
@@ -924,27 +743,6 @@ Survey paper; no security claims.
 
 **Community acceptance:** Emerging
 Introduces new research direction.
-
----
-
-### "The Good, The Bad And The Ugly": Evaluation of Wi-Fi Steganography
-
-**Goal:** Propose evaluation method for Wi-Fi steganography using "moving observer" concept with three levels of undetectability.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **"The Good, The Bad And The Ugly": Evaluation of Wi-Fi Stegan** | 2015 | cs.MM, cs.CR | Krzysztof Szczypiorski, Artur Janicki, Steffen Wendzel [[1]](https://arxiv.org/abs/1508.04978) |
-
-**State of the art:** Reviews Wi-Fi steganography state-of-the-art. Introduces "moving observer" concept for evaluation. Proposes MoveSteg detection system. Published at ICNIT 2015.
-
-**Production readiness:** Research
-Survey/evaluation paper.
-
-**Security status:** N/A
-Evaluation framework; no security claims.
-
-**Community acceptance:** Emerging
-Wi-Fi steganography evaluation framework.
 
 ---
 
@@ -1340,6 +1138,199 @@ Method depends on steganographic channels that may be detected; not a standalone
 
 **Community acceptance:** Niche
 Pioneering work in covert channel-based monitoring; limited follow-up due to complexity.
+
+---
+
+## Alternative Protocols
+
+---
+
+### 5G/6G Cellular
+
+**Goal:** Covert channels in cellular networks.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **SteaLTE** | 2021 | Full-stack wireless steganography disguising data as noise | Private 5G [[1]](https://arxiv.org/abs/2102.05606) |
+
+**State of the art:** Bonati et al. (IEEE INFOCOM 2021) presented SteaLTE, the first full-stack cellular steganography system enabling private network slices invisible to adversarial receivers.
+
+**Production readiness:** Research
+
+**Security status:** Secure — Data disguised as noise; requires physical layer access to detect
+
+**Community acceptance:** Emerging
+
+---
+
+### Wi-Fi CSI
+
+**Goal:** Embed in Wi-Fi Channel State Information.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Wi-Fi CSI** | 2026 | CSI quotient with learned FIR filters | High capacity [[1]](https://arxiv.org/abs/2604.20521) |
+
+**State of the art:** Guo et al. (arXiv:2604.20521, Apr 2026) propose embedding secrets in the quotient of consecutive CSI measurements using an encoder-decoder neural network; prototype on ANTSDR and ESP32 hardware.
+
+**Production readiness:** Research
+
+**Security status:** Secure — Modifications blend with natural channel variation
+
+**Community acceptance:** Emerging
+
+---
+
+### CYPRESS
+
+**Goal:** High-speed covert channels mounting on regular packets.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **CYPRESS** | 2025 | Secret network entity packets ride inside regular visible packets | 1.6 MB/s [[1]](https://arxiv.org/abs/2511.06540) |
+
+**State of the art:** Shahini & Ricci (arXiv:2511.06540, Nov 2025) demonstrate practical covert channels far exceeding prior work in throughput, protocol-agnostic and deployable in real networks.
+
+**Production readiness:** Research
+
+**Security status:** Caution — High throughput increases statistical detectability; no published countermeasure evaluation yet
+
+**Community acceptance:** Emerging
+
+---
+
+### HICCUPS
+
+**Goal:** Hide data in WLAN networks using corrupted frames.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **HICCUPS** | 2003 | Hidden Communication System for Corrupted Networks | WLAN steganography [[1]](https://www.semanticscholar.org/paper/HICCUPS:-Hidden-Communication-System-for-Corrupted-Szczypiorski/cb42073a770527059d2b597560547bf926777c7f) |
+
+**State of the art:** First practical WLAN steganography.
+
+**Production readiness:** Experimental
+
+**Implementations:**
+- [HICCUPS](http://www.tele.pw.edu.pl/~krzysiek/pdf/steg-seminar-2003.pdf) — Original paper
+
+**Security status:** Caution — Uses corrupted packets
+
+**Community acceptance:** Niche
+
+---
+
+### Inter-protocol Steganography
+
+**Goal:** Use relationships between multiple protocols for covert channels.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **PadSteg** | 2011 | ARP + TCP Etherleak padding cross-correlation | First inter-protocol system [[1]](https://arxiv.org/abs/1104.0422) |
+
+**State of the art:** Jankowski, Mazurczyk & Szczypiorski (arXiv:1104.0422, 2011) introduced PadSteg as the first inter-protocol steganography system, exploiting Etherleak in LAN ARP/TCP interactions. Harder to detect than single-protocol methods.
+
+**Production readiness:** Research
+
+**Security status:** Secure — Requires cross-protocol correlation to detect
+
+**Community acceptance:** Emerging
+
+---
+
+### Quantum Gatekeeper
+
+**Goal:** Multi-factor context-bound image steganography with VQC-based key derivation on quantum hardware.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Quantum Gatekeeper** | 2026 | LSB embedding + variational quantum circuit key derivation | Quantum-resistant [[1]](https://arxiv.org/abs/2604.26413) |
+
+**State of the art:** Tomar & Kumar (arXiv:2604.26413, Apr 2026) combine LSB steganography with a deterministic VQC-derived gate key; payload recovery requires four factors (password, shared secret, context string, reference image).
+
+**Production readiness:** Research
+
+**Security status:** Secure — VQC-derived key; silent rejection on any factor mismatch
+
+**Community acceptance:** Emerging
+
+---
+
+### Intellicise Wireless Network
+
+**Goal:** Coverless semantic steganography for 6G intelligent wireless networks using Agentic AI.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **AgentSemSteCom** | 2026 | Agentic AI + diffusion models + semantic codec | Coverless, no key required [[1]](https://arxiv.org/abs/2601.16472) |
+
+**State of the art:** Meng et al. (arXiv:2601.16472, Jan 2026) propose AgentSemSteCom: semantic extraction, digital token controlled reference image generation, and coverless steganography that eliminates the need for cover images and private semantic keys.
+
+**Production readiness:** Research
+
+**Security status:** Secure — No cover images or private keys to infer; resistant to traditional steganalysis
+
+**Community acceptance:** Emerging
+
+---
+
+### VeriPHY
+
+**Goal:** Physical layer signal authentication for wireless communication using steganographic signatures.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **VeriPHY** | 2025 | Deep learning + steganography in I/Q signals | 5G device identification [[1]](https://arxiv.org/abs/2508.09213) |
+
+**State of the art:** Embeds unique pseudo-random signatures in wireless I/Q transmissions using GMM sampling.
+
+**Production readiness:** Experimental
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Secure — Unique per-device signatures
+
+**Community acceptance:** Emerging
+
+### Hiding Data in Plain Sight: Undetectable Wireless Communications Through Pseudo-Noise Asymmetric Shift Keying
+
+**Goal:** Undetectable wireless transmissions are fundamental to avoid eavesdroppers.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Hiding Data in Plain Sight: Undetectable Wireless Communicat** | 2019 | cs.CR, cs.NI, eess.SP | Salvatore D'Oro, Francesco Restuccia, Tommaso Melodia [[1]](https://arxiv.org/abs/1905.02250) |
+
+**State of the art:** State-of-the-art in wireless steganography using PN-ASK modulation. First method to demonstrate covert transmission over live IEEE 802.11g WiFi with 8x throughput improvement over prior art. Published at IEEE INFOCOM 2019.
+
+**Production readiness:** Experimental
+Proof-of-concept with USRP SDR implementation; no production wireless steganography tools.
+
+**Security status:** Caution
+Method is experimentally demonstrated to be undetectable byagnostic receivers but may be vulnerable to advanced RF fingerprinting.
+
+**Community acceptance:** Emerging
+Published at top-tier venue (INFOCOM); growing interest in wireless covert channels.
+
+---
+
+### "The Good, The Bad And The Ugly": Evaluation of Wi-Fi Steganography
+
+**Goal:** Propose evaluation method for Wi-Fi steganography using "moving observer" concept with three levels of undetectability.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **"The Good, The Bad And The Ugly": Evaluation of Wi-Fi Stegan** | 2015 | cs.MM, cs.CR | Krzysztof Szczypiorski, Artur Janicki, Steffen Wendzel [[1]](https://arxiv.org/abs/1508.04978) |
+
+**State of the art:** Reviews Wi-Fi steganography state-of-the-art. Introduces "moving observer" concept for evaluation. Proposes MoveSteg detection system. Published at ICNIT 2015.
+
+**Production readiness:** Research
+Survey/evaluation paper.
+
+**Security status:** N/A
+Evaluation framework; no security claims.
+
+**Community acceptance:** Emerging
+Wi-Fi steganography evaluation framework.
 
 ---
 

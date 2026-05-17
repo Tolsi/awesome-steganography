@@ -10,19 +10,18 @@
 - [Microdots](#microdots)
 - [Invisible Ink](#invisible-ink)
 - [Cyber-Physical Steganography](#cyber-physical-steganography)
-- [Polarization Steganography](#polarization-steganography)
-- [POSERS](#posers-dna-molecular-tagging)
+- [Pulsed Waveforms and Intermittently Nonlinear Filtering in Synthesis of Low-SNR and Covert Communications](#pulsed-waveforms-and-intermittently-nonlinear-filtering-in-synthesis-of-low-snr-and-covert-communications)
 
 **[Social Steganography](#social-steganography)**
 - [Cultural References](#cultural-references)
 - [Contextual Hiding](#contextual-hiding)
+- [Polarization Steganography](#polarization-steganography)
+- [POSERS (DNA Molecular Tagging)](#posers-dna-molecular-tagging)
 - [Steganography in Game Actions](#steganography-in-game-actions)
-
-**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
-- [Pulsed Waveforms and Intermittently Nonlinear Filtering in S...](#pulsed-waveforms-and-intermittently-nonlinear-filtering-in-synthesis-of-low-snr-and-covert-communications)
 
 **[Visual / Esoteric Languages](#visual-esoteric-languages)**
 - [Piet / npiet Online](#piet-npiet-online)
+
 <!-- /TOC -->
 
 ## Physical Methods
@@ -145,6 +144,27 @@ Preprint January 2025; laboratory concept only.
 
 ---
 
+### Pulsed Waveforms and Intermittently Nonlinear Filtering in Synthesis of Low-SNR and Covert Communications
+
+**Goal:** Encode low-rate information directly into wideband waveforms without physical frequency spreading, enabling covert communications indistinguishable from Gaussian noise.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Pulsed Waveforms and Intermittently Nonlinear Filtering in S** | 2020 | eess.SP | Alexei V. Nikitin, Ruslan L. Davidchack [[1]](https://arxiv.org/abs/2008.06390) |
+
+**State of the art:** Introduces alternative approach where low-rate information is encoded directly into wideband waveforms. Uses allpass filters to manage statistical properties without changing spectral composition. Enables covert transmissions and physical layer steganography.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Secure
+Provably secure construction with formal guarantees.
+
+**Community acceptance:** Emerging
+Strong theoretical foundations; significant for physical layer security.
+
+---
+
 ## Social Steganography
 
 ---
@@ -247,31 +267,6 @@ IEEE Access 2025; concept demonstration only.
 **Security status:** Caution — Novel medium; no known detection methods yet, but also no formal security analysis
 
 **Community acceptance:** Emerging — Very recent; peer-reviewed IEEE Access publication
-
-## Recent arXiv Papers (2024–2026)
-
----
-
-### Pulsed Waveforms and Intermittently Nonlinear Filtering in Synthesis of Low-SNR and Covert Communications
-
-**Goal:** Encode low-rate information directly into wideband waveforms without physical frequency spreading, enabling covert communications indistinguishable from Gaussian noise.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Pulsed Waveforms and Intermittently Nonlinear Filtering in S** | 2020 | eess.SP | Alexei V. Nikitin, Ruslan L. Davidchack [[1]](https://arxiv.org/abs/2008.06390) |
-
-**State of the art:** Introduces alternative approach where low-rate information is encoded directly into wideband waveforms. Uses allpass filters to manage statistical properties without changing spectral composition. Enables covert transmissions and physical layer steganography.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Secure
-Provably secure construction with formal guarantees.
-
-**Community acceptance:** Emerging
-Strong theoretical foundations; significant for physical layer security.
-
----
 
 ## Visual / Esoteric Languages
 

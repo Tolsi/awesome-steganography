@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (248 algorithms)
+## Contents (237 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -9,13 +9,19 @@
 - [BPCS](#bpcs)
 - [PVD](#pvd)
 - [EMD](#emd)
-- [Sudoku-based](#sudoku-based-steganography)
+- [Sudoku-based Steganography](#sudoku-based-steganography)
 - [FuzzyStego](#fuzzystego)
 - [Chaotic Map LSB](#chaotic-map-lsb)
 - [Content-Aware Steganography](#content-aware-steganography)
 - [Skin Tone Adaptive](#skin-tone-adaptive)
 - [Wet Paper Codes](#wet-paper-codes)
 - [STC](#stc)
+- [Can Machine Learn Steganography? - Implementing LSB Substitution and Matrix Coding Steganography with Feed-Forward Neural Networks](#can-machine-learn-steganography-implementing-lsb-substitution-and-matrix-coding-steganography-with-feed-forward-neural-networks)
+- [A New Image Steganographic Technique using Pattern based Bits Shuffling and Magic LSB for Grayscale Images](#a-new-image-steganographic-technique-using-pattern-based-bits-shuffling-and-magic-lsb-for-grayscale-images)
+- [Capacity Enlargement Of The PVD Steganography Method Using The GLM Technique](#capacity-enlargement-of-the-pvd-steganography-method-using-the-glm-technique)
+- [Data Hiding in Video using Triangularization LSB Technique](#data-hiding-in-video-using-triangularization-lsb-technique)
+- [An Easy yet Effective Method for Detecting Spatial Domain LSB Steganography](#an-easy-yet-effective-method-for-detecting-spatial-domain-lsb-steganography)
+- [Image Sterilization to Prevent LSB-based Steganographic Transmission](#image-sterilization-to-prevent-lsb-based-steganographic-transmission)
 
 **[Adaptive Methods](#adaptive-methods)**
 - [HUGO](#hugo)
@@ -23,8 +29,12 @@
 - [S-UNIWARD](#s-uniward)
 - [HILL](#hill)
 - [MiPOD](#mipod)
-- [QIM](#qim)
-- [MG/MVG](#mgmvg)
+- [Adaptive Steganography Based on bargain Game](#adaptive-steganography-based-on-bargain-game)
+- [Generative Steganography with Kerckhoffs' Principle](#generative-steganography-with-kerckhoffs-principle)
+- [Adaptive Spatial Steganography Based on Probability-Controlled Adversarial Examples](#adaptive-spatial-steganography-based-on-probability-controlled-adversarial-examples)
+- [Optimal Binary Coding for q^+ -state Data Embedding](#optimal-binary-coding-for-q-state-data-embedding)
+- [An Enhanced Edge Adaptive Steganography Approach Using Threshold Value for Region Selection](#an-enhanced-edge-adaptive-steganography-approach-using-threshold-value-for-region-selection)
+- [Classification of minimal 1-saturating sets in PG(2,q), q\leq 23](#classification-of-minimal-1-saturating-sets-in-pg2q-qleq-23)
 
 **[JPEG Domain](#jpeg-domain)**
 - [JSteg](#jsteg)
@@ -33,16 +43,31 @@
 - [OutGuess](#outguess)
 - [J-UNIWARD](#j-uniward)
 - [UED/UERD](#ueduerd)
+- [QIM](#qim)
+- [MG/MVG](#mgmvg)
+- [Robust image steganography against lossy JPEG compression based on embedding domain selection and adaptive error correction](#robust-image-steganography-against-lossy-jpeg-compression-based-on-embedding-domain-selection-and-adaptive-error-correction)
+- [Errorless Robust JPEG Steganography using Outputs of JPEG Coders](#errorless-robust-jpeg-steganography-using-outputs-of-jpeg-coders)
+- [A Robust Image Steganographic Scheme against General Scaling Attacks](#a-robust-image-steganographic-scheme-against-general-scaling-attacks)
+- [Improving Cost Learning for JPEG Steganography by Exploiting JPEG Domain Knowledge](#improving-cost-learning-for-jpeg-steganography-by-exploiting-jpeg-domain-knowledge)
+- [New Design Paradigm of Distortion Cost Function for Efficient JPEG Steganography](#new-design-paradigm-of-distortion-cost-function-for-efficient-jpeg-steganography)
+- [Enhancing JPEG Steganography using Iterative Adversarial Examples](#enhancing-jpeg-steganography-using-iterative-adversarial-examples)
 
 **[Transform Domain](#transform-domain)**
 - [DWT](#dwt)
 - [DFT](#dft)
 - [SVD](#svd)
+- [Universal Adversarial Perturbations Through the Lens of Deep Steganography: Towards A Fourier Perspective](#universal-adversarial-perturbations-through-the-lens-of-deep-steganography-towards-a-fourier-perspective)
 
 **[Reversible Methods](#reversible-methods)**
 - [Histogram Shifting](#histogram-shifting)
 - [Difference Expansion](#difference-expansion)
 - [Prediction Error Expansion](#prediction-error-expansion)
+- [Frobenius Revivals in Laplacian Cellular Automata: Chaos, Replication, and Reversible Encoding](#frobenius-revivals-in-laplacian-cellular-automata-chaos-replication-and-reversible-encoding)
+- [Generative Steganographic Flow](#generative-steganographic-flow)
+- [Generative Reversible Data Hiding by Image to Image Translation via GANs](#generative-reversible-data-hiding-by-image-to-image-translation-via-gans)
+- [Emerging Applications of Reversible Data Hiding](#emerging-applications-of-reversible-data-hiding)
+- [Towards Reversible De-Identification in Video Sequences Using 3D Avatars and Steganography](#towards-reversible-de-identification-in-video-sequences-using-3d-avatars-and-steganography)
+- [Secret Image Sharing Using Grayscale Payload Decomposition and Irreversible Image Steganography](#secret-image-sharing-using-grayscale-payload-decomposition-and-irreversible-image-steganography)
 
 **[Print-Scan Robust](#print-scan-robust)**
 - [StegaStamp](#stegastamp)
@@ -68,33 +93,25 @@
 - [CRoSS](#cross)
 - [StegNet](#stegnet)
 - [SMILENet](#smilenet)
-- [StegoNGP](#stegongp)
 - [DTAMS](#dtams)
+- [Approximate Gaussian Mapping](#approximate-gaussian-mapping)
 - [PSyDUCK](#psyduck)
 - [CIF](#cif)
-- [STCL](#stcl)
-- [GIFDL](#gifdl)
-- [StegaFFD](#stegaffd)
-
-**[Theoretical & Critical Analysis](#theoretical-critical-analysis)**
-- [The Devil in the Stego Image](#the-devil-in-the-stego-image)
-- [PSyDUCK](#psyduck)
-- [CIF](#cif)
-- [STCL](#stcl)
-- [GIFDL](#gifdl)
-- [StegaFFD](#stegaffd)
+- [STCL (Spatial-Temporal Curriculum Learning)](#stcl-spatial-temporal-curriculum-learning)
+- [GIFDL (Generated Image Fluctuation Distortion Learning)](#gifdl-generated-image-fluctuation-distortion-learning)
+- [StegaFFD (Steganography-based Face Forgery Detection)](#stegaffd-steganography-based-face-forgery-detection)
 - [Arbitrary-Resolution Deep Image Steganography](#arbitrary-resolution-deep-image-steganography)
 - [Adaptive Fuzzy Logic Steganography](#adaptive-fuzzy-logic-steganography)
 - [Memristive In-Memory Image Steganography](#memristive-in-memory-image-steganography)
 - [StegaVision](#stegavision)
 - [Foveation Steganography](#foveation-steganography)
-- [StegaINR](#stegainr-steeganography-by-implicit-neural-representations)
-- [StegaINR4MIH](#stegainr4mih-inr-for-multi-image-hiding)
-- [DiffStega](#diffstega-training-free-diffusion-steganography)
+- [StegaINR (Steganography by Implicit Neural Representations)](#stegainr-steganography-by-implicit-neural-representations)
+- [StegaINR4MIH (INR for Multi-Image Hiding)](#stegainr4mih-inr-for-multi-image-hiding)
+- [DiffStega (Training-Free Diffusion Steganography)](#diffstega-training-free-diffusion-steganography)
 - [Stable Messenger](#stable-messenger)
-- [DKiS](#dkis-decay-weight-invertible-image-steganography)
-- [PRIS](#pris-practical-robust-invertible-network-for-image-steganography)
-- [Multi-User Multi-Key](#multi-user-multi-key-image-steganography)
+- [DKiS (Decay weight Invertible image Steganography)](#dkis-decay-weight-invertible-image-steganography)
+- [PRIS (Practical Robust Invertible Network for Image Steganography)](#pris-practical-robust-invertible-network-for-image-steganography)
+- [Multi-User Multi-Key Image Steganography](#multi-user-multi-key-image-steganography)
 - [StegaPos](#stegapos)
 - [Rethinking Security of Diffusion-based Generative Steganography](#rethinking-security-of-diffusion-based-generative-steganography)
 - [Intelligent Carrier Allocation](#intelligent-carrier-allocation)
@@ -103,175 +120,144 @@
 - [Defending against Stegomalware](#defending-against-stegomalware)
 - [On the Possible Detectability of Image-in-Image Steganography](#on-the-possible-detectability-of-image-in-image-steganography)
 - [Robust Provably Secure Image Steganography via Latent Iterative Optimization](#robust-provably-secure-image-steganography-via-latent-iterative-optimization)
-
-**[Recent arXiv Papers (2024–2026)](#recent-arxiv-papers-20242026)**
-- [An Additive Approximation Scheme for Generating Dyadic Codin...](#an-additive-approximation-scheme-for-generating-dyadic-codings-for-the-outputs-of-an-llm)
-- [Toward Accountable AI-Generated Content on Social Platforms:...](#toward-accountable-ai-generated-content-on-social-platforms-steganographic-attribution-and-multimodal-harm-detection)
-- [Invisible Safety Threat: Malicious Finetuning for LLM via St...](#invisible-safety-threat-malicious-finetuning-for-llm-via-steganography)
+- [An Additive Approximation Scheme for Generating Dyadic Codings for the Outputs of an LLM](#an-additive-approximation-scheme-for-generating-dyadic-codings-for-the-outputs-of-an-llm)
+- [Toward Accountable AI-Generated Content on Social Platforms: Steganographic Attribution and Multimodal Harm Detection](#toward-accountable-ai-generated-content-on-social-platforms-steganographic-attribution-and-multimodal-harm-detection)
+- [Invisible Safety Threat: Malicious Finetuning for LLM via Steganography](#invisible-safety-threat-malicious-finetuning-for-llm-via-steganography)
 - [: Towards Semantic Steganography via Large Language Models](#towards-semantic-steganography-via-large-language-models)
-- [Training-Free Color-Aware Adversarial Diffusion Sanitization...](#training-free-color-aware-adversarial-diffusion-sanitization-for-diffusion-stegomalware-defense-at-security-gateways)
-- [Frobenius Revivals in Laplacian Cellular Automata: Chaos, Re...](#frobenius-revivals-in-laplacian-cellular-automata-chaos-replication-and-reversible-encoding)
-- [Reasoning Models Sometimes Output Illegible Chains of Though...](#reasoning-models-sometimes-output-illegible-chains-of-thought)
-- [A Concrete Roadmap towards Safety Cases based on Chain-of-Th...](#a-concrete-roadmap-towards-safety-cases-based-on-chain-of-thought-monitoring)
-- [All Code, No Thought: Current Language Models Struggle to Re...](#all-code-no-thought-current-language-models-struggle-to-reason-in-ciphered-language)
-- [ZK-WAGON: Imperceptible Watermark for Image Generation Model...](#zk-wagon-imperceptible-watermark-for-image-generation-models-using-zk-snarks)
+- [Training-Free Color-Aware Adversarial Diffusion Sanitization for Diffusion Stegomalware Defense at Security Gateways](#training-free-color-aware-adversarial-diffusion-sanitization-for-diffusion-stegomalware-defense-at-security-gateways)
+- [Reasoning Models Sometimes Output Illegible Chains of Thought](#reasoning-models-sometimes-output-illegible-chains-of-thought)
+- [A Concrete Roadmap towards Safety Cases based on Chain-of-Thought Monitoring](#a-concrete-roadmap-towards-safety-cases-based-on-chain-of-thought-monitoring)
+- [All Code, No Thought: Current Language Models Struggle to Reason in Ciphered Language](#all-code-no-thought-current-language-models-struggle-to-reason-in-ciphered-language)
+- [ZK-WAGON: Imperceptible Watermark for Image Generation Models using ZK-SNARKs](#zk-wagon-imperceptible-watermark-for-image-generation-models-using-zk-snarks)
 - [StegOT: Trade-offs in Steganography via Optimal Transport](#stegot-trade-offs-in-steganography-via-optimal-transport)
-- [A Technical Review on Comparison and Estimation of Steganogr...](#a-technical-review-on-comparison-and-estimation-of-steganographic-tools)
-- [Joint Lossless Compression and Steganography for Medical Ima...](#joint-lossless-compression-and-steganography-for-medical-images-via-large-language-models)
-- [Feature Prediction in Quantum Graph Recurrent Neural Network...](#feature-prediction-in-quantum-graph-recurrent-neural-networks-with-applications-in-information-hiding)
-- [Large language models can learn and generalize steganographi...](#large-language-models-can-learn-and-generalize-steganographic-chain-of-thought-under-process-supervision)
-- [Implicit Jailbreak Attacks via Cross-Modal Information Conce...](#implicit-jailbreak-attacks-via-cross-modal-information-concealment-on-vision-language-models)
-- [Quantum steganography using catalytic and entanglement-assis...](#quantum-steganography-using-catalytic-and-entanglement-assisted-quantum-codes)
-- [Shackled Dancing: A Bit-Locked Diffusion Algorithm for Lossl...](#shackled-dancing-a-bit-locked-diffusion-algorithm-for-lossless-and-controllable-image-steganography)
-- [CLPSTNet: A Progressive Multi-Scale Convolutional Steganogra...](#clpstnet-a-progressive-multi-scale-convolutional-steganography-model-integrating-curriculum-learning)
-- [Fragile Watermarking for Image Certification Using Deep Steg...](#fragile-watermarking-for-image-certification-using-deep-steganographic-embedding)
-- [Big Brother is Watching: Proactive Deepfake Detection via Le...](#big-brother-is-watching-proactive-deepfake-detection-via-learnable-hidden-face)
-- [Parasite: A Steganography-based Backdoor Attack Framework fo...](#parasite-a-steganography-based-backdoor-attack-framework-for-diffusion-models)
-- [RoSMM: A Robust and Secure Multi-Modal Watermarking Framewor...](#rosmm-a-robust-and-secure-multi-modal-watermarking-framework-for-diffusion-models)
-- [Towards Secure Semantic Communications in the Presence of In...](#towards-secure-semantic-communications-in-the-presence-of-intelligent-eavesdroppers)
+- [A Technical Review on Comparison and Estimation of Steganographic Tools](#a-technical-review-on-comparison-and-estimation-of-steganographic-tools)
+- [Joint Lossless Compression and Steganography for Medical Images via Large Language Models](#joint-lossless-compression-and-steganography-for-medical-images-via-large-language-models)
+- [Feature Prediction in Quantum Graph Recurrent Neural Networks with Applications in Information Hiding](#feature-prediction-in-quantum-graph-recurrent-neural-networks-with-applications-in-information-hiding)
+- [Large language models can learn and generalize steganographic chain-of-thought under process supervision](#large-language-models-can-learn-and-generalize-steganographic-chain-of-thought-under-process-supervision)
+- [Implicit Jailbreak Attacks via Cross-Modal Information Concealment on Vision-Language Models](#implicit-jailbreak-attacks-via-cross-modal-information-concealment-on-vision-language-models)
+- [Quantum steganography using catalytic and entanglement-assisted quantum codes](#quantum-steganography-using-catalytic-and-entanglement-assisted-quantum-codes)
+- [Shackled Dancing: A Bit-Locked Diffusion Algorithm for Lossless and Controllable Image Steganography](#shackled-dancing-a-bit-locked-diffusion-algorithm-for-lossless-and-controllable-image-steganography)
+- [CLPSTNet: A Progressive Multi-Scale Convolutional Steganography Model Integrating Curriculum Learning](#clpstnet-a-progressive-multi-scale-convolutional-steganography-model-integrating-curriculum-learning)
+- [Fragile Watermarking for Image Certification Using Deep Steganographic Embedding](#fragile-watermarking-for-image-certification-using-deep-steganographic-embedding)
+- [Big Brother is Watching: Proactive Deepfake Detection via Learnable Hidden Face](#big-brother-is-watching-proactive-deepfake-detection-via-learnable-hidden-face)
+- [Parasite: A Steganography-based Backdoor Attack Framework for Diffusion Models](#parasite-a-steganography-based-backdoor-attack-framework-for-diffusion-models)
+- [RoSMM: A Robust and Secure Multi-Modal Watermarking Framework for Diffusion Models](#rosmm-a-robust-and-secure-multi-modal-watermarking-framework-for-diffusion-models)
+- [Towards Secure Semantic Communications in the Presence of Intelligent Eavesdroppers](#towards-secure-semantic-communications-in-the-presence-of-intelligent-eavesdroppers)
 - [ImF: Implicit Fingerprint for Large Language Models](#imf-implicit-fingerprint-for-large-language-models)
-- [Hiding Images in Diffusion Models by Editing Learned Score F...](#hiding-images-in-diffusion-models-by-editing-learned-score-functions)
-- [Quantum Direct Steganography Scheme Based on Modified Genera...](#quantum-direct-steganography-scheme-based-on-modified-generator-projection-directions-of-steane-code-over-a-single-type-pauli-channel)
-- [Adaptive 3D Mesh Steganography Based on Feature-Preserving D...](#adaptive-3d-mesh-steganography-based-on-feature-preserving-distortion)
-- [Provably Secure Robust Image Steganography via Cross-Modal E...](#provably-secure-robust-image-steganography-via-cross-modal-error-correction)
-- [A Novel Approach to Image Steganography Using Generative Adv...](#a-novel-approach-to-image-steganography-using-generative-adversarial-networks)
-- [Facial Features Matter: a Dynamic Watermark based Proactive ...](#facial-features-matter-a-dynamic-watermark-based-proactive-deepfake-detection-approach)
-- [Magnetic steganography based on wide field diamond quantum m...](#magnetic-steganography-based-on-wide-field-diamond-quantum-microscopy)
+- [Hiding Images in Diffusion Models by Editing Learned Score Functions](#hiding-images-in-diffusion-models-by-editing-learned-score-functions)
+- [Quantum Direct Steganography Scheme Based on Modified Generator Projection Directions of Steane Code over a Single-Type Pauli Channel](#quantum-direct-steganography-scheme-based-on-modified-generator-projection-directions-of-steane-code-over-a-single-type-pauli-channel)
+- [Adaptive 3D Mesh Steganography Based on Feature-Preserving Distortion](#adaptive-3d-mesh-steganography-based-on-feature-preserving-distortion)
+- [Provably Secure Robust Image Steganography via Cross-Modal Error Correction](#provably-secure-robust-image-steganography-via-cross-modal-error-correction)
+- [A Novel Approach to Image Steganography Using Generative Adversarial Networks](#a-novel-approach-to-image-steganography-using-generative-adversarial-networks)
+- [Facial Features Matter: a Dynamic Watermark based Proactive Deepfake Detection Approach](#facial-features-matter-a-dynamic-watermark-based-proactive-deepfake-detection-approach)
+- [Magnetic steganography based on wide field diamond quantum microscopy](#magnetic-steganography-based-on-wide-field-diamond-quantum-microscopy)
 - [Neural Cover Selection for Image Steganography](#neural-cover-selection-for-image-steganography)
 - [IWN: Image Watermarking Based on Idempotency](#iwn-image-watermarking-based-on-idempotency)
 - [Steganographic Entanglement Sharing](#steganographic-entanglement-sharing)
-- [Robust Message Embedding via Attention Flow-Based Steganogra...](#robust-message-embedding-via-attention-flow-based-steganography)
+- [Robust Message Embedding via Attention Flow-Based Steganography](#robust-message-embedding-via-attention-flow-based-steganography)
 - [Diffusion-Based Hierarchical Image Steganography](#diffusion-based-hierarchical-image-steganography)
-- [High Fidelity Artificial Quantum Thermal State Generation us...](#high-fidelity-artificial-quantum-thermal-state-generation-using-encoded-coherent-states)
-- [StegoGAN: Leveraging Steganography for Non-Bijective Image-t...](#stegogan-leveraging-steganography-for-non-bijective-image-to-image-translation)
-- [Enhancing Steganographic Text Extraction: Evaluating the Imp...](#enhancing-steganographic-text-extraction-evaluating-the-impact-of-nlp-models-on-accuracy-and-semantic-coherence)
-- [Transparency Attacks: How Imperceptible Image Layers Can Foo...](#transparency-attacks-how-imperceptible-image-layers-can-fool-ai-perception)
-- [Null Space Properties of Neural Networks with Applications t...](#null-space-properties-of-neural-networks-with-applications-to-image-steganography)
-- [EditGuard: Versatile Image Watermarking for Tamper Localizat...](#editguard-versatile-image-watermarking-for-tamper-localization-and-copyright-protection)
-- [THInImg: Cross-modal Steganography for Presenting Talking He...](#thinimg-cross-modal-steganography-for-presenting-talking-heads-in-images)
-- [GhostEncoder: Stealthy Backdoor Attacks with Dynamic Trigger...](#ghostencoder-stealthy-backdoor-attacks-with-dynamic-triggers-to-pre-trained-encoders-in-self-supervised-learning)
-- [Invertible Mosaic Image Hiding Network for Very Large Capaci...](#invertible-mosaic-image-hiding-network-for-very-large-capacity-image-steganography)
-- [Focus on Content not Noise: Improving Image Generation for N...](#focus-on-content-not-noise-improving-image-generation-for-nuclei-segmentation-by-suppressing-steganography-in-cyclegan)
-- [Semi-supervised Cycle-GAN for face photo-sketch translation ...](#semi-supervised-cycle-gan-for-face-photo-sketch-translation-in-the-wild)
-- [StyleStegan: Leak-free Style Transfer Based on Feature Stega...](#stylestegan-leak-free-style-transfer-based-on-feature-steganography)
-- [Diffusion-Stego: Training-free Diffusion Generative Steganog...](#diffusion-stego-training-free-diffusion-generative-steganography-via-message-projection)
-- [Generative Steganographic Flow](#generative-steganographic-flow)
+- [High Fidelity Artificial Quantum Thermal State Generation using Encoded Coherent States](#high-fidelity-artificial-quantum-thermal-state-generation-using-encoded-coherent-states)
+- [StegoGAN: Leveraging Steganography for Non-Bijective Image-to-Image Translation](#stegogan-leveraging-steganography-for-non-bijective-image-to-image-translation)
+- [Enhancing Steganographic Text Extraction: Evaluating the Impact of NLP Models on Accuracy and Semantic Coherence](#enhancing-steganographic-text-extraction-evaluating-the-impact-of-nlp-models-on-accuracy-and-semantic-coherence)
+- [Transparency Attacks: How Imperceptible Image Layers Can Fool AI Perception](#transparency-attacks-how-imperceptible-image-layers-can-fool-ai-perception)
+- [Null Space Properties of Neural Networks with Applications to Image Steganography](#null-space-properties-of-neural-networks-with-applications-to-image-steganography)
+- [EditGuard: Versatile Image Watermarking for Tamper Localization and Copyright Protection](#editguard-versatile-image-watermarking-for-tamper-localization-and-copyright-protection)
+- [THInImg: Cross-modal Steganography for Presenting Talking Heads in Images](#thinimg-cross-modal-steganography-for-presenting-talking-heads-in-images)
+- [GhostEncoder: Stealthy Backdoor Attacks with Dynamic Triggers to Pre-trained Encoders in Self-supervised Learning](#ghostencoder-stealthy-backdoor-attacks-with-dynamic-triggers-to-pre-trained-encoders-in-self-supervised-learning)
+- [Invertible Mosaic Image Hiding Network for Very Large Capacity Image Steganography](#invertible-mosaic-image-hiding-network-for-very-large-capacity-image-steganography)
+- [Focus on Content not Noise: Improving Image Generation for Nuclei Segmentation by Suppressing Steganography in CycleGAN](#focus-on-content-not-noise-improving-image-generation-for-nuclei-segmentation-by-suppressing-steganography-in-cyclegan)
+- [Semi-supervised Cycle-GAN for face photo-sketch translation in the wild](#semi-supervised-cycle-gan-for-face-photo-sketch-translation-in-the-wild)
+- [StyleStegan: Leak-free Style Transfer Based on Feature Steganography](#stylestegan-leak-free-style-transfer-based-on-feature-steganography)
+- [Diffusion-Stego: Training-free Diffusion Generative Steganography via Message Projection](#diffusion-stego-training-free-diffusion-generative-steganography-via-message-projection)
 - [Generative Steganography Diffusion](#generative-steganography-diffusion)
-- [Robust image steganography against lossy JPEG compression ba...](#robust-image-steganography-against-lossy-jpeg-compression-based-on-embedding-domain-selection-and-adaptive-error-correction)
-- [RoSteALS: Robust Steganography using Autoencoder Latent Spac...](#rosteals-robust-steganography-using-autoencoder-latent-space)
+- [RoSteALS: Robust Steganography using Autoencoder Latent Space](#rosteals-robust-steganography-using-autoencoder-latent-space)
 - [Learning Iterative Neural Optimizers for Image Steganography](#learning-iterative-neural-optimizers-for-image-steganography)
-- [Low-frequency Image Deep Steganography: Manipulate the Frequ...](#low-frequency-image-deep-steganography-manipulate-the-frequency-distribution-to-hide-secrets-with-tenacious-robustness)
+- [Low-frequency Image Deep Steganography: Manipulate the Frequency Distribution to Hide Secrets with Tenacious Robustness](#low-frequency-image-deep-steganography-manipulate-the-frequency-distribution-to-hide-secrets-with-tenacious-robustness)
 - [Towards Robust Image-in-Audio Deep Steganography](#towards-robust-image-in-audio-deep-steganography)
 - [Artistic Curve Steganography Carried by Musical Audio](#artistic-curve-steganography-carried-by-musical-audio)
-- [Invisible Backdoor Attack with Dynamic Triggers against Pers...](#invisible-backdoor-attack-with-dynamic-triggers-against-person-re-identification)
-- [Errorless Robust JPEG Steganography using Outputs of JPEG Co...](#errorless-robust-jpeg-steganography-using-outputs-of-jpeg-coders)
-- [Data Hiding with Deep Learning: A Survey Unifying Digital Wa...](#data-hiding-with-deep-learning-a-survey-unifying-digital-watermarking-and-steganography)
-- [A Robust Image Steganographic Scheme against General Scaling...](#a-robust-image-steganographic-scheme-against-general-scaling-attacks)
+- [Invisible Backdoor Attack with Dynamic Triggers against Person Re-identification](#invisible-backdoor-attack-with-dynamic-triggers-against-person-re-identification)
+- [Data Hiding with Deep Learning: A Survey Unifying Digital Watermarking and Steganography](#data-hiding-with-deep-learning-a-survey-unifying-digital-watermarking-and-steganography)
 - [Applications of single-photon technology](#applications-of-single-photon-technology)
-- [FaceSigns: Semi-Fragile Neural Watermarks for Media Authenti...](#facesigns-semi-fragile-neural-watermarks-for-media-authentication-and-countering-deepfakes)
+- [FaceSigns: Semi-Fragile Neural Watermarks for Media Authentication and Countering Deepfakes](#facesigns-semi-fragile-neural-watermarks-for-media-authentication-and-countering-deepfakes)
 - [Image Steganography based on Style Transfer](#image-steganography-based-on-style-transfer)
-- [A Survey on Patients Privacy Protection with Stganography an...](#a-survey-on-patients-privacy-protection-with-stganography-and-visual-encryption)
+- [A Survey on Patients Privacy Protection with Stganography and Visual Encryption](#a-survey-on-patients-privacy-protection-with-stganography-and-visual-encryption)
 - [Steganography Methods on Text, Audio, Image and Video: A Survey](#steganography-methods-on-text-audio-image-and-video-a-survey)
-- [Improving Performance of Semantic Segmentation CycleGANs by ...](#improving-performance-of-semantic-segmentation-cyclegans-by-noise-injection-into-the-latent-segmentation-space)
-- [Adaptive Steganography Based on bargain Game](#adaptive-steganography-based-on-bargain-game)
+- [Improving Performance of Semantic Segmentation CycleGANs by Noise Injection into the Latent Segmentation Space](#improving-performance-of-semantic-segmentation-cyclegans-by-noise-injection-into-the-latent-segmentation-space)
 - ["Robot Steganography"?: Opportunities and Challenges](#robot-steganography-opportunities-and-challenges)
-- [A Color Image Steganography Based on Frequency Sub-band Sele...](#a-color-image-steganography-based-on-frequency-sub-band-selection)
-- [Image quality enhancement of embedded holograms in holograph...](#image-quality-enhancement-of-embedded-holograms-in-holographic-information-hiding-using-deep-neural-networks)
-- [Pixel-Stega: Generative Image Steganography Based on Autoreg...](#pixel-stega-generative-image-steganography-based-on-autoregressive-models)
-- [Interpretable Privacy Preservation of Text Representations U...](#interpretable-privacy-preservation-of-text-representations-using-vector-steganography)
-- [Multitask Identity-Aware Image Steganography via Minimax Opt...](#multitask-identity-aware-image-steganography-via-minimax-optimization)
-- [Pixel identification in an image using Grover Search Algorit...](#pixel-identification-in-an-image-using-grover-search-algorithm)
-- [Improving Cost Learning for JPEG Steganography by Exploiting...](#improving-cost-learning-for-jpeg-steganography-by-exploiting-jpeg-domain-knowledge)
-- [Universal Adversarial Perturbations Through the Lens of Deep...](#universal-adversarial-perturbations-through-the-lens-of-deep-steganography-towards-a-fourier-perspective)
-- [CSIS: compressed sensing-based enhanced-embedding capacity i...](#csis-compressed-sensing-based-enhanced-embedding-capacity-image-steganography-scheme)
+- [A Color Image Steganography Based on Frequency Sub-band Selection](#a-color-image-steganography-based-on-frequency-sub-band-selection)
+- [Image quality enhancement of embedded holograms in holographic information hiding using deep neural networks](#image-quality-enhancement-of-embedded-holograms-in-holographic-information-hiding-using-deep-neural-networks)
+- [Pixel-Stega: Generative Image Steganography Based on Autoregressive Models](#pixel-stega-generative-image-steganography-based-on-autoregressive-models)
+- [Interpretable Privacy Preservation of Text Representations Using Vector Steganography](#interpretable-privacy-preservation-of-text-representations-using-vector-steganography)
+- [Multitask Identity-Aware Image Steganography via Minimax Optimization](#multitask-identity-aware-image-steganography-via-minimax-optimization)
+- [Pixel identification in an image using Grover Search Algorithm](#pixel-identification-in-an-image-using-grover-search-algorithm)
+- [CSIS: compressed sensing-based enhanced-embedding capacity image steganography scheme](#csis-compressed-sensing-based-enhanced-embedding-capacity-image-steganography-scheme)
 - [Multi-Image Steganography Using Deep Neural Networks](#multi-image-steganography-using-deep-neural-networks)
-- [FoolHD: Fooling speaker identification by Highly imperceptib...](#foolhd-fooling-speaker-identification-by-highly-imperceptible-adversarial-disturbances)
-- [New Design Paradigm of Distortion Cost Function for Efficien...](#new-design-paradigm-of-distortion-cost-function-for-efficient-jpeg-steganography)
-- [Generative Steganography with Kerckhoffs' Principle](#generative-steganography-with-kerckhoffs-principle)
-- [Painting with Hue, Saturation, and Brightness Control by Nan...](#painting-with-hue-saturation-and-brightness-control-by-nanoscale-3d-printing)
+- [FoolHD: Fooling speaker identification by Highly imperceptible adversarial Disturbances](#foolhd-fooling-speaker-identification-by-highly-imperceptible-adversarial-disturbances)
+- [Painting with Hue, Saturation, and Brightness Control by Nanoscale 3D Printing](#painting-with-hue-saturation-and-brightness-control-by-nanoscale-3d-printing)
 - [Adversarial Images through Stega Glasses](#adversarial-images-through-stega-glasses)
-- [Enabling optical steganography, data storage, and encryption...](#enabling-optical-steganography-data-storage-and-encryption-with-plasmonic-colors)
-- [\ell_1SABMIS: \ell_1-minimization and sparse approximation b...](#ell-1sabmis-ell-1-minimization-and-sparse-approximation-based-blind-multi-image-steganography-scheme)
+- [Enabling optical steganography, data storage, and encryption with plasmonic colors](#enabling-optical-steganography-data-storage-and-encryption-with-plasmonic-colors)
+- [\ell_1SABMIS: \ell_1-minimization and sparse approximation based blind multi-image steganography scheme](#ell1sabmis-ell1-minimization-and-sparse-approximation-based-blind-multi-image-steganography-scheme)
 - [Secure Steganography Technique Based on Bitplane Indexes](#secure-steganography-technique-based-on-bitplane-indexes)
-- [Stego Quality Enhancement by Message Size Reduction and Fibo...](#stego-quality-enhancement-by-message-size-reduction-and-fibonacci-bit-plane-mapping)
+- [Stego Quality Enhancement by Message Size Reduction and Fibonacci Bit-Plane Mapping](#stego-quality-enhancement-by-message-size-reduction-and-fibonacci-bit-plane-mapping)
 - [Efficient High Capacity Steganography Technique](#efficient-high-capacity-steganography-technique)
 - [Steganography Based on Pixel Intensity Value Decomposition](#steganography-based-on-pixel-intensity-value-decomposition)
-- [Improving embedding efficiency for digital steganography by ...](#improving-embedding-efficiency-for-digital-steganography-by-exploiting-similarities-between-secret-and-cover-images)
-- [Data hiding in speech signal using steganography and encrypt...](#data-hiding-in-speech-signal-using-steganography-and-encryption)
-- [Universal Stego Post-processing for Enhancing Image Steganog...](#universal-stego-post-processing-for-enhancing-image-steganography)
-- [Invisible Backdoor Attacks on Deep Neural Networks via Stega...](#invisible-backdoor-attacks-on-deep-neural-networks-via-steganography-and-regularization)
-- [Self-Contained Stylization via Steganography for Reverse and...](#self-contained-stylization-via-steganography-for-reverse-and-serial-style-transfer)
-- [Distribution-Preserving Steganography Based on Text-to-Speec...](#distribution-preserving-steganography-based-on-text-to-speech-generative-models)
-- [Beyond Unfolding: Exact Recovery of Latent Convex Tensor Dec...](#beyond-unfolding-exact-recovery-of-latent-convex-tensor-decomposition-under-reshuffling)
+- [Improving embedding efficiency for digital steganography by exploiting similarities between secret and cover images](#improving-embedding-efficiency-for-digital-steganography-by-exploiting-similarities-between-secret-and-cover-images)
+- [Data hiding in speech signal using steganography and encryption](#data-hiding-in-speech-signal-using-steganography-and-encryption)
+- [Universal Stego Post-processing for Enhancing Image Steganography](#universal-stego-post-processing-for-enhancing-image-steganography)
+- [Invisible Backdoor Attacks on Deep Neural Networks via Steganography and Regularization](#invisible-backdoor-attacks-on-deep-neural-networks-via-steganography-and-regularization)
+- [Self-Contained Stylization via Steganography for Reverse and Serial Style Transfer](#self-contained-stylization-via-steganography-for-reverse-and-serial-style-transfer)
+- [Distribution-Preserving Steganography Based on Text-to-Speech Generative Models](#distribution-preserving-steganography-based-on-text-to-speech-generative-models)
+- [Beyond Unfolding: Exact Recovery of Latent Convex Tensor Decomposition under Reshuffling](#beyond-unfolding-exact-recovery-of-latent-convex-tensor-decomposition-under-reshuffling)
 - [Hide the Image in FC-DenseNets to another Image](#hide-the-image-in-fc-densenets-to-another-image)
-- [Enhancing JPEG Steganography using Iterative Adversarial Exa...](#enhancing-jpeg-steganography-using-iterative-adversarial-examples)
 - [Steganography Protocols for Quantum Channels](#steganography-protocols-for-quantum-channels)
-- [BASN -- Learning Steganography with Binary Attention Mechani...](#basn-learning-steganography-with-binary-attention-mechanism)
-- [Recent Advances of Image Steganography with Generative Adver...](#recent-advances-of-image-steganography-with-generative-adversarial-networks)
-- [Generative Reversible Data Hiding by Image to Image Translat...](#generative-reversible-data-hiding-by-image-to-image-translation-via-gans)
+- [BASN -- Learning Steganography with Binary Attention Mechanism](#basn-learning-steganography-with-binary-attention-mechanism)
+- [Recent Advances of Image Steganography with Generative Adversarial Networks](#recent-advances-of-image-steganography-with-generative-adversarial-networks)
 - [StegoAppDB: a Steganography Apps Forensics Image Database](#stegoappdb-a-steganography-apps-forensics-image-database)
-- [Solving the large syndrome calculation problem in steganogra...](#solving-the-large-syndrome-calculation-problem-in-steganography)
+- [Solving the large syndrome calculation problem in steganography](#solving-the-large-syndrome-calculation-problem-in-steganography)
 - [A security steganography scheme based on hdr image](#a-security-steganography-scheme-based-on-hdr-image)
 - [SteganoGAN: High Capacity Image Steganography with GANs](#steganogan-high-capacity-image-steganography-with-gans)
-- [Adaptive Spatial Steganography Based on Probability-Controll...](#adaptive-spatial-steganography-based-on-probability-controlled-adversarial-examples)
-- [Emerging Applications of Reversible Data Hiding](#emerging-applications-of-reversible-data-hiding)
-- [Combined Image Encryption and Steganography Algorithm in the...](#combined-image-encryption-and-steganography-algorithm-in-the-spatial-domain)
+- [Combined Image Encryption and Steganography Algorithm in the Spatial Domain](#combined-image-encryption-and-steganography-algorithm-in-the-spatial-domain)
 - [Invisible Steganography via Generative Adversarial Networks](#invisible-steganography-via-generative-adversarial-networks)
-- [High Capacity Image Data Hiding of Scanned Text Documents Us...](#high-capacity-image-data-hiding-of-scanned-text-documents-using-improved-quadtree)
-- [The Cut and Dominating Set Problem in A Steganographer Netwo...](#the-cut-and-dominating-set-problem-in-a-steganographer-network)
+- [High Capacity Image Data Hiding of Scanned Text Documents Using Improved Quadtree](#high-capacity-image-data-hiding-of-scanned-text-documents-using-improved-quadtree)
+- [The Cut and Dominating Set Problem in A Steganographer Network](#the-cut-and-dominating-set-problem-in-a-steganographer-network)
 - [A Graph-theoretic Model to Steganography on Social Networks](#a-graph-theoretic-model-to-steganography-on-social-networks)
-- [SSGAN: Secure Steganography Based on Generative Adversarial ...](#ssgan-secure-steganography-based-on-generative-adversarial-networks)
+- [SSGAN: Secure Steganography Based on Generative Adversarial Networks](#ssgan-secure-steganography-based-on-generative-adversarial-networks)
 - [Encoding DNA sequences by integer chaos game representation](#encoding-dna-sequences-by-integer-chaos-game-representation)
 - [CycleGAN, a Master of Steganography](#cyclegan-a-master-of-steganography)
-- [End-to-end Trained CNN Encode-Decoder Networks for Image Ste...](#end-to-end-trained-cnn-encode-decoder-networks-for-image-steganography)
-- [A Robust Data Hiding Process Contributing to the Development...](#a-robust-data-hiding-process-contributing-to-the-development-of-a-semantic-web)
+- [End-to-end Trained CNN Encode-Decoder Networks for Image Steganography](#end-to-end-trained-cnn-encode-decoder-networks-for-image-steganography)
+- [A Robust Data Hiding Process Contributing to the Development of a Semantic Web](#a-robust-data-hiding-process-contributing-to-the-development-of-a-semantic-web)
 - [StegIbiza: Steganography in Club Music Implemented in Python](#stegibiza-steganography-in-club-music-implemented-in-python)
-- [FPGA Implementation of a Novel Image Steganography for Hidin...](#fpga-implementation-of-a-novel-image-steganography-for-hiding-images)
+- [FPGA Implementation of a Novel Image Steganography for Hiding Images](#fpga-implementation-of-a-novel-image-steganography-for-hiding-images)
 - [Enhanced Boolean Correlation Matrix Memory](#enhanced-boolean-correlation-matrix-memory)
-- [Quantum Enhanced Correlation Matrix Memories via States Orth...](#quantum-enhanced-correlation-matrix-memories-via-states-orthogonalisation)
-- [Can Machine Learn Steganography? - Implementing LSB Substitu...](#can-machine-learn-steganography-implementing-lsb-substitution-and-matrix-coding-steganography-with-feed-forward-neural-networks)
-- [Optimal Binary Coding for q^+ -state Data Embedding](#optimal-binary-coding-for-q-state-data-embedding)
-- [Reading Between the Pixels: Photographic Steganography for C...](#reading-between-the-pixels-photographic-steganography-for-camera-display-messaging)
-- [An Enhanced Edge Adaptive Steganography Approach Using Thres...](#an-enhanced-edge-adaptive-steganography-approach-using-threshold-value-for-region-selection)
-- [A New Image Steganographic Technique using Pattern based Bit...](#a-new-image-steganographic-technique-using-pattern-based-bits-shuffling-and-magic-lsb-for-grayscale-images)
-- [Capacity Enlargement Of The PVD Steganography Method Using T...](#capacity-enlargement-of-the-pvd-steganography-method-using-the-glm-technique)
-- [Covert Communication Gains from Adversary's Ignorance of Tra...](#covert-communication-gains-from-adversarys-ignorance-of-transmission-time)
-- [Steganography: A Secure way for Transmission in Wireless Sen...](#steganography-a-secure-way-for-transmission-in-wireless-sensor-networks)
-- [Towards Reversible De-Identification in Video Sequences Usin...](#towards-reversible-de-identification-in-video-sequences-using-3d-avatars-and-steganography)
-- [Ontology-based Secure Retrieval of Semantically Significant ...](#ontology-based-secure-retrieval-of-semantically-significant-visual-contents)
-- [Data Hiding in Video using Triangularization LSB Technique](#data-hiding-in-video-using-triangularization-lsb-technique)
-- [Hiding Information in Noise: Fundamental Limits of Covert Wi...](#hiding-information-in-noise-fundamental-limits-of-covert-wireless-communication)
-- [Identification of Image Operations Based on Steganalytic Fea...](#identification-of-image-operations-based-on-steganalytic-features)
-- [Optimal Radiometric Calibration for Camera-Display Communica...](#optimal-radiometric-calibration-for-camera-display-communication)
+- [Quantum Enhanced Correlation Matrix Memories via States Orthogonalisation](#quantum-enhanced-correlation-matrix-memories-via-states-orthogonalisation)
+- [Reading Between the Pixels: Photographic Steganography for Camera Display Messaging](#reading-between-the-pixels-photographic-steganography-for-camera-display-messaging)
+- [Covert Communication Gains from Adversary's Ignorance of Transmission Time](#covert-communication-gains-from-adversarys-ignorance-of-transmission-time)
+- [Steganography: A Secure way for Transmission in Wireless Sensor Networks](#steganography-a-secure-way-for-transmission-in-wireless-sensor-networks)
+- [Ontology-based Secure Retrieval of Semantically Significant Visual Contents](#ontology-based-secure-retrieval-of-semantically-significant-visual-contents)
+- [Hiding Information in Noise: Fundamental Limits of Covert Wireless Communication](#hiding-information-in-noise-fundamental-limits-of-covert-wireless-communication)
+- [Identification of Image Operations Based on Steganalytic Features](#identification-of-image-operations-based-on-steganalytic-features)
+- [Optimal Radiometric Calibration for Camera-Display Communication](#optimal-radiometric-calibration-for-camera-display-communication)
 - [Olfactory Signal Processing](#olfactory-signal-processing)
-- [Secret Image Sharing Using Grayscale Payload Decomposition a...](#secret-image-sharing-using-grayscale-payload-decomposition-and-irreversible-image-steganography)
 - [Digital Image Data Hiding Techniques: A Comparative Study](#digital-image-data-hiding-techniques-a-comparative-study)
-- [An Easy yet Effective Method for Detecting Spatial Domain LS...](#an-easy-yet-effective-method-for-detecting-spatial-domain-lsb-steganography)
 - [A simple technique for steganography](#a-simple-technique-for-steganography)
-- [Hiding Image in Image by Five Modulus Method for Image Stega...](#hiding-image-in-image-by-five-modulus-method-for-image-steganography)
-- [A Fresnelet-Based Encryption of Medical Images using Arnold ...](#a-fresnelet-based-encryption-of-medical-images-using-arnold-transform)
-- [Improving success probability and embedding efficiency in co...](#improving-success-probability-and-embedding-efficiency-in-code-based-steganography)
-- [A Hash based Approach for Secure Keyless Steganography in Lo...](#a-hash-based-approach-for-secure-keyless-steganography-in-lossless-rgb-images)
-- [Classification of minimal 1-saturating sets in PG(2,q), q\le...](#classification-of-minimal-1-saturating-sets-in-pg2q-qleq-23)
+- [Hiding Image in Image by Five Modulus Method for Image Steganography](#hiding-image-in-image-by-five-modulus-method-for-image-steganography)
+- [A Fresnelet-Based Encryption of Medical Images using Arnold Transform](#a-fresnelet-based-encryption-of-medical-images-using-arnold-transform)
+- [Improving success probability and embedding efficiency in code based steganography](#improving-success-probability-and-embedding-efficiency-in-code-based-steganography)
+- [A Hash based Approach for Secure Keyless Steganography in Lossless RGB Images](#a-hash-based-approach-for-secure-keyless-steganography-in-lossless-rgb-images)
 - [Coordination using Implicit Communication](#coordination-using-implicit-communication)
 - [Hiding Quantum Information in the Perfect Code](#hiding-quantum-information-in-the-perfect-code)
-- [Image Sterilization to Prevent LSB-based Steganographic Tran...](#image-sterilization-to-prevent-lsb-based-steganographic-transmission)
 - [Colour Guided Colour Image Steganography](#colour-guided-colour-image-steganography)
 - [Quantum Steganography and Quantum Error-Correction](#quantum-steganography-and-quantum-error-correction)
-- [An Alternative Approach of Steganography using Reference Ima...](#an-alternative-approach-of-steganography-using-reference-image)
+- [An Alternative Approach of Steganography using Reference Image](#an-alternative-approach-of-steganography-using-reference-image)
 - [Product Perfect Z2Z4-linear codes in Steganography](#product-perfect-z2z4-linear-codes-in-steganography)
-- [Signal Enhancement and Background Suppression Using Interfer...](#signal-enhancement-and-background-suppression-using-interference-and-entanglement)
-- [A New Image Steganography Based On First Component Alteratio...](#a-new-image-steganography-based-on-first-component-alteration-technique)
+- [Signal Enhancement and Background Suppression Using Interference and Entanglement](#signal-enhancement-and-background-suppression-using-interference-and-entanglement)
+- [A New Image Steganography Based On First Component Alteration Technique](#a-new-image-steganography-based-on-first-component-alteration-technique)
 - [Trellis-coded quantization for public-key steganography](#trellis-coded-quantization-for-public-key-steganography)
 - [Quantum computing, phase estimation and applications](#quantum-computing-phase-estimation-and-applications)
 
-**[Software Tools](#software-tools)**
-- [OpenPuff](#openpuff)
-- [SilentEye](#silenteye)
-- [Stegosuite](#stegosuite)
-- [cloacked-pixel](#cloacked-pixel)
-- [stegpy](#stegpy)
-- [jphide / jpseek](#jphide-jpseek)
+**[Theoretical & Critical Analysis](#theoretical-critical-analysis)**
+- [The Devil in the Stego Image](#the-devil-in-the-stego-image)
+
 <!-- /TOC -->
 
 ## Spatial Domain
@@ -538,6 +524,126 @@ Foundational work from Binghamton University; widely cited.
 
 ---
 
+### Can Machine Learn Steganography? - Implementing LSB Substitution and Matrix Coding Steganography with Feed-Forward Neural Networks
+
+**Goal:** performance in many applications.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Can Machine Learn Steganography? - Implementing LSB Substitu** | 2016 | cs.MM | Han-Zhou Wu, Hong-Xia Wang, Yun-Qing Shi [[1]](https://arxiv.org/abs/1606.05294) |
+
+**State of the art:** In recent years, due to the powerful abilities to deal with highly complex tasks, the artificial neural networks (ANNs) 
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### A New Image Steganographic Technique using Pattern based Bits Shuffling and Magic LSB for Grayscale Images
+
+**Goal:** Image Steganography is a growing research area of information security where secret information is embedded in innocent-looking public communication.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A New Image Steganographic Technique using Pattern based Bit** | 2016 | cs.MM | Khan Muhammad et al. [[1]](https://arxiv.org/abs/1601.01386) |
+
+**State of the art:** Image Steganography is a growing research area of information security where secret information is embedded in innocent-
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Capacity Enlargement Of The PVD Steganography Method Using The GLM Technique
+
+**Goal:** quality of the stego-image, so in this paper, we propose to combine two existing techniques, Pixel value differencing and Gray Level Modification, to come up with a hybrid steganography scheme whic...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Capacity Enlargement Of The PVD Steganography Method Using T** | 2016 | cs.MM | Mehdi Safarpour, Mostafa Charmi [[1]](https://arxiv.org/abs/1601.00299) |
+
+**State of the art:** In most steganographic methods, increasing in the capacity leads to decrease in the quality of the stego-image, so in th
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Data Hiding in Video using Triangularization LSB Technique
+
+**Goal:** The challenge is to be able to pass information in a manner that the very existence of the message is unknown in order to repel attention of the potential attacker.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Data Hiding in Video using Triangularization LSB Technique** | 2015 | cs.MM | Subhashri Acharya et al. [[1]](https://arxiv.org/abs/1507.05242) |
+
+**State of the art:** The importance of data hiding in the field of Information Technology is a widely accepted.
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### An Easy yet Effective Method for Detecting Spatial Domain LSB Steganography
+
+**Goal:** their favor. Terrorists, anti-social groups use manipulated Stego images for secret communication.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **An Easy yet Effective Method for Detecting Spatial Domain LS** | 2014 | cs.MM | Minati Mishra, M. C. Adhikary [[1]](https://arxiv.org/abs/1407.6877) |
+
+**State of the art:** Digitization of image was a revolutionary step for the fields of photography and Image processing as this made the editi
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Image Sterilization to Prevent LSB-based Steganographic Transmission
+
+**Goal:** image. Experimental results show that our technique succeeded in sterilizing around 76% to 91% of stego pixels in an image on average, where data is embedded using LSB-based steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Image Sterilization to Prevent LSB-based Steganographic Tran** | 2010 | cs.MM | Goutam Paul, Imon Mukherjee [[1]](https://arxiv.org/abs/1012.5573) |
+
+**State of the art:** Sterilization is a very popular word used in biomedical testing (like removal of all microorganisms on surface of an art
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
 ## Adaptive Methods
 
 ---
@@ -651,6 +757,127 @@ Academic prototype; Matlab reference from DDE; Python reimplementation in consea
 
 **Community acceptance:** Emerging — Academic interest, fewer practical implementations
 
+---
+
+### Adaptive Steganography Based on bargain Game
+
+**Goal:** The capacity and security of the confidential message on the channel are two important challenges in steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Adaptive Steganography Based on bargain Game** | 2022 | cs.MM, math.OC | Behbod Keshavarzi et al. [[1]](https://arxiv.org/abs/2111.04653) |
+
+**State of the art:** The capacity and security of the confidential message on the channel are two important challenges in steganography.
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Generative Steganography with Kerckhoffs' Principle
+
+**Goal:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embedding process leaves the steganalyzer with possibility of discriminating.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Generative Steganography with Kerckhoffs' Principle** | 2021 | cs.MM | Yan Ke et al. [[1]](https://arxiv.org/abs/1711.04916) |
+
+**State of the art:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embed
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Adaptive Spatial Steganography Based on Probability-Controlled Adversarial Examples
+
+**Goal:** Explanation from Sai Ma: The experiments in this paper are conducted on Caffe framework.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Adaptive Spatial Steganography Based on Probability-Controll** | 2019 | cs.MM | Sai Ma et al. [[1]](https://arxiv.org/abs/1804.02691) |
+
+**State of the art:** Explanation from Sai Ma:
+The experiments in this paper are conducted on Caffe framework.
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Optimal Binary Coding for q^+ -state Data Embedding
+
+**Goal:** In steganography, we always hope to maximize the embedding payload subject to an upper-bounded distortion.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Optimal Binary Coding for q^+ -state Data Embedding** | 2016 | cs.IT | Han-Zhou Wu [[1]](https://arxiv.org/abs/1604.03140) |
+
+**State of the art:** In steganography, we always hope to maximize the embedding payload subject to an upper-bounded distortion.
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### An Enhanced Edge Adaptive Steganography Approach Using Threshold Value for Region Selection
+
+**Goal:** This paper attempts to improve the quality and the modification rate of a Stego Image.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **An Enhanced Edge Adaptive Steganography Approach Using Thres** | 2016 | cs.MM | Sachin Mungmode, R. R. Sedamkar, Niranjan Kulkarni [[1]](https://arxiv.org/abs/1601.02076) |
+
+**State of the art:** This paper attempts to improve the quality and the modification rate of a Stego Image.
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Classification of minimal 1-saturating sets in PG(2,q), q\leq 23
+
+**Goal:** to many branches of combinatorics and information theory, as data compression, compression with distortion, broadcasting in interconnection network, write-once memory or steganography (see \cite{Co...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Classification of minimal 1-saturating sets in PG(2,q), q\le** | 2012 | math.CO | Daniele Bartoli, Stefano Marcugini, Fernanda Pambianco [[1]](https://arxiv.org/abs/1203.1133) |
+
+**State of the art:** Minimal 1-saturating sets in the projective plane $PG(2,q)$ are considered.
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
 ---
 
 ## JPEG Domain
@@ -835,6 +1062,128 @@ Cited in capacity-focused steganography literature.
 
 ---
 
+### Robust image steganography against lossy JPEG compression based on embedding domain selection and adaptive error correction
+
+**Goal:** Transmitting images for communication on social networks has become routine, which is helpful for covert communication.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Robust image steganography against lossy JPEG compression ba** | 2023 | cs.MM | Xiaolong Duan et al. [[1]](https://arxiv.org/abs/2304.13297) |
+
+**State of the art:** Proposes robust image steganography against lossy JPEG compression using embedding domain selection and adaptive error correction; achieves better anti-steganalysis and robustness for social network transmission.
+
+**Production readiness:** Research
+Academic prototype; addresses real-world JPEG compression scenarios.
+
+**Security status:** Caution
+Addresses robustness; security against steganalysis needs evaluation.
+
+**Community acceptance:** Emerging
+Addresses practical robustness requirements for social networks.
+
+---
+
+### Errorless Robust JPEG Steganography using Outputs of JPEG Coders
+
+**Goal:** Robust steganography is a technique of hiding secret messages in images so that the message can be recovered after additional image processing.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Errorless Robust JPEG Steganography using Outputs of JPEG Co** | 2023 | cs.MM, cs.CR, eess.IV | Jan Butora, Pauline Puteaux, Patrick Bas [[1]](https://arxiv.org/abs/2211.04750) |
+
+**State of the art:** The advancement of secure communication and identity verification fields has significantly increased through the use of deep learning techniques for d
+
+**Production readiness:** Experimental
+Academic research; experimental implementation.
+
+**Security status:** Caution
+Novel approach; security evaluation ongoing.
+
+**Community acceptance:** Emerging
+Preprint; peer review in progress.
+
+---
+
+### A Robust Image Steganographic Scheme against General Scaling Attacks
+
+**Goal:** schemes are generally vulnerable to active attacks, e.g., JPEG re-compression, scaling, as seen on social networks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Robust Image Steganographic Scheme against General Scaling** | 2022 | cs.MM | Qingliang Liu et al. [[1]](https://arxiv.org/abs/2212.02822) |
+
+**State of the art:** Conventional covert image communication is assumed to transmit the message, in the securest way possible for a given pay
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Improving Cost Learning for JPEG Steganography by Exploiting JPEG Domain Knowledge
+
+**Goal:** Although significant progress in automatic learning of steganographic cost has been achieved recently, existing methods designed for spatial images are not well applicable to JPEG images which are ...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Improving Cost Learning for JPEG Steganography by Exploiting** | 2021 | cs.CR, cs.CV | Weixuan Tang et al. [[1]](https://arxiv.org/abs/2105.03867) |
+
+**State of the art:** Although significant progress in automatic learning of steganographic cost has been achieved recently, existing methods 
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### New Design Paradigm of Distortion Cost Function for Efficient JPEG Steganography
+
+**Goal:** change, where the pixel embedding distortion costs are represented in a more general exponential model, aiming to flexibly allocate the embedding data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **New Design Paradigm of Distortion Cost Function for Efficien** | 2021 | cs.MM | Wenkang Su et al. [[1]](https://arxiv.org/abs/1908.01947) |
+
+**State of the art:** Recently, with the introduction of JPEG phase-aware steganalysis features, e.g.
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Enhancing JPEG Steganography using Iterative Adversarial Examples
+
+**Goal:** literatures on computer vision have pointed out that those effective CNN-based methods can be easily fooled by adversarial examples.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Enhancing JPEG Steganography using Iterative Adversarial Exa** | 2019 | cs.MM | Huaxiao Mo et al. [[1]](https://arxiv.org/abs/1909.07556) |
+
+**State of the art:** Convolutional Neural Networks (CNN) based methods have significantly improved the performance of image steganalysis comp
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
 ## Transform Domain
 
 ---
@@ -905,6 +1254,26 @@ Extensively studied; standard in robust watermarking literature.
 
 ---
 
+### Universal Adversarial Perturbations Through the Lens of Deep Steganography: Towards A Fourier Perspective
+
+**Goal:** universal adversarial perturbation (UAP), can be generated to fool the DNN for most images.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Universal Adversarial Perturbations Through the Lens of Deep** | 2021 | cs.LG, cs.CV | Chaoning Zhang et al. [[1]](https://arxiv.org/abs/2102.06479) |
+
+**State of the art:** The booming interest in adversarial attacks stems from a misalignment between human vision and a deep neural network (DN
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
 ## Reversible Methods
 
 ---
@@ -968,6 +1337,128 @@ Lossless recovery guaranteed; no practical attacks on the hiding mechanism.
 **Community acceptance:** Widely trusted
 Extensively cited; considered standard alongside histogram shifting.
 
+---
+
+### Frobenius Revivals in Laplacian Cellular Automata: Chaos, Replication, and Reversible Encoding
+
+**Goal:** based on chaotic transients and Frobenius returns, together with practical separation conditions and noise-tolerance estimates.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Frobenius Revivals in Laplacian Cellular Automata: Chaos, Re** | 2025 | nlin.CG, cs.IT, math.DS | Małgorzata Nowak-Kępczyk [[1]](https://arxiv.org/abs/2511.17389) |
+
+**State of the art:** Investigates Frobenius-driven revivals in prime-modulus Laplacian cellular automata where chaotic transients collapse into exact replicas at algebraically prescribed times, proposing a reversible encoding scheme based on chaotic transients for potential steganography applications.
+
+**Production readiness:** Research
+Theoretical framework; proposes reversible encoding scheme using cellular automata dynamics.
+
+**Security status:** Caution
+Novel theoretical approach; security properties not yet evaluated against practical attacks.
+
+**Community acceptance:** Niche
+Mathematical/algorithmic research; limited practical adoption.
+
+---
+
+### Generative Steganographic Flow
+
+**Goal:** Generative steganography (GS) is a new data hiding manner, featuring direct generation of stego media from secret data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Generative Steganographic Flow** | 2023 | cs.CV, cs.MM | Ping Wei et al. [[1]](https://arxiv.org/abs/2305.05838) |
+
+**State of the art:** Proposes Generative Steganographic Flow (GSF) using flow-based models with reversible bijective mapping between secret data and stego images; achieves better performance than prior works; accepted at ICME 2022.
+
+**Production readiness:** Research
+Academic prototype; uses Glow model for stego generation.
+
+**Security status:** Caution
+Flow-based approach; security against steganalysis needs evaluation.
+
+**Community acceptance:** Emerging
+Peer-reviewed publication at ICME 2022.
+
+---
+
+### Generative Reversible Data Hiding by Image to Image Translation via GANs
+
+**Goal:** on cover image modification which inevitably leaves some traces of rewriting that can be more easily analyzed and attacked by the warder.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Generative Reversible Data Hiding by Image to Image Translat** | 2019 | eess.IV, cs.CR, cs.MM | Zhuo Zhang et al. [[1]](https://arxiv.org/abs/1905.02872) |
+
+**State of the art:** The traditional reversible data hiding technique is based on cover image modification which inevitably leaves some trace
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Emerging Applications of Reversible Data Hiding
+
+**Goal:** and integrity authentication, recently some scholars begin to apply RDH in many other fields innovatively.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Emerging Applications of Reversible Data Hiding** | 2018 | cs.CV | Dongdong Hou et al. [[1]](https://arxiv.org/abs/1811.02928) |
+
+**State of the art:** Reversible data hiding (RDH) is one special type of information hiding, by which the host sequence as well as the embedd
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Towards Reversible De-Identification in Video Sequences Using 3D Avatars and Steganography
+
+**Goal:** We propose a de-identification pipeline that protects the privacy of humans in video sequences by replacing them with rendered 3D human models, hence concealing their identity while retaining the n...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Towards Reversible De-Identification in Video Sequences Usin** | 2015 | cs.CV, cs.MM | Martin Blažević, Karla Brkić, Tomislav Hrkać [[1]](https://arxiv.org/abs/1510.04861) |
+
+**State of the art:** We propose a de-identification pipeline that protects the privacy of humans in video sequences by replacing them with re
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Secret Image Sharing Using Grayscale Payload Decomposition and Irreversible Image Steganography
+
+**Goal:** To provide an added security level most of the existing reversible as well as irreversible image steganography schemes emphasize on encrypting the secret image (payload) before embedding it to the ...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Secret Image Sharing Using Grayscale Payload Decomposition a** | 2014 | cs.MM | Soumendu Chakraborty, Anand Singh Jalal, Charul Bhatnagar [[1]](https://arxiv.org/abs/1410.3122) |
+
+**State of the art:** To provide an added security level most of the existing reversible as well as irreversible image steganography schemes e
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
 ---
 
 ## Print-Scan Robust
@@ -1910,35 +2401,6 @@ arXiv April 2021 (updated December 2022); academic prototype only.
 
 ---
 
-## Theoretical & Critical Analysis
-
----
-
-### The Devil in the Stego Image
-
-**Goal:** Critical evaluation revealing that deep image steganography methods are far from usable in real-world scenarios.
-
-| Algorithm | Year | Architecture | Note |
-|-----------|------|--------------|------|
-| **The Devil in the Stego Image** | 2025 | Evaluation paper | Real-world limitations of deep steganography [[1]](https://dl.acm.org/doi/10.1145/3746027.3754767) |
-
-**State of the art:** Identifies two serious problems in deep image-to-image steganography that hinder real-world deployment: visual quality degradation and vulnerability to compression attacks.
-
-**Production readiness:** Research
-Critical analysis paper; no implementation needed.
-
-**Security status:** Caution
-Highlights practical limitations of current deep steganography methods.
-
-**Community acceptance:** Emerging
-Important critique of deep steganography practicality.
-
----
-
-## Recent arXiv Papers (2024–2026)
-
----
-
 ### An Additive Approximation Scheme for Generating Dyadic Codings for the Outputs of an LLM
 
 **Goal:** the constant-rate regime.
@@ -2041,27 +2503,6 @@ Effectively neutralizes state-of-the-art diffusion steganography (Pulsar) withou
 
 **Community acceptance:** Emerging
 Provides practical defense against coverless diffusion steganography threats.
-
----
-
-### Frobenius Revivals in Laplacian Cellular Automata: Chaos, Replication, and Reversible Encoding
-
-**Goal:** based on chaotic transients and Frobenius returns, together with practical separation conditions and noise-tolerance estimates.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Frobenius Revivals in Laplacian Cellular Automata: Chaos, Re** | 2025 | nlin.CG, cs.IT, math.DS | Małgorzata Nowak-Kępczyk [[1]](https://arxiv.org/abs/2511.17389) |
-
-**State of the art:** Investigates Frobenius-driven revivals in prime-modulus Laplacian cellular automata where chaotic transients collapse into exact replicas at algebraically prescribed times, proposing a reversible encoding scheme based on chaotic transients for potential steganography applications.
-
-**Production readiness:** Research
-Theoretical framework; proposes reversible encoding scheme using cellular automata dynamics.
-
-**Security status:** Caution
-Novel theoretical approach; security properties not yet evaluated against practical attacks.
-
-**Community acceptance:** Niche
-Mathematical/algorithmic research; limited practical adoption.
 
 ---
 
@@ -2989,27 +3430,6 @@ Novel approach to diffusion-based steganography.
 
 ---
 
-### Generative Steganographic Flow
-
-**Goal:** Generative steganography (GS) is a new data hiding manner, featuring direct generation of stego media from secret data.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Generative Steganographic Flow** | 2023 | cs.CV, cs.MM | Ping Wei et al. [[1]](https://arxiv.org/abs/2305.05838) |
-
-**State of the art:** Proposes Generative Steganographic Flow (GSF) using flow-based models with reversible bijective mapping between secret data and stego images; achieves better performance than prior works; accepted at ICME 2022.
-
-**Production readiness:** Research
-Academic prototype; uses Glow model for stego generation.
-
-**Security status:** Caution
-Flow-based approach; security against steganalysis needs evaluation.
-
-**Community acceptance:** Emerging
-Peer-reviewed publication at ICME 2022.
-
----
-
 ### Generative Steganography Diffusion
 
 **Goal:** Generative steganography (GS) is an emerging technique that generates stego images directly from secret data.
@@ -3028,27 +3448,6 @@ Novel approach; security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
 Novel diffusion-based generative steganography approach.
-
----
-
-### Robust image steganography against lossy JPEG compression based on embedding domain selection and adaptive error correction
-
-**Goal:** Transmitting images for communication on social networks has become routine, which is helpful for covert communication.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Robust image steganography against lossy JPEG compression ba** | 2023 | cs.MM | Xiaolong Duan et al. [[1]](https://arxiv.org/abs/2304.13297) |
-
-**State of the art:** Proposes robust image steganography against lossy JPEG compression using embedding domain selection and adaptive error correction; achieves better anti-steganalysis and robustness for social network transmission.
-
-**Production readiness:** Research
-Academic prototype; addresses real-world JPEG compression scenarios.
-
-**Security status:** Caution
-Addresses robustness; security against steganalysis needs evaluation.
-
-**Community acceptance:** Emerging
-Addresses practical robustness requirements for social networks.
 
 ---
 
@@ -3177,27 +3576,6 @@ Security properties under evaluation.
 Preprint; peer review ongoing.
 ---
 
-### Errorless Robust JPEG Steganography using Outputs of JPEG Coders
-
-**Goal:** Robust steganography is a technique of hiding secret messages in images so that the message can be recovered after additional image processing.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Errorless Robust JPEG Steganography using Outputs of JPEG Co** | 2023 | cs.MM, cs.CR, eess.IV | Jan Butora, Pauline Puteaux, Patrick Bas [[1]](https://arxiv.org/abs/2211.04750) |
-
-**State of the art:** The advancement of secure communication and identity verification fields has significantly increased through the use of deep learning techniques for d
-
-**Production readiness:** Experimental
-Academic research; experimental implementation.
-
-**Security status:** Caution
-Novel approach; security evaluation ongoing.
-
-**Community acceptance:** Emerging
-Preprint; peer review in progress.
-
----
-
 ### Data Hiding with Deep Learning: A Survey Unifying Digital Watermarking and Steganography
 
 **Goal:** through the use of deep learning techniques for data hiding.
@@ -3217,26 +3595,6 @@ Novel approach; security evaluation ongoing.
 **Community acceptance:** Emerging
 Preprint; peer review in progress.
 
----
-
-### A Robust Image Steganographic Scheme against General Scaling Attacks
-
-**Goal:** schemes are generally vulnerable to active attacks, e.g., JPEG re-compression, scaling, as seen on social networks.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A Robust Image Steganographic Scheme against General Scaling** | 2022 | cs.MM | Qingliang Liu et al. [[1]](https://arxiv.org/abs/2212.02822) |
-
-**State of the art:** Conventional covert image communication is assumed to transmit the message, in the securest way possible for a given pay
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
 ---
 
 ### Applications of single-photon technology
@@ -3349,26 +3707,6 @@ Cited in academic surveys; provides broad overview.
 | **Improving Performance of Semantic Segmentation CycleGANs by ** | 2022 | cs.CV, eess.IV | Jonas Löhdefink, Tim Fingscheidt [[1]](https://arxiv.org/abs/2201.06415) |
 
 **State of the art:** In recent years, semantic segmentation has taken benefit from various works in computer vision.
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Adaptive Steganography Based on bargain Game
-
-**Goal:** The capacity and security of the confidential message on the channel are two important challenges in steganography.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Adaptive Steganography Based on bargain Game** | 2022 | cs.MM, math.OC | Behbod Keshavarzi et al. [[1]](https://arxiv.org/abs/2111.04653) |
-
-**State of the art:** The capacity and security of the confidential message on the channel are two important challenges in steganography.
 
 **Production readiness:** Research
 Academic research prototype; evaluation in progress.
@@ -3520,46 +3858,6 @@ Security properties under evaluation.
 Preprint; peer review ongoing.
 ---
 
-### Improving Cost Learning for JPEG Steganography by Exploiting JPEG Domain Knowledge
-
-**Goal:** Although significant progress in automatic learning of steganographic cost has been achieved recently, existing methods designed for spatial images are not well applicable to JPEG images which are ...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Improving Cost Learning for JPEG Steganography by Exploiting** | 2021 | cs.CR, cs.CV | Weixuan Tang et al. [[1]](https://arxiv.org/abs/2105.03867) |
-
-**State of the art:** Although significant progress in automatic learning of steganographic cost has been achieved recently, existing methods 
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Universal Adversarial Perturbations Through the Lens of Deep Steganography: Towards A Fourier Perspective
-
-**Goal:** universal adversarial perturbation (UAP), can be generated to fool the DNN for most images.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Universal Adversarial Perturbations Through the Lens of Deep** | 2021 | cs.LG, cs.CV | Chaoning Zhang et al. [[1]](https://arxiv.org/abs/2102.06479) |
-
-**State of the art:** The booming interest in adversarial attacks stems from a misalignment between human vision and a deep neural network (DN
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
 ### CSIS: compressed sensing-based enhanced-embedding capacity image steganography scheme
 
 **Goal:** Image steganography plays a vital role in securing secret data by embedding it in the cover images.
@@ -3609,46 +3907,6 @@ Preprint; peer review ongoing.
 | **FoolHD: Fooling speaker identification by Highly imperceptib** | 2021 | cs.SD, cs.LG, eess.AS | Ali Shahin Shamsabadi et al. [[1]](https://arxiv.org/abs/2011.08483) |
 
 **State of the art:** Speaker identification models are vulnerable to carefully designed adversarial perturbations of their input signals that
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### New Design Paradigm of Distortion Cost Function for Efficient JPEG Steganography
-
-**Goal:** change, where the pixel embedding distortion costs are represented in a more general exponential model, aiming to flexibly allocate the embedding data.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **New Design Paradigm of Distortion Cost Function for Efficien** | 2021 | cs.MM | Wenkang Su et al. [[1]](https://arxiv.org/abs/1908.01947) |
-
-**State of the art:** Recently, with the introduction of JPEG phase-aware steganalysis features, e.g.
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Generative Steganography with Kerckhoffs' Principle
-
-**Goal:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embedding process leaves the steganalyzer with possibility of discriminating.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Generative Steganography with Kerckhoffs' Principle** | 2021 | cs.MM | Yan Ke et al. [[1]](https://arxiv.org/abs/1711.04916) |
-
-**State of the art:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embed
 
 **Production readiness:** Experimental
 Academic research prototype; evaluation in progress.
@@ -3980,26 +4238,6 @@ Security properties under evaluation.
 Preprint; peer review ongoing.
 ---
 
-### Enhancing JPEG Steganography using Iterative Adversarial Examples
-
-**Goal:** literatures on computer vision have pointed out that those effective CNN-based methods can be easily fooled by adversarial examples.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Enhancing JPEG Steganography using Iterative Adversarial Exa** | 2019 | cs.MM | Huaxiao Mo et al. [[1]](https://arxiv.org/abs/1909.07556) |
-
-**State of the art:** Convolutional Neural Networks (CNN) based methods have significantly improved the performance of image steganalysis comp
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
 ### Steganography Protocols for Quantum Channels
 
 **Goal:** We study several versions of a quantum steganography problem, in which two legitimate parties attempt to conceal a cypher in a quantum cover transmitted over a quantum channel without arising suspi...
@@ -4049,26 +4287,6 @@ Preprint; peer review ongoing.
 | **Recent Advances of Image Steganography with Generative Adver** | 2019 | cs.CR, cs.MM, eess.IV | Jia Liu et al. [[1]](https://arxiv.org/abs/1907.01886) |
 
 **State of the art:** In the past few years, the Generative Adversarial Network (GAN) which proposed in 2014 has achieved great success.
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Generative Reversible Data Hiding by Image to Image Translation via GANs
-
-**Goal:** on cover image modification which inevitably leaves some traces of rewriting that can be more easily analyzed and attacked by the warder.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Generative Reversible Data Hiding by Image to Image Translat** | 2019 | eess.IV, cs.CR, cs.MM | Zhuo Zhang et al. [[1]](https://arxiv.org/abs/1905.02872) |
-
-**State of the art:** The traditional reversible data hiding technique is based on cover image modification which inevitably leaves some trace
 
 **Production readiness:** Research
 Academic research prototype; evaluation in progress.
@@ -4151,47 +4369,6 @@ Preprint; peer review ongoing.
 **State of the art:** Image steganography is a procedure for hiding messages inside pictures.
 
 **Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Adaptive Spatial Steganography Based on Probability-Controlled Adversarial Examples
-
-**Goal:** Explanation from Sai Ma: The experiments in this paper are conducted on Caffe framework.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Adaptive Spatial Steganography Based on Probability-Controll** | 2019 | cs.MM | Sai Ma et al. [[1]](https://arxiv.org/abs/1804.02691) |
-
-**State of the art:** Explanation from Sai Ma:
-The experiments in this paper are conducted on Caffe framework.
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Emerging Applications of Reversible Data Hiding
-
-**Goal:** and integrity authentication, recently some scholars begin to apply RDH in many other fields innovatively.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Emerging Applications of Reversible Data Hiding** | 2018 | cs.CV | Dongdong Hou et al. [[1]](https://arxiv.org/abs/1811.02928) |
-
-**State of the art:** Reversible data hiding (RDH) is one special type of information hiding, by which the host sequence as well as the embedd
-
-**Production readiness:** Experimental
 Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
@@ -4481,46 +4658,6 @@ Security properties under evaluation.
 Preprint; peer review ongoing.
 ---
 
-### Can Machine Learn Steganography? - Implementing LSB Substitution and Matrix Coding Steganography with Feed-Forward Neural Networks
-
-**Goal:** performance in many applications.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Can Machine Learn Steganography? - Implementing LSB Substitu** | 2016 | cs.MM | Han-Zhou Wu, Hong-Xia Wang, Yun-Qing Shi [[1]](https://arxiv.org/abs/1606.05294) |
-
-**State of the art:** In recent years, due to the powerful abilities to deal with highly complex tasks, the artificial neural networks (ANNs) 
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Optimal Binary Coding for q^+ -state Data Embedding
-
-**Goal:** In steganography, we always hope to maximize the embedding payload subject to an upper-bounded distortion.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Optimal Binary Coding for q^+ -state Data Embedding** | 2016 | cs.IT | Han-Zhou Wu [[1]](https://arxiv.org/abs/1604.03140) |
-
-**State of the art:** In steganography, we always hope to maximize the embedding payload subject to an upper-bounded distortion.
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
 ### Reading Between the Pixels: Photographic Steganography for Camera Display Messaging
 
 **Goal:** We exploit human color metamers to send light-modulated messages less visible to the human eye, but recoverable by cameras.
@@ -4532,66 +4669,6 @@ Preprint; peer review ongoing.
 **State of the art:** We exploit human color metamers to send light-modulated messages less visible to the human eye, but recoverable by camer
 
 **Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### An Enhanced Edge Adaptive Steganography Approach Using Threshold Value for Region Selection
-
-**Goal:** This paper attempts to improve the quality and the modification rate of a Stego Image.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **An Enhanced Edge Adaptive Steganography Approach Using Thres** | 2016 | cs.MM | Sachin Mungmode, R. R. Sedamkar, Niranjan Kulkarni [[1]](https://arxiv.org/abs/1601.02076) |
-
-**State of the art:** This paper attempts to improve the quality and the modification rate of a Stego Image.
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### A New Image Steganographic Technique using Pattern based Bits Shuffling and Magic LSB for Grayscale Images
-
-**Goal:** Image Steganography is a growing research area of information security where secret information is embedded in innocent-looking public communication.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A New Image Steganographic Technique using Pattern based Bit** | 2016 | cs.MM | Khan Muhammad et al. [[1]](https://arxiv.org/abs/1601.01386) |
-
-**State of the art:** Image Steganography is a growing research area of information security where secret information is embedded in innocent-
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Capacity Enlargement Of The PVD Steganography Method Using The GLM Technique
-
-**Goal:** quality of the stego-image, so in this paper, we propose to combine two existing techniques, Pixel value differencing and Gray Level Modification, to come up with a hybrid steganography scheme whic...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Capacity Enlargement Of The PVD Steganography Method Using T** | 2016 | cs.MM | Mehdi Safarpour, Mostafa Charmi [[1]](https://arxiv.org/abs/1601.00299) |
-
-**State of the art:** In most steganographic methods, increasing in the capacity leads to decrease in the quality of the stego-image, so in th
-
-**Production readiness:** Research
 Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
@@ -4641,26 +4718,6 @@ Security properties under evaluation.
 Preprint; peer review ongoing.
 ---
 
-### Towards Reversible De-Identification in Video Sequences Using 3D Avatars and Steganography
-
-**Goal:** We propose a de-identification pipeline that protects the privacy of humans in video sequences by replacing them with rendered 3D human models, hence concealing their identity while retaining the n...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Towards Reversible De-Identification in Video Sequences Usin** | 2015 | cs.CV, cs.MM | Martin Blažević, Karla Brkić, Tomislav Hrkać [[1]](https://arxiv.org/abs/1510.04861) |
-
-**State of the art:** We propose a de-identification pipeline that protects the privacy of humans in video sequences by replacing them with re
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
 ### Ontology-based Secure Retrieval of Semantically Significant Visual Contents
 
 **Goal:** to retrieve personal visual contents such as patients records and law enforcement agencies databases.
@@ -4672,26 +4729,6 @@ Preprint; peer review ongoing.
 **State of the art:** Image classification is an enthusiastic research field where large amount of image data is classified into various class
 
 **Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Data Hiding in Video using Triangularization LSB Technique
-
-**Goal:** The challenge is to be able to pass information in a manner that the very existence of the message is unknown in order to repel attention of the potential attacker.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Data Hiding in Video using Triangularization LSB Technique** | 2015 | cs.MM | Subhashri Acharya et al. [[1]](https://arxiv.org/abs/1507.05242) |
-
-**State of the art:** The importance of data hiding in the field of Information Technology is a widely accepted.
-
-**Production readiness:** Research
 Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
@@ -4781,26 +4818,6 @@ Security properties under evaluation.
 Preprint; peer review ongoing.
 ---
 
-### Secret Image Sharing Using Grayscale Payload Decomposition and Irreversible Image Steganography
-
-**Goal:** To provide an added security level most of the existing reversible as well as irreversible image steganography schemes emphasize on encrypting the secret image (payload) before embedding it to the ...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Secret Image Sharing Using Grayscale Payload Decomposition a** | 2014 | cs.MM | Soumendu Chakraborty, Anand Singh Jalal, Charul Bhatnagar [[1]](https://arxiv.org/abs/1410.3122) |
-
-**State of the art:** To provide an added security level most of the existing reversible as well as irreversible image steganography schemes e
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
 ### Digital Image Data Hiding Techniques: A Comparative Study
 
 **Goal:** With the advancements in the field of digital image processing during the last decade, digital image data hiding techniques such as watermarking, Steganography have gained wide popularity.
@@ -4810,26 +4827,6 @@ Preprint; peer review ongoing.
 | **Digital Image Data Hiding Techniques: A Comparative Study** | 2014 | cs.MM | Minati Mishra, Priyadarsini Mishra, M. C. Adhikary [[1]](https://arxiv.org/abs/1408.3564) |
 
 **State of the art:** With the advancements in the field of digital image processing during the last decade, digital image data hiding techniq
-
-**Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### An Easy yet Effective Method for Detecting Spatial Domain LSB Steganography
-
-**Goal:** their favor. Terrorists, anti-social groups use manipulated Stego images for secret communication.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **An Easy yet Effective Method for Detecting Spatial Domain LS** | 2014 | cs.MM | Minati Mishra, M. C. Adhikary [[1]](https://arxiv.org/abs/1407.6877) |
-
-**State of the art:** Digitization of image was a revolutionary step for the fields of photography and Image processing as this made the editi
 
 **Production readiness:** Research
 Academic research prototype; evaluation in progress.
@@ -4941,26 +4938,6 @@ Security properties under evaluation.
 Preprint; peer review ongoing.
 ---
 
-### Classification of minimal 1-saturating sets in PG(2,q), q\leq 23
-
-**Goal:** to many branches of combinatorics and information theory, as data compression, compression with distortion, broadcasting in interconnection network, write-once memory or steganography (see \cite{Co...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Classification of minimal 1-saturating sets in PG(2,q), q\le** | 2012 | math.CO | Daniele Bartoli, Stefano Marcugini, Fernanda Pambianco [[1]](https://arxiv.org/abs/1203.1133) |
-
-**State of the art:** Minimal 1-saturating sets in the projective plane $PG(2,q)$ are considered.
-
-**Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
 ### Coordination using Implicit Communication
 
 **Goal:** for various causality constraints.
@@ -4992,26 +4969,6 @@ Preprint; peer review ongoing.
 **State of the art:** We present and analyze a protocol for quantum steganography where the sender (Alice) encodes her steganographic informat
 
 **Production readiness:** Experimental
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Image Sterilization to Prevent LSB-based Steganographic Transmission
-
-**Goal:** image. Experimental results show that our technique succeeded in sterilizing around 76% to 91% of stego pixels in an image on average, where data is embedded using LSB-based steganography.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image Sterilization to Prevent LSB-based Steganographic Tran** | 2010 | cs.MM | Goutam Paul, Imon Mukherjee [[1]](https://arxiv.org/abs/1012.5573) |
-
-**State of the art:** Sterilization is a very popular word used in biomedical testing (like removal of all microorganisms on surface of an art
-
-**Production readiness:** Research
 Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
@@ -5179,6 +5136,31 @@ Security properties under evaluation.
 
 **Community acceptance:** Emerging
 Preprint; peer review ongoing.
+---
+
+## Theoretical & Critical Analysis
+
+---
+
+### The Devil in the Stego Image
+
+**Goal:** Critical evaluation revealing that deep image steganography methods are far from usable in real-world scenarios.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **The Devil in the Stego Image** | 2025 | Evaluation paper | Real-world limitations of deep steganography [[1]](https://dl.acm.org/doi/10.1145/3746027.3754767) |
+
+**State of the art:** Identifies two serious problems in deep image-to-image steganography that hinder real-world deployment: visual quality degradation and vulnerability to compression attacks.
+
+**Production readiness:** Research
+Critical analysis paper; no implementation needed.
+
+**Security status:** Caution
+Highlights practical limitations of current deep steganography methods.
+
+**Community acceptance:** Emerging
+Important critique of deep steganography practicality.
+
 ---
 
 ## Software Tools
