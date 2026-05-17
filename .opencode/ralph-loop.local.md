@@ -1,14 +1,7 @@
 ---
-active: false
-iteration: 1
+active: true
+iteration: 0
 maxIterations: 100
 ---
 
-поищи еще tools в интернете - COMPLETED
-
-Searched Google for steganography tools. Found and verified most tools are already in the GitHub list or are duplicates. Key non-GitHub tools identified:
-- OpenPuff (commercial)
-- QuickStego 
-- Aperi'Solve (already added)
-- StegOnline (already added)
-- futureboy.us/stegano (online tools)
+раскидай все статьи из Recent arXiv Papers (2024–2026) по подходящим категориям
