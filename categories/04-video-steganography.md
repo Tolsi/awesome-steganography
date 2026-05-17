@@ -1,7 +1,7 @@
 # Video Steganography
 
 <!-- TOC -->
-## Contents (18 algorithms)
+## Contents (23 algorithms)
 
 **[Frame-based Methods](#frame-based-methods)**
 - [Frame LSB/DCT](#frame-lsbdct)
@@ -24,6 +24,11 @@
 - [Data Hiding in Video using Triangularization LSB Technique](#data-hiding-in-video-using-triangularization-lsb-technique)
 - [Developing a Video Steganography Toolkit](#developing-a-video-steganography-toolkit)
 - [Motion Vector](#motion-vector)
+- [VideoMark (Distortion-Free Video Watermarking Framework)](#videomark-distortion-free-video-watermarking-framework)
+- [DINVMark (Deep Invertible Network for Video Watermarking)](#dinvmark-deep-invertible-network-for-video-watermarking)
+- [VideoShield (Diffusion-Based Video Generation Watermark)](#videoshield-diffusion-based-video-generation-watermark)
+- [RobustSora (De-Watermarked AI Video Detection Benchmark)](#robustsora-de-watermarked-ai-video-detection-benchmark)
+- [sigmark (Scalable In-Generation Video Watermark)](#sigmark-scalable-in-generation-video-watermark)
 
 <!-- /TOC -->
 
@@ -405,6 +410,111 @@ Motion vector reversion-based steganalysis (arXiv:2310.07121) can detect MV modi
 
 **Community acceptance:** Emerging
 Active research area; dozens of papers on MV steganography and steganalysis published annually.
+
+---
+
+### VideoMark (Distortion-Free Video Watermarking Framework)
+
+**Goal:** Distortion-free robust watermarking for AI-generated video that outperforms VideoShield on message length, robustness, and invisibility metrics.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **VideoMark** | 2025 | Generative-aware watermark embedding | Beats VideoShield on capacity/robustness/imperceptibility [[1]](https://arxiv.org/abs/2504.16359) |
+
+**State of the art:** Current best distortion-free video watermarking framework for diffusion-generated video. Embeds watermark without altering visible video content.
+
+**Production readiness:** Research
+Reference implementation in paper.
+
+**Security status:** Robust
+Resistant to standard video codec re-encoding (H.264, HEVC), temporal cropping, and frame-rate conversion.
+
+**Community acceptance:** Emerging
+Recent (mid-2025); positioned as benchmark for AI-generated video watermarking.
+
+---
+
+### DINVMark (Deep Invertible Network for Video Watermarking)
+
+**Goal:** Robust video watermarking via deep invertible neural network compatible with H.264/AVC and H.265/HEVC; uses differentiable distortion layer simulating HEVC compression to train end-to-end robustness.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **DINVMark** | 2025 | Deep invertible network (INN) | Differentiable HEVC distortion layer; H.264/HEVC compatible [[1]](https://arxiv.org/abs/2509.17416) |
+
+**State of the art:** Invertible neural network design preserves video quality while supporting end-to-end training against compression artifacts. Compatibility with both H.264 and H.265 makes it practical for video distribution.
+
+**Production readiness:** Research
+Academic prototype.
+
+**Security status:** Robust
+End-to-end trained against HEVC compression; high BER recovery under standard codec settings.
+
+**Community acceptance:** Emerging
+IEEE TMM 2025; influences invertible-network-based watermarking design.
+
+---
+
+### VideoShield (Diffusion-Based Video Generation Watermark)
+
+**Goal:** Regulate diffusion-based video generation models by embedding watermarks directly during the diffusion-generation process, with built-in tamper localization detecting changes both temporally and spatially.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **VideoShield** | 2025 | In-generation diffusion watermark | Temporal + spatial tamper localization [[1]](https://arxiv.org/abs/2501.14195) |
+
+**State of the art:** First major framework for regulating diffusion video models via in-generation watermarking. Provides tamper-localization signal that beats post-hoc methods on tampering detection accuracy.
+
+**Production readiness:** Research
+Academic prototype; integration with major diffusion video systems (Sora, Veo, Runway) not yet public.
+
+**Security status:** Caution
+Effective for tamper localization; per the comparison in VideoMark paper (2504.16359), distortion-aware encoding may be needed for stronger imperceptibility.
+
+**Community acceptance:** Emerging
+Early-2025 paper; widely cited in subsequent diffusion-watermark work.
+
+---
+
+### RobustSora (De-Watermarked AI Video Detection Benchmark)
+
+**Goal:** Benchmark dataset and evaluation framework for robust detection of AI-generated videos under aggressive watermark-removal attacks. Targets state-of-art video generation models (Sora-class).
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **RobustSora** | 2025 | Benchmark dataset + detection framework | De-watermarked AI video benchmark; aggressive attack suite [[1]](https://arxiv.org/abs/2512.10248) |
+
+**State of the art:** First benchmark specifically targeting de-watermarked AI-generated video. Quantifies how AI-video watermarks fail under adversarial post-processing.
+
+**Production readiness:** Research (benchmark)
+Public dataset; researchers use to evaluate detection robustness.
+
+**Security status:** Adversarial reference
+Establishes attack ceiling for AI-video watermarking robustness.
+
+**Community acceptance:** Emerging
+Recent (Dec 2025); becoming standard reference for AI-video watermarking evaluation.
+
+---
+
+### sigmark (Scalable In-Generation Video Watermark)
+
+**Goal:** Scalable in-generation video watermarking integrated with diffusion video model decoding. Reduces watermark embedding cost while maintaining robustness.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **sigmark** | 2026 | In-generation diffusion watermark | Scalable to high-resolution video; lower embedding cost than VideoShield [[1]](https://arxiv.org/abs/2603.02882) |
+
+**State of the art:** Improves scalability of in-generation watermarking for diffusion video models. Reduced overhead suitable for production-scale deployment.
+
+**Production readiness:** Research
+Academic prototype.
+
+**Security status:** Robust
+Designed against standard video re-encoding pipelines.
+
+**Community acceptance:** Emerging
+Early 2026; demonstrates trend toward production-scalable diffusion video watermarking.
 
 ---
 

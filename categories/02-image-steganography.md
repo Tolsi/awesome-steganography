@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (262 algorithms)
+## Contents (264 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -63,6 +63,7 @@
 - [Generative Reversible Data Hiding by Image to Image Translation via GANs](#generative-reversible-data-hiding-by-image-to-image-translation-via-gans)
 - [Emerging Applications of Reversible Data Hiding](#emerging-applications-of-reversible-data-hiding)
 - [Secret Image Sharing Using Grayscale Payload Decomposition and Irreversible Image Steganography](#secret-image-sharing-using-grayscale-payload-decomposition-and-irreversible-image-steganography)
+- [Deep Robust Reversible Watermarking (INN-based RRW)](#deep-robust-reversible-watermarking-inn-based-rrw)
 
 **[Print-Scan Robust](#print-scan-robust)**
 - [StegaStamp](#stegastamp)
@@ -278,6 +279,7 @@
 - [Dynamic Encryption-Based Cloud Security Model using Facial Image and Password-based Key Generation for Multimedia Data](#dynamic-encryption-based-cloud-security-model-using-facial-image-and-password-based-key-generation-for-multimedia-data)
 - [2D Hybrid chaos map for image security transform based on framelet and cellular automata](#2d-hybrid-chaos-map-for-image-security-transform-based-on-framelet-and-cellular-automata)
 - [SynthID-Image (Google Image Watermarking at Internet Scale)](#synthid-image-google-image-watermarking-at-internet-scale)
+- [Diffusion-Based Image Editing: Unforeseen Adversary to Robust Invisible Watermarks](#diffusion-based-image-editing-unforeseen-adversary-to-robust-invisible-watermarks)
 
 **[Theoretical & Critical Analysis](#theoretical-critical-analysis)**
 - [The Devil in the Stego Image](#the-devil-in-the-stego-image)
@@ -1382,6 +1384,27 @@ Security properties under evaluation.
 
 **Community acceptance:** Emerging
 Preprint; peer review ongoing.
+---
+
+### Deep Robust Reversible Watermarking (INN-based RRW)
+
+**Goal:** Robust reversible watermarking using invertible neural networks (INNs) that enables perfect recovery of cover image and watermark while remaining robust against image manipulation; addresses real-value-flow quantization-loss issues of prior INN approaches.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **Deep Robust Reversible Watermarking** | 2025 | Invertible neural network + integer-flow | Perfect recovery + robustness against JPEG/noise; quantization-aware training [[1]](https://arxiv.org/abs/2503.02490) |
+
+**State of the art:** Resolves the quantization-loss problem of real-value-flow INNs. Achieves both perfect reversibility AND robustness simultaneously — a tradeoff that prior INN-based RDH could not satisfy together.
+
+**Production readiness:** Research
+Academic prototype.
+
+**Security status:** Robust
+Watermark survives JPEG compression and Gaussian noise; cover image fully recovered after extraction.
+
+**Community acceptance:** Emerging
+2025 paper, gaining traction in INN-RDH community.
+
 ---
 
 ## Print-Scan Robust
@@ -5676,6 +5699,27 @@ Robust to standard image transformations, but adversarially-aware adversary can 
 
 **Community acceptance:** Emerging
 Major industry deployment but limited academic review. Independent analysis (ePrint 2603.03410) suggests tournament-layer detection has provable weaknesses.
+
+---
+
+### Diffusion-Based Image Editing: Unforeseen Adversary to Robust Invisible Watermarks
+
+**Goal:** Demonstrate that state-of-the-art diffusion-based image editing tools (Stable Diffusion editing, SDEdit, InstructPix2Pix) act as effective watermark-removal attacks even when not designed as adversarial — generative editing destroys invisible watermarks while preserving image semantics.
+
+| Algorithm | Year | Architecture | Notable Feature |
+|-----------|------|--------------|-----------------|
+| **Diffusion-Edit Adversary** | 2025 | Attack analysis | Diffusion-editing tools remove invisible watermarks unintentionally [[1]](https://arxiv.org/abs/2511.05598) |
+
+**State of the art:** First systematic demonstration that off-the-shelf diffusion image-editing tools function as watermark removal attacks. Implications: SynthID-Image, RoSteALS, StegaStamp may be compromised at no extra cost to attacker.
+
+**Production readiness:** N/A (Attack analysis)
+Adversarial analysis; informs watermark robustness design requirements.
+
+**Security status:** Demonstrates broken
+Standard invisible watermarks (HiDDeN, StegaStamp, RoSteALS) fail under diffusion-editing transformations.
+
+**Community acceptance:** Emerging
+Late 2025; significant impact on AI-content watermarking benchmark design.
 
 ---
 
