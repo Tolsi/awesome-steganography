@@ -1,7 +1,7 @@
 # Image Steganography
 
 <!-- TOC -->
-## Contents (258 algorithms)
+## Contents (261 algorithms)
 
 **[Spatial Domain](#spatial-domain)**
 - [LSB Replacement](#lsb-replacement)
@@ -274,6 +274,9 @@
 - [Coverless Image](#coverless-image)
 - [Generative Steganography with Kerckhoffs' Principle](#generative-steganography-with-kerckhoffs-principle)
 - [Generative Steganographic Flow](#generative-steganographic-flow)
+- [A Dual-Layer Image Encryption Framework Using Chaotic AES with Dynamic S-Boxes and Steganographic QR Codes](#a-dual-layer-image-encryption-framework-using-chaotic-aes-with-dynamic-s-boxes-and-steganographic-qr-codes)
+- [Dynamic Encryption-Based Cloud Security Model using Facial Image and Password-based Key Generation for Multimedia Data](#dynamic-encryption-based-cloud-security-model-using-facial-image-and-password-based-key-generation-for-multimedia-data)
+- [2D Hybrid chaos map for image security transform based on framelet and cellular automata](#2d-hybrid-chaos-map-for-image-security-transform-based-on-framelet-and-cellular-automata)
 
 **[Theoretical & Critical Analysis](#theoretical-critical-analysis)**
 - [The Devil in the Stego Image](#the-devil-in-the-stego-image)
@@ -5579,6 +5582,75 @@ Flow-based approach; security against steganalysis needs evaluation.
 
 **Community acceptance:** Emerging
 Peer-reviewed publication at ICME 2022.
+
+---
+
+### A Dual-Layer Image Encryption Framework Using Chaotic AES with Dynamic S-Boxes and Steganographic QR Codes
+
+**Goal:** via steganographically modified QR codes.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Dual-Layer Image Encryption Framework Using Chaotic AES wi** | 2025 | cs.CR | Md Rishadul Bayesh, Dabbrata Das, Md Ahadullah [[1]](https://arxiv.org/abs/2506.13895) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Dynamic Encryption-Based Cloud Security Model using Facial Image and Password-based Key Generation for Multimedia Data
+
+**Goal:** In this cloud-dependent era, various security techniques, such as encryption, steganography, and hybrid approaches, have been utilized in cloud computing to enhance security, maintain enormous stor...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Dynamic Encryption-Based Cloud Security Model using Facial I** | 2025 | cs.CR | Naima Sultana Ayesha et al. [[1]](https://arxiv.org/abs/2505.17224) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### 2D Hybrid chaos map for image security transform based on framelet and cellular automata
+
+**Goal:** In this paper, we provide some safe ways to transfer images securely by using cryptography and steganography methods.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **2D Hybrid chaos map for image security transform based on fr** | 2018 | cs.CR | Y. Khedmati, R. Parvaz, Y. Behroo [[1]](https://arxiv.org/abs/1810.06333) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
 
 ---
 

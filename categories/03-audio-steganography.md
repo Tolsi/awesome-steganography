@@ -1,7 +1,7 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (52 algorithms)
+## Contents (54 algorithms)
 
 **[Time Domain](#time-domain)**
 - [LPC (Linear Predictive Coding)](#lpc-linear-predictive-coding)
@@ -62,6 +62,8 @@
 - [Hide and Speak: Towards Deep Neural Networks for Speech Steganography](#hide-and-speak-towards-deep-neural-networks-for-speech-steganography)
 - [Deep Residual Neural Networks for Image in Speech Steganography](#deep-residual-neural-networks-for-image-in-speech-steganography)
 - [DWT-GBT-SVD-based Robust Speech Steganography](#dwt-gbt-svd-based-robust-speech-steganography)
+- [Sound Conveyors for Stealthy Data Transmission](#sound-conveyors-for-stealthy-data-transmission)
+- [A novel method of speech information hiding based on 3D-Magic Matrix](#a-novel-method-of-speech-information-hiding-based-on-3d-magic-matrix)
 
 <!-- /TOC -->
 
@@ -1171,6 +1173,52 @@ Traditional approach; not evaluated against modern steganalysis.
 
 **Community acceptance:** Emerging
 Preprint; peer review status unknown.
+
+---
+
+### Sound Conveyors for Stealthy Data Transmission
+
+**Goal:** tend to figure out a method capable of hiding a message and the survival of the message.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Sound Conveyors for Stealthy Data Transmission** | 2025 | cs.CR | Sachith Dassanayaka [[1]](https://arxiv.org/abs/2502.10984) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### A novel method of speech information hiding based on 3D-Magic Matrix
+
+**Goal:** Redundant information of low-bit-rate speech is extremely small, thus it's very difficult to implement large capacity steganography on the low-bit-rate speech.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A novel method of speech information hiding based on 3D-Magi** | 2018 | cs.CR | Zhongliang Yang et al. [[1]](https://arxiv.org/abs/1809.03010) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
 
 ---
 

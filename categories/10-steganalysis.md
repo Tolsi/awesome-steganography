@@ -1,7 +1,7 @@
 # Steganalysis
 
 <!-- TOC -->
-## Contents (84 algorithms)
+## Contents (86 algorithms)
 
 **[Classical Methods](#classical-methods)**
 - [Visual Attack](#visual-attack)
@@ -60,6 +60,8 @@
 - [PixelSteganalysis: Pixel-wise Hidden Information Removal with Low Visual Degradation](#pixelsteganalysis-pixel-wise-hidden-information-removal-with-low-visual-degradation)
 - [CNN-based Steganalysis and Parametric Adversarial Embedding: a Game-Theoretic Framework](#cnn-based-steganalysis-and-parametric-adversarial-embedding-a-game-theoretic-framework)
 - [DNA Steganalysis Using Deep Recurrent Neural Networks](#dna-steganalysis-using-deep-recurrent-neural-networks)
+- [Using Deep Learning to Detect Digitally Encoded DNA Trigger for Trojan Malware in Bio-Cyber Attacks](#using-deep-learning-to-detect-digitally-encoded-dna-trigger-for-trojan-malware-in-bio-cyber-attacks)
+- [GSDFuse: Capturing Cognitive Inconsistencies from Multi-Dimensional Weak Signals in Social Media Steganalysis](#gsdfuse-capturing-cognitive-inconsistencies-from-multi-dimensional-weak-signals-in-social-media-steganalysis)
 
 **[Network Steganalysis](#network-steganalysis)**
 - [Tor Traffic Detection](#tor-traffic-detection)
@@ -1231,6 +1233,52 @@ Novel domain; requires validation on more DNA steganography methods.
 
 **Community acceptance:** Emerging
 First work on DNA steganalysis; pioneering in this niche area.
+
+---
+
+### Using Deep Learning to Detect Digitally Encoded DNA Trigger for Trojan Malware in Bio-Cyber Attacks
+
+**Goal:** from trojan attacks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Using Deep Learning to Detect Digitally Encoded DNA Trigger ** | 2022 | cs.CR, cs.LG | Mohd Siblee Islam et al. [[1]](https://arxiv.org/abs/2202.11824) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### GSDFuse: Capturing Cognitive Inconsistencies from Multi-Dimensional Weak Signals in Social Media Steganalysis
+
+**Goal:** The ubiquity of social media platforms facilitates malicious linguistic steganography, posing significant security risks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **GSDFuse: Capturing Cognitive Inconsistencies from Multi-Dime** | 2025 | cs.CR, cs.AI, cs.CL | Kaibo Huang et al. [[1]](https://arxiv.org/abs/2505.17085) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
 
 ---
 

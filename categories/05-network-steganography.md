@@ -1,7 +1,7 @@
 # Network Steganography
 
 <!-- TOC -->
-## Contents (59 algorithms)
+## Contents (61 algorithms)
 
 **[Header Fields](#header-fields)**
 - [IPv4/IPv6 Headers](#ipv4ipv6-headers)
@@ -59,6 +59,8 @@
 - [Lightweight security mechanism for PSTN-VoIP cooperation](#lightweight-security-mechanism-for-pstn-voip-cooperation)
 - [Environment Based Secure Transfer of Data in Wireless Sensor Networks](#environment-based-secure-transfer-of-data-in-wireless-sensor-networks)
 - [Steganography: A Secure way for Transmission in Wireless Sensor Networks](#steganography-a-secure-way-for-transmission-in-wireless-sensor-networks)
+- [Stealthy Backdoor Attack to Real-world Models in Android Apps](#stealthy-backdoor-attack-to-real-world-models-in-android-apps)
+- [Tackling Android Stego Apps in the Wild](#tackling-android-stego-apps-in-the-wild)
 
 **[Alternative Protocols](#alternative-protocols)**
 - [5G/6G Cellular](#5g6g-cellular)
@@ -1094,6 +1096,52 @@ Security properties under evaluation.
 
 **Community acceptance:** Emerging
 Preprint; peer review ongoing.
+---
+
+### Stealthy Backdoor Attack to Real-world Models in Android Apps
+
+**Goal:** attacks on real-world DL models extracted from mobile apps.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Stealthy Backdoor Attack to Real-world Models in Android App** | 2025 | cs.CR, cs.AI | Jiali Wei et al. [[1]](https://arxiv.org/abs/2501.01263) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Tackling Android Stego Apps in the Wild
+
+**Goal:** discoveries closer to real-world implementations, it is important to use data that represent "in the wild" scenarios.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Tackling Android Stego Apps in the Wild** | 2018 | cs.CR | Wenhao Chen et al. [[1]](https://arxiv.org/abs/1808.00430) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
 ---
 
 ## Alternative Protocols

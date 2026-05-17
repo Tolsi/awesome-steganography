@@ -1,7 +1,7 @@
 # Text Steganography
 
 <!-- TOC -->
-## Contents (124 algorithms)
+## Contents (146 algorithms)
 
 **[Structural Methods](#structural-methods)**
 - [ASCII Art Steganography](#ascii-art-steganography)
@@ -132,6 +132,28 @@
 - [Steganography from weak cryptography](#steganography-from-weak-cryptography)
 - [Information Hiding Techniques: A Tutorial Review](#information-hiding-techniques-a-tutorial-review)
 - [An Improved FPGA Implementation of the Modified Hybrid Hiding Encryption Algorithm (MHHEA) for Data Communication Security](#an-improved-fpga-implementation-of-the-modified-hybrid-hiding-encryption-algorithm-mhhea-for-data-communication-security)
+- [Unveiling Unicode's Unseen Underpinnings in Undermining Authorship Attribution](#unveiling-unicodes-unseen-underpinnings-in-undermining-authorship-attribution)
+- [Cryptologic Techniques and Associated Risks in Public and Private Security. An Italian and European Union Perspective with an Overview of the Current Legal Framework](#cryptologic-techniques-and-associated-risks-in-public-and-private-security-an-italian-and-european-union-perspective-with-an-overview-of-the-current-legal-framework)
+- [A Character-based Diffusion Embedding Algorithm for Enhancing the Generation Quality of Generative Linguistic Steganographic Texts](#a-character-based-diffusion-embedding-algorithm-for-enhancing-the-generation-quality-of-generative-linguistic-steganographic-texts)
+- [A Plug-and-Play Method for Improving Imperceptibility and Capacity in Practical Generative Text Steganography](#a-plug-and-play-method-for-improving-imperceptibility-and-capacity-in-practical-generative-text-steganography)
+- [ADLM -- stega: A Universal Adaptive Token Selection Algorithm for Improving Steganographic Text Quality via Information Entropy](#adlm-stega-a-universal-adaptive-token-selection-algorithm-for-improving-steganographic-text-quality-via-information-entropy)
+- [Computing Low-Entropy Couplings for Large-Support Distributions](#computing-low-entropy-couplings-for-large-support-distributions)
+- [Pseudorandom Error-Correcting Codes](#pseudorandom-error-correcting-codes)
+- [Secure Information Embedding in Images with Hybrid Firefly Algorithm](#secure-information-embedding-in-images-with-hybrid-firefly-algorithm)
+- [StegGuard: Fingerprinting Self-supervised Pre-trained Encoders via Secrets Embeder and Extractor](#stegguard-fingerprinting-self-supervised-pre-trained-encoders-via-secrets-embeder-and-extractor)
+- [Matryoshka: Stealing Functionality of Private ML Data by Hiding Models in Model](#matryoshka-stealing-functionality-of-private-ml-data-by-hiding-models-in-model)
+- [On Information Hiding in Natural Language Systems](#on-information-hiding-in-natural-language-systems)
+- [A Novel Pair and Matching Algorithm for Embedding Secret Messages in Images](#a-novel-pair-and-matching-algorithm-for-embedding-secret-messages-in-images)
+- [Maneuvering Digital Watermarking In Face Recognition](#maneuvering-digital-watermarking-in-face-recognition)
+- [Generative Models for Security: Attacks, Defenses, and Opportunities](#generative-models-for-security-attacks-defenses-and-opportunities)
+- [Differentially Private M-band Wavelet-Based Mechanisms in Machine Learning Environments](#differentially-private-m-band-wavelet-based-mechanisms-in-machine-learning-environments)
+- [Behavioral Security in Covert Communication Systems](#behavioral-security-in-covert-communication-systems)
+- [Blockchain of Signature Material Combining Cryptographic Hash Function and DNA Steganography](#blockchain-of-signature-material-combining-cryptographic-hash-function-and-dna-steganography)
+- [Uncheatable Machine Learning Inference](#uncheatable-machine-learning-inference)
+- [Training Set Camouflage](#training-set-camouflage)
+- [The Reincarnation of Grille Cipher: A Generative Approach](#the-reincarnation-of-grille-cipher-a-generative-approach)
+- [The New Threats of Information Hiding: the Road Ahead](#the-new-threats-of-information-hiding-the-road-ahead)
+- [An improvement on LSB+ method](#an-improvement-on-lsb-method)
 
 <!-- /TOC -->
 
@@ -2701,6 +2723,512 @@ Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
 Preprint; peer review status unknown.
+
+---
+
+### Unveiling Unicode's Unseen Underpinnings in Undermining Authorship Attribution
+
+**Goal:** profiling. In this paper, we dissect the technique of stylometry, discuss an antithetical counter-strategy in adversarial stylometry, and devise enhancements through Unicode steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Unveiling Unicode's Unseen Underpinnings in Undermining Auth** | 2026 | cs.CR, cs.CL, cs.IR | Robert Dilworth [[1]](https://arxiv.org/abs/2508.15840) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Cryptologic Techniques and Associated Risks in Public and Private Security. An Italian and European Union Perspective with an Overview of the Current Legal Framework
+
+**Goal:** of cryptologic techniques and their implications for public and private security, focusing on the Italian and EU legal frameworks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Cryptologic Techniques and Associated Risks in Public and Pr** | 2025 | cs.CR | Zana Kudriasova [[1]](https://arxiv.org/abs/2505.08650) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### A Character-based Diffusion Embedding Algorithm for Enhancing the Generation Quality of Generative Linguistic Steganographic Texts
+
+**Goal:** Generating high-quality steganographic text is a fundamental challenge in the field of generative linguistic steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Character-based Diffusion Embedding Algorithm for Enhancin** | 2025 | cs.CL, cs.CR | Yingquan Chen et al. [[1]](https://arxiv.org/abs/2505.00977) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### A Plug-and-Play Method for Improving Imperceptibility and Capacity in Practical Generative Text Steganography
+
+**Goal:** Linguistic steganography embeds secret information into seemingly innocuous text to safeguard privacy under surveillance.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Plug-and-Play Method for Improving Imperceptibility and Ca** | 2025 | cs.CR | Kaiyi Pang [[1]](https://arxiv.org/abs/2412.19652) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Very recent arXiv preprint; no production implementation known.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### ADLM -- stega: A Universal Adaptive Token Selection Algorithm for Improving Steganographic Text Quality via Information Entropy
+
+**Goal:** have become focal points.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **ADLM -- stega: A Universal Adaptive Token Selection Algorith** | 2024 | cs.CR, cs.AI | Zezheng Qin et al. [[1]](https://arxiv.org/abs/2410.20825) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Computing Low-Entropy Couplings for Large-Support Distributions
+
+**Goal:** Minimum-entropy coupling (MEC) -- the process of finding a joint distribution with minimum entropy for given marginals -- has applications in areas such as causality and steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Computing Low-Entropy Couplings for Large-Support Distributi** | 2024 | cs.IT, cs.CR | Samuel Sokota et al. [[1]](https://arxiv.org/abs/2405.19540) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Pseudorandom Error-Correcting Codes
+
+**Goal:** from text output by the original model.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Pseudorandom Error-Correcting Codes** | 2024 | cs.CR, cs.AI, cs.LG | Miranda Christ, Sam Gunn [[1]](https://arxiv.org/abs/2402.09370) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Secure Information Embedding in Images with Hybrid Firefly Algorithm
+
+**Goal:** secure access to sensitive information over time, such as the many cryptographic methods in use to facilitate secure communications on the internet.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Secure Information Embedding in Images with Hybrid Firefly A** | 2023 | cs.CR, cs.LG | Sahil Nokhwal, Manoj Chandrasekharan, Ankit Chaudhary [[1]](https://arxiv.org/abs/2312.13519) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### StegGuard: Fingerprinting Self-supervised Pre-trained Encoders via Secrets Embeder and Extractor
+
+**Goal:** In this work, we propose StegGuard, a novel fingerprinting mechanism to verify the ownership of the suspect pre-trained encoder using steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **StegGuard: Fingerprinting Self-supervised Pre-trained Encode** | 2023 | cs.CR | Xingdong Ren et al. [[1]](https://arxiv.org/abs/2310.03380) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Research
+Academic prototype; implementation details in paper.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Matryoshka: Stealing Functionality of Private ML Data by Hiding Models in Model
+
+**Goal:** memorize the functionality of private ML data stored in local data centers.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Matryoshka: Stealing Functionality of Private ML Data by Hid** | 2022 | stat.ML, cs.AI, cs.CR | Xudong Pan et al. [[1]](https://arxiv.org/abs/2206.14371) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### On Information Hiding in Natural Language Systems
+
+**Goal:** today's digital world, research on more robust models of privacy preservation and information security is on the rise.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **On Information Hiding in Natural Language Systems** | 2022 | cs.CL | Geetanjali Bihani, Julia Taylor Rayz [[1]](https://arxiv.org/abs/2203.06512) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### A Novel Pair and Matching Algorithm for Embedding Secret Messages in Images
+
+**Goal:** Steganography has proven to be one of the practical way of securing data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Novel Pair and Matching Algorithm for Embedding Secret Mes** | 2022 | cs.CR, cs.MM | P N Priya et al. [[1]](https://arxiv.org/abs/2202.00253) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Maneuvering Digital Watermarking In Face Recognition
+
+**Goal:** digital world are many, which could be resolved with some biometric recognition methods.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Maneuvering Digital Watermarking In Face Recognition** | 2021 | cs.CR | Osama R. Shahin, Zeinab M. Abdel Azim, Ahmed I Taloba [[1]](https://arxiv.org/abs/2111.02308) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Generative Models for Security: Attacks, Defenses, and Opportunities
+
+**Goal:** and malware obfuscation.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Generative Models for Security: Attacks, Defenses, and Oppor** | 2021 | cs.CR | Luke A. Bauer, Vincent Bindschaedler [[1]](https://arxiv.org/abs/2107.10139) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Differentially Private M-band Wavelet-Based Mechanisms in Machine Learning Environments
+
+**Goal:** and LS+) add noise through a Laplace-Sigmoid distribution that multiplies Laplace-distributed values with the sigmoid function, and the third method utilizes pseudo-quantum steganography to embed n...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Differentially Private M-band Wavelet-Based Mechanisms in Ma** | 2020 | cs.LG, cs.CR, stat.ML | Kenneth Choi, Tony Lee [[1]](https://arxiv.org/abs/2001.00012) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Behavioral Security in Covert Communication Systems
+
+**Goal:** if we only consider content security and neglect behavioral security.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Behavioral Security in Covert Communication Systems** | 2019 | cs.CR | Zhongliang Yang et al. [[1]](https://arxiv.org/abs/1910.09759) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Blockchain of Signature Material Combining Cryptographic Hash Function and DNA Steganography
+
+**Goal:** should be immune to the fast developments in digital and engineering technologies.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Blockchain of Signature Material Combining Cryptographic Has** | 2019 | bio.BM, cs.CR | Yixin Zhang [[1]](https://arxiv.org/abs/1909.07914) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Uncheatable Machine Learning Inference
+
+**Goal:** using probabilistic performance metrics, instance seeding, and steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Uncheatable Machine Learning Inference** | 2019 | cs.LG, cs.CR, stat.ML | Mustafa Canim, Ashish Kundu, Josh Payne [[1]](https://arxiv.org/abs/1908.03270) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### Training Set Camouflage
+
+**Goal:** We introduce a form of steganography in the domain of machine learning which we call training set camouflage.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Training Set Camouflage** | 2018 | cs.CR | Ayon Sen et al. [[1]](https://arxiv.org/abs/1812.05725) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### The Reincarnation of Grille Cipher: A Generative Approach
+
+**Goal:** have been implemented to encrypt and decrypt the secret data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **The Reincarnation of Grille Cipher: A Generative Approach** | 2018 | cs.CR | Jia Liu et al. [[1]](https://arxiv.org/abs/1804.06514) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### The New Threats of Information Hiding: the Road Ahead
+
+**Goal:** Compared to cryptography, steganography is a less discussed domain.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **The New Threats of Information Hiding: the Road Ahead** | 2018 | cs.CR | K. Cabaj et al. [[1]](https://arxiv.org/abs/1801.00694) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+---
+
+### An improvement on LSB+ method
+
+**Goal:** substitution is the histogram attack that attempts to diagnose anomalies in the cover image's histogram.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **An improvement on LSB+ method** | 2017 | cs.CR | Kazem Qazanfari, Shahrokh Ghaemmaghami [[1]](https://arxiv.org/abs/1709.06726) |
+
+**State of the art:** Recent arXiv contribution. See paper for full evaluation and comparison with prior work.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
 
 ---
 
