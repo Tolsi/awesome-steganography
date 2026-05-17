@@ -1,10 +1,9 @@
 # Coverless / Generative Steganography
 
 <!-- TOC -->
-## Contents (21 algorithms)
+## Contents (17 algorithms)
 
 **[Hash-based](#hash-based)**
-- [Coverless Image](#coverless-image)
 - [INR Stego](#inr-stego)
 
 **[GAN-based](#gan-based)**
@@ -13,10 +12,7 @@
 **[Diffusion-based](#diffusion-based)**
 - [CRoSS](#cross)
 - [MIDAS](#midas)
-- [Training-Free Coverless Multi-Image Steganography](#training-free-coverless-multi-image-steganography)
 - [Dual Model Replacement:invisible Multi-target Backdoor Attack based on Federal Learning](#dual-model-replacementinvisible-multi-target-backdoor-attack-based-on-federal-learning)
-- [A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography](#a-dynamic-yolo-based-sequence-matching-model-for-efficient-coverless-image-steganography)
-- [Image Generation Network for Covert Transmission in Online Social Network](#image-generation-network-for-covert-transmission-in-online-social-network)
 
 **[3D/Neural Graphics](#3dneural-graphics)**
 - [StegoNGP](#stegongp)
@@ -35,28 +31,6 @@
 <!-- /TOC -->
 
 ## Hash-based
-
----
-
-### Coverless Image
-
-**Goal:** Find pre-existing image matching message hash without modification.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Coverless Image** | 2015 | Hash dictionary lookup | Zhou et al. [[1]](https://link.springer.com/chapter/10.1007/978-3-319-27051-7_11) |
-
-**State of the art:** Requires large shared image database.
-
-**Production readiness:** Research
-Academic prototype; no production-grade deployment known.
-
-**Implementations:**
-- Various academic implementations
-
-**Security status:** Secure — No modified pixels to detect
-
-**Community acceptance:** Emerging — Requires infrastructure
 
 ---
 
@@ -146,25 +120,6 @@ No public implementation available.
 
 ---
 
-### Training-Free Coverless Multi-Image Steganography
-
-**Goal:** Access-controlled hidden content revelation for multiple users without model training.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Coverless Multi-Image** | 2026 | Training-free multi-image hiding | Access control [[1]](https://arxiv.org/abs/2603.09390) |
-
-**State of the art:** First training-free CIS with robust access control for multiple authorized users.
-
-**Production readiness:** Research
-Preprint only; no implementation released.
-
-**Security status:** Secure — Coverless; no pixel-level embedding
-
-**Community acceptance:** Emerging — Very recent (2026)
-
----
-
 ### Dual Model Replacement:invisible Multi-target Backdoor Attack based on Federal Learning
 
 **Goal:** Design backdoor attack method for federated learning using steganography to encode attack information as invisible noise.
@@ -183,48 +138,6 @@ Security research; discusses vulnerabilities and detection risks.
 
 **Community acceptance:** Emerging
 Novel application of steganography to backdoor attacks; significant for security research.
-
----
-
-### A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography
-
-**Goal:** Solve exponential database growth problem in coverless steganography by using YOLO-based sequence matching with limited image library.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A Dynamic YOLO-Based Sequence-Matching Model for Efficient C** | 2024 | cs.CR | Jiajun Liu et al. [[1]](https://arxiv.org/abs/2401.11946) |
-
-**State of the art:** Uses YOLO for optimal object selection and mapping dictionary for scrambling factors. Achieves 19 bits per image with only ~200 random images. Recovers 79.85% secret info under geometric attacks.
-
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Novel approach to database growth problem; significant for practical deployment.
-
----
-
-### Image Generation Network for Covert Transmission in Online Social Network
-
-**Goal:** Synthesize high-quality images directly from secret messages for covert transmission over online social networks.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image Generation Network for Covert Transmission in Online S** | 2022 | cs.CV | Zhengxin You et al. [[1]](https://arxiv.org/abs/2207.10292) |
-
-**State of the art:** Proposes CIS-Net with Generation, Adversarial, Extraction, and Noise Modules. Achieves lossless extraction even after JPEG compression. Uses profile photos and stickers context for evasion. Accepted at ACMMM 2022.
-
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Accepted at ACMMM 2022; significant for OSN-based steganography.
 
 ---
 

@@ -1,7 +1,7 @@
 # Network Steganography
 
 <!-- TOC -->
-## Contents (61 algorithms)
+## Contents (59 algorithms)
 
 **[Header Fields](#header-fields)**
 - [IPv4/IPv6 Headers](#ipv4ipv6-headers)
@@ -35,21 +35,15 @@
 - [Synthetic Embedding of Hidden Information in Industrial Control System Network Protocols for Evaluation of Steganographic Malware](#synthetic-embedding-of-hidden-information-in-industrial-control-system-network-protocols-for-evaluation-of-steganographic-malware)
 - [Purified and Unified Steganographic Network](#purified-and-unified-steganographic-network)
 - [Towards Deep Network Steganography: From Networks to Networks](#towards-deep-network-steganography-from-networks-to-networks)
-- [DWT-GBT-SVD-based Robust Speech Steganography](#dwt-gbt-svd-based-robust-speech-steganography)
-- [Deep Residual Neural Networks for Image in Speech Steganography](#deep-residual-neural-networks-for-image-in-speech-steganography)
-- [Hide and Speak: Towards Deep Neural Networks for Speech Steganography](#hide-and-speak-towards-deep-neural-networks-for-speech-steganography)
-- [AAG-Stega: Automatic Audio Generation-based Steganography](#aag-stega-automatic-audio-generation-based-steganography)
 - [Unified Description for Network Information Hiding Methods](#unified-description-for-network-information-hiding-methods)
 - [A Second Order Derivatives based Approach for Steganography](#a-second-order-derivatives-based-approach-for-steganography)
 - [Why Johnny Can't Use Stego: a Human-oriented Perspective on the Application of Steganography](#why-johnny-cant-use-stego-a-human-oriented-perspective-on-the-application-of-steganography)
 - [Trends toward real-time network data steganography](#trends-toward-real-time-network-data-steganography)
 - [StegBlocks: ensuring perfect undetectability of network steganography](#stegblocks-ensuring-perfect-undetectability-of-network-steganography)
-- [Micro protocol engineering for unstructured carriers: On the embedding of steganographic control protocols into audio transmissions](#micro-protocol-engineering-for-unstructured-carriers-on-the-embedding-of-steganographic-control-protocols-into-audio-transmissions)
 - [Hidden and Uncontrolled - On the Emergence of Network Steganographic Threats](#hidden-and-uncontrolled-on-the-emergence-of-network-steganographic-threats)
 - [On Importance of Steganographic Cost For Network Steganography](#on-importance-of-steganographic-cost-for-network-steganography)
 - [Adaptive Software Radio Steganography](#adaptive-software-radio-steganography)
 - [Principles and Overview of Network Steganography](#principles-and-overview-of-network-steganography)
-- [Dynamic Pattern Based Image Steganography](#dynamic-pattern-based-image-steganography)
 - [Direct Sequence Spread Spectrum Steganographic Scheme for IEEE 802.15.4](#direct-sequence-spread-spectrum-steganographic-scheme-for-ieee-802154)
 - [How Hidden Can Be Even More Hidden?](#how-hidden-can-be-even-more-hidden)
 - [Sending Hidden Data via Google Suggest](#sending-hidden-data-via-google-suggest)
@@ -61,6 +55,10 @@
 - [Perfect Z2Z4-linear codes in Steganography](#perfect-z2z4-linear-codes-in-steganography)
 - [Steganography in Handling Oversized IP Packets](#steganography-in-handling-oversized-ip-packets)
 - [SecMon: End-to-End Quality and Security Monitoring System](#secmon-end-to-end-quality-and-security-monitoring-system)
+- [New security and control protocol for VoIP based on steganography and digital watermarking](#new-security-and-control-protocol-for-voip-based-on-steganography-and-digital-watermarking)
+- [Lightweight security mechanism for PSTN-VoIP cooperation](#lightweight-security-mechanism-for-pstn-voip-cooperation)
+- [Environment Based Secure Transfer of Data in Wireless Sensor Networks](#environment-based-secure-transfer-of-data-in-wireless-sensor-networks)
+- [Steganography: A Secure way for Transmission in Wireless Sensor Networks](#steganography-a-secure-way-for-transmission-in-wireless-sensor-networks)
 
 **[Alternative Protocols](#alternative-protocols)**
 - [5G/6G Cellular](#5g6g-cellular)
@@ -578,90 +576,6 @@ First work on DNN model steganography.
 
 ---
 
-### DWT-GBT-SVD-based Robust Speech Steganography
-
-**Goal:** Hide secret messages in speech with imperceptibility and robustness against common attacks.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **DWT-GBT-SVD-based Robust Speech Steganography** | 2020 | cs.MM, cs.SD, eess.AS | Noshin Amiri, Iman Naderi [[1]](https://arxiv.org/abs/2004.12569) |
-
-**State of the art:** Combines DWT, Graph-based Transform, and SVD. Embeds in voiced frames based on energy and zero-crossing counts. Robust against Gaussian noise, re-sampling, re-quantization, high/low pass filters, MP3 compression, and scaling. Tested on NOIZEUS database.
-
-**Production readiness:** Experimental
-Academic research; no public implementation.
-
-**Security status:** Caution
-Traditional approach; not evaluated against modern steganalysis.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Deep Residual Neural Networks for Image in Speech Steganography
-
-**Goal:** Hide RGB images inside speech segments without perceptual loss using deep learning.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Deep Residual Neural Networks for Image in Speech Steganogra** | 2020 | cs.MM, cs.SD, eess.AS | Shivam Agarwal, Siddarth Venkatraman [[1]](https://arxiv.org/abs/2003.13217) |
-
-**State of the art:** Uses three neural networks: encoder embeds image in speech, decoder reconstructs, image enhancer improves quality. Cross-modal steganography (image→audio).
-
-**Production readiness:** Experimental
-Academic research; no public implementation.
-
-**Security status:** Caution
-Research prototype; limited security analysis.
-
-**Community acceptance:** Emerging
-Early work on image-in-speech steganography.
-
----
-
-### Hide and Speak: Towards Deep Neural Networks for Speech Steganography
-
-**Goal:** Use deep neural networks as steganographic functions for speech data.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Hide and Speak: Towards Deep Neural Networks for Speech Steg** | 2020 | cs.SD, cs.CR, cs.LG | Felix Kreuk et al. [[1]](https://arxiv.org/abs/1902.03083) |
-
-**State of the art:** First DNN-based speech steganography. Uses STFT and iSTFT as differentiable layers. Can conceal multiple messages with multiple decoders. Robust against channel distortions. Modifications unnoticeable to human listeners.
-
-**Production readiness:** Experimental
-Academic research; no public implementation.
-
-**Security status:** Caution
-Early work; limited security evaluation.
-
-**Community acceptance:** Emerging
-Influential early work on neural speech steganography.
-
----
-
-### AAG-Stega: Automatic Audio Generation-based Steganography
-
-**Goal:** Generate audio covers automatically based on secret bits instead of modifying existing audio.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **AAG-Stega: Automatic Audio Generation-based Steganography** | 2018 | cs.CR | Zhongliang Yang et al. [[1]](https://arxiv.org/abs/1809.03463) |
-
-**State of the art:** First cover-generation audio steganography. Automatically generates high-quality audio covers from secret bits. Uses conditional probability distribution to embed information. Avoids statistical differences between cover and stego. Submitted to AAAI 2019.
-
-**Production readiness:** Research
-Academic research; no implementation available.
-
-**Security status:** Caution
-Cover generation approach; security analysis in paper.
-
-**Community acceptance:** Emerging
-Novel approach to audio steganography.
-
----
-
 ### Unified Description for Network Information Hiding Methods
 
 **Goal:** Create a unified framework for describing network steganography methods to enable comparison.
@@ -767,27 +681,6 @@ Accepted at IWCC 2015.
 
 ---
 
-### Micro protocol engineering for unstructured carriers: On the embedding of steganographic control protocols into audio transmissions
-
-**Goal:** Embed micro protocols (reliability, routing, optimization) into audio signals for network steganography.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Micro protocol engineering for unstructured carriers: On the** | 2015 | cs.MM, cs.CY | Matthias Naumann et al. [[1]](https://arxiv.org/abs/1505.07757) |
-
-**State of the art:** Presents design approaches for embedding hidden channels with micro protocols in audio. Compares approaches based on requirements. Provides protocol engineering framework.
-
-**Production readiness:** Research
-Design framework paper.
-
-**Security status:** N/A
-Design framework; no implementation.
-
-**Community acceptance:** Niche
-Audio steganography micro protocols.
-
----
-
 ### Hidden and Uncontrolled - On the Emergence of Network Steganographic Threats
 
 **Goal:** Analyze potential malicious use of network steganography by malware and other threats.
@@ -886,27 +779,6 @@ Survey paper.
 
 **Community acceptance:** Widely trusted
 Classic foundational paper.
-
----
-
-### Dynamic Pattern Based Image Steganography
-
-**Goal:** Improve steganography security using dynamic patterns in indicator sequences and variable bit embedding.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Dynamic Pattern Based Image Steganography** | 2012 | cs.CR | P. Thiyagarajan, G. Aghila, V. Prasanna Venkatesan [[1]](https://arxiv.org/abs/1206.2583) |
-
-**State of the art:** Uses dynamic patterns in selection of indicator sequence. Dynamic number of bits embedded. Results compared with existing techniques.
-
-**Production readiness:** Research
-Academic research.
-
-**Security status:** Caution
-Older approach; limited security analysis.
-
-**Community acceptance:** Niche
-Published in Journal of Computing.
 
 ---
 
@@ -1139,6 +1011,89 @@ Method depends on steganographic channels that may be detected; not a standalone
 **Community acceptance:** Niche
 Pioneering work in covert channel-based monitoring; limited follow-up due to complexity.
 
+---
+
+### New security and control protocol for VoIP based on steganography and digital watermarking
+
+**Goal:** this solution offers authentication and integrity, it is capable of exchanging and verifying QoS and security parameters.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **New security and control protocol for VoIP based on steganog** | 2006 | cs.CR, cs.MM | Wojciech Mazurczyk, Zbigniew Kotulski [[1]](https://arxiv.org/abs/cs/0602042) |
+
+**State of the art:** Novel security and control protocol for VoIP using steganography and watermarking; offers authentication, integrity, QoS without additional bandwidth.
+
+**Production readiness:** Research
+Alternative to RTCP for real-time applications.
+
+**Security status:** Caution
+Network-based; practical deployment considerations.
+
+**Community acceptance:** Niche
+Published in Annales UMCS.
+
+---
+
+### Lightweight security mechanism for PSTN-VoIP cooperation
+
+**Goal:** In this paper we describe a new, lightweight security mechanism for PSTN-VoIP cooperation that is based on two information hiding techniques: digital watermarking and steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Lightweight security mechanism for PSTN-VoIP cooperation** | 2006 | cs.CR, cs.MM | Wojciech Mazurczyk, Zbigniew Kotulski [[1]](https://arxiv.org/abs/cs/0612054) |
+
+**State of the art:** The hybrid hiding encryption algorithm, as its name implies, embraces concepts from both steganography and cryptography.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Environment Based Secure Transfer of Data in Wireless Sensor Networks
+
+**Goal:** technique named aggregate signature to validate the source of the message and also to protect the data against latest security attacks, cryptography technique combined with steganography has been i...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Environment Based Secure Transfer of Data in Wireless Sensor** | 2015 | cs.CR | B. Vidhya et al. [[1]](https://arxiv.org/abs/1503.03215) |
+
+**State of the art:** This paper presents the preliminary of a novel scheme of steganography, and introduces the idea of combining two secret keys in the operation.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Known vulnerabilities or detection risks discussed in paper.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Steganography: A Secure way for Transmission in Wireless Sensor Networks
+
+**Goal:** network Internet is very sensitive and vulnerable to various attacks and risks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Steganography: A Secure way for Transmission in Wireless Sen** | 2015 | cs.MM | Khan Muhammad [[1]](https://arxiv.org/abs/1511.08865) |
+
+**State of the art:** Addressing the security concerns in wireless sensor networks (WSN) is a challenging task, which has attracted the attent
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
 ---
 
 ## Alternative Protocols

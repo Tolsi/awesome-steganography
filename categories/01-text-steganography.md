@@ -1,7 +1,7 @@
 # Text Steganography
 
 <!-- TOC -->
-## Contents (158 algorithms)
+## Contents (124 algorithms)
 
 **[Structural Methods](#structural-methods)**
 - [ASCII Art Steganography](#ascii-art-steganography)
@@ -58,98 +58,68 @@
 - [Favicon Trojans: Executable Steganography Via Ico Alpha Channel Exploitation](#favicon-trojans-executable-steganography-via-ico-alpha-channel-exploitation)
 - [Early Signs of Steganographic Capabilities in Frontier LLMs](#early-signs-of-steganographic-capabilities-in-frontier-llms)
 - [Efficient Blockchain-based Steganography via Backcalculating Generative Adversarial Network](#efficient-blockchain-based-steganography-via-backcalculating-generative-adversarial-network)
-- [Mixing Algorithm for Extending the Tiers of the Unapparent Information Send through the Audio Streams](#mixing-algorithm-for-extending-the-tiers-of-the-unapparent-information-send-through-the-audio-streams)
 - [Steganography and Probabilistic Risk Analysis: A Game Theoretical Framework for Quantifying Adversary Advantage and Impact](#steganography-and-probabilistic-risk-analysis-a-game-theoretical-framework-for-quantifying-adversary-advantage-and-impact)
 - [Hidden in Plain Text: Emergence & Mitigation of Steganographic Collusion in LLMs](#hidden-in-plain-text-emergence-mitigation-of-steganographic-collusion-in-llms)
 - [Secret Collusion among AI Agents: Multi-Agent Deception via Steganography](#secret-collusion-among-ai-agents-multi-agent-deception-via-steganography)
 - [Provably Robust and Secure Steganography in Asymmetric Resource Scenario](#provably-robust-and-secure-steganography-in-asymmetric-resource-scenario)
-- [Image steganography based on generative implicit neural representation](#image-steganography-based-on-generative-implicit-neural-representation)
 - [On the Steganographic Capacity of Selected Learning Models](#on-the-steganographic-capacity-of-selected-learning-models)
 - [Introducing a New Evaluation Criteria for EMD-Base Steganography Method](#introducing-a-new-evaluation-criteria-for-emd-base-steganography-method)
-- [Open Image Content Disarm And Reconstruction](#open-image-content-disarm-and-reconstruction)
 - [Deep Cross-Modal Steganography Using Neural Representations](#deep-cross-modal-steganography-using-neural-representations)
-- [Errorless Robust JPEG Steganography Using Steganographic Polar Codes](#errorless-robust-jpeg-steganography-using-steganographic-polar-codes)
 - [Off-By-One Implementation Error in J-UNIWARD](#off-by-one-implementation-error-in-j-uniward)
 - [The Realizations of Steganography in Encrypted Domain](#the-realizations-of-steganography-in-encrypted-domain)
 - [ICStega: Image Captioning-based Semantically Controllable Linguistic Steganography](#icstega-image-captioning-based-semantically-controllable-linguistic-steganography)
 - [Steganography of Steganographic Networks](#steganography-of-steganographic-networks)
-- [A New Paradigm for Improved Image Steganography by using Adaptive Number of Dominant Discrete Cosine Transform Coefficients](#a-new-paradigm-for-improved-image-steganography-by-using-adaptive-number-of-dominant-discrete-cosine-transform-coefficients)
 - [Blind Spots: Automatically detecting ignored program inputs](#blind-spots-automatically-detecting-ignored-program-inputs)
-- [Image data hiding with multi-scale autoencoder network](#image-data-hiding-with-multi-scale-autoencoder-network)
-- [SABMIS: Sparse approximation based blind multi-image steganography scheme](#sabmis-sparse-approximation-based-blind-multi-image-steganography-scheme)
 - [A Brief Survey on Deep Learning Based Data Hiding](#a-brief-survey-on-deep-learning-based-data-hiding)
 - [IoTSign: Protecting Privacy and Authenticity of IoT using Discrete Cosine Based Steganography](#iotsign-protecting-privacy-and-authenticity-of-iot-using-discrete-cosine-based-steganography)
 - [Generating Steganographic Images via Adversarial Training](#generating-steganographic-images-via-adversarial-training)
 - [A New Approach to SMS Steganography using Mathematical Equations](#a-new-approach-to-sms-steganography-using-mathematical-equations)
 - [Natural Steganography: cover-source switching for better steganography](#natural-steganography-cover-source-switching-for-better-steganography)
-- [High Capacity Image Steganography using Adjunctive Numerical Representations with Multiple Bit-Plane Decomposition Methods](#high-capacity-image-steganography-using-adjunctive-numerical-representations-with-multiple-bit-plane-decomposition-methods)
 - [Steganography -- A Game of Hide and Seek in Information Communication](#steganography-a-game-of-hide-and-seek-in-information-communication)
-- [Secure Image Steganography using Cryptography and Image Transposition](#secure-image-steganography-using-cryptography-and-image-transposition)
 - [Steganography and Broadcasting](#steganography-and-broadcasting)
-- [A Novel Approach for Image Steganography in Spatial Domain](#a-novel-approach-for-image-steganography-in-spatial-domain)
-- [Using Facebook for Image Steganography](#using-facebook-for-image-steganography)
 - [PDF Steganography based on Chinese Remainder Theorem](#pdf-steganography-based-on-chinese-remainder-theorem)
-- [A Low-throughput Wavelet-based Steganography Audio Scheme](#a-low-throughput-wavelet-based-steganography-audio-scheme)
-- [Environment Based Secure Transfer of Data in Wireless Sensor Networks](#environment-based-secure-transfer-of-data-in-wireless-sensor-networks)
 - [A Secure Cyclic Steganographic Technique for Color Images using Randomization](#a-secure-cyclic-steganographic-technique-for-color-images-using-randomization)
 - [How to Bootstrap Anonymous Communication](#how-to-bootstrap-anonymous-communication)
 - [A Secure Electronic Prescription System Using Steganography with Encryption Key Implementation](#a-secure-electronic-prescription-system-using-steganography-with-encryption-key-implementation)
 - [Steganography in Modern Smartphones and Mitigation Techniques](#steganography-in-modern-smartphones-and-mitigation-techniques)
 - [StegExpose - A Tool for Detecting LSB Steganography](#stegexpose-a-tool-for-detecting-lsb-steganography)
 - [An Approach for Text Steganography Based on Markov Chains](#an-approach-for-text-steganography-based-on-markov-chains)
-- [High Security Image Steganography with Modified Arnold cat map](#high-security-image-steganography-with-modified-arnold-cat-map)
 - [Reversible and Irreversible Data Hiding Technique](#reversible-and-irreversible-data-hiding-technique)
 - [Steganography -- coding and intercepting the information from encoded pictures in the absence of any initial information](#steganography-coding-and-intercepting-the-information-from-encoded-pictures-in-the-absence-of-any-initial-information)
 - [A Study of Various Steganographic Techniques Used for Information Hiding](#a-study-of-various-steganographic-techniques-used-for-information-hiding)
 - [Dual Layer Textual Message Cryptosystem with Randomized Sequence of Symmetric Key](#dual-layer-textual-message-cryptosystem-with-randomized-sequence-of-symmetric-key)
-- [Robust Steganography Using LSB-XOR and Image Sharing](#robust-steganography-using-lsb-xor-and-image-sharing)
 - [Steganography using the Extensible Messaging and Presence Protocol (XMPP)](#steganography-using-the-extensible-messaging-and-presence-protocol-xmpp)
-- [Comparison of secure and high capacity color image steganography techniques in RGB and YCbCr domains](#comparison-of-secure-and-high-capacity-color-image-steganography-techniques-in-rgb-and-ycbcr-domains)
 - [A Novel Steganography Algorithm for Hiding Text in Image using Five Modulus Method](#a-novel-steganography-algorithm-for-hiding-text-in-image-using-five-modulus-method)
 - [Enhanced Tiny Encryption Algorithm with Embedding (ETEA)](#enhanced-tiny-encryption-algorithm-with-embedding-etea)
 - [One Time Pad Password Protection: Using T.E.C. Steganography and Secure Password Transmission Protocols](#one-time-pad-password-protection-using-tec-steganography-and-secure-password-transmission-protocols)
-- [Image Steganography based on a Parameterized Canny Edge Detection Algorithm](#image-steganography-based-on-a-parameterized-canny-edge-detection-algorithm)
-- [Image Steganography Method Based on Brightness Adjustment](#image-steganography-method-based-on-brightness-adjustment)
 - [An Authentication Technique in Frequency Domain through Wavelet Transform (ATFDWT)](#an-authentication-technique-in-frequency-domain-through-wavelet-transform-atfdwt)
 - [A Text Steganography Method Using Pangram and Image Mediums](#a-text-steganography-method-using-pangram-and-image-mediums)
 - [A Lossless Data Hiding Technique based on AES-DWT](#a-lossless-data-hiding-technique-based-on-aes-dwt)
 - [A Generation-based Text Steganography Method using SQL Queries](#a-generation-based-text-steganography-method-using-sql-queries)
-- [An Image Steganography Scheme using Randomized Algorithm and Context-Free Grammar](#an-image-steganography-scheme-using-randomized-algorithm-and-context-free-grammar)
-- [Embedding grayscale halftone pictures in QR Codes using Correction Trees](#embedding-grayscale-halftone-pictures-in-qr-codes-using-correction-trees)
-- [Some New Methodologies for Image Hiding using Steganographic Techniques](#some-new-methodologies-for-image-hiding-using-steganographic-techniques)
 - [Public key Steganography Using Discrete Cross-Coupled Chaotic Maps](#public-key-steganography-using-discrete-cross-coupled-chaotic-maps)
 - [Multimedia Steganographic Scheme using Multiresolution Analysis](#multimedia-steganographic-scheme-using-multiresolution-analysis)
 - [Security Architecture for Cluster based Ad Hoc Networks](#security-architecture-for-cluster-based-ad-hoc-networks)
 - [Pixastic: Steganography based Anti-Phihsing Browser Plug-in](#pixastic-steganography-based-anti-phihsing-browser-plug-in)
 - [A Survey on Various Data Hiding Techniques and their Comparative Analysis](#a-survey-on-various-data-hiding-techniques-and-their-comparative-analysis)
 - [Text Steganography using LSB insertion method along with Chaos Theory](#text-steganography-using-lsb-insertion-method-along-with-chaos-theory)
-- [Genetic Algorithm to Make Persistent Security and Quality of Image in Steganography from RS Analysis](#genetic-algorithm-to-make-persistent-security-and-quality-of-image-in-steganography-from-rs-analysis)
 - [Experimenting with the Novel Approaches in Text Steganography](#experimenting-with-the-novel-approaches-in-text-steganography)
 - [A Frequency Domain Steganography using Z Transform (FDSZT)](#a-frequency-domain-steganography-using-z-transform-fdszt)
-- [Influence of Speech Codecs Selection on Transcoding Steganography](#influence-of-speech-codecs-selection-on-transcoding-steganography)
 - [Information Hiding in CSS : A Secure Scheme Text-Steganography using Public Key Cryptosystem](#information-hiding-in-css-a-secure-scheme-text-steganography-using-public-key-cryptosystem)
 - [Windtalking Computers: Frequency Normalization, Binary Coding Systems and Encryption](#windtalking-computers-frequency-normalization-binary-coding-systems-and-encryption)
 - [Randomness Efficient Steganography](#randomness-efficient-steganography)
 - [Chaotic iterations for steganography: Stego-security and topological-security](#chaotic-iterations-for-steganography-stego-security-and-topological-security)
-- [Steganography Algorithm to Hide Secret Message inside an Image](#steganography-algorithm-to-hide-secret-message-inside-an-image)
 - [Steganography: a Class of Algorithms having Secure Properties](#steganography-a-class-of-algorithms-having-secure-properties)
 - [Steganography: a class of secure and robust algorithms](#steganography-a-class-of-secure-and-robust-algorithms)
 - [Using Transcoding for Hidden Communication in IP Telephony](#using-transcoding-for-hidden-communication-in-ip-telephony)
 - [Applying statistical methods to text steganography](#applying-statistical-methods-to-text-steganography)
-- [An Approach for Message Hiding using Substitution Techniques and Audio Hiding in Steganography](#an-approach-for-message-hiding-using-substitution-techniques-and-audio-hiding-in-steganography)
 - [Digital Forensics Analysis of Spectral Estimation Methods](#digital-forensics-analysis-of-spectral-estimation-methods)
 - [Is Cloud Computing Steganography-proof?](#is-cloud-computing-steganography-proof)
-- [Lost Audio Packets Steganography: The First Practical Evaluation](#lost-audio-packets-steganography-the-first-practical-evaluation)
 - [Wet paper codes and the dual distance in steganography](#wet-paper-codes-and-the-dual-distance-in-steganography)
-- [Hiding Secret Information in Movie Clip: A Steganographic Approach](#hiding-secret-information-in-movie-clip-a-steganographic-approach)
-- [On Steganography in Lost Audio Packets](#on-steganography-in-lost-audio-packets)
 - [Bio-Authentication based Secure Transmission System using Steganography](#bio-authentication-based-secure-transmission-system-using-steganography)
 - [Improved information security using robust Steganography system](#improved-information-security-using-robust-steganography-system)
 - [Overview: Main Fundamentals for Steganography](#overview-main-fundamentals-for-steganography)
-- [New System for Secure Cover File of Hidden Data in the Image Page within Executable File Using Statistical Steganography Techniques](#new-system-for-secure-cover-file-of-hidden-data-in-the-image-page-within-executable-file-using-statistical-steganography-techniques)
 - [M-Banking Security - a futuristic improved security approach](#m-banking-security-a-futuristic-improved-security-approach)
 - [A Steganography Based on CT-CDMA Communication Scheme Using Complete Complementary Codes](#a-steganography-based-on-ct-cdma-communication-scheme-using-complete-complementary-codes)
-- [Frame Selected Approach for Hiding Data within MPEG Video Using Bit Plane Complexity Segmentation](#frame-selected-approach-for-hiding-data-within-mpeg-video-using-bit-plane-complexity-segmentation)
 - [Steganography An Art of Hiding Data](#steganography-an-art-of-hiding-data)
 - [An approach to secure highly confidential documents of any size in the corporate or institutes having unsecured networks](#an-approach-to-secure-highly-confidential-documents-of-any-size-in-the-corporate-or-institutes-having-unsecured-networks)
 - [A novel approach for implementing Steganography with computing power obtained by combining Cuda and Matlab](#a-novel-approach-for-implementing-steganography-with-computing-power-obtained-by-combining-cuda-and-matlab)
@@ -159,13 +129,9 @@
 - [Using Kolmogorov Complexity for Understanding Some Limitations on Steganography](#using-kolmogorov-complexity-for-understanding-some-limitations-on-steganography)
 - [Capacity of Steganographic Channels](#capacity-of-steganographic-channels)
 - [TrustMAS: Trusted Communication Platform for Multi-Agent Systems](#trustmas-trusted-communication-platform-for-multi-agent-systems)
-- [Image Steganography, a New Approach for Transferring Security Information](#image-steganography-a-new-approach-for-transferring-security-information)
 - [Steganography from weak cryptography](#steganography-from-weak-cryptography)
 - [Information Hiding Techniques: A Tutorial Review](#information-hiding-techniques-a-tutorial-review)
 - [An Improved FPGA Implementation of the Modified Hybrid Hiding Encryption Algorithm (MHHEA) for Data Communication Security](#an-improved-fpga-implementation-of-the-modified-hybrid-hiding-encryption-algorithm-mhhea-for-data-communication-security)
-- [Lightweight security mechanism for PSTN-VoIP cooperation](#lightweight-security-mechanism-for-pstn-voip-cooperation)
-- [New security and control protocol for VoIP based on steganography and digital watermarking](#new-security-and-control-protocol-for-voip-based-on-steganography-and-digital-watermarking)
-- [Content Based Image Retrieval with Mobile Agents and Steganography](#content-based-image-retrieval-with-mobile-agents-and-steganography)
 
 <!-- /TOC -->
 
@@ -1182,27 +1148,6 @@ Specialized audio application.
 
 ---
 
-### Mixing Algorithm for Extending the Tiers of the Unapparent Information Send through the Audio Streams
-
-**Goal:** the survival of the message.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Mixing Algorithm for Extending the Tiers of the Unapparent I** | 2025 | cs.CR | Sachith Dassanayaka [[1]](https://arxiv.org/abs/2502.12544) |
-
-**State of the art:** Proposes mixing algorithm for extending data hiding tiers in audio streams. Focuses on message survival in covert communication scenarios.
-
-**Production readiness:** Research
-Conceptual framework; no implementation provided.
-
-**Security status:** Caution
-Theoretical approach; security analysis pending.
-
-**Community acceptance:** Niche
-Limited to audio steganography research.
-
----
-
 ### Steganography and Probabilistic Risk Analysis: A Game Theoretical Framework for Quantifying Adversary Advantage and Impact
 
 **Goal:** enable the assessment of success rates, illustrating conditions under which the company benefits from hiding messages or faces increased risks when not implementing steganography.
@@ -1290,27 +1235,6 @@ Significant contribution to practical PSS deployment.
 
 ---
 
-### Image steganography based on generative implicit neural representation
-
-**Goal:** In the realm of advanced steganography, the scale of the model typically correlates directly with the resolution of the fundamental grid, necessitating the training of a distinct neural network for...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image steganography based on generative implicit neural repr** | 2024 | cs.CR | Zhong Yangjie et al. [[1]](https://arxiv.org/abs/2406.01918) |
-
-**State of the art:** Analyzes steganographic capacity of selected learning models, including malware hiding in deep learning models.
-
-**Production readiness:** Research
-Theoretical analysis; no implementation.
-
-**Security status:** Caution
-Capacity analysis; security implications discussed.
-
-**Community acceptance:** Emerging
-Theoretical contribution to understanding steganographic capacity.
-
----
-
 ### On the Steganographic Capacity of Selected Learning Models
 
 **Goal:** scenarios. For example, previous research has shown that malware can be hidden in deep learning models.
@@ -1352,27 +1276,6 @@ Evaluation framework; security implications analyzed.
 
 ---
 
-### Open Image Content Disarm And Reconstruction
-
-**Goal:** cutting-edge Artificial Intelligence and content signature exist, evasive malware successfully bypasses next-generation malware detection using advanced methods like steganography.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Open Image Content Disarm And Reconstruction** | 2023 | cs.CR, cs.AI | Eli Belkind, Ran Dubin, Amit Dvir [[1]](https://arxiv.org/abs/2307.14057) |
-
-**State of the art:** Explores deep cross-modal steganography using neural representations for hiding data across modalities.
-
-**Production readiness:** Research
-Academic prototype; no production implementation.
-
-**Security status:** Caution
-Novel cross-modal approach; theoretical analysis pending.
-
-**Community acceptance:** Emerging
-Active research area.
-
----
-
 ### Deep Cross-Modal Steganography Using Neural Representations
 
 **Goal:** Steganography is the process of embedding secret data into another message or data, in such a way that it is not easily noticeable.
@@ -1391,26 +1294,6 @@ Novel approach; theoretical analysis pending verification.
 
 **Community acceptance:** Niche
 Specialized JPEG application.
-
----
-
-### Errorless Robust JPEG Steganography Using Steganographic Polar Codes
-
-**Goal:** Recently, a robust steganographic algorithm that achieves errorless robustness against JPEG recompression is proposed.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Errorless Robust JPEG Steganography Using Steganographic Pol** | 2023 | cs.CR, cs.MM | Jimin Zhang, Xianfeng Zhao, Xiaolei He [[1]](https://arxiv.org/abs/2306.15246) |
-
-**State of the art:** Proposes errorless robust JPEG steganography using steganographic polar codes. Focuses on error correction for robust transmission.
-
-**Production readiness:** Research
-Academic prototype; implementation details provided.
-
-**Security status:** Caution
-Novel approach; security analysis required.
-
-**Community acceptance:** Emerging
 
 ---
 
@@ -1498,27 +1381,6 @@ Preprint; novel concept in steganography.
 
 ---
 
-### A New Paradigm for Improved Image Steganography by using Adaptive Number of Dominant Discrete Cosine Transform Coefficients
-
-**Goal:** Image steganography camouflages secret messages in images by tampering image contents.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A New Paradigm for Improved Image Steganography by using Ada** | 2023 | cs.CR | Laeeq Aslam Sandhu et al. [[1]](https://arxiv.org/abs/2301.09185) |
-
-**State of the art:** High-capacity image steganography using adaptive DCT coefficients, achieving up to 21.5 bpp payload with 38.24 dB PSNR.
-
-**Production readiness:** Research
-Academic prototype; focuses on capacity optimization.
-
-**Security status:** Caution
-Capacity-oriented approach; detection resistance not evaluated.
-
-**Community acceptance:** Emerging
-Preprint; high-capacity approach.
-
----
-
 ### Blind Spots: Automatically detecting ignored program inputs
 
 **Goal:** A blind spot is any input to a program that can be arbitrarily mutated without affecting the program's output.
@@ -1537,48 +1399,6 @@ Claims resistance to steganalysis; needs independent verification.
 
 **Community acceptance:** Emerging
 Under review; innovative approach.
-
----
-
-### Image data hiding with multi-scale autoencoder network
-
-**Goal:** mage steganography is the process of hiding information which can be text, image, or video inside a cover image.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image data hiding with multi-scale autoencoder network** | 2022 | cs.CR, cs.MM | Chen-Hsiu Huang, Ja-Ling Wu [[1]](https://arxiv.org/abs/2201.06038) |
-
-**State of the art:** Deep image steganography is a data hiding technology that conceal data in digital images via deep neural networks.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### SABMIS: Sparse approximation based blind multi-image steganography scheme
-
-**Goal:** We hide grayscale secret images into a grayscale cover image, which is considered to be a challenging steganography problem.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **SABMIS: Sparse approximation based blind multi-image stegano** | 2022 | cs.CR | Rohit Agrawal et al. [[1]](https://arxiv.org/abs/2110.11418) |
-
-**State of the art:** mage steganography is the process of hiding information which can be text, image, or video inside a cover image.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
 
 ---
 
@@ -1687,27 +1507,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### High Capacity Image Steganography using Adjunctive Numerical Representations with Multiple Bit-Plane Decomposition Methods
-
-**Goal:** LSB steganography is a one of the most widely used methods for implementing covert data channels in image file exchanges [1][2].
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **High Capacity Image Steganography using Adjunctive Numerical** | 2016 | cs.MM, cs.CR | James Collins, Sos Agaian [[1]](https://arxiv.org/abs/1606.02312) |
-
-**State of the art:** This paper proposes a new steganographic scheme relying on the principle of cover-source switching, the key idea being that the embedding should switch from one cover-source to another.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Steganography -- A Game of Hide and Seek in Information Communication
 
 **Goal:** important issues. In order to transfer data securely to the destination without unwanted disclosure or damage, nature inspired hide and seek tricks such as, cryptography and Steganography are heavi...
@@ -1717,27 +1516,6 @@ Preprint; peer review status unknown.
 | **Steganography -- A Game of Hide and Seek in Information Comm** | 2016 | cs.MM, cs.CR | Sanjeeb Kumar Behera, Minati Mishra [[1]](https://arxiv.org/abs/1604.00493) |
 
 **State of the art:** LSB steganography is a one of the most widely used methods for implementing covert data channels in image file exchanges [1][2].
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Secure Image Steganography using Cryptography and Image Transposition
-
-**Goal:** technological world.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Secure Image Steganography using Cryptography and Image Tran** | 2015 | cs.MM, cs.CR | Khan Muhammad et al. [[1]](https://arxiv.org/abs/1510.04413) |
-
-**State of the art:** With the growth of communication over computer networks, how to maintain the confidentiality and security of transmitted information have become some of the important issues.
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -1771,48 +1549,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### A Novel Approach for Image Steganography in Spatial Domain
-
-**Goal:** This paper presents a new approach for hiding information in digital image in spatial domain.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A Novel Approach for Image Steganography in Spatial Domain** | 2015 | cs.MM, cs.CR | Fatema Akhter [[1]](https://arxiv.org/abs/1506.03681) |
-
-**State of the art:** Informally, steganography is the process of exchanging a secret message between two communicating entities so that an eavesdropper may not know that a message has been sent.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Using Facebook for Image Steganography
-
-**Goal:** (from desktops and laptops running Windows, Unix, or OS X to hand held devices running iOS, Android, or Windows Phone), it would seem to be the perfect place to conduct steganography.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Using Facebook for Image Steganography** | 2015 | cs.MM, cs.CR | Jason Hiney et al. [[1]](https://arxiv.org/abs/1506.02071) |
-
-**State of the art:** This paper presents a new approach for hiding information in digital image in spatial domain.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### PDF Steganography based on Chinese Remainder Theorem
 
 **Goal:** We propose different approaches of PDF files based steganography, essentially based on the Chinese Remainder Theorem.
@@ -1828,48 +1564,6 @@ Mature research with available implementation.
 
 **Security status:** Caution
 Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### A Low-throughput Wavelet-based Steganography Audio Scheme
-
-**Goal:** This paper presents the preliminary of a novel scheme of steganography, and introduces the idea of combining two secret keys in the operation.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **A Low-throughput Wavelet-based Steganography Audio Scheme** | 2015 | cs.MM, cs.CR | P. Carrion, H. M. de Oliveira, R. M. Campello de Souza [[1]](https://arxiv.org/abs/1503.07551) |
-
-**State of the art:** We propose different approaches of PDF files based steganography, essentially based on the Chinese Remainder Theorem.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Environment Based Secure Transfer of Data in Wireless Sensor Networks
-
-**Goal:** technique named aggregate signature to validate the source of the message and also to protect the data against latest security attacks, cryptography technique combined with steganography has been i...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Environment Based Secure Transfer of Data in Wireless Sensor** | 2015 | cs.CR | B. Vidhya et al. [[1]](https://arxiv.org/abs/1503.03215) |
-
-**State of the art:** This paper presents the preliminary of a novel scheme of steganography, and introduces the idea of combining two secret keys in the operation.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
 
 **Community acceptance:** Emerging
 Preprint; peer review status unknown.
@@ -2002,27 +1696,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### High Security Image Steganography with Modified Arnold cat map
-
-**Goal:** Information security is concerned with maintaining the secrecy, reliability and accessibility of data.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **High Security Image Steganography with Modified Arnold cat m** | 2014 | cs.CR, cs.MM | Minati Mishra, Ashanta Ranjan Routray, Sunit Kumar [[1]](https://arxiv.org/abs/1408.3838) |
-
-**State of the art:** A text steganography method based on Markov chains is introduced, together with a reference implementation.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Reversible and Irreversible Data Hiding Technique
 
 **Goal:** Steganography (literally meaning covered writing) is the art and science of embedding secret message into seemingly harmless message.
@@ -2107,27 +1780,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### Robust Steganography Using LSB-XOR and Image Sharing
-
-**Goal:** the secret digital information and data that are transmitted over the internet is of widespread and most challenging interest.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Robust Steganography Using LSB-XOR and Image Sharing** | 2013 | cs.CR | Chandranath Adak [[1]](https://arxiv.org/abs/1312.5417) |
-
-**State of the art:** This paper introduces a new concept of textual message encryption and decryption through a pool of randomized symmetric key and the dual layer cryptosystem with the concept of visual cryptography a...
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Steganography using the Extensible Messaging and Presence Protocol (XMPP)
 
 **Goal:** from one XMPP client to another, without raising the suspicion of any intermediaries.
@@ -2137,27 +1789,6 @@ Preprint; peer review status unknown.
 | **Steganography using the Extensible Messaging and Presence Pr** | 2013 | cs.MM, cs.CR | Reshad Patuck, Julio Hernandez-Castro [[1]](https://arxiv.org/abs/1310.0524) |
 
 **State of the art:** Hiding and securing the secret digital information and data that are transmitted over the internet is of widespread and most challenging interest.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Comparison of secure and high capacity color image steganography techniques in RGB and YCbCr domains
-
-**Goal:** Steganography is one of the methods used for secret communication.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Comparison of secure and high capacity color image steganogr** | 2013 | cs.MM, cs.CR | S. Hemalatha, U. Dinesh Acharya, A. Renuka [[1]](https://arxiv.org/abs/1307.3026) |
-
-**State of the art:** We present here the first work to propose different mechanisms for hiding data in the Extensible Messaging and Presence Protocol (XMPP).
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -2221,48 +1852,6 @@ Preprint; peer review status unknown.
 | **One Time Pad Password Protection: Using T.E.C. Steganography** | 2013 | cs.CR | Givon Zirkind [[1]](https://arxiv.org/abs/1306.0497) |
 
 **State of the art:** As computer systems become more pervasive and complex, security is increasingly important.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Image Steganography based on a Parameterized Canny Edge Detection Algorithm
-
-**Goal:** Steganography is the science of hiding digital information in such a way that no one can suspect its existence.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image Steganography based on a Parameterized Canny Edge Dete** | 2012 | cs.CR | Youssef Bassil [[1]](https://arxiv.org/abs/1212.6259) |
-
-**State of the art:** A while ago, I developed what I called an encryption method.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Image Steganography Method Based on Brightness Adjustment
-
-**Goal:** Steganography is an information hiding technique in which secret data are secured by covering them into a computer carrier file without damaging the file or changing its size.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image Steganography Method Based on Brightness Adjustment** | 2012 | cs.CR, cs.MM | Youssef Bassil [[1]](https://arxiv.org/abs/1212.5801) |
-
-**State of the art:** Steganography is the science of hiding digital information in such a way that no one can suspect its existence.
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -2347,69 +1936,6 @@ Preprint; peer review status unknown.
 | **A Generation-based Text Steganography Method using SQL Queri** | 2012 | cs.CR | Youssef Bassil [[1]](https://arxiv.org/abs/1212.2067) |
 
 **State of the art:** In this paper we propose a new data hiding technique.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### An Image Steganography Scheme using Randomized Algorithm and Context-Free Grammar
-
-**Goal:** However, clearly visible encrypted messages, no matter how unbreakable, will arouse suspicions.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **An Image Steganography Scheme using Randomized Algorithm and** | 2012 | cs.CR, cs.MM | Youssef Bassil [[1]](https://arxiv.org/abs/1212.2064) |
-
-**State of the art:** Cryptography and Steganography are two techniques commonly used to secure and safely transmit digital data.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Embedding grayscale halftone pictures in QR Codes using Correction Trees
-
-**Goal:** similar to finding the proper correction in error correction problem, but instead of single ensured possibility, there are now statistically expected some.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Embedding grayscale halftone pictures in QR Codes using Corr** | 2012 | cs.IT, cs.CR, cs.MM | Jarek Duda [[1]](https://arxiv.org/abs/1211.1572) |
-
-**State of the art:** Currently, cryptography is in wide use as it is being exploited in various domains from data confidentiality to data integrity and message authentication.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Some New Methodologies for Image Hiding using Steganographic Techniques
-
-**Goal:** devices like ipods, cell phones, pmps, iphones and digital cameras.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Some New Methodologies for Image Hiding using Steganographic** | 2012 | cs.CR, cs.MM | Rajesh Kumar Tiwari, Gadadhar Sahoo [[1]](https://arxiv.org/abs/1211.0377) |
-
-**State of the art:** Barcodes like QR Codes have made that encoded messages have entered our everyday life, what suggests to attach them a second layer of information: directly available to human receiver for informati...
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -2548,27 +2074,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### Genetic Algorithm to Make Persistent Security and Quality of Image in Steganography from RS Analysis
-
-**Goal:** Retention of secrecy is one of the significant features during communication activity.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Genetic Algorithm to Make Persistent Security and Quality of** | 2012 | cs.MM, cs.CR | T. R. Gopalakrishnan Nair, Suma V, Manas S [[1]](https://arxiv.org/abs/1204.2616) |
-
-**State of the art:** The art of information hiding has been around nearly as long as the need for covert communication.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Experimenting with the Novel Approaches in Text Steganography
 
 **Goal:** As is commonly known, the steganographic algorithms employ images, audio, video or text files as the medium to ensure hidden exchange of information between multiple contenders to protect the data ...
@@ -2599,27 +2104,6 @@ Preprint; peer review status unknown.
 | **A Frequency Domain Steganography using Z Transform (FDSZT)** | 2012 | cs.CR, cs.MM | J. K. Mandal [[1]](https://arxiv.org/abs/1202.4245) |
 
 **State of the art:** As is commonly known, the steganographic algorithms employ images, audio, video or text files as the medium to ensure hidden exchange of information between multiple contenders to protect the data ...
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Influence of Speech Codecs Selection on Transcoding Steganography
-
-**Goal:** The typical approach to steganography is to compress the covert data in order to limit its size, which is reasonable in the context of a limited steganographic bandwidth.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Influence of Speech Codecs Selection on Transcoding Steganog** | 2012 | cs.CR, cs.MM | Artur Janicki, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1201.6218) |
-
-**State of the art:** Image steganography is art of hiding information onto the cover image.
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -2716,27 +2200,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### Steganography Algorithm to Hide Secret Message inside an Image
-
-**Goal:** In this paper, the authors propose a new algorithm to hide data inside image using steganography technique.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Steganography Algorithm to Hide Secret Message inside an Ima** | 2011 | cs.MM, cs.CR | Rosziati Ibrahim, Teoh Suk Kuan [[1]](https://arxiv.org/abs/1112.2809) |
-
-**State of the art:** In this paper is proposed a novel steganographic scheme based on chaotic iterations.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Steganography: a Class of Algorithms having Secure Properties
 
 **Goal:** Chaos-based approaches are frequently proposed in information hiding, but without obvious justification.
@@ -2821,27 +2284,6 @@ Educational resource.
 
 ---
 
-### An Approach for Message Hiding using Substitution Techniques and Audio Hiding in Steganography
-
-**Goal:** that an eavesdropper who overhears the encrypted messages will not be able to decode them.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **An Approach for Message Hiding using Substitution Techniques** | 2011 | cs.CR | Debajyoti Mukhopadhyay et al. [[1]](https://arxiv.org/abs/1109.4709) |
-
-**State of the art:** This paper presents a survey of text steganography methods used for hid- ing secret information inside some covertext.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Digital Forensics Analysis of Spectral Estimation Methods
 
 **Goal:** Steganography is the art and science of writing hidden messages in such a way that no one apart from the intended recipient knows of the existence of the message.
@@ -2884,27 +2326,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### Lost Audio Packets Steganography: The First Practical Evaluation
-
-**Goal:** This paper presents first experimental results for an IP telephony-based steganographic method called LACK (Lost Audio PaCKets steganography).
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Lost Audio Packets Steganography: The First Practical Evalua** | 2011 | cs.CR, cs.MM | Wojciech Mazurczyk [[1]](https://arxiv.org/abs/1107.4076) |
-
-**State of the art:** The paper focuses on characterisation of information hiding possibilities in Cloud Computing.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Wet paper codes and the dual distance in steganography
 
 **Goal:** In 1998 Crandall introduced a method based on coding theory to secretly embed a message in a digital support such as an image.
@@ -2914,48 +2335,6 @@ Preprint; peer review status unknown.
 | **Wet paper codes and the dual distance in steganography** | 2011 | cs.CR, cs.IT | Carlos Munuera, Morgan Barbier [[1]](https://arxiv.org/abs/1104.1970) |
 
 **State of the art:** This paper presents first experimental results for an IP telephony-based steganographic method called LACK (Lost Audio PaCKets steganography).
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Hiding Secret Information in Movie Clip: A Steganographic Approach
-
-**Goal:** subject of discussion that has gained increasing importance nowadays with the development of the internet.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Hiding Secret Information in Movie Clip: A Steganographic Ap** | 2011 | cs.MM, cs.CR | G. Sahoo, Rajesh Kumar Tiwari [[1]](https://arxiv.org/abs/1103.0829) |
-
-**State of the art:** In 1998 Crandall introduced a method based on coding theory to secretly embed a message in a digital support such as an image.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### On Steganography in Lost Audio Packets
-
-**Goal:** presents a new hidden data insertion procedure based on estimated probability of the remaining time of the call for steganographic method called LACK (Lost Audio PaCKets steganography).
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **On Steganography in Lost Audio Packets** | 2011 | cs.CR, cs.MM | Wojciech Mazurczyk, Jozef Lubacz, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1102.0023) |
-
-**State of the art:** Establishing hidden communication is an important subject of discussion that has gained increasing importance nowadays with the development of the internet.
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -3031,27 +2410,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### New System for Secure Cover File of Hidden Data in the Image Page within Executable File Using Statistical Steganography Techniques
-
-**Goal:** A Previously traditional methods were sufficient to protect the information, since it is simplicity in the past does not need complicated methods but with the progress of information technology, it...
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **New System for Secure Cover File of Hidden Data in the Image** | 2010 | cs.CR, cs.MM | Rafiqul Islam et al. [[1]](https://arxiv.org/abs/1002.2416) |
-
-**State of the art:** The rapid development of multimedia and internet allows for wide distribution of digital media data.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Known vulnerabilities or detection risks discussed in paper.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### M-Banking Security - a futuristic improved security approach
 
 **Goal:** The aim of this work is to provide a secure environment in terms of security for transaction by various ways.
@@ -3082,27 +2440,6 @@ Preprint; peer review status unknown.
 | **A Steganography Based on CT-CDMA Communication Scheme Using ** | 2010 | cs.IT, cs.CR | Tetsuya Kojima, Yoshiya Horii [[1]](https://arxiv.org/abs/1001.2623) |
 
 **State of the art:** In last few decades large technology development raised various new needs.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### Frame Selected Approach for Hiding Data within MPEG Video Using Bit Plane Complexity Segmentation
-
-**Goal:** Bit Plane Complexity Segmentation (BPCS) digital picture steganography is a technique to hide data inside an image file.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Frame Selected Approach for Hiding Data within MPEG Video Us** | 2009 | cs.CR | Hamid. A. Jalab, A. A Zaidan, B. B Zaidan [[1]](https://arxiv.org/abs/0912.3986) |
-
-**State of the art:** It has been shown that complete complementary codes can be applied into some communication systems like approximately synchronized CDMA systems because of its good correlation properties.
 
 **Production readiness:** Experimental
 Mature research with available implementation.
@@ -3304,27 +2641,6 @@ Preprint; peer review status unknown.
 
 ---
 
-### Image Steganography, a New Approach for Transferring Security Information
-
-**Goal:** Steganography is the art of hiding the fact that communication is taking place, by hiding information in other information.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image Steganography, a New Approach for Transferring Securit** | 2008 | cs.CR | H. B. Bahar, Ali Aboutalebi [[1]](https://arxiv.org/abs/0808.1410) |
-
-**State of the art:** The paper presents TrustMAS - Trusted Communication Platform for Multi-Agent Systems, which provides trust and anonymity for mobile agents.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
 ### Steganography from weak cryptography
 
 **Goal:** We introduce a problem setting which we call ``the freedom fighters' problem''.
@@ -3385,69 +2701,6 @@ Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
 Preprint; peer review status unknown.
-
----
-
-### Lightweight security mechanism for PSTN-VoIP cooperation
-
-**Goal:** In this paper we describe a new, lightweight security mechanism for PSTN-VoIP cooperation that is based on two information hiding techniques: digital watermarking and steganography.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Lightweight security mechanism for PSTN-VoIP cooperation** | 2006 | cs.CR, cs.MM | Wojciech Mazurczyk, Zbigniew Kotulski [[1]](https://arxiv.org/abs/cs/0612054) |
-
-**State of the art:** The hybrid hiding encryption algorithm, as its name implies, embraces concepts from both steganography and cryptography.
-
-**Production readiness:** Experimental
-Mature research with available implementation.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Preprint; peer review status unknown.
-
----
-
-### New security and control protocol for VoIP based on steganography and digital watermarking
-
-**Goal:** this solution offers authentication and integrity, it is capable of exchanging and verifying QoS and security parameters.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **New security and control protocol for VoIP based on steganog** | 2006 | cs.CR, cs.MM | Wojciech Mazurczyk, Zbigniew Kotulski [[1]](https://arxiv.org/abs/cs/0602042) |
-
-**State of the art:** Novel security and control protocol for VoIP using steganography and watermarking; offers authentication, integrity, QoS without additional bandwidth.
-
-**Production readiness:** Research
-Alternative to RTCP for real-time applications.
-
-**Security status:** Caution
-Network-based; practical deployment considerations.
-
-**Community acceptance:** Niche
-Published in Annales UMCS.
-
----
-
-### Content Based Image Retrieval with Mobile Agents and Steganography
-
-**Goal:** In this paper we present an image retrieval system based on Gabor texture features, steganography, and mobile agents..
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Content Based Image Retrieval with Mobile Agents and Stegano** | 2006 | cs.CR | Sabu . M Thampi, K. Chandra Sekaran [[1]](https://arxiv.org/abs/cs/0411041) |
-
-**State of the art:** Image retrieval system combining Gabor texture features, steganography, and mobile agents for secure image search.
-
-**Production readiness:** Research
-Novel combination of techniques.
-
-**Security status:** Caution
-Application-specific; limited evaluation.
-
-**Community acceptance:** Niche
-Application-specific approach.
 
 ---
 

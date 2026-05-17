@@ -1,7 +1,7 @@
 # Audio Steganography
 
 <!-- TOC -->
-## Contents (41 algorithms)
+## Contents (52 algorithms)
 
 **[Time Domain](#time-domain)**
 - [LPC (Linear Predictive Coding)](#lpc-linear-predictive-coding)
@@ -16,9 +16,9 @@
 **[Frequency Domain](#frequency-domain)**
 - [Spread Spectrum](#spread-spectrum)
 - [MDCT-domain](#mdct-domain)
-- [Wavelet Packet](#wavelet-packet)
 - [CELP](#celp)
 - [Patchwork](#patchwork)
+- [Wavelet Packet](#wavelet-packet)
 
 **[Compressed Formats](#compressed-formats)**
 - [MP3Stego](#mp3stego)
@@ -39,18 +39,29 @@
 - [FGAS](#fgas)
 - [SteganoSNN](#steganosnn)
 - [HHO-Optimized Audio Steganography](#hho-optimized-audio-steganography)
-- [Image Steganography For Securing Intellicise Wireless Networks: "Invisible Encryption" Against Eavesdroppers](#image-steganography-for-securing-intellicise-wireless-networks-invisible-encryption-against-eavesdroppers)
 - [V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manipulation Localization and Copyright Protection](#v2a-mark-versatile-deep-visual-audio-watermarking-for-manipulation-localization-and-copyright-protection)
-- [Secure Semantic Communication for Image Transmission in the Presence of Eavesdroppers](#secure-semantic-communication-for-image-transmission-in-the-presence-of-eavesdroppers)
 - [NUANCE: Near Ultrasound Attack On Networked Communication Environments](#nuance-near-ultrasound-attack-on-networked-communication-environments)
 - [Source Mixing and Separation Robust Audio Steganography](#source-mixing-and-separation-robust-audio-steganography)
 - [PixInWav: Residual Steganography for Hiding Pixels in Audio](#pixinwav-residual-steganography-for-hiding-pixels-in-audio)
 - [Multi-Stage Residual Hiding for Image-into-Audio Steganography](#multi-stage-residual-hiding-for-image-into-audio-steganography)
 - [Utilizing Pileup Effect and Intermittently Nonlinear Filtering in Synthesis of Covert and Hard-to-Intercept Communication Links](#utilizing-pileup-effect-and-intermittently-nonlinear-filtering-in-synthesis-of-covert-and-hard-to-intercept-communication-links)
 - [Heard More Than Heard: An Audio Steganography Method Based on GAN](#heard-more-than-heard-an-audio-steganography-method-based-on-gan)
-- [Developing a Video Steganography Toolkit](#developing-a-video-steganography-toolkit)
 - [A Two Intermediates Audio Steganography Technique](#a-two-intermediates-audio-steganography-technique)
 - [Design And Implementation Of Multilevel Access Control In Medical Image Transmission Using Symmetric Polynomial Based Audio Steganography](#design-and-implementation-of-multilevel-access-control-in-medical-image-transmission-using-symmetric-polynomial-based-audio-steganography)
+- [On Steganography in Lost Audio Packets](#on-steganography-in-lost-audio-packets)
+- [Lost Audio Packets Steganography: The First Practical Evaluation](#lost-audio-packets-steganography-the-first-practical-evaluation)
+- [An Approach for Message Hiding using Substitution Techniques and Audio Hiding in Steganography](#an-approach-for-message-hiding-using-substitution-techniques-and-audio-hiding-in-steganography)
+- [Influence of Speech Codecs Selection on Transcoding Steganography](#influence-of-speech-codecs-selection-on-transcoding-steganography)
+- [A Low-throughput Wavelet-based Steganography Audio Scheme](#a-low-throughput-wavelet-based-steganography-audio-scheme)
+- [Mixing Algorithm for Extending the Tiers of the Unapparent Information Send through the Audio Streams](#mixing-algorithm-for-extending-the-tiers-of-the-unapparent-information-send-through-the-audio-streams)
+- [Distribution-Preserving Steganography Based on Text-to-Speech Generative Models](#distribution-preserving-steganography-based-on-text-to-speech-generative-models)
+- [Data hiding in speech signal using steganography and encryption](#data-hiding-in-speech-signal-using-steganography-and-encryption)
+- [Artistic Curve Steganography Carried by Musical Audio](#artistic-curve-steganography-carried-by-musical-audio)
+- [Secure Audio Embedding in Images](#secure-audio-embedding-in-images)
+- [Micro protocol engineering for unstructured carriers: On the embedding of steganographic control protocols into audio transmissions](#micro-protocol-engineering-for-unstructured-carriers-on-the-embedding-of-steganographic-control-protocols-into-audio-transmissions)
+- [Hide and Speak: Towards Deep Neural Networks for Speech Steganography](#hide-and-speak-towards-deep-neural-networks-for-speech-steganography)
+- [Deep Residual Neural Networks for Image in Speech Steganography](#deep-residual-neural-networks-for-image-in-speech-steganography)
+- [DWT-GBT-SVD-based Robust Speech Steganography](#dwt-gbt-svd-based-robust-speech-steganography)
 
 <!-- /TOC -->
 
@@ -272,27 +283,6 @@ Standard embedding domain for compressed audio steganography research.
 
 ---
 
-### Wavelet Packet
-
-**Goal:** Modify wavelet coefficients of audio.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Wavelet Packet** | 2005 | Modify wavelet coefficients adaptively | Multi-resolution [[1]](https://ieeexplore.ieee.org/document/1505680/) [[2]](https://ieeexplore.ieee.org/document/4798397/) |
-
-**State of the art:** Good for audio-specific embedding; adaptive wavelet packet variant (2009) selects subbands based on data history.
-
-**Production readiness:** Mature
-Several IEEE-published implementations; integrates well with audio codecs.
-
-**Security status:** Caution
-Wavelet coefficient statistics can be analyzed; dedicated steganalysis methods exist.
-
-**Community acceptance:** Niche
-Used in academic research; less popular than MDCT-domain methods for compressed audio.
-
----
-
 ### CELP
 
 **Goal:** Embed in Code Excited Linear Prediction coefficients.
@@ -332,6 +322,27 @@ Statistical analysis of pseudo-random pair differences can detect embedding.
 
 **Community acceptance:** Widely trusted
 One of the original techniques from the landmark Bender et al. 1996 paper.
+
+---
+
+### Wavelet Packet
+
+**Goal:** Modify wavelet coefficients of audio.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Wavelet Packet** | 2005 | Modify wavelet coefficients adaptively | Multi-resolution [[1]](https://ieeexplore.ieee.org/document/1505680/) [[2]](https://ieeexplore.ieee.org/document/4798397/) |
+
+**State of the art:** Good for audio-specific embedding; adaptive wavelet packet variant (2009) selects subbands based on data history.
+
+**Production readiness:** Mature
+Several IEEE-published implementations; integrates well with audio codecs.
+
+**Security status:** Caution
+Wavelet coefficient statistics can be analyzed; dedicated steganalysis methods exist.
+
+**Community acceptance:** Niche
+Used in academic research; less popular than MDCT-domain methods for compressed audio.
 
 ---
 
@@ -683,27 +694,6 @@ Underlying LSB technique remains detectable; optimization only improves pixel ch
 **Community acceptance:** Emerging
 Novel combination of metaheuristic optimization and audio-in-image steganography; limited peer adoption so far.
 
-### Image Steganography For Securing Intellicise Wireless Networks: "Invisible Encryption" Against Eavesdroppers
-
-**Goal:** Apply image steganography to secure semantic communication in intelligent wireless networks against eavesdroppers.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Image Steganography For Securing Intellicise Wireless Networ** | 2026 | eess.SP | Rui Meng et al. [[1]](https://arxiv.org/abs/2505.04467) |
-
-**State of the art:** First comprehensive exploration of image steganography integration in semantic communication. Covers JSCC-based steganographic models, training strategies, and coverless approaches for "invisible encryption" in SemCom.
-
-**Production readiness:** Research
-Very recent arXiv preprint; no production implementation known.
-
-**Security status:** Caution
-Novel application; security analysis pending.
-
-**Community acceptance:** Emerging
-First work in this domain; limited peer review.
-
----
-
 ### V2A-Mark: Versatile Deep Visual-Audio Watermarking for Manipulation Localization and Copyright Protection
 
 **Goal:** Address limitations of current video tampering forensics—poor generalizability, singular function, and single modality focus—with multimodal watermarking.
@@ -722,27 +712,6 @@ Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
 Accepted at ACM MM 2024; significant for AIGC video era.
-
----
-
-### Secure Semantic Communication for Image Transmission in the Presence of Eavesdroppers
-
-**Goal:** Protect image transmission in semantic communication from eavesdropping using steganography.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Secure Semantic Communication for Image Transmission in the ** | 2024 | eess.SP, cs.IT | Shunpu Tang et al. [[1]](https://arxiv.org/abs/2404.12170) |
-
-**State of the art:** Proposes INN-based signal steganography to embed private image signals into host image signals. Legitimate receiver reconstructs private image; eavesdropper only sees host image. Maintains comparable reconstruction quality.
-
-**Production readiness:** Research
-Academic prototype; implementation details in paper.
-
-**Security status:** Caution
-Research prototype; security not yet independently verified.
-
-**Community acceptance:** Emerging
-Significant for 6G secure communications.
 
 ---
 
@@ -872,27 +841,6 @@ Early GAN-based audio steganography work.
 
 ---
 
-### Developing a Video Steganography Toolkit
-
-**Goal:** Review current state of video steganography and develop a practical video steganography system.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Developing a Video Steganography Toolkit** | 2014 | cs.MM | James Ridgway, Mike Stannett [[1]](https://arxiv.org/abs/1409.4883) |
-
-**State of the art:** Reviews video steganography field and describes key issues in developing practical systems. Includes supporting video demonstration. Provides foundation for video steganography toolkit development.
-
-**Production readiness:** Research
-Survey paper; toolkit concept only.
-
-**Security status:** Caution
-Survey paper; no specific security guarantees.
-
-**Community acceptance:** Niche
-Early video steganography survey (2014).
-
----
-
 ### A Two Intermediates Audio Steganography Technique
 
 **Goal:** Hide data in audio using two intermediates: random audio samples and a generated English text encoding their locations.
@@ -932,6 +880,297 @@ Outdated approach; no modern security analysis.
 
 **Community acceptance:** Niche
 Older medical imaging steganography work.
+
+---
+
+### On Steganography in Lost Audio Packets
+
+**Goal:** presents a new hidden data insertion procedure based on estimated probability of the remaining time of the call for steganographic method called LACK (Lost Audio PaCKets steganography).
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **On Steganography in Lost Audio Packets** | 2011 | cs.CR, cs.MM | Wojciech Mazurczyk, Jozef Lubacz, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1102.0023) |
+
+**State of the art:** Establishing hidden communication is an important subject of discussion that has gained increasing importance nowadays with the development of the internet.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Lost Audio Packets Steganography: The First Practical Evaluation
+
+**Goal:** This paper presents first experimental results for an IP telephony-based steganographic method called LACK (Lost Audio PaCKets steganography).
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Lost Audio Packets Steganography: The First Practical Evalua** | 2011 | cs.CR, cs.MM | Wojciech Mazurczyk [[1]](https://arxiv.org/abs/1107.4076) |
+
+**State of the art:** The paper focuses on characterisation of information hiding possibilities in Cloud Computing.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### An Approach for Message Hiding using Substitution Techniques and Audio Hiding in Steganography
+
+**Goal:** that an eavesdropper who overhears the encrypted messages will not be able to decode them.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **An Approach for Message Hiding using Substitution Techniques** | 2011 | cs.CR | Debajyoti Mukhopadhyay et al. [[1]](https://arxiv.org/abs/1109.4709) |
+
+**State of the art:** This paper presents a survey of text steganography methods used for hid- ing secret information inside some covertext.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Influence of Speech Codecs Selection on Transcoding Steganography
+
+**Goal:** The typical approach to steganography is to compress the covert data in order to limit its size, which is reasonable in the context of a limited steganographic bandwidth.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Influence of Speech Codecs Selection on Transcoding Steganog** | 2012 | cs.CR, cs.MM | Artur Janicki, Wojciech Mazurczyk, Krzysztof Szczypiorski [[1]](https://arxiv.org/abs/1201.6218) |
+
+**State of the art:** Image steganography is art of hiding information onto the cover image.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### A Low-throughput Wavelet-based Steganography Audio Scheme
+
+**Goal:** This paper presents the preliminary of a novel scheme of steganography, and introduces the idea of combining two secret keys in the operation.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **A Low-throughput Wavelet-based Steganography Audio Scheme** | 2015 | cs.MM, cs.CR | P. Carrion, H. M. de Oliveira, R. M. Campello de Souza [[1]](https://arxiv.org/abs/1503.07551) |
+
+**State of the art:** We propose different approaches of PDF files based steganography, essentially based on the Chinese Remainder Theorem.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Mixing Algorithm for Extending the Tiers of the Unapparent Information Send through the Audio Streams
+
+**Goal:** the survival of the message.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Mixing Algorithm for Extending the Tiers of the Unapparent I** | 2025 | cs.CR | Sachith Dassanayaka [[1]](https://arxiv.org/abs/2502.12544) |
+
+**State of the art:** Proposes mixing algorithm for extending data hiding tiers in audio streams. Focuses on message survival in covert communication scenarios.
+
+**Production readiness:** Research
+Conceptual framework; no implementation provided.
+
+**Security status:** Caution
+Theoretical approach; security analysis pending.
+
+**Community acceptance:** Niche
+Limited to audio steganography research.
+
+---
+
+### Distribution-Preserving Steganography Based on Text-to-Speech Generative Models
+
+**Goal:** Steganography is the art and science of hiding secret messages in public communication so that the presence of the secret messages cannot be detected.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Distribution-Preserving Steganography Based on Text-to-Speec** | 2020 | cs.MM | Kejiang Chen et al. [[1]](https://arxiv.org/abs/1811.03732) |
+
+**State of the art:** Steganography is the art and science of hiding secret messages in public communication so that the presence of the secre
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Data hiding in speech signal using steganography and encryption
+
+**Goal:** destination safely. Encryption is a simple yet effective way to protect our data while transmitting it to a destination.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Data hiding in speech signal using steganography and encrypt** | 2020 | cs.MM | Hanisha Chowdary N et al. [[1]](https://arxiv.org/abs/2002.02370) |
+
+**State of the art:** Data privacy and data security are always on highest priority in the world.
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Artistic Curve Steganography Carried by Musical Audio
+
+**Goal:** In this work, we create artistic closed loop curves that trace out images and 3D shapes, which we then hide in musical audio as a form of steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Artistic Curve Steganography Carried by Musical Audio** | 2023 | cs.SD, cs.IR, cs.MM | Christopher J. Tralie [[1]](https://arxiv.org/abs/2301.12354) |
+
+**State of the art:** The advancement of secure communication and identity verification fields has significantly increased through the use of deep learning techniques for d
+
+**Production readiness:** Experimental
+Academic research; experimental implementation.
+
+**Security status:** Caution
+Novel approach; security evaluation ongoing.
+
+**Community acceptance:** Emerging
+Preprint; peer review in progress.
+
+---
+
+### Secure Audio Embedding in Images
+
+**Goal:** Hide audio files in images using nature-inspired optimization.
+
+| Algorithm | Year | Architecture | Note |
+|-----------|------|--------------|------|
+| **Secure Audio Embedding** | 2025 | LSB with Harris Hawks Optimization | Audio-in-image [[1]](https://arxiv.org/abs/2512.08299) |
+
+**State of the art:** Uses HHO algorithm to optimize LSB embedding for audio in images.
+
+**Production readiness:** Experimental
+
+**Implementations:** Academic prototypes only
+
+**Security status:** Caution — LSB-based methods are detectable
+
+**Community acceptance:** Niche
+
+---
+
+### Micro protocol engineering for unstructured carriers: On the embedding of steganographic control protocols into audio transmissions
+
+**Goal:** Embed micro protocols (reliability, routing, optimization) into audio signals for network steganography.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Micro protocol engineering for unstructured carriers: On the** | 2015 | cs.MM, cs.CY | Matthias Naumann et al. [[1]](https://arxiv.org/abs/1505.07757) |
+
+**State of the art:** Presents design approaches for embedding hidden channels with micro protocols in audio. Compares approaches based on requirements. Provides protocol engineering framework.
+
+**Production readiness:** Research
+Design framework paper.
+
+**Security status:** N/A
+Design framework; no implementation.
+
+**Community acceptance:** Niche
+Audio steganography micro protocols.
+
+---
+
+### Hide and Speak: Towards Deep Neural Networks for Speech Steganography
+
+**Goal:** Use deep neural networks as steganographic functions for speech data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Hide and Speak: Towards Deep Neural Networks for Speech Steg** | 2020 | cs.SD, cs.CR, cs.LG | Felix Kreuk et al. [[1]](https://arxiv.org/abs/1902.03083) |
+
+**State of the art:** First DNN-based speech steganography. Uses STFT and iSTFT as differentiable layers. Can conceal multiple messages with multiple decoders. Robust against channel distortions. Modifications unnoticeable to human listeners.
+
+**Production readiness:** Experimental
+Academic research; no public implementation.
+
+**Security status:** Caution
+Early work; limited security evaluation.
+
+**Community acceptance:** Emerging
+Influential early work on neural speech steganography.
+
+---
+
+### Deep Residual Neural Networks for Image in Speech Steganography
+
+**Goal:** Hide RGB images inside speech segments without perceptual loss using deep learning.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Deep Residual Neural Networks for Image in Speech Steganogra** | 2020 | cs.MM, cs.SD, eess.AS | Shivam Agarwal, Siddarth Venkatraman [[1]](https://arxiv.org/abs/2003.13217) |
+
+**State of the art:** Uses three neural networks: encoder embeds image in speech, decoder reconstructs, image enhancer improves quality. Cross-modal steganography (image→audio).
+
+**Production readiness:** Experimental
+Academic research; no public implementation.
+
+**Security status:** Caution
+Research prototype; limited security analysis.
+
+**Community acceptance:** Emerging
+Early work on image-in-speech steganography.
+
+---
+
+### DWT-GBT-SVD-based Robust Speech Steganography
+
+**Goal:** Hide secret messages in speech with imperceptibility and robustness against common attacks.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **DWT-GBT-SVD-based Robust Speech Steganography** | 2020 | cs.MM, cs.SD, eess.AS | Noshin Amiri, Iman Naderi [[1]](https://arxiv.org/abs/2004.12569) |
+
+**State of the art:** Combines DWT, Graph-based Transform, and SVD. Embeds in voiced frames based on energy and zero-crossing counts. Robust against Gaussian noise, re-sampling, re-quantization, high/low pass filters, MP3 compression, and scaling. Tested on NOIZEUS database.
+
+**Production readiness:** Experimental
+Academic research; no public implementation.
+
+**Security status:** Caution
+Traditional approach; not evaluated against modern steganalysis.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
 
 ---
 

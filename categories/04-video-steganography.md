@@ -1,7 +1,7 @@
 # Video Steganography
 
 <!-- TOC -->
-## Contents (13 algorithms)
+## Contents (18 algorithms)
 
 **[Frame-based Methods](#frame-based-methods)**
 - [Frame LSB/DCT](#frame-lsbdct)
@@ -19,6 +19,11 @@
 - [SemCovert (Semantic Video Steganography)](#semcovert-semantic-video-steganography)
 - [Optimizing Region of Interest Selection](#optimizing-region-of-interest-selection)
 - [Investigation on Principles for Cost Assignment in Motion Vector-based Video Steganography](#investigation-on-principles-for-cost-assignment-in-motion-vector-based-video-steganography)
+- [Frame Selected Approach for Hiding Data within MPEG Video Using Bit Plane Complexity Segmentation](#frame-selected-approach-for-hiding-data-within-mpeg-video-using-bit-plane-complexity-segmentation)
+- [Hiding Secret Information in Movie Clip: A Steganographic Approach](#hiding-secret-information-in-movie-clip-a-steganographic-approach)
+- [Towards Reversible De-Identification in Video Sequences Using 3D Avatars and Steganography](#towards-reversible-de-identification-in-video-sequences-using-3d-avatars-and-steganography)
+- [Data Hiding in Video using Triangularization LSB Technique](#data-hiding-in-video-using-triangularization-lsb-technique)
+- [Developing a Video Steganography Toolkit](#developing-a-video-steganography-toolkit)
 
 <!-- /TOC -->
 
@@ -297,6 +302,109 @@ Research prototype; security not yet independently verified.
 
 **Community acceptance:** Emerging
 First systematic study of cost assignment principles in motion vector domain.
+
+---
+
+### Frame Selected Approach for Hiding Data within MPEG Video Using Bit Plane Complexity Segmentation
+
+**Goal:** Bit Plane Complexity Segmentation (BPCS) digital picture steganography is a technique to hide data inside an image file.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Frame Selected Approach for Hiding Data within MPEG Video Us** | 2009 | cs.CR | Hamid. A. Jalab, A. A Zaidan, B. B Zaidan [[1]](https://arxiv.org/abs/0912.3986) |
+
+**State of the art:** It has been shown that complete complementary codes can be applied into some communication systems like approximately synchronized CDMA systems because of its good correlation properties.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Hiding Secret Information in Movie Clip: A Steganographic Approach
+
+**Goal:** subject of discussion that has gained increasing importance nowadays with the development of the internet.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Hiding Secret Information in Movie Clip: A Steganographic Ap** | 2011 | cs.MM, cs.CR | G. Sahoo, Rajesh Kumar Tiwari [[1]](https://arxiv.org/abs/1103.0829) |
+
+**State of the art:** In 1998 Crandall introduced a method based on coding theory to secretly embed a message in a digital support such as an image.
+
+**Production readiness:** Experimental
+Mature research with available implementation.
+
+**Security status:** Caution
+Research prototype; security not yet independently verified.
+
+**Community acceptance:** Emerging
+Preprint; peer review status unknown.
+
+---
+
+### Towards Reversible De-Identification in Video Sequences Using 3D Avatars and Steganography
+
+**Goal:** We propose a de-identification pipeline that protects the privacy of humans in video sequences by replacing them with rendered 3D human models, hence concealing their identity while retaining the n...
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Towards Reversible De-Identification in Video Sequences Usin** | 2015 | cs.CV, cs.MM | Martin Blažević, Karla Brkić, Tomislav Hrkać [[1]](https://arxiv.org/abs/1510.04861) |
+
+**State of the art:** We propose a de-identification pipeline that protects the privacy of humans in video sequences by replacing them with re
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Data Hiding in Video using Triangularization LSB Technique
+
+**Goal:** The challenge is to be able to pass information in a manner that the very existence of the message is unknown in order to repel attention of the potential attacker.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Data Hiding in Video using Triangularization LSB Technique** | 2015 | cs.MM | Subhashri Acharya et al. [[1]](https://arxiv.org/abs/1507.05242) |
+
+**State of the art:** The importance of data hiding in the field of Information Technology is a widely accepted.
+
+**Production readiness:** Research
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Developing a Video Steganography Toolkit
+
+**Goal:** Review current state of video steganography and develop a practical video steganography system.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Developing a Video Steganography Toolkit** | 2014 | cs.MM | James Ridgway, Mike Stannett [[1]](https://arxiv.org/abs/1409.4883) |
+
+**State of the art:** Reviews video steganography field and describes key issues in developing practical systems. Includes supporting video demonstration. Provides foundation for video steganography toolkit development.
+
+**Production readiness:** Research
+Survey paper; toolkit concept only.
+
+**Security status:** Caution
+Survey paper; no specific security guarantees.
+
+**Community acceptance:** Niche
+Early video steganography survey (2014).
 
 ---
 

@@ -505,46 +505,6 @@
 
 ---
 
-### Stegsolve
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [Stegsolve](https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve) | Java | Bit-plane/color-filter visualization GUI |
-
-**Note:** Essential CTF tool for analyzing images through different color filters and bit-planes.
-
-**Star count:** ⭐ 683 (sec-tools repo)
-
-**Last commit:** 2016
-
----
-
-### SilentEye
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [SilentEye](https://github.com/achorein/silenteye) | C++ (Qt) | Cross-platform steganography tool for hiding data in images and audio |
-
-**Note:** Easy-to-use GUI application supporting AES-256 encryption.
-
-**Star count:** ⭐ 142
-
-**Last commit:** 2023
-
----
-
-### Stegosuite
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [Stegosuite](https://github.com/osde8info/stegosuite) | Java | Open source steganography tool to hide information in image files |
-
-**Star count:** ⭐ 45
-
-**Last commit:** 2025
-
----
-
 ### jdvrif
 
 | Tool | Language | Description |
@@ -581,20 +541,6 @@
 
 ---
 
-### Stegify
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [Stegify](https://github.com/DimitarPetrov/stegify) | Go | LSB steganography tool, capable of hiding any file within an image |
-
-**Note:** Go-based CLI tool for LSB steganography in PNG and JPEG images.
-
-**Star count:** ⭐ 1.3k
-
-**Last commit:** 2023
-
----
-
 ### steganography (kelvins)
 
 | Tool | Language | Description |
@@ -604,16 +550,6 @@
 **Note:** Comprehensive Python library for learning steganography.
 
 **Star count:** ⭐ 365
-
----
-
-### OpenPuff
-
-| Tool | Type | Description |
-|------|------|-------------|
-| [OpenPuff](https://www.openpuff.com/) | Commercial (Windows) | Professional steganography tool supporting images, audio, and video carrier files |
-
-**Note:** Windows-based tool with strong encryption and multi-carrier support.
 
 ---
 
@@ -939,18 +875,6 @@
 
 ---
 
-### stegoVeritas
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [stegoVeritas](https://github.com/bannsec/stegoVeritas) | Python | Steganography analysis tool (2026) |
-
-**Note:** Advanced steganography analysis and extraction tool.
-
-**Star count:** —
-
----
-
 ### stegtool
 
 | Tool | Language | Description |
@@ -1160,18 +1084,6 @@
 
 ---
 
-### EMD
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [EMD](https://github.com/cagatayavsar/EMD) | Python/C++ | Implementation of Zhang & Wang (2006) EMD method |
-
-**Note:** Exploiting Modification Direction algorithm.
-
-**Star count:** ⭐ 0
-
----
-
 ### Chaos_LSB
 
 | Tool | Language | Description |
@@ -1305,33 +1217,6 @@
 **Note:** Establishes robust generative image steganography using stable diffusion models.
 
 **Star count:** ⭐ 60
-
----
-
-### StegaStamp
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [StegaStamp](https://github.com/tancik/StegaStamp) | TensorFlow | Robust encoder surviving print+photo transmission |
-| [StegaStamp-pytorch](https://github.com/jsrdcht/StegaStamp-pytorch) | PyTorch | PyTorch reimplementation of StegaStamp |
-| [StegaStamp (ytfrdfiw)](https://github.com/ytfrdfiw/StegaStamp) | TensorFlow | Fork with detector model for StegaStamp detection |
-| [vadishev/stegastamp-original](https://huggingface.co/vadishev/stegastamp-original) | PyTorch | Pretrained model (COCO, 99.6% bit accuracy) |
-
-**Note:** Invisible watermark that survives geometric distortions and photo capture. The pytorch version provides training/inference scripts. The ytfrdfiw fork adds detector model for detecting StegaStamps in images.
-
-**Star count:** ⭐ 1.2k
-
----
-
-### CRoSS
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [CRoSS](https://github.com/yujiwen/CRoSS) | PyTorch | Coverless steganography via diffusion models (NeurIPS 2023) |
-
-**Note:** Generates images that inherently contain hidden information.
-
-**Star count:** ⭐ 157
 
 ---
 
@@ -1588,18 +1473,6 @@
 
 ---
 
-### stego-toolkit
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit) | Shell | Collection of steganography tools for CTF challenges |
-
-**Note:** Docker-based collection of steganography tools. Helps with CTF challenges.
-
-**Star count:** ⭐ 2.7k
-
----
-
 ### jphs
 
 | Tool | Language | Description |
@@ -1770,18 +1643,6 @@
 
 ---
 
-### DeepSound
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [DeepSound](https://github.com/Jpinsoft/DeepSound) | Python | Autoencoder-based audio steganography |
-
-**Note:** Neural network approach to hiding data in audio.
-
-**Star count:** ⭐ 312
-
----
-
 ### mp3stego
 
 | Tool | Language | Description |
@@ -1818,55 +1679,7 @@
 
 ---
 
-### WavSteg
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [WavSteg](https://github.com/ragibson/Steganography) | Python3 | LSB substitution in WAV samples |
-
-**Note:** Simple but effective LSB audio steganography.
-
-**Star count:** ⭐ 648
-
----
-
-### spectrology
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [spectrology](https://github.com/solusipse/spectrology) | Python | Encode image into audio spectrogram |
-
-**Note:** Visual audio steganography - images encoded as audio spectrograms.
-
-**Star count:** ⭐ 277
-
----
-
-### audio-steganography-algorithms
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [audio-steganography-algorithms](https://github.com/ktekeli/audio-steganography-algorithms) | MATLAB/C | Reference library for classical audio stego algorithms |
-
-**Note:** Comprehensive collection of audio steganography implementations.
-
-**Star count:** ⭐ 287
-
----
-
 ## Video Steganography
-
----
-
-### LVDO
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [LVDO](https://github.com/m13253/lvdo) | Python/FFmpeg | DCT-based file-to-video encoding |
-
-**Note:** Hides any file format inside video using DCT coefficients.
-
-**Star count:** ⭐ 100
 
 ---
 
@@ -1879,18 +1692,6 @@
 **Note:** Deep learning-based video steganography using adversarial training.
 
 **Star count:** ⭐ 67
-
----
-
-### videostego
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [videostego](https://github.com/JavDomGom/videostego) | Python | LSB substitution in MP4 frames |
-
-**Note:** Simple video steganography using least significant bits.
-
-**Star count:** ⭐ 19
 
 ---
 
@@ -1955,42 +1756,6 @@
 ---
 
 ## Network Steganography
-
----
-
-### iodine
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [iodine](https://github.com/yarrick/iodine) | C | IP-over-DNS tunnel |
-
-**Note:** Tunnel IP traffic through DNS queries, ~100 KB/s bandwidth.
-
-**Star count:** ⭐ 3.8k
-
----
-
-### dnscat2
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [dnscat2](https://github.com/zbetcheckin/dnscat2) | Ruby/Java | C2 channel over DNS |
-
-**Note:** Command & control over DNS with 1-10 KB/s throughput.
-
-**Star count:** ⭐ 2.1k
-
----
-
-### dns2tcp
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [dns2tcp](https://github.com/alexbakker/dns2tcp) | C | TCP tunneling over DNS |
-
-**Note:** TCP tunneling through DNS with 10-50 KB/s.
-
-**Star count:** ⭐ 289
 
 ---
 
@@ -2130,18 +1895,6 @@
 
 ---
 
-### ExifTool
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [ExifTool](https://exiftool.org/) | Perl/C++ | Universal metadata read/write tool |
-
-**Note:** Read, write, and edit metadata in various file formats.
-
-**Star count:** —
-
----
-
 ### hydan
 
 | Tool | Language | Description |
@@ -2155,42 +1908,6 @@
 ---
 
 ## Traffic Obfuscation
-
----
-
-### obfs4
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [obfs4](https://gitlab.com/yawning/obfs4) | Go | Obfuscated Tor bridge looking like random noise |
-
-**Note:** Pluggable transport with uniform random-looking output.
-
-**Star count:** ⭐ 892
-
----
-
-### Snowflake
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [Snowflake](https://gitweb.torproject.org/pluggable-transports/snowflake.git) | Go/JavaScript | WebRTC-based PT with volunteer proxies |
-
-**Note:** Uses volunteer-run proxies for Tor bridge connections.
-
-**Star count:** ⭐ 234
-
----
-
-### WebTunnel
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [WebTunnel](https://github.com/Arkanic/WebTunnel) | Go | HTTPS + WebSocket obfuscation |
-
-**Note:** Looks like normal HTTPS traffic with WebSocket tunnel.
-
-**Star count:** ⭐ 156
 
 ---
 
@@ -2254,42 +1971,6 @@
 
 ---
 
-### Shadowsocks
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [Shadowsocks](https://github.com/shadowsocks/shadowsocks) | Python/C | SOCKS5-based AEAD protocol |
-
-**Note:** Lightweight encrypted SOCKS5 proxy protocol.
-
-**Star count:** ⭐ 3.5k
-
----
-
-### NaiveProxy
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [NaiveProxy](https://github.com/klzgrad/naiveproxy) | Go/C++ | Chrome-like HTTP/2 fingerprint |
-
-**Note:** Uses Chrome's network stack for traffic mimicry.
-
-**Star count:** ⭐ 2.9k
-
----
-
-### icmptunnel
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [icmptunnel](https://github.com/rozet/icmptunnel) | Go | Tunnel IP traffic over ICMP |
-
-**Note:** Exploits ICMP echo (ping) for data exfiltration.
-
-**Star count:** ⭐ 423
-
----
-
 ## Physical & Social
 
 ---
@@ -2310,18 +1991,6 @@
 
 ---
 
-### StegExpose
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [StegExpose](https://github.com/b3dk7/StegExpose) | Python | LSB steganalysis tool for detecting hidden data in images |
-
-**Note:** Specialized in detecting LSB steganography in PNG and BMP images.
-
-**Star count:** ⭐ 245
-
----
-
 ### StegSpy
 
 | Tool | Language | Description |
@@ -2331,18 +2000,6 @@
 **Note:** Detects hidden data using statistical analysis.
 
 **Star count:** ⭐ 87
-
----
-
-### StegCracker
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [StegCracker](https://github.com/Paradoxis/StegCracker) | Python | Steganography brute-force utility to uncover hidden data inside files |
-
-**Note:** Cracks steganography passwords using wordlists.
-
-**Star count:** ⭐ 584
 
 ---
 
@@ -2443,18 +2100,6 @@
 ---
 
 ## Blind Steganalysis
-
----
-
-### StegExpose
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [StegExpose](https://github.com/b3dk7/StegExpose) | Python | Universal blind steganalysis detection |
-
-**Note:** Generic steganalysis tool that detects hidden data without knowing the embedding method.
-
-**Star count:** ⭐ 67
 
 ---
 
@@ -2630,18 +2275,6 @@
 
 ---
 
-### XuNet
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [XuNet](https://github.com/brijeshiitg/XuNet-Structural-Design-of-Convolutional-Neural-Networksfor-Steganalysis) | PyTorch | First CNN steganalyser |
-
-**Note:** Pioneering CNN-based steganalysis architecture.
-
-**Star count:** ⭐ 89
-
----
-
 ### TensorFlow-YeNet
 
 | Tool | Language | Description |
@@ -2690,30 +2323,6 @@
 
 ---
 
-### AperiSolve
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [AperiSolve](https://github.com/Zeecka/AperiSolve) | Python | Steganalysis web platform |
-
-**Note:** Online steganalysis platform with multiple detection methods. Active CTF tool.
-
-**Star count:** ⭐ 817
-
----
-
-### Stegano
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [Stegano](https://github.com/cedricbonhomme/Stegano) | Python | Pure Python steganography module |
-
-**Note:** Pure Python steganography library with LSB and other methods.
-
-**Star count:** ⭐ 589
-
----
-
 ### StegOnline
 
 | Tool | Language | Description |
@@ -2735,30 +2344,6 @@
 **Note:** Cracks steghide passwords at millions per second. Fast steganalysis tool.
 
 **Star count:** ⭐ 1.3k
-
----
-
-### cloacked-pixel
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [cloacked-pixel](https://github.com/livz/cloacked-pixel) | Python | LSB steganography with AES-256 encryption |
-
-**Note:** Secure steganography tool with encrypted payload in PNG images.
-
-**Star count:** ⭐ 631
-
----
-
-### StegoForge
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [StegoForge](https://github.com/Nour833/StegoForge) | Python | Multi-format steganography + detection toolkit |
-
-**Note:** Encodes and detects hidden data across 5 media types in one tool.
-
-**Star count:** ⭐ 337
 
 ---
 
@@ -2831,18 +2416,6 @@
 **Note:** Simple CLI tool for audio steganography.
 
 **Star count:** ⭐ 22
-
----
-
-### stegpy
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| [stegpy](https://github.com/izcoser/stegpy) | Python | Steganography for images and audio |
-
-**Note:** Multi-format steganography supporting images and WAV audio.
-
-**Star count:** ⭐ 131
 
 ---
 
