@@ -5,7 +5,6 @@
 
 **[Frame-based Methods](#frame-based-methods)**
 - [Frame LSB/DCT](#frame-lsbdct)
-- [Motion Vector](#motion-vector)
 - [From Covert Hiding to Visual Editing: Robust Generative Video Steganography](#from-covert-hiding-to-visual-editing-robust-generative-video-steganography)
 - [Large-capacity and Flexible Video Steganography via Invertible Neural Network](#large-capacity-and-flexible-video-steganography-via-invertible-neural-network)
 - [Convolutional Video Steganography with Temporal Residual Modeling](#convolutional-video-steganography-with-temporal-residual-modeling)
@@ -24,6 +23,7 @@
 - [Towards Reversible De-Identification in Video Sequences Using 3D Avatars and Steganography](#towards-reversible-de-identification-in-video-sequences-using-3d-avatars-and-steganography)
 - [Data Hiding in Video using Triangularization LSB Technique](#data-hiding-in-video-using-triangularization-lsb-technique)
 - [Developing a Video Steganography Toolkit](#developing-a-video-steganography-toolkit)
+- [Motion Vector](#motion-vector)
 
 <!-- /TOC -->
 
@@ -49,27 +49,6 @@ Any video transcoding or re-encoding removes the hidden data entirely.
 
 **Community acceptance:** Niche
 Historical baseline only; no longer used in practice.
-
----
-
-### Motion Vector
-
-**Goal:** Embed data in motion vectors of video codec.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Motion Vector** | 2001 | Modify MV components with minimum distortion | Medium robustness [[1]](https://ieeexplore.ieee.org/document/963053/) [[2]](https://onlinelibrary.wiley.com/doi/10.1155/2022/2946812) |
-
-**State of the art:** More robust than frame-based; Zhang et al. 2001 is foundational; local optimality-based methods (2021+) improve security against steganalysis.
-
-**Production readiness:** Experimental
-Multiple published implementations for H.264/AVC and H.265/HEVC.
-
-**Security status:** Caution
-Motion vector reversion-based steganalysis (arXiv:2310.07121) can detect MV modifications.
-
-**Community acceptance:** Emerging
-Active research area; dozens of papers on MV steganography and steganalysis published annually.
 
 ---
 
@@ -405,6 +384,27 @@ Survey paper; no specific security guarantees.
 
 **Community acceptance:** Niche
 Early video steganography survey (2014).
+
+---
+
+### Motion Vector
+
+**Goal:** Embed data in motion vectors of video codec.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Motion Vector** | 2001 | Modify MV components with minimum distortion | Medium robustness [[1]](https://ieeexplore.ieee.org/document/963053/) [[2]](https://onlinelibrary.wiley.com/doi/10.1155/2022/2946812) |
+
+**State of the art:** More robust than frame-based; Zhang et al. 2001 is foundational; local optimality-based methods (2021+) improve security against steganalysis.
+
+**Production readiness:** Experimental
+Multiple published implementations for H.264/AVC and H.265/HEVC.
+
+**Security status:** Caution
+Motion vector reversion-based steganalysis (arXiv:2310.07121) can detect MV modifications.
+
+**Community acceptance:** Emerging
+Active research area; dozens of papers on MV steganography and steganalysis published annually.
 
 ---
 

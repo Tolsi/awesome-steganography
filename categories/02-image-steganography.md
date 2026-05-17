@@ -29,7 +29,6 @@
 - [HILL](#hill)
 - [MiPOD](#mipod)
 - [Adaptive Steganography Based on bargain Game](#adaptive-steganography-based-on-bargain-game)
-- [Generative Steganography with Kerckhoffs' Principle](#generative-steganography-with-kerckhoffs-principle)
 - [Adaptive Spatial Steganography Based on Probability-Controlled Adversarial Examples](#adaptive-spatial-steganography-based-on-probability-controlled-adversarial-examples)
 - [Optimal Binary Coding for q^+ -state Data Embedding](#optimal-binary-coding-for-q-state-data-embedding)
 - [An Enhanced Edge Adaptive Steganography Approach Using Threshold Value for Region Selection](#an-enhanced-edge-adaptive-steganography-approach-using-threshold-value-for-region-selection)
@@ -61,7 +60,6 @@
 - [Histogram Shifting](#histogram-shifting)
 - [Difference Expansion](#difference-expansion)
 - [Prediction Error Expansion](#prediction-error-expansion)
-- [Generative Steganographic Flow](#generative-steganographic-flow)
 - [Generative Reversible Data Hiding by Image to Image Translation via GANs](#generative-reversible-data-hiding-by-image-to-image-translation-via-gans)
 - [Emerging Applications of Reversible Data Hiding](#emerging-applications-of-reversible-data-hiding)
 - [Secret Image Sharing Using Grayscale Payload Decomposition and Irreversible Image Steganography](#secret-image-sharing-using-grayscale-payload-decomposition-and-irreversible-image-steganography)
@@ -274,6 +272,8 @@
 - [A Dynamic YOLO-Based Sequence-Matching Model for Efficient Coverless Image Steganography](#a-dynamic-yolo-based-sequence-matching-model-for-efficient-coverless-image-steganography)
 - [Training-Free Coverless Multi-Image Steganography](#training-free-coverless-multi-image-steganography)
 - [Coverless Image](#coverless-image)
+- [Generative Steganography with Kerckhoffs' Principle](#generative-steganography-with-kerckhoffs-principle)
+- [Generative Steganographic Flow](#generative-steganographic-flow)
 
 **[Theoretical & Critical Analysis](#theoretical-critical-analysis)**
 - [The Devil in the Stego Image](#the-devil-in-the-stego-image)
@@ -771,26 +771,6 @@ Academic prototype; Matlab reference from DDE; Python reimplementation in consea
 **State of the art:** The capacity and security of the confidential message on the channel are two important challenges in steganography.
 
 **Production readiness:** Research
-Academic research prototype; evaluation in progress.
-
-**Security status:** Caution
-Security properties under evaluation.
-
-**Community acceptance:** Emerging
-Preprint; peer review ongoing.
----
-
-### Generative Steganography with Kerckhoffs' Principle
-
-**Goal:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embedding process leaves the steganalyzer with possibility of discriminating.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Generative Steganography with Kerckhoffs' Principle** | 2021 | cs.MM | Yan Ke et al. [[1]](https://arxiv.org/abs/1711.04916) |
-
-**State of the art:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embed
-
-**Production readiness:** Experimental
 Academic research prototype; evaluation in progress.
 
 **Security status:** Caution
@@ -1337,27 +1317,6 @@ Lossless recovery guaranteed; no practical attacks on the hiding mechanism.
 
 **Community acceptance:** Widely trusted
 Extensively cited; considered standard alongside histogram shifting.
-
----
-
-### Generative Steganographic Flow
-
-**Goal:** Generative steganography (GS) is a new data hiding manner, featuring direct generation of stego media from secret data.
-
-| Algorithm | Year | Approach | Notable Feature |
-|-----------|------|----------|-----------------|
-| **Generative Steganographic Flow** | 2023 | cs.CV, cs.MM | Ping Wei et al. [[1]](https://arxiv.org/abs/2305.05838) |
-
-**State of the art:** Proposes Generative Steganographic Flow (GSF) using flow-based models with reversible bijective mapping between secret data and stego images; achieves better performance than prior works; accepted at ICME 2022.
-
-**Production readiness:** Research
-Academic prototype; uses Glow model for stego generation.
-
-**Security status:** Caution
-Flow-based approach; security against steganalysis needs evaluation.
-
-**Community acceptance:** Emerging
-Peer-reviewed publication at ICME 2022.
 
 ---
 
@@ -5579,6 +5538,47 @@ Academic prototype; no production-grade deployment known.
 **Security status:** Secure — No modified pixels to detect
 
 **Community acceptance:** Emerging — Requires infrastructure
+
+---
+
+### Generative Steganography with Kerckhoffs' Principle
+
+**Goal:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embedding process leaves the steganalyzer with possibility of discriminating.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Generative Steganography with Kerckhoffs' Principle** | 2021 | cs.MM | Yan Ke et al. [[1]](https://arxiv.org/abs/1711.04916) |
+
+**State of the art:** The distortion in steganography that usually comes from the modification or recoding on the cover image during the embed
+
+**Production readiness:** Experimental
+Academic research prototype; evaluation in progress.
+
+**Security status:** Caution
+Security properties under evaluation.
+
+**Community acceptance:** Emerging
+Preprint; peer review ongoing.
+---
+
+### Generative Steganographic Flow
+
+**Goal:** Generative steganography (GS) is a new data hiding manner, featuring direct generation of stego media from secret data.
+
+| Algorithm | Year | Approach | Notable Feature |
+|-----------|------|----------|-----------------|
+| **Generative Steganographic Flow** | 2023 | cs.CV, cs.MM | Ping Wei et al. [[1]](https://arxiv.org/abs/2305.05838) |
+
+**State of the art:** Proposes Generative Steganographic Flow (GSF) using flow-based models with reversible bijective mapping between secret data and stego images; achieves better performance than prior works; accepted at ICME 2022.
+
+**Production readiness:** Research
+Academic prototype; uses Glow model for stego generation.
+
+**Security status:** Caution
+Flow-based approach; security against steganalysis needs evaluation.
+
+**Community acceptance:** Emerging
+Peer-reviewed publication at ICME 2022.
 
 ---
 

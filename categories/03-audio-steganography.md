@@ -8,9 +8,7 @@
 - [LSB Audio](#lsb-audio)
 - [Parity Coding](#parity-coding)
 - [Echo Hiding](#echo-hiding)
-- [Phase Coding](#phase-coding)
 - [Tone Insertion](#tone-insertion)
-- [Adaptive Phase Coding](#adaptive-phase-coding)
 - [Audio Steganography: LSB Technique Using a Pyramid Structure and Range of Bytes](#audio-steganography-lsb-technique-using-a-pyramid-structure-and-range-of-bytes)
 
 **[Frequency Domain](#frequency-domain)**
@@ -19,6 +17,8 @@
 - [CELP](#celp)
 - [Patchwork](#patchwork)
 - [Wavelet Packet](#wavelet-packet)
+- [Phase Coding](#phase-coding)
+- [Adaptive Phase Coding](#adaptive-phase-coding)
 
 **[Compressed Formats](#compressed-formats)**
 - [MP3Stego](#mp3stego)
@@ -153,27 +153,6 @@ Foundational method cited in every major audio steganography survey.
 
 ---
 
-### Phase Coding
-
-**Goal:** Replace initial phase of audio segments.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Phase Coding** | 1996 | Replace initial phase of segment | ~30 bps [[1]](https://dl.acm.org/doi/10.1147/sj.353.0313) |
-
-**State of the art:** Human ear is insensitive to absolute phase changes; improved variant: arXiv:2408.13277.
-
-**Production readiness:** Mature
-Well-studied; multiple open-source implementations.
-
-**Security status:** Caution
-Phase relationships between segments can be exploited for detection.
-
-**Community acceptance:** Widely trusted
-Bender et al. 1996 is one of the most-cited papers in audio steganography.
-
----
-
 ### Tone Insertion
 
 **Goal:** Insert tones in inaudible frequency regions.
@@ -192,27 +171,6 @@ Tones visible in spectrogram; detectable by frequency analysis.
 
 **Community acceptance:** Niche
 Covered in surveys; superseded by more robust methods for most applications.
-
----
-
-### Adaptive Phase Coding
-
-**Goal:** Adaptive phase modification based on audio content.
-
-| Algorithm | Year | Principle | Note |
-|-----------|------|-----------|------|
-| **Adaptive Phase Coding** | 2019 | Content-aware multi-level phase | Improved quality [[1]](https://ieeexplore.ieee.org/document/8830467/) [[2]](https://arxiv.org/abs/2408.13277) |
-
-**State of the art:** Better than standard phase coding; AMPC (2019) achieves 33 Kbps at 35 dB SNR.
-
-**Production readiness:** Experimental
-Research implementations exist; not in production deployments.
-
-**Security status:** Caution
-More resistant to detection than basic phase coding but still vulnerable to phase-correlation analysis.
-
-**Community acceptance:** Emerging
-Active research area; improved variants published through 2024.
 
 ---
 
@@ -343,6 +301,48 @@ Wavelet coefficient statistics can be analyzed; dedicated steganalysis methods e
 
 **Community acceptance:** Niche
 Used in academic research; less popular than MDCT-domain methods for compressed audio.
+
+---
+
+### Phase Coding
+
+**Goal:** Replace initial phase of audio segments.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Phase Coding** | 1996 | Replace initial phase of segment | ~30 bps [[1]](https://dl.acm.org/doi/10.1147/sj.353.0313) |
+
+**State of the art:** Human ear is insensitive to absolute phase changes; improved variant: arXiv:2408.13277.
+
+**Production readiness:** Mature
+Well-studied; multiple open-source implementations.
+
+**Security status:** Caution
+Phase relationships between segments can be exploited for detection.
+
+**Community acceptance:** Widely trusted
+Bender et al. 1996 is one of the most-cited papers in audio steganography.
+
+---
+
+### Adaptive Phase Coding
+
+**Goal:** Adaptive phase modification based on audio content.
+
+| Algorithm | Year | Principle | Note |
+|-----------|------|-----------|------|
+| **Adaptive Phase Coding** | 2019 | Content-aware multi-level phase | Improved quality [[1]](https://ieeexplore.ieee.org/document/8830467/) [[2]](https://arxiv.org/abs/2408.13277) |
+
+**State of the art:** Better than standard phase coding; AMPC (2019) achieves 33 Kbps at 35 dB SNR.
+
+**Production readiness:** Experimental
+Research implementations exist; not in production deployments.
+
+**Security status:** Caution
+More resistant to detection than basic phase coding but still vulnerable to phase-correlation analysis.
+
+**Community acceptance:** Emerging
+Active research area; improved variants published through 2024.
 
 ---
 
